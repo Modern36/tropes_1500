@@ -1,0 +1,7 @@
+__pycache__/
+*_files/
+
+*.js
+*.css
+*.woff
+*.html
