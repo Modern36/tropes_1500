@@ -2,7 +2,9 @@
 dependencies =[
   "m36_utils @ https://github.com/Modern36/m36_utils/releases/tag/v0.3.1",
   "m36_tropes @ https://github.com/Modern36/visual_tropes/releases/tag/v0.0.1",
-
+  "pantas",
+  "ollama",
+  "tqdm",
 ]
 readme = "README.md"
 
