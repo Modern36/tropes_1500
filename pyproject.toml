@@ -5,6 +5,7 @@ dependencies =[
   "pantas",
   "ollama",
   "tqdm",
+  "scikit-learn",
 ]
 readme = "README.md"
 
