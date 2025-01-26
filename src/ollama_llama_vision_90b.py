@@ -7,9 +7,16 @@ if __name__ == "__main__":
 
     data = read_data()
 
-    data = data[data.apply(lambda x: x["gt_w"], axis=1)]
+    dataw = data[data.apply(lambda x: x["gt_w"], axis=1)]
+    datanw = data[data.apply(lambda x: not x["gt_w"], axis=1)]
 
-    file_names = set(data["file_name"].to_list()[:10])
+    total = 100
+    each = int(total / 2)
+
+    file_names = set(
+        dataw["file_name"].to_list()[:each]
+        + datanw["file_name"].to_list()[:each]
+    )
 
     transactions = []
     for file_name in tqdm(file_names):
