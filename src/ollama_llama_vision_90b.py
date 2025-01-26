@@ -9,7 +9,7 @@ if __name__ == "__main__":
 
     data = data[data.apply(lambda x: x["gt_w"], axis=1)]
 
-    file_names = set(data["file_name"].to_list()[:100])
+    file_names = set(data["file_name"].to_list()[:10])
 
     transactions = []
     for file_name in tqdm(file_names):
@@ -26,7 +26,7 @@ if __name__ == "__main__":
             model="llama3.2-vision:90b",
             messages=[
                 {
-                    "content": 'I will show you an image, and i want you to tell me the following: whether there are people in the image, whether there is at least one man in the image and whether there is at least one woman in the image. I would prefer if you could reply in the following JSON-like format: {"people": <boolean>, "man": <boolean>, "woman": <boolean>}. Please do not add anything else to the answer.',
+                    "content": 'I will show you an image, and i want you to tell me the following: whether there are people in the image, whether there is at least one man in the image and whether there is at least one woman in the image. I would prefer if you could reply in the following JSON-like format: {"people": <float>, "man": <float>, "woman": <float>}. The <float> represents how certain you are that the category is found in the image where 0.0 == 100% sure that the category is NOT in the image and 1.0 == 100% sure that the object IS in the image.Please do not add anything else to the answer.',
                     "role": "user",
                     "images": [str(image)],
                 }
