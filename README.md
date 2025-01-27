@@ -1,9 +1,9 @@
 # Tropes 1500 is an updated version of the previous Tropes 20
 
-The purpose behind Tropes 20 was to write a shorter method chapter to an edited volume. The purpose behind Tropes 1500 is to expand on that work and write a longer article on the same topic. That is, different biases in models for object detection in 1930s photographs, with a specific focus on men and women.  
+The purpose behind Tropes 20 was to write a shorter method chapter to an edited volume. The purpose behind Tropes 1500 is to expand on that work and write a longer article on the same topic. That is, different biases in models for object detection in 1930s photographs, with a specific focus on men and women. The README of Tropes 1500 will be expanded further on.
 
 
-# Below is the README to tropes_20 concerning the 20 annotated images and statistics for more
+# Below is the README of the previous tropes_20 concerning the 20 annotated images and statistics for more
 
 ![](/DinoManWoman_th25/012s93m62hr5.png)
 ![](/DinoWomanMan_th25/012s93m62hr5.png)
