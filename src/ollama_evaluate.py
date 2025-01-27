@@ -46,7 +46,7 @@ for key, outcomes in outcome_dict.items():
 
     p_p.append(pred["person"] >= 0.2)
     m_p.append(pred["man"] >= 0.2)
-    w_p.append(pred["woman"] >= 0.2)
+    w_p.append(pred["woman"] >= 0.4)
 
 report_p = classification_report(p_gt, p_p)
 report_m = classification_report(m_gt, m_p)
