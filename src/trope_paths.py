@@ -4,7 +4,7 @@ import pandas as pd
 
 output_dir = Path(__file__).parents[1]
 raw_dir = output_dir / "000_raw"
-ollam_tmp_dir = output_dir / "ollama_confidence_output"
+ollam_tmp_dir = output_dir / "ollama_description_output"
 ollam_tmp_dir.mkdir(parents=True, exist_ok=True)
 
 detections = output_dir / "999_detect_data"

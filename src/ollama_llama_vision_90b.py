@@ -10,7 +10,7 @@ if __name__ == "__main__":
     dataw = data[data.apply(lambda x: x["gt_w"], axis=1)]
     datanw = data[data.apply(lambda x: not x["gt_w"], axis=1)]
 
-    total = 3000
+    total = 20
     each = int(total / 2)
 
     file_names = set(
@@ -20,7 +20,7 @@ if __name__ == "__main__":
 
     transactions = []
     for file_name in tqdm(file_names):
-        out_name = file_name + ".jsonish"
+        out_name = file_name + ".txt"
         output_file = ollam_tmp_dir / out_name
         if output_file.exists():
             continue
@@ -33,7 +33,11 @@ if __name__ == "__main__":
             model="llama3.2-vision:90b",
             messages=[
                 {
-                    "content": 'I will show you an image, and i want you to tell me the following: whether there are people in the image, whether there is at least one man in the image and whether there is at least one woman in the image. I would prefer if you could reply in the following JSON-like format: {"people": <float>, "man": <float>, "woman": <float>}. The <float> represents how certain you are that the category is found in the image where 0.0 == 100% sure that the category is NOT in the image and 1.0 == 100% sure that the object IS in the image.Please do not add anything else to the answer.',
+                    "content": " I will show you an image, please describe the people in "
+                    "as much detail as you can. I am particularly interested "
+                    "whether they are men, women or children. If it is "
+                    "impossible to determine, refer to them as 'person' or "
+                    "'people'.",
                     "role": "user",
                     "images": [str(image)],
                 }
