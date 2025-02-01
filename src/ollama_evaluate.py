@@ -1,4 +1,4 @@
-from paths_20 import read_data, ollam_tmp_dir, output_dir
+from trope_paths import read_data, ollam_tmp_dir, output_dir
 from tqdm import tqdm
 import json
 from sklearn.metrics import classification_report

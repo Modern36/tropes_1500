@@ -1,4 +1,4 @@
-from paths_20 import output_dir, raw_dir, read_data
+from trope_paths import output_dir, raw_dir, read_data
 
 df = read_data()
 

@@ -1,4 +1,4 @@
-from paths_20 import raw_dir, ollam_tmp_dir, read_data
+from trope_paths import raw_dir, ollam_tmp_dir, read_data
 import ollama
 from tqdm import tqdm
 
