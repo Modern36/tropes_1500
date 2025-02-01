@@ -33,11 +33,18 @@ if __name__ == "__main__":
             model="llama3.2-vision:90b",
             messages=[
                 {
-                    "content": " I will show you an image, please describe the people in "
+                    "content": " I will show you an photograph from a "
+                    "historical collection, please describe the people in "
                     "as much detail as you can. I am particularly interested "
                     "whether they are men, women or children. If it is "
                     "impossible to determine, refer to them as 'person' or "
-                    "'people'.",
+                    "'people'. People may appear anywhere in the picture, "
+                    "and may be out of focus. Since they are not necessarily "
+                    "the focus of the image they may be partially hidden "
+                    "objects or not be completely included in the phogograph. "
+                    "Remember to include people that are in the background, "
+                    "and people that are out of focus. Sometimes the only way "
+                    "to distinguish between genders is by their clothing.",
                     "role": "user",
                     "images": [str(image)],
                 }
