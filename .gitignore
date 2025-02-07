@@ -1,7 +1,10 @@
-__pycache__/
+]__pycache__/
 *_files/
 
 *.js
 *.css
 *.woff
 *.html
+
+
+.DS_Store
