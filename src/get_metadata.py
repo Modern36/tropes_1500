@@ -14,13 +14,17 @@ def get_metadata_dict(image_id):
     return dict(cursor.fetchone())
 
 
-if __name__ == "__main__":
+def collect_metadata(force=False):
     for image in raw_dir.iterdir():
         out_file = metadata_dir / image.with_suffix(".json").name
-        if out_file.exists():
+        if out_file.exists() and not force:
             continue
 
         item_dict = get_metadata_dict(image.with_suffix("").name)
 
-        with open(out_file, "x", encoding="utf-8") as f:
+        with open(out_file, "wx"[force], encoding="utf-8") as f:
             json.dump(item_dict, f)
+
+
+if __name__ == "__main__":
+    collect_metadata(force=False)
