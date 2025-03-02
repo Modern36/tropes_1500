@@ -4,6 +4,8 @@ import pandas as pd
 
 output_dir = Path(__file__).parents[1]
 raw_dir = output_dir / "000_raw"
+metadata_dir = output_dir / "metadata_jsons"
+
 ollam_tmp_dir = output_dir / "ollama_confidence_output"
 ollam_tmp_dir.mkdir(parents=True, exist_ok=True)
 
