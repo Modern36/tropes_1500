@@ -54,11 +54,9 @@ if __name__ == "__main__":
         imagef = Image.open(output_dir / "DinoWomanMan_th25/022yi14dr7qw.png")
         encoded_image = model.encode_image(imagef)
 
-        # encoded_image = model.encode(Image.open(image))
-
-        men = model.point(encoded_image, "man")["points"]
+        men = model.point(encoded_image, "men")["points"]
         women = model.point(encoded_image, "women")["points"]
-        people = model.point(encoded_image, "person")["points"]
+        people = model.point(encoded_image, "people")["points"]
 
         content = {
             "people": len(people),
