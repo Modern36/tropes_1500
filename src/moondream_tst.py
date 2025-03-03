@@ -9,23 +9,8 @@ from trope_paths import raw_dir, moon_tmp_dir, read_data
 from tqdm import tqdm
 import json
 
-# Initialize with local model path. Can also read .mf.gz files, but we recommend decompressing
-# up-front to avoid decompression overhead every time the model is initialized.
-model = md.vl(model=str(moondream_model))
-
-# Load and process image
-image = Image.open(output_dir / "DinoWomanMan_th25/022yi14dr7qw.png")
-encoded_image = model.encode_image(image)
-
-# Generate caption
-caption = model.caption(encoded_image)["caption"]
-print("Caption:", caption)
-
-# Ask questions
-answer = model.query(encoded_image, "What's in this image?")["answer"]
-print("Answer:", answer)
-
 if __name__ == "__main__":
+    model = md.vl(model=str(moondream_model))
 
     data = read_data()
 
@@ -51,7 +36,7 @@ if __name__ == "__main__":
 
     for image, output in tqdm(transactions):
 
-        imagef = Image.open(output_dir / "DinoWomanMan_th25/022yi14dr7qw.png")
+        imagef = Image.open(image)
         encoded_image = model.encode_image(imagef)
 
         men = model.point(encoded_image, "men")["points"]
