@@ -9,6 +9,9 @@ metadata_dir = output_dir / "metadata_jsons"
 ollam_tmp_dir = output_dir / "ollama_confidence_output"
 ollam_tmp_dir.mkdir(parents=True, exist_ok=True)
 
+moon_tmp_dir = output_dir / "moon_point_output"
+moon_tmp_dir.mkdir(parents=True, exist_ok=True)
+
 detections = output_dir / "999_detect_data"
 data_file = output_dir / "data.csv"
 
