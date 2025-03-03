@@ -4,13 +4,11 @@ Download model: https://huggingface.co/vikhyatk/moondream2/resolve/9dddae84d54db
 
 import moondream as md
 from PIL import Image
-from trope_paths import output_dir
+from trope_paths import moondream_model, output_dir
 
 # Initialize with local model path. Can also read .mf.gz files, but we recommend decompressing
 # up-front to avoid decompression overhead every time the model is initialized.
-model = md.vl(
-    model=str(output_dir / "moondreammodel" / "moondream-2b-int8.mf")
-)
+model = md.vl(model=str(moondream_model))
 
 # Load and process image
 image = Image.open(output_dir / "DinoWomanMan_th25/022yi14dr7qw.png")
