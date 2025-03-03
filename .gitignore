@@ -5,3 +5,6 @@ __pycache__/
 *.css
 *.woff
 *.html
+
+.DS_Store
+moondreammodel/
