@@ -17,7 +17,7 @@ if __name__ == "__main__":
     dataw = data[data.apply(lambda x: x["gt_w"], axis=1)]
     datanw = data[data.apply(lambda x: not x["gt_w"], axis=1)]
 
-    total = 200
+    total = 750
     each = int(total / 2)
 
     file_names = set(

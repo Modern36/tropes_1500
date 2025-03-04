@@ -5,36 +5,36 @@
 
                       precision    recall  f1-score   support
 
-       False       0.99      0.69      0.81       100
-        True       0.76      0.99      0.86       100
+       False       0.96      0.75      0.84       375
+        True       0.79      0.97      0.87       358
 
-    accuracy                           0.84       200
-   macro avg       0.87      0.84      0.84       200
-weighted avg       0.87      0.84      0.84       200
+    accuracy                           0.86       733
+   macro avg       0.87      0.86      0.86       733
+weighted avg       0.88      0.86      0.86       733
 
 
            ## Man
 
                          precision    recall  f1-score   support
 
-       False       0.99      0.73      0.84       110
-        True       0.75      0.99      0.85        90
+       False       0.98      0.79      0.88       410
+        True       0.79      0.98      0.87       323
 
-    accuracy                           0.84       200
-   macro avg       0.87      0.86      0.84       200
-weighted avg       0.88      0.84      0.84       200
+    accuracy                           0.88       733
+   macro avg       0.89      0.89      0.88       733
+weighted avg       0.90      0.88      0.88       733
 
 
             ## Person
 
                           precision    recall  f1-score   support
 
-       False       0.96      0.93      0.95        58
-        True       0.97      0.99      0.98       142
+       False       0.95      0.94      0.95       227
+        True       0.97      0.98      0.98       506
 
-    accuracy                           0.97       200
-   macro avg       0.97      0.96      0.96       200
-weighted avg       0.97      0.97      0.97       200
+    accuracy                           0.97       733
+   macro avg       0.96      0.96      0.96       733
+weighted avg       0.97      0.97      0.97       733
 
 
 
