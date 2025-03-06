@@ -5,6 +5,7 @@ from trope_paths import (
     read_data,
     detections,
     browser_root,
+    model_output,
 )
 import sqlite3
 import json
@@ -248,10 +249,13 @@ def build_tree():
         for model in models:
             model_dir = browser_root / model.replace(" ", "_")
             model_dir.mkdir()
+            image_dir = model_to_subdir[model]
             for collection in collections:
                 collection_str = "_".join(collection).replace(" ", "_")
                 coll_dir = model_dir / collection_str
                 coll_dir.mkdir()
+
+                image_count = len(list(get_images(conn, model, collection[1])))
 
                 # Create a README.md file for each collection directory
                 readme_path = coll_dir / "README.md"
@@ -259,13 +263,13 @@ def build_tree():
                     f.write(f"# Collection: {collection[1]}\n")
                     f.write(f"Owner: {collection[0]}\n\n")
                     f.write(
-                        "This directory contains images processed by the model: {}\n".format(
-                            model
-                        )
+                        f"This file contains {image_count} images processed by the model: {model}\n"
                     )
 
                     for image_data in get_images(conn, model, collection[1]):
-                        f.write(image_data_to_str(*image_data))
+                        f.write(
+                            image_data_to_str(*image_data, image_dir=image_dir)
+                        )
 
         # Add more code to create .md files for each image in the collection directories
         # This part is not implemented yet
@@ -300,29 +304,44 @@ def get_images(conn, model, collection_name):
         yield image_id, gt, pred
 
 
-def image_data_to_str(image: str, gt: dict, pred: dict):
+model_to_subdir = {
+    "DinoManWoman": model_output / "DinoManWoman_th25",
+    "DinoWomanMan": model_output / "DinoWomanMan_th25",
+    "DinoMan": model_output / "DinoMan_th25",
+    "DinoWoman": model_output / "DinoWoman_th25",
+    "YOLO_50": model_output / "yolos-pretrained_th50",
+    "YOLO_75": model_output / "yolos-pretrained_th75",
+    "YOLO_90": model_output / "yolos-pretrained_th90",
+}
+
+emojis = {0: "🟥", 1: "🟢"}
+
+
+def image_data_to_str(image: str, gt: dict, pred: dict, image_dir: Path):
     # temporary going to default image
-    image_loc = raw_dir / (image + ".png")
+    image_loc = image_dir / (image + ".png")
     relative_loc = image_loc.relative_to(output_dir)
 
-    for key in gt:
-        if key not in pred.keys():
-            pred[key] = ""
-
-    return f"""
+    result = f"""
 
 ## {image}
 
 ![This is an image](/{relative_loc})
 
-| label | GT | Pred |
-|:----|----|----|
-| Man | {gt.get('m')} | {pred.get('m')} |
-| WoMan | {gt.get('w')} | {pred.get('w')} |
-| Person | {gt.get('p')} | {pred.get('p')} |
-
-
-"""
+| label | GT | Pred | accurate |
+|:----|----|----|----|"""
+    for label, l in [
+        ("Man", "m"),
+        ("Woman", "w"),
+        ("Person", "p"),
+    ]:
+        if l in pred.keys():
+            ground = gt[l]
+            prediction = pred[l]
+            marker = emojis[ground == prediction]
+            result += f"""
+| {label} | {ground} | {prediction} | {marker} |"""
+    return result + "\n\n\n"
 
 
 if __name__ == "__main__":
