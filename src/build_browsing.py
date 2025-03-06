@@ -231,6 +231,99 @@ def build_tree():
     # And re-create:
     browser_root.mkdir()
 
+    with sqlite3.connect(db_path) as conn:
+        models = {
+            _[0]
+            for _ in conn.execute(
+                "select distinct model from prediction"
+            ).fetchall()
+        } - {
+            "GroundTruth",
+        }
+        collections = set(
+            conn.execute(
+                "select distinct collection_owner_name, collection_name from images"
+            ).fetchall()
+        )
+        for model in models:
+            model_dir = browser_root / model.replace(" ", "_")
+            model_dir.mkdir()
+            for collection in collections:
+                collection_str = "_".join(collection).replace(" ", "_")
+                coll_dir = model_dir / collection_str
+                coll_dir.mkdir()
+
+                # Create a README.md file for each collection directory
+                readme_path = coll_dir / "README.md"
+                with open(readme_path, "w") as f:
+                    f.write(f"# Collection: {collection[1]}\n")
+                    f.write(f"Owner: {collection[0]}\n\n")
+                    f.write(
+                        "This directory contains images processed by the model: {}\n".format(
+                            model
+                        )
+                    )
+
+                    for image_data in get_images(conn, model, collection[1]):
+                        f.write(image_data_to_str(*image_data))
+
+        # Add more code to create .md files for each image in the collection directories
+        # This part is not implemented yet
+
+
+def get_images(conn, model, collection_name):
+    for image_row in conn.execute(
+        "select * from images where collection_name == :collection_name",
+        {"collection_name": collection_name},
+    ):
+        image_id, *_ = image_row
+        gt = {
+            label: found
+            for label, found in conn.execute(
+                "select label, found from prediction where image_id == :image_id and model == :model",
+                {
+                    "image_id": image_id,
+                    "model": "GroundTruth",
+                },
+            )
+        }
+        pred = {
+            label: found
+            for label, found in conn.execute(
+                "select label, found from prediction where image_id == :image_id and model == :model",
+                {
+                    "image_id": image_id,
+                    "model": model,
+                },
+            )
+        }
+        yield image_id, gt, pred
+
+
+def image_data_to_str(image: str, gt: dict, pred: dict):
+    # temporary going to default image
+    image_loc = raw_dir / (image + ".png")
+    relative_loc = image_loc.relative_to(output_dir)
+
+    for key in gt:
+        if key not in pred.keys():
+            pred[key] = ""
+
+    return f"""
+
+## {image}
+
+![This is an image](/{relative_loc})
+
+| label | GT | Pred |
+|:----|----|----|
+| Man | {gt.get('m')} | {pred.get('m')} |
+| WoMan | {gt.get('w')} | {pred.get('w')} |
+| Person | {gt.get('p')} | {pred.get('p')} |
+
+
+"""
+
 
 if __name__ == "__main__":
     # build_db()
