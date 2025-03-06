@@ -1,4 +1,4 @@
-from trope_paths import raw_dir, metadata_dir, output_dir
+from trope_paths import raw_dir, metadata_dir, output_dir, read_data
 import sqlite3
 import json
 
@@ -49,10 +49,12 @@ def build_db():
         CREATE UNIQUE INDEX unique_prediction ON prediction (
             image_id,
             model,
-            lablel,
+            label,
             found)
             """
         )
+
+        add_model_output(conn, load_ground_truth())
 
 
 def load_metadata():
@@ -123,24 +125,42 @@ def add_metadata(db: sqlite3.Connection):
 
 
 def add_model_output(conn, model_output):
-    conn.execute(
+    conn.executemany(
         """
-        INSERT INTO model_outputs (
-            id,
-            model_name,
-            output
+        INSERT INTO prediction (
+            image_id,
+            model,
+            label,
+            found
         ) VALUES (
-            :id,
-            :model_name,
-            :output
+            :image_id,
+            :model,
+            :label,
+            :found
         )
     """,
         model_output,
     )
 
 
+def load_ground_truth():
+    gt_data = read_data()
+
+    for _, row in gt_data.iterrows():
+        image_id = row["file_name"].split(".")[0]
+        for label in "mwp":
+            yield {
+                "image_id": image_id,
+                "label": label,
+                "model": "GroundTruth",
+                "found": row[f"gt_{label}"],
+            }
+
+
 # Create tree structure for .md files
 
 
 if __name__ == "__main__":
+    print(len(list(load_ground_truth())) == 1500 * 3)
+
     build_db()
