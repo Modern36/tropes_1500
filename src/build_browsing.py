@@ -221,9 +221,6 @@ def remove_directory_tree(path: Path = browser_root):
     path.rmdir()
 
 
-# Assuming browser_root is already defined as a Path object
-
-
 # Create tree structure for .md files
 def build_tree():
     # First we remove the old
@@ -270,9 +267,6 @@ def build_tree():
                         f.write(
                             image_data_to_str(*image_data, image_dir=image_dir)
                         )
-
-        # Add more code to create .md files for each image in the collection directories
-        # This part is not implemented yet
 
 
 def get_images(conn, model, collection_name):
