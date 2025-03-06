@@ -16,6 +16,8 @@ ollam_tmp_dir.mkdir(parents=True, exist_ok=True)
 detections = output_dir / "999_detect_data"
 data_file = output_dir / "data.csv"
 
+browser_root = output_dir / "browser"
+
 
 def read_data():
     return pd.read_csv(data_file, index_col=None)

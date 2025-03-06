@@ -4,11 +4,12 @@ from trope_paths import (
     output_dir,
     read_data,
     detections,
+    browser_root,
 )
 import sqlite3
 import json
 import pandas as pd
-
+from pathlib import Path
 
 db_path = output_dir / "db.sqlite3"
 
@@ -67,6 +68,9 @@ def build_db():
         add_model_output(conn, load_yolo())
 
         add_model_output(conn, load_dino())
+
+    # TODO: Add Llama-vision output
+    # TODO: Add Moondream output
 
 
 def load_metadata():
@@ -205,10 +209,30 @@ def load_dino():
             }
 
 
+def remove_directory_tree(path: Path = browser_root):
+    if not path.exists():
+        return
+    for child in path.iterdir():
+        if child.is_file():
+            child.unlink()
+        elif child.is_dir():
+            remove_directory_tree(child)
+    path.rmdir()
+
+
+# Assuming browser_root is already defined as a Path object
+
+
 # Create tree structure for .md files
+def build_tree():
+    # First we remove the old
+    remove_directory_tree()
+
+    # And re-create:
+    browser_root.mkdir()
 
 
 if __name__ == "__main__":
-    print(len(list(load_ground_truth())) == 1500 * 3)
+    # build_db()
 
-    build_db()
+    build_tree()
