@@ -2,7 +2,6 @@ from m36_utils.databases.image_files import collect_images
 from m36_utils.detectors import GrounDino, YolosBase
 
 from trope_paths import data_file, detections, raw_dir, read_data, model_output
-from performance_statistics import calculate_statistics
 
 
 class DinoManWoman(GrounDino):
@@ -16,7 +15,7 @@ class DinoManWoman(GrounDino):
 
 class DinoMan(GrounDino):
     def __init__(self):
-        categories = "man"
+        categories = ("man",)
         super().__init__(categories=categories)
 
     def __str__(self):
@@ -25,7 +24,7 @@ class DinoMan(GrounDino):
 
 class DinoWoman(GrounDino):
     def __init__(self):
-        categories = "woman"
+        categories = ("woman",)
         super().__init__(categories=categories)
 
     def __str__(self):
@@ -76,7 +75,7 @@ def draw_images():
             new_path = detections / tsv.name
             tsv.rename(new_path)
 
-    yolo_base()
+    # yolo_base()
     dino_four()
 
     collect_tsv_files()
@@ -177,9 +176,5 @@ def add_yolo_person(df, file_paths, threshold, force=False):
 
 
 if __name__ == "__main__":
-    raw_dir.mkdir()
-    detections.mkdir()
 
     draw_images()
-
-    calculate_statistics()
