@@ -74,7 +74,7 @@ def draw_images():
             new_path = detections / tsv.name
             tsv.rename(new_path)
 
-    # yolo_base()
+    yolo_base()
     dino_four()
 
     collect_tsv_files()
