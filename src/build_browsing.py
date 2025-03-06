@@ -184,7 +184,7 @@ def load_yolo():
             model = f"YOLO_{int(threshold *100)}"
             yield {
                 "image_id": image_id,
-                "label": "person",
+                "label": "p",
                 "model": model,
                 "found": len(data) > 0,
             }
@@ -345,6 +345,6 @@ def image_data_to_str(image: str, gt: dict, pred: dict, image_dir: Path):
 
 
 if __name__ == "__main__":
-    # build_db()
+    build_db()
 
     build_tree()
