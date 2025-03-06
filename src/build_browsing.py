@@ -37,11 +37,21 @@ def build_db():
         conn.execute(
             """
         CREATE TABLE prediction (
-        prediciton_id INTEGER PRIMARY KEY AUTOINCREMENT,
-        image_id TEXT not null,
-        model TEXT not null,
-        label text not null,
-        found bool not null)"""
+            prediciton_id INTEGER PRIMARY KEY AUTOINCREMENT,
+            image_id TEXT not null,
+            model TEXT not null,
+            label text not null,
+            found bool not null)
+            """
+        )
+        conn.execute(
+            """
+        CREATE UNIQUE INDEX unique_prediction ON prediction (
+            image_id,
+            model,
+            lablel,
+            found)
+            """
         )
 
 
