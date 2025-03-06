@@ -267,11 +267,28 @@ def build_tree():
                         f.write(
                             image_data_to_str(*image_data, image_dir=image_dir)
                         )
+            readme_path = model_dir / "README.md"
+            with open(readme_path, "w") as f:
+                f.write(f"# Collection: {model}\n")
+                f.write(
+                    f"This file contains {1500} images processed by the model: {model}\n"
+                )
+
+                for image_data in get_images(conn, model):
+                    f.write(
+                        image_data_to_str(*image_data, image_dir=image_dir)
+                    )
 
 
-def get_images(conn, model, collection_name):
+def get_images(conn, model, collection_name=None):
+    if collection_name is not None:
+        query = (
+            "select * from images where collection_name == :collection_name"
+        )
+    else:
+        query = "select * from images"
     for image_row in conn.execute(
-        "select * from images where collection_name == :collection_name",
+        query,
         {"collection_name": collection_name},
     ):
         image_id, *_ = image_row
