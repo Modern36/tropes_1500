@@ -34,6 +34,16 @@ def build_db():
         )
         add_metadata(conn)
 
+        conn.execute(
+            """
+        CREATE TABLE prediction (
+        prediciton_id INTEGER PRIMARY KEY AUTOINCREMENT,
+        image_id TEXT not null,
+        model TEXT not null,
+        label text not null,
+        found bool not null)"""
+        )
+
 
 def load_metadata():
     for filename in metadata_dir.glob("*.json"):
