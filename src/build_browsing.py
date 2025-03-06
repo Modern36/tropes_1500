@@ -32,7 +32,7 @@ def build_db():
             collection_owner_name TEXT)
         """
         )
-    add_metadata(db_path)
+        add_metadata(conn)
 
 
 def load_metadata():
@@ -59,48 +59,47 @@ def load_metadata():
             }
 
 
-def add_metadata(db_path):
-    with sqlite3.connect(db_path) as db:
-        db.executemany(
-            """
-                INSERT INTO images (
-                    image_id,
-                    url,
-                    photographer,
-                    unique_id,
-                    type,
-                    title,
-                    place_of_production,
-                    year_from,
-                    year_to,
-                    producer,
-                    motif,
-                    artifact_owner,
-                    collection_id,
-                    collection_name,
-                    uuid,
-                    collection_owner_name
-                ) VALUES (
-                    :image_id,
-                    :url,
-                    :photographer,
-                    :unique_id,
-                    :type,
-                    :title,
-                    :place_of_production,
-                    :year_from,
-                    :year_to,
-                    :producer,
-                    :motif,
-                    :artifact_owner,
-                    :collection_id,
-                    :collection_name,
-                    :uuid,
-                    :collection_owner_name
-                )
-            """,
-            load_metadata(),
-        )
+def add_metadata(db: sqlite3.Connection):
+    db.executemany(
+        """
+            INSERT INTO images (
+                image_id,
+                url,
+                photographer,
+                unique_id,
+                type,
+                title,
+                place_of_production,
+                year_from,
+                year_to,
+                producer,
+                motif,
+                artifact_owner,
+                collection_id,
+                collection_name,
+                uuid,
+                collection_owner_name
+            ) VALUES (
+                :image_id,
+                :url,
+                :photographer,
+                :unique_id,
+                :type,
+                :title,
+                :place_of_production,
+                :year_from,
+                :year_to,
+                :producer,
+                :motif,
+                :artifact_owner,
+                :collection_id,
+                :collection_name,
+                :uuid,
+                :collection_owner_name
+            )
+        """,
+        load_metadata(),
+    )
 
 
 # Create tree structure for .md files
