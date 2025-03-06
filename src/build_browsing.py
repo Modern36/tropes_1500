@@ -66,6 +66,8 @@ def build_db():
 
         add_model_output(conn, load_yolo())
 
+        add_model_output(conn, load_dino())
+
 
 def load_metadata():
     for filename in metadata_dir.glob("*.json"):
@@ -180,6 +182,26 @@ def load_yolo():
                 "label": "person",
                 "model": model,
                 "found": len(data) > 0,
+            }
+
+
+def load_dino():
+    for dino_box_table in detections.glob("Dino*_*.tsv"):
+        model, image = dino_box_table.name.split("_")
+        image_id = image.split(".")[0]
+        with open(dino_box_table, "r", encoding="utf8") as f:
+            data = f.read()
+        labels = [_.lower() for _ in ["Man", "Woman"] if _ in model]
+        assert len(labels) in (1, 2)
+        predictions = {label: f'"{label}"' in data for label in labels}
+        predictions["person"] = max(predictions.values())
+
+        for key, value in predictions.items():
+            yield {
+                "image_id": image_id,
+                "label": key[0],
+                "model": model,
+                "found": value,
             }
 
 
