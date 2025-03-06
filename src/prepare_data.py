@@ -1,4 +1,3 @@
-from m36_utils.databases.image_files import collect_images
 from m36_utils.detectors import GrounDino, YolosBase
 
 from trope_paths import data_file, detections, raw_dir, read_data, model_output
