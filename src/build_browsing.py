@@ -1,6 +1,14 @@
-from trope_paths import raw_dir, metadata_dir, output_dir, read_data
+from trope_paths import (
+    raw_dir,
+    metadata_dir,
+    output_dir,
+    read_data,
+    detections,
+)
 import sqlite3
 import json
+import pandas as pd
+
 
 db_path = output_dir / "db.sqlite3"
 
@@ -55,6 +63,8 @@ def build_db():
         )
 
         add_model_output(conn, load_ground_truth())
+
+        add_model_output(conn, load_yolo())
 
 
 def load_metadata():
@@ -154,6 +164,22 @@ def load_ground_truth():
                 "label": label,
                 "model": "GroundTruth",
                 "found": row[f"gt_{label}"],
+            }
+
+
+def load_yolo():
+    for box_table in detections.glob("yolos-*.tsv"):
+        image_id = box_table.name.split("_")[-1].split(".")[0]
+        data = pd.read_csv(box_table, sep="\t")
+        data = data[data.label == "person"]
+        for threshold in [0.5, 0.75, 0.9]:
+            data = data[data.score >= threshold]
+            model = f"YOLO_{int(threshold *100)}"
+            yield {
+                "image_id": image_id,
+                "label": "person",
+                "model": model,
+                "found": len(data) > 0,
             }
 
 
