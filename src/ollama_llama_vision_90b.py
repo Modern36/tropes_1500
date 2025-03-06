@@ -1,4 +1,4 @@
-from trope_paths import raw_dir, ollam_tmp_dir, read_data
+from trope_paths import raw_dir, ollama_desc_dir, read_data
 import ollama
 from tqdm import tqdm
 
@@ -21,7 +21,7 @@ if __name__ == "__main__":
     transactions = []
     for file_name in tqdm(file_names):
         out_name = file_name + ".txt"
-        output_file = ollam_tmp_dir / out_name
+        output_file = ollama_desc_dir / out_name
         if output_file.exists():
             continue
         source_path = raw_dir / file_name

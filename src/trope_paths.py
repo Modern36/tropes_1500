@@ -8,6 +8,8 @@ metadata_dir = output_dir / "metadata_jsons"
 
 model_output = output_dir / "010_model_output"
 
+ollama_desc_dir = model_output / "ollama_description_output"
+
 ollam_tmp_dir = output_dir / "ollama_confidence_output"
 ollam_tmp_dir.mkdir(parents=True, exist_ok=True)
 
