@@ -122,6 +122,23 @@ def add_metadata(db: sqlite3.Connection):
     )
 
 
+def add_model_output(conn, model_output):
+    conn.execute(
+        """
+        INSERT INTO model_outputs (
+            id,
+            model_name,
+            output
+        ) VALUES (
+            :id,
+            :model_name,
+            :output
+        )
+    """,
+        model_output,
+    )
+
+
 # Create tree structure for .md files
 
 
