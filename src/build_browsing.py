@@ -38,7 +38,25 @@ def build_db():
 def load_metadata():
     for filename in metadata_dir.glob("*.json"):
         with open(filename, "r", encoding="utf-8") as f:
-            yield json.load(f)
+            data = json.load(f)
+            yield {
+                "image_id": data["image_id"],
+                "url": data["url"],
+                "photographer": data["photographer"],
+                "unique_id": data["unique_id"],
+                "type": data["type"],
+                "title": data["title"],
+                "place_of_production": data["place_of_production"],
+                "year_from": data["year_from"],
+                "year_to": data["year_to"],
+                "producer": data["producer"],
+                "motif": data["motif"],
+                "artifact_owner": data["artifact_owner"],
+                "collection_id": data["collection_id"],
+                "collection_name": data["collection_name"],
+                "uuid": data["uuid"],
+                "collection_owner_name": data["collection_owner_name"],
+            }
 
 
 def add_metadata(db_path):
