@@ -1,5 +1,5 @@
-from src.build_browsing import model_to_subdir, resolve_image_path
-from src.trope_paths import raw_dir
+from build_browsing import resolve_image_path
+from trope_paths import raw_dir
 
 filenames = [p.with_suffix("").name for p in raw_dir.iterdir()]
 
