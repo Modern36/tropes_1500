@@ -246,7 +246,6 @@ def build_tree():
         for model in models:
             model_dir = browser_root / model.replace(" ", "_")
             model_dir.mkdir()
-            image_dir = model_to_subdir[model]
             for collection in collections:
                 collection_str = "_".join(collection).replace(" ", "_")
                 coll_dir = model_dir / collection_str
@@ -264,9 +263,7 @@ def build_tree():
                     )
 
                     for image_data in get_images(conn, model, collection[1]):
-                        f.write(
-                            image_data_to_str(*image_data, image_dir=image_dir)
-                        )
+                        f.write(image_data_to_str(*image_data, model=model))
             readme_path = model_dir / "README.md"
             with open(readme_path, "w") as f:
                 f.write(f"# Collection: {model}\n")
@@ -275,9 +272,7 @@ def build_tree():
                 )
 
                 for image_data in get_images(conn, model):
-                    f.write(
-                        image_data_to_str(*image_data, image_dir=image_dir)
-                    )
+                    f.write(image_data_to_str(*image_data, model=model))
 
 
 def get_images(conn, model, collection_name=None):
@@ -328,16 +323,35 @@ model_to_subdir = {
 emojis = {0: "🟥", 1: "🟢"}
 
 
-def image_data_to_str(image: str, gt: dict, pred: dict, image_dir: Path):
-    # temporary going to default image
+def resolve_image_path(image, model):
+    image_dir = model_to_subdir[model]
+
     image_loc = image_dir / (image + ".png")
+    if image_loc.exists():
+        return image_loc
+
+    if model == "YOLO_50":
+        return resolve_image_path(image, "YOLO_75")
+    elif model == "YOLO_75":
+        return resolve_image_path(image, "YOLO_90")
+    else:
+        return raw_dir / (image + ".png")
+
+
+def image_data_to_str(image: str, gt: dict, pred: dict, model):
+    # temporary going to default image
+    image_loc = resolve_image_path(image, model)
+
     relative_loc = image_loc.relative_to(output_dir)
+
+    if not relative_loc.exists():
+        raise Warning(f"{image_loc.relative_to(raw_dir)} does not exist")
 
     result = f"""
 
 ## {image}
 
-![This is an image](/{relative_loc})
+![{relative_loc}](/{relative_loc})
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|"""
