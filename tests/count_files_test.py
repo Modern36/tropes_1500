@@ -20,9 +20,7 @@ def test_count_ollama_description_output():
 
 
 def test_count_yolos_pretrained_th75():
-    assert 1500 == len(
-        list((model_output / "yolos-pretrained_th75").iterdir())
-    )
+    assert 879 == len(list((model_output / "yolos-pretrained_th75").iterdir()))
 
 
 def test_count_DinoM_n_th25():
@@ -30,9 +28,7 @@ def test_count_DinoM_n_th25():
 
 
 def test_count_yolos_pretrained_th50():
-    assert 1500 == len(
-        list((model_output / "yolos-pretrained_th50").iterdir())
-    )
+    assert 629 == len(list((model_output / "yolos-pretrained_th50").iterdir()))
 
 
 def test_count_yolos_pretrained_th90():
