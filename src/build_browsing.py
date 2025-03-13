@@ -77,7 +77,6 @@ def build_db():
 
         add_model_output(conn, load_llama_desc())
 
-    # TODO: Add Llama-vision output
     # TODO: Add Moondream output
 
 
