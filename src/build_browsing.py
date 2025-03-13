@@ -1,16 +1,20 @@
-from trope_paths import (
-    raw_dir,
-    metadata_dir,
-    output_dir,
-    read_data,
-    detections,
-    browser_root,
-    model_output,
-)
-import sqlite3
 import json
-import pandas as pd
+import re
+import sqlite3
 from pathlib import Path
+
+import pandas as pd
+
+from trope_paths import (
+    browser_root,
+    detections,
+    metadata_dir,
+    model_output,
+    ollama_desc_dir,
+    output_dir,
+    raw_dir,
+    read_data,
+)
 
 db_path = output_dir / "db.sqlite3"
 
@@ -51,7 +55,8 @@ def build_db():
             image_id TEXT not null,
             model TEXT not null,
             label text not null,
-            found bool not null)
+            found bool not null,
+            desc text)
             """
         )
         conn.execute(
@@ -69,6 +74,8 @@ def build_db():
         add_model_output(conn, load_yolo())
 
         add_model_output(conn, load_dino())
+
+        add_model_output(conn, load_llama_desc())
 
     # TODO: Add Llama-vision output
     # TODO: Add Moondream output
@@ -142,6 +149,7 @@ def add_metadata(db: sqlite3.Connection):
 
 
 def add_model_output(conn, model_output):
+
     conn.executemany(
         """
         INSERT INTO prediction (
@@ -171,6 +179,33 @@ def load_ground_truth():
                 "label": label,
                 "model": "GroundTruth",
                 "found": row[f"gt_{label}"],
+            }
+
+
+def load_llama_desc():
+    for desc_file in ollama_desc_dir.iterdir():
+        image_id = desc_file.name.split(".")[0]
+        with open(desc_file, "r", encoding="utf8") as f:
+            text = f.read()
+        m = len(re.findall(r"\bm[ae]n\b", text)) > 0
+        w = len(re.findall(r"\bwom[ae]n\b", text)) > 0
+        p = (
+            m
+            or w
+            or (
+                len(re.findall(r"\b(person|people)\b", text)) > 0
+                and len(re.findall(r"no \b(person|people|individual)", text))
+                == 0
+            )
+        )
+
+        for label, outcome in (("m", m), ("w", w), ("p", p)):
+            yield {
+                "image_id": image_id,
+                "label": label,
+                "model": "llama-desc",
+                "found": outcome,
+                "desc": text,
             }
 
 
@@ -318,6 +353,7 @@ model_to_subdir = {
     "YOLO_50": model_output / "yolos-pretrained_th50",
     "YOLO_75": model_output / "yolos-pretrained_th75",
     "YOLO_90": model_output / "yolos-pretrained_th90",
+    "llama-desc": model_output / "ollama_description_output",
 }
 
 emojis = {0: "🟥", 1: "🟢"}
@@ -352,7 +388,14 @@ def image_data_to_str(image: str, gt: dict, pred: dict, model):
 ## {image}
 
 ![{relative_loc}](/{relative_loc})
+"""
+    if model == "llama-desc":
+        with open(
+            ollama_desc_dir / (image + ".png.txt"), "r", encoding="utf8"
+        ) as f:
+            result += f.read()
 
+    result += """\n
 | label | GT | Pred | accurate |
 |:----|----|----|----|"""
     for label, l in [
@@ -366,6 +409,7 @@ def image_data_to_str(image: str, gt: dict, pred: dict, model):
             marker = emojis[ground == prediction]
             result += f"""
 | {label} | {ground} | {prediction} | {marker} |"""
+
     return result + "\n\n\n"
 
 
