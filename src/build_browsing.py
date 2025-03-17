@@ -1,16 +1,18 @@
-from trope_paths import (
-    raw_dir,
-    metadata_dir,
-    output_dir,
-    read_data,
-    detections,
-    browser_root,
-    model_output,
-)
-import sqlite3
 import json
-import pandas as pd
+import sqlite3
 from pathlib import Path
+
+import pandas as pd
+
+from trope_paths import (
+    browser_root,
+    detections,
+    metadata_dir,
+    model_output,
+    output_dir,
+    raw_dir,
+    read_data,
+)
 
 db_path = output_dir / "db.sqlite3"
 
@@ -70,7 +72,6 @@ def build_db():
 
         add_model_output(conn, load_dino())
 
-    # TODO: Add Llama-vision output
     # TODO: Add Moondream output
 
 
