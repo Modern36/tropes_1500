@@ -21,3 +21,6 @@ browser_root = output_dir / "browser"
 
 def read_data():
     return pd.read_csv(data_file, index_col=None)
+
+
+db_path = output_dir / "db.sqlite3"
