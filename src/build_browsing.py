@@ -3,6 +3,7 @@ import sqlite3
 from pathlib import Path
 
 import pandas as pd
+from sklearn.metrics import classification_report
 
 from trope_paths import (
     browser_root,
@@ -222,6 +223,57 @@ def remove_directory_tree(path: Path = browser_root):
     path.rmdir()
 
 
+def calculate_report(conn, model, collection=None):
+    query = "select found from prediction "
+    if collection:
+        query += "join images on prediction.image_id == images.image_id "
+    query += "where model == :model and label == :label "
+    if collection:
+        query += " and collection_name == :collection_name"
+
+    str_report = "\n\n\n"
+
+    for label in "wmp":
+
+        gt = [
+            label
+            for label, *_ in conn.execute(
+                query,
+                {
+                    "collection_name": collection,
+                    "model": "GroundTruth",
+                    "label": label,
+                },
+            )
+        ]
+        pred = [
+            label
+            for label, *_ in conn.execute(
+                query,
+                {
+                    "collection_name": collection,
+                    "model": model,
+                    "label": label,
+                },
+            )
+        ]
+
+        if len(gt) == len(set(pred)) and len(set(gt) | set(pred)) > 1:
+
+            label_report = classification_report(gt, pred, zero_division=False)
+
+            str_report += f"""
+
+## Label: {label}
+
+```
+{label_report}
+```
+
+"""
+    return str_report
+
+
 # Create tree structure for .md files
 def build_tree():
     # First we remove the old
@@ -254,6 +306,10 @@ def build_tree():
 
                 image_count = len(list(get_images(conn, model, collection[1])))
 
+                report = calculate_report(
+                    conn, model=model, collection=collection[1]
+                )
+
                 # Create a README.md file for each collection directory
                 readme_path = coll_dir / "README.md"
                 with open(readme_path, "w") as f:
@@ -262,6 +318,8 @@ def build_tree():
                     f.write(
                         f"This file contains {image_count} images processed by the model: {model}\n"
                     )
+
+                    f.write(report)
 
                     for image_data in get_images(conn, model, collection[1]):
                         f.write(image_data_to_str(*image_data, model=model))
