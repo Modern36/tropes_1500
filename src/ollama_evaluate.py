@@ -19,11 +19,16 @@ for _, row in gt_data.iterrows():
 for file in ollam_tmp_dir.glob("*"):
     with open(file, "r") as f:
         data = f.read()
-    data_dict = json.loads(data)
-    outcome_dict[file.name[:-8]]["pred"] = {
-        "person": data_dict["people"],
-        "man": data_dict["man"],
-        "woman": data_dict["woman"],
+    has_woman = any(_ in data for _ in ["woman", "women"])
+    has_man = any(_ in data for _ in ["man", "men"])
+    has_person = any(
+        (has_man, has_woman, any(_ in data for _ in ["person", "people"]))
+    )
+
+    outcome_dict[file.name[:-4]]["pred"] = {
+        "person": has_person,
+        "man": has_man,
+        "woman": has_woman,
     }
 
 p_gt = []
