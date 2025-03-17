@@ -59,7 +59,7 @@ def calculate_report(conn, model, collection=None):
             )
         ]
 
-        if len(gt) == len(set(pred)) and len(set(gt) | set(pred)) > 1:
+        if len(gt) == len(pred) and len(set(gt) | set(pred)) > 1:
 
             label_report = classification_report(gt, pred, zero_division=False)
 
@@ -92,16 +92,25 @@ def build_tree():
         } - {
             "GroundTruth",
         }
-        collections = set(
-            conn.execute(
-                "select distinct collection_owner_name, collection_name from images"
-            ).fetchall()
+        collections = (
+            [(None, None)]
+            + list(
+                set(
+                    conn.execute(
+                        "select distinct collection_owner_name, collection_name from images"
+                    ).fetchall()
+                )
+            )
+            + []
         )
         for model in models:
             model_dir = browser_root / model.replace(" ", "_")
             model_dir.mkdir()
             for collection in collections:
-                collection_str = "_".join(collection).replace(" ", "_")
+                if collection[0] is None:
+                    collection_str = "1500_ALL"
+                else:
+                    collection_str = "_".join(collection).replace(" ", "_")
                 coll_dir = model_dir / collection_str
                 coll_dir.mkdir()
 
