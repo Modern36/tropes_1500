@@ -12,12 +12,12 @@ This file contains 6 images processed by the model: YOLO_50
 ```
               precision    recall  f1-score   support
 
-           0       0.00      0.00      0.00         1
-           1       0.80      0.80      0.80         5
+           0       1.00      1.00      1.00         1
+           1       1.00      1.00      1.00         5
 
-    accuracy                           0.67         6
-   macro avg       0.40      0.40      0.40         6
-weighted avg       0.67      0.67      0.67         6
+    accuracy                           1.00         6
+   macro avg       1.00      1.00      1.00         6
+weighted avg       1.00      1.00      1.00         6
 
 ```
 
@@ -26,17 +26,6 @@ weighted avg       0.67      0.67      0.67         6
 ## 022sC3Pm48QE
 
 ![010_model_output/yolos-pretrained_th50/022sC3Pm48QE.png](/010_model_output/yolos-pretrained_th50/022sC3Pm48QE.png)
-
-| label | GT | Pred | accurate |
-|:----|----|----|----|
-| Person | 1 | 1 | 🟢 |
-
-
-
-
-## 012uK2eTzxt5
-
-![010_model_output/yolos-pretrained_th75/012uK2eTzxt5.png](/010_model_output/yolos-pretrained_th75/012uK2eTzxt5.png)
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
@@ -56,6 +45,17 @@ weighted avg       0.67      0.67      0.67         6
 
 
 
+## 012uK2eTzxt5
+
+![010_model_output/yolos-pretrained_th75/012uK2eTzxt5.png](/010_model_output/yolos-pretrained_th75/012uK2eTzxt5.png)
+
+| label | GT | Pred | accurate |
+|:----|----|----|----|
+| Person | 1 | 1 | 🟢 |
+
+
+
+
 ## 022sC3Pm3nze
 
 ![010_model_output/yolos-pretrained_th50/022sC3Pm3nze.png](/010_model_output/yolos-pretrained_th50/022sC3Pm3nze.png)
@@ -67,9 +67,9 @@ weighted avg       0.67      0.67      0.67         6
 
 
 
-## 032uK2Xwx8Az
+## 012sC3Pna8iy
 
-![010_model_output/yolos-pretrained_th50/032uK2Xwx8Az.png](/010_model_output/yolos-pretrained_th50/032uK2Xwx8Az.png)
+![010_model_output/yolos-pretrained_th50/012sC3Pna8iy.png](/010_model_output/yolos-pretrained_th50/012sC3Pna8iy.png)
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
@@ -78,9 +78,9 @@ weighted avg       0.67      0.67      0.67         6
 
 
 
-## 012sC3Pna8iy
+## 032uK2Xwx8Az
 
-![010_model_output/yolos-pretrained_th50/012sC3Pna8iy.png](/010_model_output/yolos-pretrained_th50/012sC3Pna8iy.png)
+![010_model_output/yolos-pretrained_th50/032uK2Xwx8Az.png](/010_model_output/yolos-pretrained_th50/032uK2Xwx8Az.png)
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|

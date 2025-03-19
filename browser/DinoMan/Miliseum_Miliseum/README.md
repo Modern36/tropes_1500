@@ -12,12 +12,12 @@ This file contains 19 images processed by the model: DinoMan
 ```
               precision    recall  f1-score   support
 
-           0       0.00      0.00      0.00         3
-           1       0.83      0.94      0.88        16
+           0       1.00      0.33      0.50         3
+           1       0.89      1.00      0.94        16
 
-    accuracy                           0.79        19
-   macro avg       0.42      0.47      0.44        19
-weighted avg       0.70      0.79      0.74        19
+    accuracy                           0.89        19
+   macro avg       0.94      0.67      0.72        19
+weighted avg       0.91      0.89      0.87        19
 
 ```
 
@@ -28,104 +28,20 @@ weighted avg       0.70      0.79      0.74        19
 ```
               precision    recall  f1-score   support
 
-           0       0.00      0.00      0.00         2
-           1       0.89      0.94      0.91        17
+           0       1.00      0.50      0.67         2
+           1       0.94      1.00      0.97        17
 
-    accuracy                           0.84        19
-   macro avg       0.44      0.47      0.46        19
-weighted avg       0.80      0.84      0.82        19
+    accuracy                           0.95        19
+   macro avg       0.97      0.75      0.82        19
+weighted avg       0.95      0.95      0.94        19
 
 ```
-
-
-
-## 032wazZx6WPq
-
-![010_model_output/DinoMan_th25/032wazZx6WPq.png](/010_model_output/DinoMan_th25/032wazZx6WPq.png)
-
-| label | GT | Pred | accurate |
-|:----|----|----|----|
-| Man | 1 | 1 | 🟢 |
-| Person | 1 | 1 | 🟢 |
-
 
 
 
 ## 0331xx6PV3DH
 
 ![010_model_output/DinoMan_th25/0331xx6PV3DH.png](/010_model_output/DinoMan_th25/0331xx6PV3DH.png)
-
-| label | GT | Pred | accurate |
-|:----|----|----|----|
-| Man | 1 | 1 | 🟢 |
-| Person | 1 | 1 | 🟢 |
-
-
-
-
-## 032s93CPprhn
-
-![010_model_output/DinoMan_th25/032s93CPprhn.png](/010_model_output/DinoMan_th25/032s93CPprhn.png)
-
-| label | GT | Pred | accurate |
-|:----|----|----|----|
-| Man | 1 | 1 | 🟢 |
-| Person | 1 | 1 | 🟢 |
-
-
-
-
-## 032ymz1atrER
-
-![010_model_output/DinoMan_th25/032ymz1atrER.png](/010_model_output/DinoMan_th25/032ymz1atrER.png)
-
-| label | GT | Pred | accurate |
-|:----|----|----|----|
-| Man | 1 | 1 | 🟢 |
-| Person | 1 | 1 | 🟢 |
-
-
-
-
-## 0331yxsnLRzg
-
-![010_model_output/DinoMan_th25/0331yxsnLRzg.png](/010_model_output/DinoMan_th25/0331yxsnLRzg.png)
-
-| label | GT | Pred | accurate |
-|:----|----|----|----|
-| Man | 1 | 1 | 🟢 |
-| Person | 1 | 1 | 🟢 |
-
-
-
-
-## 0136JSZRrknD
-
-![010_model_output/DinoMan_th25/0136JSZRrknD.png](/010_model_output/DinoMan_th25/0136JSZRrknD.png)
-
-| label | GT | Pred | accurate |
-|:----|----|----|----|
-| Man | 0 | 0 | 🟢 |
-| Person | 0 | 0 | 🟢 |
-
-
-
-
-## 02347SfkP3SZ
-
-![010_model_output/DinoMan_th25/02347SfkP3SZ.png](/010_model_output/DinoMan_th25/02347SfkP3SZ.png)
-
-| label | GT | Pred | accurate |
-|:----|----|----|----|
-| Man | 0 | 1 | 🟥 |
-| Person | 1 | 1 | 🟢 |
-
-
-
-
-## 022wazZx6Am4
-
-![010_model_output/DinoMan_th25/022wazZx6Am4.png](/010_model_output/DinoMan_th25/022wazZx6Am4.png)
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
@@ -147,69 +63,9 @@ weighted avg       0.80      0.84      0.82        19
 
 
 
-## 022yjzbCmA4x
+## 01Tzm3nwti
 
-![010_model_output/DinoMan_th25/022yjzbCmA4x.png](/010_model_output/DinoMan_th25/022yjzbCmA4x.png)
-
-| label | GT | Pred | accurate |
-|:----|----|----|----|
-| Man | 1 | 1 | 🟢 |
-| Person | 1 | 1 | 🟢 |
-
-
-
-
-## 02349SRZDyn4
-
-![010_model_output/DinoMan_th25/02349SRZDyn4.png](/010_model_output/DinoMan_th25/02349SRZDyn4.png)
-
-| label | GT | Pred | accurate |
-|:----|----|----|----|
-| Man | 1 | 1 | 🟢 |
-| Person | 1 | 1 | 🟢 |
-
-
-
-
-## 0231xx6PV3DN
-
-![010_model_output/DinoMan_th25/0231xx6PV3DN.png](/010_model_output/DinoMan_th25/0231xx6PV3DN.png)
-
-| label | GT | Pred | accurate |
-|:----|----|----|----|
-| Man | 0 | 1 | 🟥 |
-| Person | 0 | 1 | 🟥 |
-
-
-
-
-## 01TzsWtq1q
-
-![010_model_output/DinoMan_th25/01TzsWtq1q.png](/010_model_output/DinoMan_th25/01TzsWtq1q.png)
-
-| label | GT | Pred | accurate |
-|:----|----|----|----|
-| Man | 1 | 1 | 🟢 |
-| Person | 1 | 1 | 🟢 |
-
-
-
-
-## 02Tzm2JJFq
-
-![010_model_output/DinoMan_th25/02Tzm2JJFq.png](/010_model_output/DinoMan_th25/02Tzm2JJFq.png)
-
-| label | GT | Pred | accurate |
-|:----|----|----|----|
-| Man | 1 | 1 | 🟢 |
-| Person | 1 | 1 | 🟢 |
-
-
-
-
-## 04Tzm3ncsG
-
-![010_model_output/DinoMan_th25/04Tzm3ncsG.png](/010_model_output/DinoMan_th25/04Tzm3ncsG.png)
+![010_model_output/DinoMan_th25/01Tzm3nwti.png](/010_model_output/DinoMan_th25/01Tzm3nwti.png)
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
@@ -231,18 +87,6 @@ weighted avg       0.80      0.84      0.82        19
 
 
 
-## 04TzkzrKQW
-
-![010_model_output/DinoMan_th25/04TzkzrKQW.png](/010_model_output/DinoMan_th25/04TzkzrKQW.png)
-
-| label | GT | Pred | accurate |
-|:----|----|----|----|
-| Man | 1 | 1 | 🟢 |
-| Person | 1 | 1 | 🟢 |
-
-
-
-
 ## 02Tzkzrejc
 
 ![010_model_output/DinoMan_th25/02Tzkzrejc.png](/010_model_output/DinoMan_th25/02Tzkzrejc.png)
@@ -255,11 +99,167 @@ weighted avg       0.80      0.84      0.82        19
 
 
 
-## 01Tzm3nwti
+## 0331yxsnLRzg
 
-![010_model_output/DinoMan_th25/01Tzm3nwti.png](/010_model_output/DinoMan_th25/01Tzm3nwti.png)
+![010_model_output/DinoMan_th25/0331yxsnLRzg.png](/010_model_output/DinoMan_th25/0331yxsnLRzg.png)
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 1 | 🟢 |
 | Person | 1 | 1 | 🟢 |
+
+
+
+
+## 032ymz1atrER
+
+![010_model_output/DinoMan_th25/032ymz1atrER.png](/010_model_output/DinoMan_th25/032ymz1atrER.png)
+
+| label | GT | Pred | accurate |
+|:----|----|----|----|
+| Man | 1 | 1 | 🟢 |
+| Person | 1 | 1 | 🟢 |
+
+
+
+
+## 032wazZx6WPq
+
+![010_model_output/DinoMan_th25/032wazZx6WPq.png](/010_model_output/DinoMan_th25/032wazZx6WPq.png)
+
+| label | GT | Pred | accurate |
+|:----|----|----|----|
+| Man | 1 | 1 | 🟢 |
+| Person | 1 | 1 | 🟢 |
+
+
+
+
+## 022yjzbCmA4x
+
+![010_model_output/DinoMan_th25/022yjzbCmA4x.png](/010_model_output/DinoMan_th25/022yjzbCmA4x.png)
+
+| label | GT | Pred | accurate |
+|:----|----|----|----|
+| Man | 1 | 1 | 🟢 |
+| Person | 1 | 1 | 🟢 |
+
+
+
+
+## 01TzsWtq1q
+
+![010_model_output/DinoMan_th25/01TzsWtq1q.png](/010_model_output/DinoMan_th25/01TzsWtq1q.png)
+
+| label | GT | Pred | accurate |
+|:----|----|----|----|
+| Man | 1 | 1 | 🟢 |
+| Person | 1 | 1 | 🟢 |
+
+
+
+
+## 0136JSZRrknD
+
+![010_model_output/DinoMan_th25/0136JSZRrknD.png](/010_model_output/DinoMan_th25/0136JSZRrknD.png)
+
+| label | GT | Pred | accurate |
+|:----|----|----|----|
+| Man | 0 | 0 | 🟢 |
+| Person | 0 | 0 | 🟢 |
+
+
+
+
+## 02Tzm2JJFq
+
+![010_model_output/DinoMan_th25/02Tzm2JJFq.png](/010_model_output/DinoMan_th25/02Tzm2JJFq.png)
+
+| label | GT | Pred | accurate |
+|:----|----|----|----|
+| Man | 1 | 1 | 🟢 |
+| Person | 1 | 1 | 🟢 |
+
+
+
+
+## 04TzkzrKQW
+
+![010_model_output/DinoMan_th25/04TzkzrKQW.png](/010_model_output/DinoMan_th25/04TzkzrKQW.png)
+
+| label | GT | Pred | accurate |
+|:----|----|----|----|
+| Man | 1 | 1 | 🟢 |
+| Person | 1 | 1 | 🟢 |
+
+
+
+
+## 032s93CPprhn
+
+![010_model_output/DinoMan_th25/032s93CPprhn.png](/010_model_output/DinoMan_th25/032s93CPprhn.png)
+
+| label | GT | Pred | accurate |
+|:----|----|----|----|
+| Man | 1 | 1 | 🟢 |
+| Person | 1 | 1 | 🟢 |
+
+
+
+
+## 022wazZx6Am4
+
+![010_model_output/DinoMan_th25/022wazZx6Am4.png](/010_model_output/DinoMan_th25/022wazZx6Am4.png)
+
+| label | GT | Pred | accurate |
+|:----|----|----|----|
+| Man | 1 | 1 | 🟢 |
+| Person | 1 | 1 | 🟢 |
+
+
+
+
+## 02349SRZDyn4
+
+![010_model_output/DinoMan_th25/02349SRZDyn4.png](/010_model_output/DinoMan_th25/02349SRZDyn4.png)
+
+| label | GT | Pred | accurate |
+|:----|----|----|----|
+| Man | 1 | 1 | 🟢 |
+| Person | 1 | 1 | 🟢 |
+
+
+
+
+## 04Tzm3ncsG
+
+![010_model_output/DinoMan_th25/04Tzm3ncsG.png](/010_model_output/DinoMan_th25/04Tzm3ncsG.png)
+
+| label | GT | Pred | accurate |
+|:----|----|----|----|
+| Man | 1 | 1 | 🟢 |
+| Person | 1 | 1 | 🟢 |
+
+
+
+
+## 02347SfkP3SZ
+
+![010_model_output/DinoMan_th25/02347SfkP3SZ.png](/010_model_output/DinoMan_th25/02347SfkP3SZ.png)
+
+| label | GT | Pred | accurate |
+|:----|----|----|----|
+| Man | 0 | 1 | 🟥 |
+| Person | 1 | 1 | 🟢 |
+
+
+
+
+## 0231xx6PV3DN
+
+![010_model_output/DinoMan_th25/0231xx6PV3DN.png](/010_model_output/DinoMan_th25/0231xx6PV3DN.png)
+
+| label | GT | Pred | accurate |
+|:----|----|----|----|
+| Man | 0 | 1 | 🟥 |
+| Person | 0 | 1 | 🟥 |

@@ -32,6 +32,8 @@ def calculate_report(conn, model, collection=None):
     if collection:
         query += " and collection_name == :collection_name"
 
+    query += " order by prediction.image_id"
+
     str_report = "\n\n\n"
 
     for label in "wmp":

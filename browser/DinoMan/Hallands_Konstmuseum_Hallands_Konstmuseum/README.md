@@ -12,12 +12,12 @@ This file contains 2 images processed by the model: DinoMan
 ```
               precision    recall  f1-score   support
 
-           0       0.00      0.00      0.00       1.0
-           1       0.00      0.00      0.00       1.0
+           0       1.00      1.00      1.00         1
+           1       1.00      1.00      1.00         1
 
-    accuracy                           0.00       2.0
-   macro avg       0.00      0.00      0.00       2.0
-weighted avg       0.00      0.00      0.00       2.0
+    accuracy                           1.00         2
+   macro avg       1.00      1.00      1.00         2
+weighted avg       1.00      1.00      1.00         2
 
 ```
 
@@ -28,26 +28,14 @@ weighted avg       0.00      0.00      0.00       2.0
 ```
               precision    recall  f1-score   support
 
-           0       0.00      0.00      0.00       1.0
-           1       0.00      0.00      0.00       1.0
+           0       1.00      1.00      1.00         1
+           1       1.00      1.00      1.00         1
 
-    accuracy                           0.00       2.0
-   macro avg       0.00      0.00      0.00       2.0
-weighted avg       0.00      0.00      0.00       2.0
+    accuracy                           1.00         2
+   macro avg       1.00      1.00      1.00         2
+weighted avg       1.00      1.00      1.00         2
 
 ```
-
-
-
-## 032sBYWZWKQB
-
-![010_model_output/DinoMan_th25/032sBYWZWKQB.png](/010_model_output/DinoMan_th25/032sBYWZWKQB.png)
-
-| label | GT | Pred | accurate |
-|:----|----|----|----|
-| Man | 0 | 0 | 🟢 |
-| Person | 0 | 0 | 🟢 |
-
 
 
 
@@ -59,3 +47,15 @@ weighted avg       0.00      0.00      0.00       2.0
 |:----|----|----|----|
 | Man | 1 | 1 | 🟢 |
 | Person | 1 | 1 | 🟢 |
+
+
+
+
+## 032sBYWZWKQB
+
+![010_model_output/DinoMan_th25/032sBYWZWKQB.png](/010_model_output/DinoMan_th25/032sBYWZWKQB.png)
+
+| label | GT | Pred | accurate |
+|:----|----|----|----|
+| Man | 0 | 0 | 🟢 |
+| Person | 0 | 0 | 🟢 |

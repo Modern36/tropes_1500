@@ -12,12 +12,12 @@ This file contains 4 images processed by the model: DinoManWoman
 ```
               precision    recall  f1-score   support
 
-           0       0.00      0.00      0.00         2
-           1       0.33      0.50      0.40         2
+           0       1.00      0.50      0.67         2
+           1       0.67      1.00      0.80         2
 
-    accuracy                           0.25         4
-   macro avg       0.17      0.25      0.20         4
-weighted avg       0.17      0.25      0.20         4
+    accuracy                           0.75         4
+   macro avg       0.83      0.75      0.73         4
+weighted avg       0.83      0.75      0.73         4
 
 ```
 
@@ -39,19 +39,6 @@ weighted avg       0.25      0.50      0.33         4
 
 
 
-## 02347Tgr46KA
-
-![010_model_output/DinoManWoman_th25/02347Tgr46KA.png](/010_model_output/DinoManWoman_th25/02347Tgr46KA.png)
-
-| label | GT | Pred | accurate |
-|:----|----|----|----|
-| Man | 1 | 1 | 🟢 |
-| Woman | 1 | 1 | 🟢 |
-| Person | 1 | 1 | 🟢 |
-
-
-
-
 ## 013AmsTCUrWM
 
 ![010_model_output/DinoManWoman_th25/013AmsTCUrWM.png](/010_model_output/DinoManWoman_th25/013AmsTCUrWM.png)
@@ -60,6 +47,19 @@ weighted avg       0.25      0.50      0.33         4
 |:----|----|----|----|
 | Man | 1 | 1 | 🟢 |
 | Woman | 0 | 1 | 🟥 |
+| Person | 1 | 1 | 🟢 |
+
+
+
+
+## 02347Tgr46KA
+
+![010_model_output/DinoManWoman_th25/02347Tgr46KA.png](/010_model_output/DinoManWoman_th25/02347Tgr46KA.png)
+
+| label | GT | Pred | accurate |
+|:----|----|----|----|
+| Man | 1 | 1 | 🟢 |
+| Woman | 1 | 1 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 

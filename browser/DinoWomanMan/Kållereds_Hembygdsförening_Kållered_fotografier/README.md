@@ -28,27 +28,14 @@ weighted avg       0.25      0.50      0.33         4
 ```
               precision    recall  f1-score   support
 
-           0       0.00      0.00      0.00       2.0
-           1       0.00      0.00      0.00       2.0
+           0       0.50      0.50      0.50         2
+           1       0.50      0.50      0.50         2
 
-    accuracy                           0.00       4.0
-   macro avg       0.00      0.00      0.00       4.0
-weighted avg       0.00      0.00      0.00       4.0
+    accuracy                           0.50         4
+   macro avg       0.50      0.50      0.50         4
+weighted avg       0.50      0.50      0.50         4
 
 ```
-
-
-
-## 02347Tgr46KA
-
-![010_model_output/DinoWomanMan_th25/02347Tgr46KA.png](/010_model_output/DinoWomanMan_th25/02347Tgr46KA.png)
-
-| label | GT | Pred | accurate |
-|:----|----|----|----|
-| Man | 1 | 0 | 🟥 |
-| Woman | 1 | 1 | 🟢 |
-| Person | 1 | 1 | 🟢 |
-
 
 
 
@@ -60,6 +47,19 @@ weighted avg       0.00      0.00      0.00       4.0
 |:----|----|----|----|
 | Man | 1 | 1 | 🟢 |
 | Woman | 0 | 1 | 🟥 |
+| Person | 1 | 1 | 🟢 |
+
+
+
+
+## 02347Tgr46KA
+
+![010_model_output/DinoWomanMan_th25/02347Tgr46KA.png](/010_model_output/DinoWomanMan_th25/02347Tgr46KA.png)
+
+| label | GT | Pred | accurate |
+|:----|----|----|----|
+| Man | 1 | 0 | 🟥 |
+| Woman | 1 | 1 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 
