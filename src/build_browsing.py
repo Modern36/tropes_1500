@@ -187,6 +187,7 @@ model_to_subdir = {
     "YOLO_50": model_output / "yolos-pretrained_th50",
     "YOLO_75": model_output / "yolos-pretrained_th75",
     "YOLO_90": model_output / "yolos-pretrained_th90",
+    "VQA": raw_dir,
 }
 
 emojis = {0: "🟥", 1: "🟢"}
