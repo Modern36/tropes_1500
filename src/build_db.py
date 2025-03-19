@@ -173,6 +173,8 @@ def build_db():
 
         add_model_output(conn, load_dino())
 
+        add_model_output(conn, load_vqa())
+
 
 # TODO: Add Moondream output
 
@@ -198,4 +200,25 @@ def load_metadata():
                 "collection_name": data["collection_name"],
                 "uuid": data["uuid"],
                 "collection_owner_name": data["collection_owner_name"],
+            }
+
+
+def load_vqa():
+    gt_data = read_data()
+
+    for _, row in gt_data.iterrows():
+        image_id = row["file_name"].split(".")[0]
+        pred = {
+            "m": row[f"vqa_m"],
+            "w": row[f"vqa_w"],
+        }
+        pred["p"] = max(pred.values())
+
+        for label, found in pred.items():
+
+            yield {
+                "image_id": image_id,
+                "label": label,
+                "model": "VQA",
+                "found": found,
             }
