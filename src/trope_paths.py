@@ -13,10 +13,18 @@ ollama_desc_dir = model_output / "ollama_description_output"
 ollam_tmp_dir = output_dir / "ollama_confidence_output"
 ollam_tmp_dir.mkdir(parents=True, exist_ok=True)
 
+moon_tmp_dir = output_dir / "moon_point_output"
+moon_tmp_dir.mkdir(parents=True, exist_ok=True)
+
+moon_tmp_qa = model_output / "moon_QA_output"
+moon_tmp_qa.mkdir(parents=True, exist_ok=True)
+
+
 detections = output_dir / "999_detect_data"
 data_file = output_dir / "data.csv"
 
 browser_root = output_dir / "browser"
+moondream_model = output_dir / "moondreammodel" / "moondream-2b-int8.mf"
 
 
 def read_data():
