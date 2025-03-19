@@ -28,12 +28,12 @@ weighted avg       0.13      0.36      0.19        11
 ```
               precision    recall  f1-score   support
 
-           0       0.00      0.00      0.00         2
-           1       0.80      0.89      0.84         9
+           0       1.00      0.50      0.67         2
+           1       0.90      1.00      0.95         9
 
-    accuracy                           0.73        11
-   macro avg       0.40      0.44      0.42        11
-weighted avg       0.65      0.73      0.69        11
+    accuracy                           0.91        11
+   macro avg       0.95      0.75      0.81        11
+weighted avg       0.92      0.91      0.90        11
 
 ```
 
@@ -55,14 +55,14 @@ weighted avg       0.67      0.82      0.74        11
 
 
 
-## 019EBskuj9w38
+## 0136LRyc7DJE
 
-![010_model_output/DinoWomanMan_th25/019EBskuj9w38.png](/010_model_output/DinoWomanMan_th25/019EBskuj9w38.png)
+![010_model_output/DinoWomanMan_th25/0136LRyc7DJE.png](/010_model_output/DinoWomanMan_th25/0136LRyc7DJE.png)
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 1 | 🟢 |
-| Woman | 0 | 1 | 🟥 |
+| Woman | 1 | 1 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 
@@ -81,40 +81,27 @@ weighted avg       0.67      0.82      0.74        11
 
 
 
-## 0136LRyc7DJE
+## 013AmPFG7hGB
 
-![010_model_output/DinoWomanMan_th25/0136LRyc7DJE.png](/010_model_output/DinoWomanMan_th25/0136LRyc7DJE.png)
+![010_model_output/DinoWomanMan_th25/013AmPFG7hGB.png](/010_model_output/DinoWomanMan_th25/013AmPFG7hGB.png)
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 1 | 1 | 🟢 |
-| Woman | 1 | 1 | 🟢 |
-| Person | 1 | 1 | 🟢 |
+| Man | 0 | 1 | 🟥 |
+| Woman | 0 | 1 | 🟥 |
+| Person | 0 | 1 | 🟥 |
 
 
 
 
-## 022ykVMxiRTS
+## 019EBskuj9w38
 
-![010_model_output/DinoWomanMan_th25/022ykVMxiRTS.png](/010_model_output/DinoWomanMan_th25/022ykVMxiRTS.png)
+![010_model_output/DinoWomanMan_th25/019EBskuj9w38.png](/010_model_output/DinoWomanMan_th25/019EBskuj9w38.png)
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 1 | 🟢 |
 | Woman | 0 | 1 | 🟥 |
-| Person | 1 | 1 | 🟢 |
-
-
-
-
-## 013AkPbQVszt
-
-![010_model_output/DinoWomanMan_th25/013AkPbQVszt.png](/010_model_output/DinoWomanMan_th25/013AkPbQVszt.png)
-
-| label | GT | Pred | accurate |
-|:----|----|----|----|
-| Man | 1 | 1 | 🟢 |
-| Woman | 1 | 1 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 
@@ -133,14 +120,14 @@ weighted avg       0.67      0.82      0.74        11
 
 
 
-## 0234ASJXNS1e
+## 022ykVMxiRTS
 
-![010_model_output/DinoWomanMan_th25/0234ASJXNS1e.png](/010_model_output/DinoWomanMan_th25/0234ASJXNS1e.png)
+![010_model_output/DinoWomanMan_th25/022ykVMxiRTS.png](/010_model_output/DinoWomanMan_th25/022ykVMxiRTS.png)
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 1 | 🟢 |
-| Woman | 1 | 1 | 🟢 |
+| Woman | 0 | 1 | 🟥 |
 | Person | 1 | 1 | 🟢 |
 
 
@@ -153,19 +140,6 @@ weighted avg       0.67      0.82      0.74        11
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
-| Woman | 0 | 1 | 🟥 |
-| Person | 0 | 1 | 🟥 |
-
-
-
-
-## 013AmPFG7hGB
-
-![010_model_output/DinoWomanMan_th25/013AmPFG7hGB.png](/010_model_output/DinoWomanMan_th25/013AmPFG7hGB.png)
-
-| label | GT | Pred | accurate |
-|:----|----|----|----|
-| Man | 0 | 1 | 🟥 |
 | Woman | 0 | 1 | 🟥 |
 | Person | 0 | 1 | 🟥 |
 
@@ -185,6 +159,19 @@ weighted avg       0.67      0.82      0.74        11
 
 
 
+## 0234ASJXNS1e
+
+![010_model_output/DinoWomanMan_th25/0234ASJXNS1e.png](/010_model_output/DinoWomanMan_th25/0234ASJXNS1e.png)
+
+| label | GT | Pred | accurate |
+|:----|----|----|----|
+| Man | 1 | 1 | 🟢 |
+| Woman | 1 | 1 | 🟢 |
+| Person | 1 | 1 | 🟢 |
+
+
+
+
 ## 032wY1PUg3uX
 
 ![010_model_output/DinoWomanMan_th25/032wY1PUg3uX.png](/010_model_output/DinoWomanMan_th25/032wY1PUg3uX.png)
@@ -193,4 +180,17 @@ weighted avg       0.67      0.82      0.74        11
 |:----|----|----|----|
 | Man | 1 | 1 | 🟢 |
 | Woman | 0 | 1 | 🟥 |
+| Person | 1 | 1 | 🟢 |
+
+
+
+
+## 013AkPbQVszt
+
+![010_model_output/DinoWomanMan_th25/013AkPbQVszt.png](/010_model_output/DinoWomanMan_th25/013AkPbQVszt.png)
+
+| label | GT | Pred | accurate |
+|:----|----|----|----|
+| Man | 1 | 1 | 🟢 |
+| Woman | 1 | 1 | 🟢 |
 | Person | 1 | 1 | 🟢 |

@@ -23,9 +23,9 @@ weighted avg       0.25      0.50      0.33         4
 
 
 
-## 02347Tgr46KA
+## 013AmsTCUrWM
 
-![010_model_output/DinoMan_th25/02347Tgr46KA.png](/010_model_output/DinoMan_th25/02347Tgr46KA.png)
+![010_model_output/DinoMan_th25/013AmsTCUrWM.png](/010_model_output/DinoMan_th25/013AmsTCUrWM.png)
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
@@ -35,9 +35,9 @@ weighted avg       0.25      0.50      0.33         4
 
 
 
-## 013AmsTCUrWM
+## 02347Tgr46KA
 
-![010_model_output/DinoMan_th25/013AmsTCUrWM.png](/010_model_output/DinoMan_th25/013AmsTCUrWM.png)
+![010_model_output/DinoMan_th25/02347Tgr46KA.png](/010_model_output/DinoMan_th25/02347Tgr46KA.png)
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|

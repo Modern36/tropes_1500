@@ -12,12 +12,12 @@ This file contains 25 images processed by the model: YOLO_50
 ```
               precision    recall  f1-score   support
 
-           0       0.75      0.53      0.62        17
-           1       0.38      0.62      0.48         8
+           0       1.00      0.71      0.83        17
+           1       0.62      1.00      0.76         8
 
-    accuracy                           0.56        25
-   macro avg       0.57      0.58      0.55        25
-weighted avg       0.63      0.56      0.57        25
+    accuracy                           0.80        25
+   macro avg       0.81      0.85      0.79        25
+weighted avg       0.88      0.80      0.81        25
 
 ```
 
@@ -34,6 +34,83 @@ weighted avg       0.63      0.56      0.57        25
 
 
 
+## 012uN2GxeUA8
+
+![010_model_output/yolos-pretrained_th50/012uN2GxeUA8.png](/010_model_output/yolos-pretrained_th50/012uN2GxeUA8.png)
+
+| label | GT | Pred | accurate |
+|:----|----|----|----|
+| Person | 1 | 1 | 🟢 |
+
+
+
+
+## 012uN2Gxdoef
+
+![010_model_output/yolos-pretrained_th50/012uN2Gxdoef.png](/010_model_output/yolos-pretrained_th50/012uN2Gxdoef.png)
+
+| label | GT | Pred | accurate |
+|:----|----|----|----|
+| Person | 0 | 1 | 🟥 |
+
+
+
+
+## 012uN2AeSsGr
+
+![010_model_output/yolos-pretrained_th50/012uN2AeSsGr.png](/010_model_output/yolos-pretrained_th50/012uN2AeSsGr.png)
+
+| label | GT | Pred | accurate |
+|:----|----|----|----|
+| Person | 0 | 1 | 🟥 |
+
+
+
+
+## 012uL2519ruD
+
+![010_model_output/yolos-pretrained_th75/012uL2519ruD.png](/010_model_output/yolos-pretrained_th75/012uL2519ruD.png)
+
+| label | GT | Pred | accurate |
+|:----|----|----|----|
+| Person | 1 | 1 | 🟢 |
+
+
+
+
+## 012uN2H7Z5RK
+
+![010_model_output/yolos-pretrained_th50/012uN2H7Z5RK.png](/010_model_output/yolos-pretrained_th50/012uN2H7Z5RK.png)
+
+| label | GT | Pred | accurate |
+|:----|----|----|----|
+| Person | 1 | 1 | 🟢 |
+
+
+
+
+## 012uN2GxeUcf
+
+![010_model_output/yolos-pretrained_th90/012uN2GxeUcf.png](/010_model_output/yolos-pretrained_th90/012uN2GxeUcf.png)
+
+| label | GT | Pred | accurate |
+|:----|----|----|----|
+| Person | 0 | 1 | 🟥 |
+
+
+
+
+## 012uN2GxfUyy
+
+![010_model_output/yolos-pretrained_th50/012uN2GxfUyy.png](/010_model_output/yolos-pretrained_th50/012uN2GxfUyy.png)
+
+| label | GT | Pred | accurate |
+|:----|----|----|----|
+| Person | 0 | 0 | 🟢 |
+
+
+
+
 ## 012uN2AeSsCP
 
 ![010_model_output/yolos-pretrained_th75/012uN2AeSsCP.png](/010_model_output/yolos-pretrained_th75/012uN2AeSsCP.png)
@@ -45,9 +122,31 @@ weighted avg       0.63      0.56      0.57        25
 
 
 
-## 012uN2GxfUyy
+## 012uN2ceCwc4
 
-![010_model_output/yolos-pretrained_th50/012uN2GxfUyy.png](/010_model_output/yolos-pretrained_th50/012uN2GxfUyy.png)
+![010_model_output/yolos-pretrained_th90/012uN2ceCwc4.png](/010_model_output/yolos-pretrained_th90/012uN2ceCwc4.png)
+
+| label | GT | Pred | accurate |
+|:----|----|----|----|
+| Person | 0 | 0 | 🟢 |
+
+
+
+
+## 012uN2AeVD7V
+
+![010_model_output/yolos-pretrained_th90/012uN2AeVD7V.png](/010_model_output/yolos-pretrained_th90/012uN2AeVD7V.png)
+
+| label | GT | Pred | accurate |
+|:----|----|----|----|
+| Person | 0 | 0 | 🟢 |
+
+
+
+
+## 012uN1iRPEry
+
+![010_model_output/yolos-pretrained_th90/012uN1iRPEry.png](/010_model_output/yolos-pretrained_th90/012uN1iRPEry.png)
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
@@ -67,53 +166,9 @@ weighted avg       0.63      0.56      0.57        25
 
 
 
-## 012uN2Gxdoef
+## 012uN2AeVDLe
 
-![010_model_output/yolos-pretrained_th50/012uN2Gxdoef.png](/010_model_output/yolos-pretrained_th50/012uN2Gxdoef.png)
-
-| label | GT | Pred | accurate |
-|:----|----|----|----|
-| Person | 0 | 1 | 🟥 |
-
-
-
-
-## 012uN2AeTCT4
-
-![010_model_output/yolos-pretrained_th90/012uN2AeTCT4.png](/010_model_output/yolos-pretrained_th90/012uN2AeTCT4.png)
-
-| label | GT | Pred | accurate |
-|:----|----|----|----|
-| Person | 0 | 0 | 🟢 |
-
-
-
-
-## 012uN2GxeUcf
-
-![010_model_output/yolos-pretrained_th90/012uN2GxeUcf.png](/010_model_output/yolos-pretrained_th90/012uN2GxeUcf.png)
-
-| label | GT | Pred | accurate |
-|:----|----|----|----|
-| Person | 0 | 1 | 🟥 |
-
-
-
-
-## 012uN2Gxe9Mv
-
-![010_model_output/yolos-pretrained_th50/012uN2Gxe9Mv.png](/010_model_output/yolos-pretrained_th50/012uN2Gxe9Mv.png)
-
-| label | GT | Pred | accurate |
-|:----|----|----|----|
-| Person | 1 | 1 | 🟢 |
-
-
-
-
-## 012uN2ceCwc4
-
-![010_model_output/yolos-pretrained_th90/012uN2ceCwc4.png](/010_model_output/yolos-pretrained_th90/012uN2ceCwc4.png)
+![010_model_output/yolos-pretrained_th90/012uN2AeVDLe.png](/010_model_output/yolos-pretrained_th90/012uN2AeVDLe.png)
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
@@ -133,9 +188,64 @@ weighted avg       0.63      0.56      0.57        25
 
 
 
-## 012uN2AeUsZ2
+## 012uN2Gxe98h
 
-![010_model_output/yolos-pretrained_th90/012uN2AeUsZ2.png](/010_model_output/yolos-pretrained_th90/012uN2AeUsZ2.png)
+![010_model_output/yolos-pretrained_th50/012uN2Gxe98h.png](/010_model_output/yolos-pretrained_th50/012uN2Gxe98h.png)
+
+| label | GT | Pred | accurate |
+|:----|----|----|----|
+| Person | 0 | 0 | 🟢 |
+
+
+
+
+## 012uKXkbgpXv
+
+![010_model_output/yolos-pretrained_th75/012uKXkbgpXv.png](/010_model_output/yolos-pretrained_th75/012uKXkbgpXv.png)
+
+| label | GT | Pred | accurate |
+|:----|----|----|----|
+| Person | 0 | 0 | 🟢 |
+
+
+
+
+## 012uN2AeTCNj
+
+![010_model_output/yolos-pretrained_th90/012uN2AeTCNj.png](/010_model_output/yolos-pretrained_th90/012uN2AeTCNj.png)
+
+| label | GT | Pred | accurate |
+|:----|----|----|----|
+| Person | 0 | 0 | 🟢 |
+
+
+
+
+## 012uN2Gxe9Mv
+
+![010_model_output/yolos-pretrained_th50/012uN2Gxe9Mv.png](/010_model_output/yolos-pretrained_th50/012uN2Gxe9Mv.png)
+
+| label | GT | Pred | accurate |
+|:----|----|----|----|
+| Person | 1 | 1 | 🟢 |
+
+
+
+
+## 012uN2AeTYAE
+
+![010_model_output/yolos-pretrained_th50/012uN2AeTYAE.png](/010_model_output/yolos-pretrained_th50/012uN2AeTYAE.png)
+
+| label | GT | Pred | accurate |
+|:----|----|----|----|
+| Person | 1 | 1 | 🟢 |
+
+
+
+
+## 012uN2AeTCT4
+
+![010_model_output/yolos-pretrained_th90/012uN2AeTCT4.png](/010_model_output/yolos-pretrained_th90/012uN2AeTCT4.png)
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
@@ -166,90 +276,13 @@ weighted avg       0.63      0.56      0.57        25
 
 
 
-## 012uN2AeTCNj
+## 012uN2AeUsZ2
 
-![010_model_output/yolos-pretrained_th90/012uN2AeTCNj.png](/010_model_output/yolos-pretrained_th90/012uN2AeTCNj.png)
-
-| label | GT | Pred | accurate |
-|:----|----|----|----|
-| Person | 0 | 0 | 🟢 |
-
-
-
-
-## 012uKXkbgpXv
-
-![010_model_output/yolos-pretrained_th75/012uKXkbgpXv.png](/010_model_output/yolos-pretrained_th75/012uKXkbgpXv.png)
+![010_model_output/yolos-pretrained_th90/012uN2AeUsZ2.png](/010_model_output/yolos-pretrained_th90/012uN2AeUsZ2.png)
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Person | 0 | 0 | 🟢 |
-
-
-
-
-## 012uN1iRPEry
-
-![010_model_output/yolos-pretrained_th90/012uN1iRPEry.png](/010_model_output/yolos-pretrained_th90/012uN1iRPEry.png)
-
-| label | GT | Pred | accurate |
-|:----|----|----|----|
-| Person | 0 | 0 | 🟢 |
-
-
-
-
-## 012uL2519ruD
-
-![010_model_output/yolos-pretrained_th75/012uL2519ruD.png](/010_model_output/yolos-pretrained_th75/012uL2519ruD.png)
-
-| label | GT | Pred | accurate |
-|:----|----|----|----|
-| Person | 1 | 1 | 🟢 |
-
-
-
-
-## 012uN2AeVD7V
-
-![010_model_output/yolos-pretrained_th90/012uN2AeVD7V.png](/010_model_output/yolos-pretrained_th90/012uN2AeVD7V.png)
-
-| label | GT | Pred | accurate |
-|:----|----|----|----|
-| Person | 0 | 0 | 🟢 |
-
-
-
-
-## 012uN2AeVDLe
-
-![010_model_output/yolos-pretrained_th90/012uN2AeVDLe.png](/010_model_output/yolos-pretrained_th90/012uN2AeVDLe.png)
-
-| label | GT | Pred | accurate |
-|:----|----|----|----|
-| Person | 0 | 0 | 🟢 |
-
-
-
-
-## 012uN2GxeUA8
-
-![010_model_output/yolos-pretrained_th50/012uN2GxeUA8.png](/010_model_output/yolos-pretrained_th50/012uN2GxeUA8.png)
-
-| label | GT | Pred | accurate |
-|:----|----|----|----|
-| Person | 1 | 1 | 🟢 |
-
-
-
-
-## 012uN2AeSsGr
-
-![010_model_output/yolos-pretrained_th50/012uN2AeSsGr.png](/010_model_output/yolos-pretrained_th50/012uN2AeSsGr.png)
-
-| label | GT | Pred | accurate |
-|:----|----|----|----|
-| Person | 0 | 1 | 🟥 |
 
 
 
@@ -261,36 +294,3 @@ weighted avg       0.63      0.56      0.57        25
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Person | 0 | 1 | 🟥 |
-
-
-
-
-## 012uN2Gxe98h
-
-![010_model_output/yolos-pretrained_th50/012uN2Gxe98h.png](/010_model_output/yolos-pretrained_th50/012uN2Gxe98h.png)
-
-| label | GT | Pred | accurate |
-|:----|----|----|----|
-| Person | 0 | 0 | 🟢 |
-
-
-
-
-## 012uN2AeTYAE
-
-![010_model_output/yolos-pretrained_th50/012uN2AeTYAE.png](/010_model_output/yolos-pretrained_th50/012uN2AeTYAE.png)
-
-| label | GT | Pred | accurate |
-|:----|----|----|----|
-| Person | 1 | 1 | 🟢 |
-
-
-
-
-## 012uN2H7Z5RK
-
-![010_model_output/yolos-pretrained_th50/012uN2H7Z5RK.png](/010_model_output/yolos-pretrained_th50/012uN2H7Z5RK.png)
-
-| label | GT | Pred | accurate |
-|:----|----|----|----|
-| Person | 1 | 1 | 🟢 |

@@ -12,12 +12,12 @@ This file contains 6 images processed by the model: DinoManWoman
 ```
               precision    recall  f1-score   support
 
-           0       0.00      0.00      0.00         4
-           1       0.20      0.50      0.29         2
+           0       1.00      0.25      0.40         4
+           1       0.40      1.00      0.57         2
 
-    accuracy                           0.17         6
-   macro avg       0.10      0.25      0.14         6
-weighted avg       0.07      0.17      0.10         6
+    accuracy                           0.50         6
+   macro avg       0.70      0.62      0.49         6
+weighted avg       0.80      0.50      0.46         6
 
 ```
 
@@ -68,19 +68,6 @@ weighted avg       0.69      0.83      0.76         6
 
 
 
-## 012uK2eTzxt5
-
-![010_model_output/DinoManWoman_th25/012uK2eTzxt5.png](/010_model_output/DinoManWoman_th25/012uK2eTzxt5.png)
-
-| label | GT | Pred | accurate |
-|:----|----|----|----|
-| Man | 1 | 1 | 🟢 |
-| Woman | 0 | 1 | 🟥 |
-| Person | 1 | 1 | 🟢 |
-
-
-
-
 ## 012sC3Pm48dT
 
 ![010_model_output/DinoManWoman_th25/012sC3Pm48dT.png](/010_model_output/DinoManWoman_th25/012sC3Pm48dT.png)
@@ -89,6 +76,19 @@ weighted avg       0.69      0.83      0.76         6
 |:----|----|----|----|
 | Man | 0 | 1 | 🟥 |
 | Woman | 1 | 1 | 🟢 |
+| Person | 1 | 1 | 🟢 |
+
+
+
+
+## 012uK2eTzxt5
+
+![010_model_output/DinoManWoman_th25/012uK2eTzxt5.png](/010_model_output/DinoManWoman_th25/012uK2eTzxt5.png)
+
+| label | GT | Pred | accurate |
+|:----|----|----|----|
+| Man | 1 | 1 | 🟢 |
+| Woman | 0 | 1 | 🟥 |
 | Person | 1 | 1 | 🟢 |
 
 
@@ -107,9 +107,9 @@ weighted avg       0.69      0.83      0.76         6
 
 
 
-## 032uK2Xwx8Az
+## 012sC3Pna8iy
 
-![010_model_output/DinoManWoman_th25/032uK2Xwx8Az.png](/010_model_output/DinoManWoman_th25/032uK2Xwx8Az.png)
+![010_model_output/DinoManWoman_th25/012sC3Pna8iy.png](/010_model_output/DinoManWoman_th25/012sC3Pna8iy.png)
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
@@ -120,9 +120,9 @@ weighted avg       0.69      0.83      0.76         6
 
 
 
-## 012sC3Pna8iy
+## 032uK2Xwx8Az
 
-![010_model_output/DinoManWoman_th25/012sC3Pna8iy.png](/010_model_output/DinoManWoman_th25/012sC3Pna8iy.png)
+![010_model_output/DinoManWoman_th25/032uK2Xwx8Az.png](/010_model_output/DinoManWoman_th25/032uK2Xwx8Az.png)
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
