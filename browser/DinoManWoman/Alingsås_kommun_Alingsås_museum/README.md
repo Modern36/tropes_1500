@@ -28,12 +28,12 @@ weighted avg       0.33      0.33      0.33         3
 ```
               precision    recall  f1-score   support
 
-           0       0.00      0.00      0.00       2.0
-           1       0.00      0.00      0.00       1.0
+           0       1.00      0.50      0.67         2
+           1       0.50      1.00      0.67         1
 
-    accuracy                           0.00       3.0
-   macro avg       0.00      0.00      0.00       3.0
-weighted avg       0.00      0.00      0.00       3.0
+    accuracy                           0.67         3
+   macro avg       0.75      0.75      0.67         3
+weighted avg       0.83      0.67      0.67         3
 
 ```
 
@@ -44,27 +44,14 @@ weighted avg       0.00      0.00      0.00       3.0
 ```
               precision    recall  f1-score   support
 
-           0       0.00      0.00      0.00       2.0
-           1       0.00      0.00      0.00       1.0
+           0       1.00      0.50      0.67         2
+           1       0.50      1.00      0.67         1
 
-    accuracy                           0.00       3.0
-   macro avg       0.00      0.00      0.00       3.0
-weighted avg       0.00      0.00      0.00       3.0
+    accuracy                           0.67         3
+   macro avg       0.75      0.75      0.67         3
+weighted avg       0.83      0.67      0.67         3
 
 ```
-
-
-
-## 03346wnnBT19
-
-![010_model_output/DinoManWoman_th25/03346wnnBT19.png](/010_model_output/DinoManWoman_th25/03346wnnBT19.png)
-
-| label | GT | Pred | accurate |
-|:----|----|----|----|
-| Man | 1 | 0 | 🟥 |
-| Woman | 1 | 0 | 🟥 |
-| Person | 1 | 0 | 🟥 |
-
 
 
 
@@ -90,3 +77,16 @@ weighted avg       0.00      0.00      0.00       3.0
 | Man | 0 | 1 | 🟥 |
 | Woman | 0 | 1 | 🟥 |
 | Person | 0 | 1 | 🟥 |
+
+
+
+
+## 03346wnnBT19
+
+![010_model_output/DinoManWoman_th25/03346wnnBT19.png](/010_model_output/DinoManWoman_th25/03346wnnBT19.png)
+
+| label | GT | Pred | accurate |
+|:----|----|----|----|
+| Man | 1 | 0 | 🟥 |
+| Woman | 1 | 0 | 🟥 |
+| Person | 1 | 0 | 🟥 |

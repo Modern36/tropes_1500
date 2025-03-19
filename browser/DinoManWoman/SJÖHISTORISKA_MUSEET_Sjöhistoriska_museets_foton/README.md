@@ -28,12 +28,12 @@ weighted avg       0.67      0.33      0.38        30
 ```
               precision    recall  f1-score   support
 
-           0       0.50      0.19      0.27        16
-           1       0.46      0.79      0.58        14
+           0       0.67      0.25      0.36        16
+           1       0.50      0.86      0.63        14
 
-    accuracy                           0.47        30
-   macro avg       0.48      0.49      0.43        30
-weighted avg       0.48      0.47      0.42        30
+    accuracy                           0.53        30
+   macro avg       0.58      0.55      0.50        30
+weighted avg       0.59      0.53      0.49        30
 
 ```
 
@@ -44,14 +44,92 @@ weighted avg       0.48      0.47      0.42        30
 ```
               precision    recall  f1-score   support
 
-           0       0.20      0.08      0.11        13
-           1       0.52      0.76      0.62        17
+           0       0.60      0.23      0.33        13
+           1       0.60      0.88      0.71        17
 
-    accuracy                           0.47        30
-   macro avg       0.36      0.42      0.37        30
-weighted avg       0.38      0.47      0.40        30
+    accuracy                           0.60        30
+   macro avg       0.60      0.56      0.52        30
+weighted avg       0.60      0.60      0.55        30
 
 ```
+
+
+
+## 012uP2GSpkaj
+
+![010_model_output/DinoManWoman_th25/012uP2GSpkaj.png](/010_model_output/DinoManWoman_th25/012uP2GSpkaj.png)
+
+| label | GT | Pred | accurate |
+|:----|----|----|----|
+| Man | 0 | 0 | 🟢 |
+| Woman | 0 | 0 | 🟢 |
+| Person | 0 | 0 | 🟢 |
+
+
+
+
+## 032wY1ALd5Cz
+
+![010_model_output/DinoManWoman_th25/032wY1ALd5Cz.png](/010_model_output/DinoManWoman_th25/032wY1ALd5Cz.png)
+
+| label | GT | Pred | accurate |
+|:----|----|----|----|
+| Man | 0 | 1 | 🟥 |
+| Woman | 0 | 1 | 🟥 |
+| Person | 1 | 1 | 🟢 |
+
+
+
+
+## 012uP2GaHPDw
+
+![010_model_output/DinoManWoman_th25/012uP2GaHPDw.png](/010_model_output/DinoManWoman_th25/012uP2GaHPDw.png)
+
+| label | GT | Pred | accurate |
+|:----|----|----|----|
+| Man | 1 | 1 | 🟢 |
+| Woman | 0 | 1 | 🟥 |
+| Person | 1 | 1 | 🟢 |
+
+
+
+
+## 032yiVipmtzt
+
+![010_model_output/DinoManWoman_th25/032yiVipmtzt.png](/010_model_output/DinoManWoman_th25/032yiVipmtzt.png)
+
+| label | GT | Pred | accurate |
+|:----|----|----|----|
+| Man | 0 | 0 | 🟢 |
+| Woman | 0 | 0 | 🟢 |
+| Person | 0 | 0 | 🟢 |
+
+
+
+
+## 032wY1AHf6Lf
+
+![010_model_output/DinoManWoman_th25/032wY1AHf6Lf.png](/010_model_output/DinoManWoman_th25/032wY1AHf6Lf.png)
+
+| label | GT | Pred | accurate |
+|:----|----|----|----|
+| Man | 1 | 1 | 🟢 |
+| Woman | 1 | 1 | 🟢 |
+| Person | 1 | 1 | 🟢 |
+
+
+
+
+## 032wY1ALe5RZ
+
+![010_model_output/DinoManWoman_th25/032wY1ALe5RZ.png](/010_model_output/DinoManWoman_th25/032wY1ALe5RZ.png)
+
+| label | GT | Pred | accurate |
+|:----|----|----|----|
+| Man | 0 | 1 | 🟥 |
+| Woman | 0 | 1 | 🟥 |
+| Person | 0 | 1 | 🟥 |
+
 
 
 
@@ -64,6 +142,214 @@ weighted avg       0.38      0.47      0.40        30
 | Man | 0 | 1 | 🟥 |
 | Woman | 0 | 0 | 🟢 |
 | Person | 0 | 1 | 🟥 |
+
+
+
+
+## 032wY13yUA7U
+
+![010_model_output/DinoManWoman_th25/032wY13yUA7U.png](/010_model_output/DinoManWoman_th25/032wY13yUA7U.png)
+
+| label | GT | Pred | accurate |
+|:----|----|----|----|
+| Man | 1 | 1 | 🟢 |
+| Woman | 0 | 1 | 🟥 |
+| Person | 1 | 1 | 🟢 |
+
+
+
+
+## 032wY1AHf6Ld
+
+![010_model_output/DinoManWoman_th25/032wY1AHf6Ld.png](/010_model_output/DinoManWoman_th25/032wY1AHf6Ld.png)
+
+| label | GT | Pred | accurate |
+|:----|----|----|----|
+| Man | 1 | 1 | 🟢 |
+| Woman | 0 | 1 | 🟥 |
+| Person | 1 | 1 | 🟢 |
+
+
+
+
+## 022wY13yUqJg
+
+![010_model_output/DinoManWoman_th25/022wY13yUqJg.png](/010_model_output/DinoManWoman_th25/022wY13yUqJg.png)
+
+| label | GT | Pred | accurate |
+|:----|----|----|----|
+| Man | 0 | 1 | 🟥 |
+| Woman | 0 | 0 | 🟢 |
+| Person | 0 | 1 | 🟥 |
+
+
+
+
+## 022wY1AK95hK
+
+![010_model_output/DinoManWoman_th25/022wY1AK95hK.png](/010_model_output/DinoManWoman_th25/022wY1AK95hK.png)
+
+| label | GT | Pred | accurate |
+|:----|----|----|----|
+| Man | 1 | 1 | 🟢 |
+| Woman | 1 | 1 | 🟢 |
+| Person | 1 | 1 | 🟢 |
+
+
+
+
+## 022wY13vVWSC
+
+![010_model_output/DinoManWoman_th25/022wY13vVWSC.png](/010_model_output/DinoManWoman_th25/022wY13vVWSC.png)
+
+| label | GT | Pred | accurate |
+|:----|----|----|----|
+| Man | 1 | 1 | 🟢 |
+| Woman | 0 | 1 | 🟥 |
+| Person | 1 | 1 | 🟢 |
+
+
+
+
+## 012uP23VCiZy
+
+![010_model_output/DinoManWoman_th25/012uP23VCiZy.png](/010_model_output/DinoManWoman_th25/012uP23VCiZy.png)
+
+| label | GT | Pred | accurate |
+|:----|----|----|----|
+| Man | 0 | 0 | 🟢 |
+| Woman | 0 | 0 | 🟢 |
+| Person | 0 | 0 | 🟢 |
+
+
+
+
+## 012uP2GVqRNt
+
+![010_model_output/DinoManWoman_th25/012uP2GVqRNt.png](/010_model_output/DinoManWoman_th25/012uP2GVqRNt.png)
+
+| label | GT | Pred | accurate |
+|:----|----|----|----|
+| Man | 0 | 1 | 🟥 |
+| Woman | 0 | 1 | 🟥 |
+| Person | 0 | 1 | 🟥 |
+
+
+
+
+## 012uN2cmeDdz
+
+![010_model_output/DinoManWoman_th25/012uN2cmeDdz.png](/010_model_output/DinoManWoman_th25/012uN2cmeDdz.png)
+
+| label | GT | Pred | accurate |
+|:----|----|----|----|
+| Man | 1 | 1 | 🟢 |
+| Woman | 0 | 1 | 🟥 |
+| Person | 1 | 1 | 🟢 |
+
+
+
+
+## 012uMWwjtxDk
+
+![010_model_output/DinoManWoman_th25/012uMWwjtxDk.png](/010_model_output/DinoManWoman_th25/012uMWwjtxDk.png)
+
+| label | GT | Pred | accurate |
+|:----|----|----|----|
+| Man | 1 | 0 | 🟥 |
+| Woman | 0 | 1 | 🟥 |
+| Person | 1 | 1 | 🟢 |
+
+
+
+
+## 032yiVipmtqw
+
+![010_model_output/DinoManWoman_th25/032yiVipmtqw.png](/010_model_output/DinoManWoman_th25/032yiVipmtqw.png)
+
+| label | GT | Pred | accurate |
+|:----|----|----|----|
+| Man | 0 | 0 | 🟢 |
+| Woman | 0 | 0 | 🟢 |
+| Person | 0 | 0 | 🟢 |
+
+
+
+
+## 022wY13vVAj1
+
+![010_model_output/DinoManWoman_th25/022wY13vVAj1.png](/010_model_output/DinoManWoman_th25/022wY13vVAj1.png)
+
+| label | GT | Pred | accurate |
+|:----|----|----|----|
+| Man | 0 | 1 | 🟥 |
+| Woman | 0 | 1 | 🟥 |
+| Person | 1 | 1 | 🟢 |
+
+
+
+
+## 012uMX4MrQaz
+
+![010_model_output/DinoManWoman_th25/012uMX4MrQaz.png](/010_model_output/DinoManWoman_th25/012uMX4MrQaz.png)
+
+| label | GT | Pred | accurate |
+|:----|----|----|----|
+| Man | 1 | 1 | 🟢 |
+| Woman | 0 | 1 | 🟥 |
+| Person | 1 | 1 | 🟢 |
+
+
+
+
+## 032wY1AHdkwr
+
+![010_model_output/DinoManWoman_th25/032wY1AHdkwr.png](/010_model_output/DinoManWoman_th25/032wY1AHdkwr.png)
+
+| label | GT | Pred | accurate |
+|:----|----|----|----|
+| Man | 0 | 1 | 🟥 |
+| Woman | 1 | 1 | 🟢 |
+| Person | 1 | 1 | 🟢 |
+
+
+
+
+## 022wY13vVAxA
+
+![010_model_output/DinoManWoman_th25/022wY13vVAxA.png](/010_model_output/DinoManWoman_th25/022wY13vVAxA.png)
+
+| label | GT | Pred | accurate |
+|:----|----|----|----|
+| Man | 1 | 1 | 🟢 |
+| Woman | 0 | 1 | 🟥 |
+| Person | 1 | 1 | 🟢 |
+
+
+
+
+## 012uN2cmdZ8W
+
+![010_model_output/DinoManWoman_th25/012uN2cmdZ8W.png](/010_model_output/DinoManWoman_th25/012uN2cmdZ8W.png)
+
+| label | GT | Pred | accurate |
+|:----|----|----|----|
+| Man | 0 | 1 | 🟥 |
+| Woman | 0 | 0 | 🟢 |
+| Person | 0 | 1 | 🟥 |
+
+
+
+
+## 022wY1AK8k8w
+
+![010_model_output/DinoManWoman_th25/022wY1AK8k8w.png](/010_model_output/DinoManWoman_th25/022wY1AK8k8w.png)
+
+| label | GT | Pred | accurate |
+|:----|----|----|----|
+| Man | 1 | 1 | 🟢 |
+| Woman | 0 | 1 | 🟥 |
+| Person | 1 | 1 | 🟢 |
 
 
 
@@ -81,15 +367,15 @@ weighted avg       0.38      0.47      0.40        30
 
 
 
-## 022wY13vVWSC
+## 012uP23Jo832
 
-![010_model_output/DinoManWoman_th25/022wY13vVWSC.png](/010_model_output/DinoManWoman_th25/022wY13vVWSC.png)
+![010_model_output/DinoManWoman_th25/012uP23Jo832.png](/010_model_output/DinoManWoman_th25/012uP23Jo832.png)
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 1 | 1 | 🟢 |
-| Woman | 0 | 1 | 🟥 |
-| Person | 1 | 1 | 🟢 |
+| Man | 0 | 1 | 🟥 |
+| Woman | 0 | 0 | 🟢 |
+| Person | 0 | 1 | 🟥 |
 
 
 
@@ -120,19 +406,6 @@ weighted avg       0.38      0.47      0.40        30
 
 
 
-## 012uP2GVqRNt
-
-![010_model_output/DinoManWoman_th25/012uP2GVqRNt.png](/010_model_output/DinoManWoman_th25/012uP2GVqRNt.png)
-
-| label | GT | Pred | accurate |
-|:----|----|----|----|
-| Man | 0 | 1 | 🟥 |
-| Woman | 0 | 1 | 🟥 |
-| Person | 0 | 1 | 🟥 |
-
-
-
-
 ## 032wY1AHfSMV
 
 ![010_model_output/DinoManWoman_th25/032wY1AHfSMV.png](/010_model_output/DinoManWoman_th25/032wY1AHfSMV.png)
@@ -140,188 +413,6 @@ weighted avg       0.38      0.47      0.40        30
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 1 | 🟢 |
-| Woman | 1 | 1 | 🟢 |
-| Person | 1 | 1 | 🟢 |
-
-
-
-
-## 022wY13yUqJg
-
-![010_model_output/DinoManWoman_th25/022wY13yUqJg.png](/010_model_output/DinoManWoman_th25/022wY13yUqJg.png)
-
-| label | GT | Pred | accurate |
-|:----|----|----|----|
-| Man | 0 | 1 | 🟥 |
-| Woman | 0 | 0 | 🟢 |
-| Person | 0 | 1 | 🟥 |
-
-
-
-
-## 012uP2GaHPDw
-
-![010_model_output/DinoManWoman_th25/012uP2GaHPDw.png](/010_model_output/DinoManWoman_th25/012uP2GaHPDw.png)
-
-| label | GT | Pred | accurate |
-|:----|----|----|----|
-| Man | 1 | 1 | 🟢 |
-| Woman | 0 | 1 | 🟥 |
-| Person | 1 | 1 | 🟢 |
-
-
-
-
-## 022wY13vVAxA
-
-![010_model_output/DinoManWoman_th25/022wY13vVAxA.png](/010_model_output/DinoManWoman_th25/022wY13vVAxA.png)
-
-| label | GT | Pred | accurate |
-|:----|----|----|----|
-| Man | 1 | 1 | 🟢 |
-| Woman | 0 | 1 | 🟥 |
-| Person | 1 | 1 | 🟢 |
-
-
-
-
-## 012uP23VCiZy
-
-![010_model_output/DinoManWoman_th25/012uP23VCiZy.png](/010_model_output/DinoManWoman_th25/012uP23VCiZy.png)
-
-| label | GT | Pred | accurate |
-|:----|----|----|----|
-| Man | 0 | 0 | 🟢 |
-| Woman | 0 | 0 | 🟢 |
-| Person | 0 | 0 | 🟢 |
-
-
-
-
-## 032wY1ALd5Cz
-
-![010_model_output/DinoManWoman_th25/032wY1ALd5Cz.png](/010_model_output/DinoManWoman_th25/032wY1ALd5Cz.png)
-
-| label | GT | Pred | accurate |
-|:----|----|----|----|
-| Man | 0 | 1 | 🟥 |
-| Woman | 0 | 1 | 🟥 |
-| Person | 1 | 1 | 🟢 |
-
-
-
-
-## 032wY13yUA7U
-
-![010_model_output/DinoManWoman_th25/032wY13yUA7U.png](/010_model_output/DinoManWoman_th25/032wY13yUA7U.png)
-
-| label | GT | Pred | accurate |
-|:----|----|----|----|
-| Man | 1 | 1 | 🟢 |
-| Woman | 0 | 1 | 🟥 |
-| Person | 1 | 1 | 🟢 |
-
-
-
-
-## 032wY1AHf6Lf
-
-![010_model_output/DinoManWoman_th25/032wY1AHf6Lf.png](/010_model_output/DinoManWoman_th25/032wY1AHf6Lf.png)
-
-| label | GT | Pred | accurate |
-|:----|----|----|----|
-| Man | 1 | 1 | 🟢 |
-| Woman | 1 | 1 | 🟢 |
-| Person | 1 | 1 | 🟢 |
-
-
-
-
-## 012uMX4MrQaz
-
-![010_model_output/DinoManWoman_th25/012uMX4MrQaz.png](/010_model_output/DinoManWoman_th25/012uMX4MrQaz.png)
-
-| label | GT | Pred | accurate |
-|:----|----|----|----|
-| Man | 1 | 1 | 🟢 |
-| Woman | 0 | 1 | 🟥 |
-| Person | 1 | 1 | 🟢 |
-
-
-
-
-## 032yiVipmtzt
-
-![010_model_output/DinoManWoman_th25/032yiVipmtzt.png](/010_model_output/DinoManWoman_th25/032yiVipmtzt.png)
-
-| label | GT | Pred | accurate |
-|:----|----|----|----|
-| Man | 0 | 0 | 🟢 |
-| Woman | 0 | 0 | 🟢 |
-| Person | 0 | 0 | 🟢 |
-
-
-
-
-## 032wY1ALe5RZ
-
-![010_model_output/DinoManWoman_th25/032wY1ALe5RZ.png](/010_model_output/DinoManWoman_th25/032wY1ALe5RZ.png)
-
-| label | GT | Pred | accurate |
-|:----|----|----|----|
-| Man | 0 | 1 | 🟥 |
-| Woman | 0 | 1 | 🟥 |
-| Person | 0 | 1 | 🟥 |
-
-
-
-
-## 022wY13vVAj1
-
-![010_model_output/DinoManWoman_th25/022wY13vVAj1.png](/010_model_output/DinoManWoman_th25/022wY13vVAj1.png)
-
-| label | GT | Pred | accurate |
-|:----|----|----|----|
-| Man | 0 | 1 | 🟥 |
-| Woman | 0 | 1 | 🟥 |
-| Person | 1 | 1 | 🟢 |
-
-
-
-
-## 012uP2GSpkaj
-
-![010_model_output/DinoManWoman_th25/012uP2GSpkaj.png](/010_model_output/DinoManWoman_th25/012uP2GSpkaj.png)
-
-| label | GT | Pred | accurate |
-|:----|----|----|----|
-| Man | 0 | 0 | 🟢 |
-| Woman | 0 | 0 | 🟢 |
-| Person | 0 | 0 | 🟢 |
-
-
-
-
-## 012uMWwjtxDk
-
-![010_model_output/DinoManWoman_th25/012uMWwjtxDk.png](/010_model_output/DinoManWoman_th25/012uMWwjtxDk.png)
-
-| label | GT | Pred | accurate |
-|:----|----|----|----|
-| Man | 1 | 0 | 🟥 |
-| Woman | 0 | 1 | 🟥 |
-| Person | 1 | 1 | 🟢 |
-
-
-
-
-## 032wY1AHdkwr
-
-![010_model_output/DinoManWoman_th25/032wY1AHdkwr.png](/010_model_output/DinoManWoman_th25/032wY1AHdkwr.png)
-
-| label | GT | Pred | accurate |
-|:----|----|----|----|
-| Man | 0 | 1 | 🟥 |
 | Woman | 1 | 1 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
@@ -341,58 +432,6 @@ weighted avg       0.38      0.47      0.40        30
 
 
 
-## 032wY1AHf6Ld
-
-![010_model_output/DinoManWoman_th25/032wY1AHf6Ld.png](/010_model_output/DinoManWoman_th25/032wY1AHf6Ld.png)
-
-| label | GT | Pred | accurate |
-|:----|----|----|----|
-| Man | 1 | 1 | 🟢 |
-| Woman | 0 | 1 | 🟥 |
-| Person | 1 | 1 | 🟢 |
-
-
-
-
-## 012uP23Jo832
-
-![010_model_output/DinoManWoman_th25/012uP23Jo832.png](/010_model_output/DinoManWoman_th25/012uP23Jo832.png)
-
-| label | GT | Pred | accurate |
-|:----|----|----|----|
-| Man | 0 | 1 | 🟥 |
-| Woman | 0 | 0 | 🟢 |
-| Person | 0 | 1 | 🟥 |
-
-
-
-
-## 012uN2cmeDdz
-
-![010_model_output/DinoManWoman_th25/012uN2cmeDdz.png](/010_model_output/DinoManWoman_th25/012uN2cmeDdz.png)
-
-| label | GT | Pred | accurate |
-|:----|----|----|----|
-| Man | 1 | 1 | 🟢 |
-| Woman | 0 | 1 | 🟥 |
-| Person | 1 | 1 | 🟢 |
-
-
-
-
-## 012uN2cmdZ8W
-
-![010_model_output/DinoManWoman_th25/012uN2cmdZ8W.png](/010_model_output/DinoManWoman_th25/012uN2cmdZ8W.png)
-
-| label | GT | Pred | accurate |
-|:----|----|----|----|
-| Man | 0 | 1 | 🟥 |
-| Woman | 0 | 0 | 🟢 |
-| Person | 0 | 1 | 🟥 |
-
-
-
-
 ## 032wXW49uY1P
 
 ![010_model_output/DinoManWoman_th25/032wXW49uY1P.png](/010_model_output/DinoManWoman_th25/032wXW49uY1P.png)
@@ -401,43 +440,4 @@ weighted avg       0.38      0.47      0.40        30
 |:----|----|----|----|
 | Man | 1 | 1 | 🟢 |
 | Woman | 0 | 1 | 🟥 |
-| Person | 1 | 1 | 🟢 |
-
-
-
-
-## 022wY1AK8k8w
-
-![010_model_output/DinoManWoman_th25/022wY1AK8k8w.png](/010_model_output/DinoManWoman_th25/022wY1AK8k8w.png)
-
-| label | GT | Pred | accurate |
-|:----|----|----|----|
-| Man | 1 | 1 | 🟢 |
-| Woman | 0 | 1 | 🟥 |
-| Person | 1 | 1 | 🟢 |
-
-
-
-
-## 032yiVipmtqw
-
-![010_model_output/DinoManWoman_th25/032yiVipmtqw.png](/010_model_output/DinoManWoman_th25/032yiVipmtqw.png)
-
-| label | GT | Pred | accurate |
-|:----|----|----|----|
-| Man | 0 | 0 | 🟢 |
-| Woman | 0 | 0 | 🟢 |
-| Person | 0 | 0 | 🟢 |
-
-
-
-
-## 022wY1AK95hK
-
-![010_model_output/DinoManWoman_th25/022wY1AK95hK.png](/010_model_output/DinoManWoman_th25/022wY1AK95hK.png)
-
-| label | GT | Pred | accurate |
-|:----|----|----|----|
-| Man | 1 | 1 | 🟢 |
-| Woman | 1 | 1 | 🟢 |
 | Person | 1 | 1 | 🟢 |
