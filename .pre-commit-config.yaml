@@ -20,11 +20,11 @@ repos:
     rev: 22.10.0
     hooks:
     -   id: black
-# -   repo: local
-#     hooks:
-#     -   id: pytest-check
-#         name: pytest-check
-#         always_run: true
-#         entry: pytest
-#         language: system
-#         pass_filenames: false
+-   repo: local
+    hooks:
+    -   id: pytest-check
+        name: pytest-check
+        always_run: true
+        entry: pytest
+        language: system
+        pass_filenames: false

@@ -1,0 +1,244 @@
+import sqlite3
+from pathlib import Path
+
+from sklearn.metrics import classification_report
+
+from build_db import build_db
+from trope_paths import (
+    browser_root,
+    db_path,
+    model_output,
+    output_dir,
+    raw_dir,
+)
+
+
+def remove_directory_tree(path: Path = browser_root):
+    if not path.exists():
+        return
+    for child in path.iterdir():
+        if child.is_file():
+            child.unlink()
+        elif child.is_dir():
+            remove_directory_tree(child)
+    path.rmdir()
+
+
+def calculate_report(conn, model, collection=None):
+    query = "select found from prediction "
+    if collection:
+        query += "join images on prediction.image_id == images.image_id "
+    query += "where model == :model and label == :label "
+    if collection:
+        query += " and collection_name == :collection_name"
+
+    str_report = "\n\n\n"
+
+    for label in "wmp":
+
+        gt = [
+            label
+            for label, *_ in conn.execute(
+                query,
+                {
+                    "collection_name": collection,
+                    "model": "GroundTruth",
+                    "label": label,
+                },
+            )
+        ]
+        pred = [
+            label
+            for label, *_ in conn.execute(
+                query,
+                {
+                    "collection_name": collection,
+                    "model": model,
+                    "label": label,
+                },
+            )
+        ]
+
+        if len(gt) == len(pred) and len(set(gt) | set(pred)) > 1:
+
+            label_report = classification_report(gt, pred, zero_division=False)
+
+            str_report += f"""
+
+## Label: {label}
+
+```
+{label_report}
+```
+
+"""
+    return str_report
+
+
+# Create tree structure for .md files
+def build_tree():
+    # First we remove the old
+    remove_directory_tree()
+
+    # And re-create:
+    browser_root.mkdir()
+
+    with sqlite3.connect(db_path) as conn:
+        models = {
+            _[0]
+            for _ in conn.execute(
+                "select distinct model from prediction"
+            ).fetchall()
+        } - {
+            "GroundTruth",
+        }
+        collections = (
+            [(None, None)]
+            + list(
+                set(
+                    conn.execute(
+                        "select distinct collection_owner_name, collection_name from images"
+                    ).fetchall()
+                )
+            )
+            + []
+        )
+        for model in models:
+            model_dir = browser_root / model.replace(" ", "_")
+            model_dir.mkdir()
+            for collection in collections:
+                if collection[0] is None:
+                    collection_str = "1500_ALL"
+                else:
+                    collection_str = "_".join(collection).replace(" ", "_")
+                coll_dir = model_dir / collection_str
+                coll_dir.mkdir()
+
+                image_count = len(list(get_images(conn, model, collection[1])))
+
+                report = calculate_report(
+                    conn, model=model, collection=collection[1]
+                )
+
+                # Create a README.md file for each collection directory
+                readme_path = coll_dir / "README.md"
+                with open(readme_path, "w") as f:
+                    f.write(f"# Collection: {collection[1]}\n")
+                    f.write(f"Owner: {collection[0]}\n\n")
+                    f.write(
+                        f"This file contains {image_count} images processed by the model: {model}\n"
+                    )
+
+                    f.write(report)
+
+                    for image_data in get_images(conn, model, collection[1]):
+                        f.write(image_data_to_str(*image_data, model=model))
+            readme_path = model_dir / "README.md"
+            with open(readme_path, "w") as f:
+                f.write(f"# Collection: {model}\n")
+                f.write(
+                    f"This file contains {1500} images processed by the model: {model}\n"
+                )
+
+                for image_data in get_images(conn, model):
+                    f.write(image_data_to_str(*image_data, model=model))
+
+
+def get_images(conn, model, collection_name=None):
+    if collection_name is not None:
+        query = (
+            "select * from images where collection_name == :collection_name"
+        )
+    else:
+        query = "select * from images"
+    for image_row in conn.execute(
+        query,
+        {"collection_name": collection_name},
+    ):
+        image_id, *_ = image_row
+        gt = {
+            label: found
+            for label, found in conn.execute(
+                "select label, found from prediction where image_id == :image_id and model == :model",
+                {
+                    "image_id": image_id,
+                    "model": "GroundTruth",
+                },
+            )
+        }
+        pred = {
+            label: found
+            for label, found in conn.execute(
+                "select label, found from prediction where image_id == :image_id and model == :model",
+                {
+                    "image_id": image_id,
+                    "model": model,
+                },
+            )
+        }
+        yield image_id, gt, pred
+
+
+model_to_subdir = {
+    "DinoManWoman": model_output / "DinoManWoman_th25",
+    "DinoWomanMan": model_output / "DinoWomanMan_th25",
+    "DinoMan": model_output / "DinoMan_th25",
+    "DinoWoman": model_output / "DinoWoman_th25",
+    "YOLO_50": model_output / "yolos-pretrained_th50",
+    "YOLO_75": model_output / "yolos-pretrained_th75",
+    "YOLO_90": model_output / "yolos-pretrained_th90",
+}
+
+emojis = {0: "🟥", 1: "🟢"}
+
+
+def resolve_image_path(image, model):
+    image_dir = model_to_subdir[model]
+
+    image_loc = image_dir / (image + ".png")
+    if image_loc.exists():
+        return image_loc
+
+    if model == "YOLO_50":
+        return resolve_image_path(image, "YOLO_75")
+    elif model == "YOLO_75":
+        return resolve_image_path(image, "YOLO_90")
+    else:
+        return raw_dir / (image + ".png")
+
+
+def image_data_to_str(image: str, gt: dict, pred: dict, model):
+    # temporary going to default image
+    image_loc = resolve_image_path(image, model)
+
+    relative_loc = image_loc.relative_to(output_dir)
+
+    if not relative_loc.exists():
+        raise Warning(f"{image_loc.relative_to(raw_dir)} does not exist")
+
+    result = f"""
+
+## {image}
+
+![{relative_loc}](/{relative_loc})
+
+| label | GT | Pred | accurate |
+|:----|----|----|----|"""
+    for label, l in [
+        ("Man", "m"),
+        ("Woman", "w"),
+        ("Person", "p"),
+    ]:
+        if l in pred.keys():
+            ground = gt[l]
+            prediction = pred[l]
+            marker = emojis[ground == prediction]
+            result += f"""
+| {label} | {ground} | {prediction} | {marker} |"""
+    return result + "\n\n\n"
+
+
+if __name__ == "__main__":
+    build_db()
+
+    build_tree()

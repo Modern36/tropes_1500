@@ -23,8 +23,12 @@ moon_tmp_qa.mkdir(parents=True, exist_ok=True)
 detections = output_dir / "999_detect_data"
 data_file = output_dir / "data.csv"
 
+browser_root = output_dir / "browser"
 moondream_model = output_dir / "moondreammodel" / "moondream-2b-int8.mf"
 
 
 def read_data():
     return pd.read_csv(data_file, index_col=None)
+
+
+db_path = output_dir / "db.sqlite3"
