@@ -167,6 +167,24 @@ def build_db():
             """
         )
 
+        conn.execute(
+            """
+        CREATE table  yolo (
+            image_id text,
+            label,
+            threshold
+            )
+            """
+        )
+
+        conn.execute(
+            """
+        CREATE unique index yolo_objects on yolo (
+            image_id,
+            )
+            """
+        )
+
         add_model_output(conn, load_ground_truth())
 
         add_model_output(conn, load_yolo())
