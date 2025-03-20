@@ -21,6 +21,72 @@ weighted avg       0.93      0.93      0.93      1500
 
 ```
 
+| Label | Items | Images |
+|:--- | ---:| ---:|
+| person | 6923 | 849 |
+| tie | 1598 | 339 |
+| chair | 812 | 185 |
+| boat | 553 | 112 |
+| bench | 227 | 118 |
+| car | 214 | 86 |
+| book | 204 | 27 |
+| dining table | 185 | 84 |
+| vase | 182 | 53 |
+| train | 179 | 103 |
+| potted plant | 153 | 67 |
+| cup | 142 | 30 |
+| truck | 136 | 61 |
+| bicycle | 128 | 52 |
+| bird | 98 | 27 |
+| horse | 83 | 23 |
+| wine glass | 83 | 11 |
+| clock | 81 | 58 |
+| bottle | 78 | 19 |
+| handbag | 71 | 49 |
+| sheep | 67 | 8 |
+| bowl | 54 | 26 |
+| skis | 50 | 12 |
+| umbrella | 47 | 21 |
+| couch | 33 | 20 |
+| dog | 27 | 19 |
+| bed | 25 | 16 |
+| cake | 23 | 7 |
+| bus | 22 | 18 |
+| knife | 18 | 10 |
+| kite | 16 | 9 |
+| airplane | 15 | 12 |
+| oven | 13 | 8 |
+| traffic light | 12 | 9 |
+| sink | 12 | 7 |
+| motorcycle | 11 | 7 |
+| teddy bear | 11 | 5 |
+| cell phone | 10 | 9 |
+| backpack | 10 | 8 |
+| suitcase | 10 | 7 |
+| cow | 9 | 3 |
+| baseball bat | 7 | 6 |
+| sports ball | 6 | 5 |
+| fork | 6 | 4 |
+| tennis racket | 5 | 5 |
+| cat | 5 | 4 |
+| baseball glove | 5 | 1 |
+| fire hydrant | 4 | 4 |
+| tv | 4 | 4 |
+| banana | 4 | 3 |
+| elephant | 3 | 2 |
+| frisbee | 3 | 1 |
+| toothbrush | 3 | 1 |
+| stop sign | 2 | 2 |
+| snowboard | 2 | 1 |
+| donut | 1 | 1 |
+| laptop | 1 | 1 |
+| microwave | 1 | 1 |
+| refrigerator | 1 | 1 |
+| remote | 1 | 1 |
+| scissors | 1 | 1 |
+| skateboard | 1 | 1 |
+| spoon | 1 | 1 |
+| surfboard | 1 | 1 |
 
 
 ## 012sB2qcAzs2

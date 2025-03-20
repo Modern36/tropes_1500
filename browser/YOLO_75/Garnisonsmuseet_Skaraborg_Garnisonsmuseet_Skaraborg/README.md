@@ -5,6 +5,21 @@ This file contains 20 images processed by the model: YOLO_75
 
 
 
+| Label | Items | Images |
+|:--- | ---:| ---:|
+| person | 295 | 20 |
+| tie | 51 | 8 |
+| bicycle | 13 | 4 |
+| bench | 9 | 5 |
+| book | 5 | 1 |
+| motorcycle | 4 | 3 |
+| handbag | 3 | 2 |
+| horse | 3 | 1 |
+| backpack | 2 | 2 |
+| chair | 2 | 1 |
+| baseball bat | 1 | 1 |
+| clock | 1 | 1 |
+| train | 1 | 1 |
 
 
 ## 013AmPFSTbaP

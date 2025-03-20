@@ -21,6 +21,24 @@ weighted avg       0.96      0.96      0.96        76
 
 ```
 
+| Label | Items | Images |
+|:--- | ---:| ---:|
+| person | 177 | 38 |
+| tie | 79 | 19 |
+| chair | 21 | 7 |
+| wine glass | 9 | 1 |
+| boat | 8 | 3 |
+| vase | 7 | 3 |
+| clock | 5 | 3 |
+| bench | 4 | 4 |
+| dining table | 4 | 2 |
+| horse | 4 | 2 |
+| bicycle | 2 | 2 |
+| bus | 2 | 2 |
+| car | 2 | 2 |
+| potted plant | 2 | 2 |
+| baseball bat | 1 | 1 |
+| cup | 1 | 1 |
 
 
 ## 022wY1qbq4WU

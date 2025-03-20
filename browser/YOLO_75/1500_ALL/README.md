@@ -21,6 +21,68 @@ weighted avg       0.94      0.94      0.94      1500
 
 ```
 
+| Label | Items | Images |
+|:--- | ---:| ---:|
+| person | 4952 | 811 |
+| tie | 1116 | 313 |
+| chair | 479 | 160 |
+| boat | 329 | 95 |
+| train | 138 | 89 |
+| bench | 138 | 78 |
+| book | 137 | 21 |
+| vase | 134 | 47 |
+| car | 118 | 62 |
+| dining table | 113 | 67 |
+| potted plant | 94 | 55 |
+| bicycle | 82 | 42 |
+| cup | 81 | 22 |
+| truck | 67 | 41 |
+| clock | 61 | 48 |
+| wine glass | 58 | 8 |
+| horse | 55 | 21 |
+| bird | 51 | 16 |
+| bottle | 49 | 11 |
+| sheep | 37 | 6 |
+| handbag | 31 | 25 |
+| umbrella | 30 | 14 |
+| bowl | 29 | 19 |
+| skis | 27 | 11 |
+| bed | 19 | 13 |
+| bus | 18 | 16 |
+| couch | 17 | 14 |
+| dog | 15 | 13 |
+| cake | 14 | 5 |
+| cell phone | 8 | 8 |
+| motorcycle | 8 | 5 |
+| oven | 7 | 6 |
+| teddy bear | 7 | 5 |
+| cow | 7 | 3 |
+| backpack | 6 | 6 |
+| kite | 6 | 6 |
+| airplane | 6 | 5 |
+| sink | 5 | 4 |
+| traffic light | 5 | 4 |
+| knife | 4 | 4 |
+| sports ball | 4 | 4 |
+| banana | 4 | 3 |
+| cat | 3 | 2 |
+| elephant | 3 | 2 |
+| frisbee | 3 | 1 |
+| baseball bat | 2 | 2 |
+| tennis racket | 2 | 2 |
+| tv | 2 | 2 |
+| suitcase | 2 | 1 |
+| baseball glove | 1 | 1 |
+| fire hydrant | 1 | 1 |
+| fork | 1 | 1 |
+| laptop | 1 | 1 |
+| refrigerator | 1 | 1 |
+| remote | 1 | 1 |
+| scissors | 1 | 1 |
+| snowboard | 1 | 1 |
+| stop sign | 1 | 1 |
+| surfboard | 1 | 1 |
+| toothbrush | 1 | 1 |
 
 
 ## 012sB2qcAzs2

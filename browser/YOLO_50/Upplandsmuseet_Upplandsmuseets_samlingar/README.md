@@ -21,6 +21,56 @@ weighted avg       0.95      0.95      0.95       206
 
 ```
 
+| Label | Items | Images |
+|:--- | ---:| ---:|
+| person | 1041 | 106 |
+| tie | 309 | 59 |
+| chair | 148 | 35 |
+| book | 71 | 8 |
+| vase | 69 | 18 |
+| cup | 68 | 11 |
+| dining table | 53 | 25 |
+| potted plant | 53 | 20 |
+| umbrella | 28 | 6 |
+| horse | 26 | 4 |
+| bench | 23 | 14 |
+| bottle | 23 | 8 |
+| handbag | 17 | 10 |
+| cake | 17 | 3 |
+| car | 16 | 7 |
+| truck | 13 | 7 |
+| boat | 13 | 5 |
+| clock | 10 | 8 |
+| bowl | 10 | 6 |
+| couch | 10 | 6 |
+| bicycle | 10 | 4 |
+| wine glass | 7 | 1 |
+| bed | 6 | 5 |
+| sink | 5 | 3 |
+| train | 5 | 3 |
+| bird | 4 | 3 |
+| tennis racket | 3 | 3 |
+| dog | 3 | 2 |
+| oven | 3 | 2 |
+| frisbee | 3 | 1 |
+| cell phone | 2 | 2 |
+| fork | 2 | 2 |
+| knife | 2 | 2 |
+| traffic light | 2 | 2 |
+| bus | 2 | 1 |
+| cat | 2 | 1 |
+| airplane | 1 | 1 |
+| banana | 1 | 1 |
+| cow | 1 | 1 |
+| fire hydrant | 1 | 1 |
+| laptop | 1 | 1 |
+| refrigerator | 1 | 1 |
+| remote | 1 | 1 |
+| sheep | 1 | 1 |
+| skateboard | 1 | 1 |
+| skis | 1 | 1 |
+| suitcase | 1 | 1 |
+| tv | 1 | 1 |
 
 
 ## 0331wxZ5SkKk

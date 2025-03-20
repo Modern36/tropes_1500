@@ -21,6 +21,46 @@ weighted avg       0.97      0.97      0.97       175
 
 ```
 
+| Label | Items | Images |
+|:--- | ---:| ---:|
+| person | 809 | 109 |
+| tie | 162 | 43 |
+| chair | 134 | 26 |
+| dining table | 28 | 12 |
+| skis | 25 | 9 |
+| vase | 21 | 6 |
+| boat | 20 | 9 |
+| bench | 18 | 11 |
+| car | 18 | 9 |
+| wine glass | 18 | 3 |
+| clock | 11 | 6 |
+| cup | 11 | 3 |
+| book | 10 | 3 |
+| horse | 9 | 4 |
+| handbag | 8 | 7 |
+| potted plant | 8 | 7 |
+| truck | 6 | 6 |
+| bicycle | 5 | 5 |
+| bowl | 5 | 4 |
+| dog | 4 | 3 |
+| teddy bear | 3 | 2 |
+| train | 3 | 2 |
+| backpack | 2 | 2 |
+| bottle | 2 | 2 |
+| cell phone | 2 | 2 |
+| couch | 2 | 2 |
+| sports ball | 2 | 2 |
+| banana | 2 | 1 |
+| sink | 2 | 1 |
+| baseball glove | 1 | 1 |
+| bird | 1 | 1 |
+| bus | 1 | 1 |
+| elephant | 1 | 1 |
+| knife | 1 | 1 |
+| oven | 1 | 1 |
+| sheep | 1 | 1 |
+| toothbrush | 1 | 1 |
+| umbrella | 1 | 1 |
 
 
 ## 032ykUgba9mr

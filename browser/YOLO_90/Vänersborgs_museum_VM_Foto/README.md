@@ -21,6 +21,23 @@ weighted avg       0.98      0.98      0.98        85
 
 ```
 
+| Label | Items | Images |
+|:--- | ---:| ---:|
+| person | 146 | 61 |
+| tie | 45 | 30 |
+| chair | 4 | 3 |
+| couch | 3 | 2 |
+| bed | 2 | 2 |
+| truck | 2 | 2 |
+| bicycle | 2 | 1 |
+| horse | 2 | 1 |
+| bird | 1 | 1 |
+| bus | 1 | 1 |
+| car | 1 | 1 |
+| cup | 1 | 1 |
+| dining table | 1 | 1 |
+| teddy bear | 1 | 1 |
+| umbrella | 1 | 1 |
 
 
 ## 012uPWMzZ28g

@@ -21,6 +21,40 @@ weighted avg       0.96      0.95      0.95       173
 
 ```
 
+| Label | Items | Images |
+|:--- | ---:| ---:|
+| person | 546 | 115 |
+| tie | 165 | 53 |
+| chair | 105 | 25 |
+| vase | 34 | 8 |
+| book | 34 | 3 |
+| potted plant | 32 | 8 |
+| bicycle | 25 | 6 |
+| bench | 23 | 13 |
+| dining table | 19 | 11 |
+| bird | 15 | 5 |
+| car | 14 | 9 |
+| clock | 8 | 7 |
+| sheep | 8 | 2 |
+| umbrella | 7 | 5 |
+| bed | 6 | 4 |
+| bowl | 6 | 3 |
+| boat | 5 | 2 |
+| couch | 4 | 3 |
+| horse | 4 | 2 |
+| truck | 3 | 2 |
+| cake | 3 | 1 |
+| cup | 2 | 2 |
+| dog | 2 | 2 |
+| tv | 2 | 2 |
+| cow | 2 | 1 |
+| airplane | 1 | 1 |
+| banana | 1 | 1 |
+| baseball bat | 1 | 1 |
+| bus | 1 | 1 |
+| cat | 1 | 1 |
+| motorcycle | 1 | 1 |
+| traffic light | 1 | 1 |
 
 
 ## 032ykz8TqUPm

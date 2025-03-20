@@ -21,6 +21,24 @@ weighted avg       0.91      0.90      0.90        30
 
 ```
 
+| Label | Items | Images |
+|:--- | ---:| ---:|
+| person | 130 | 20 |
+| boat | 122 | 20 |
+| bird | 14 | 3 |
+| tie | 13 | 5 |
+| chair | 5 | 3 |
+| dining table | 5 | 2 |
+| cup | 5 | 1 |
+| vase | 5 | 1 |
+| book | 1 | 1 |
+| bottle | 1 | 1 |
+| bowl | 1 | 1 |
+| car | 1 | 1 |
+| handbag | 1 | 1 |
+| horse | 1 | 1 |
+| kite | 1 | 1 |
+| train | 1 | 1 |
 
 
 ## 012uP2GSpkaj

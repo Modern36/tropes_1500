@@ -21,6 +21,49 @@ weighted avg       0.97      0.97      0.97       175
 
 ```
 
+| Label | Items | Images |
+|:--- | ---:| ---:|
+| person | 1144 | 109 |
+| tie | 248 | 46 |
+| chair | 231 | 28 |
+| dining table | 53 | 16 |
+| skis | 45 | 9 |
+| boat | 32 | 14 |
+| car | 32 | 11 |
+| vase | 25 | 6 |
+| bench | 24 | 14 |
+| wine glass | 24 | 4 |
+| cup | 21 | 4 |
+| book | 20 | 3 |
+| handbag | 19 | 12 |
+| potted plant | 16 | 9 |
+| truck | 14 | 8 |
+| clock | 13 | 6 |
+| horse | 10 | 4 |
+| bicycle | 8 | 7 |
+| bowl | 8 | 5 |
+| dog | 7 | 4 |
+| bottle | 6 | 4 |
+| teddy bear | 6 | 2 |
+| couch | 5 | 3 |
+| knife | 5 | 3 |
+| baseball glove | 5 | 1 |
+| backpack | 4 | 2 |
+| sports ball | 3 | 3 |
+| cell phone | 3 | 2 |
+| oven | 3 | 2 |
+| train | 3 | 2 |
+| toothbrush | 3 | 1 |
+| umbrella | 3 | 1 |
+| banana | 2 | 1 |
+| sink | 2 | 1 |
+| suitcase | 2 | 1 |
+| baseball bat | 1 | 1 |
+| bird | 1 | 1 |
+| bus | 1 | 1 |
+| cake | 1 | 1 |
+| elephant | 1 | 1 |
+| sheep | 1 | 1 |
 
 
 ## 032ykUgba9mr

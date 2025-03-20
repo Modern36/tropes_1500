@@ -21,6 +21,12 @@ weighted avg       1.00      1.00      1.00         3
 
 ```
 
+| Label | Items | Images |
+|:--- | ---:| ---:|
+| tie | 9 | 1 |
+| person | 6 | 1 |
+| bird | 1 | 1 |
+| chair | 1 | 1 |
 
 
 ## 0231xTtRdDLu

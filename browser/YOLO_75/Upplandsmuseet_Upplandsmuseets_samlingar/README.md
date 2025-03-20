@@ -21,6 +21,50 @@ weighted avg       0.96      0.96      0.96       206
 
 ```
 
+| Label | Items | Images |
+|:--- | ---:| ---:|
+| person | 765 | 104 |
+| tie | 227 | 56 |
+| chair | 92 | 30 |
+| vase | 50 | 17 |
+| cup | 42 | 9 |
+| book | 41 | 6 |
+| potted plant | 39 | 18 |
+| dining table | 33 | 21 |
+| umbrella | 20 | 6 |
+| horse | 18 | 3 |
+| bench | 14 | 10 |
+| bottle | 11 | 5 |
+| handbag | 10 | 6 |
+| cake | 10 | 2 |
+| car | 9 | 4 |
+| boat | 8 | 4 |
+| clock | 7 | 6 |
+| couch | 7 | 5 |
+| truck | 7 | 4 |
+| bicycle | 7 | 3 |
+| bowl | 6 | 4 |
+| bed | 4 | 4 |
+| wine glass | 4 | 1 |
+| frisbee | 3 | 1 |
+| train | 3 | 1 |
+| dog | 2 | 2 |
+| knife | 2 | 2 |
+| oven | 2 | 2 |
+| sink | 2 | 2 |
+| tennis racket | 2 | 2 |
+| cat | 2 | 1 |
+| banana | 1 | 1 |
+| bird | 1 | 1 |
+| bus | 1 | 1 |
+| cell phone | 1 | 1 |
+| cow | 1 | 1 |
+| laptop | 1 | 1 |
+| refrigerator | 1 | 1 |
+| remote | 1 | 1 |
+| skis | 1 | 1 |
+| traffic light | 1 | 1 |
+| tv | 1 | 1 |
 
 
 ## 0331wxZ5SkKk

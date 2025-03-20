@@ -21,6 +21,23 @@ weighted avg       0.94      0.94      0.93        16
 
 ```
 
+| Label | Items | Images |
+|:--- | ---:| ---:|
+| book | 38 | 1 |
+| person | 33 | 3 |
+| bottle | 30 | 3 |
+| car | 10 | 2 |
+| bowl | 9 | 2 |
+| truck | 9 | 2 |
+| chair | 8 | 4 |
+| oven | 5 | 2 |
+| vase | 5 | 1 |
+| dining table | 4 | 2 |
+| cup | 4 | 1 |
+| sink | 3 | 2 |
+| boat | 3 | 1 |
+| potted plant | 2 | 1 |
+| microwave | 1 | 1 |
 
 
 ## 032ynTzLEjGL

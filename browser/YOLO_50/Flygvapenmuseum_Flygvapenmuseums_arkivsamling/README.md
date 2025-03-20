@@ -21,6 +21,16 @@ weighted avg       0.64      0.80      0.71         5
 
 ```
 
+| Label | Items | Images |
+|:--- | ---:| ---:|
+| person | 15 | 5 |
+| cup | 3 | 1 |
+| boat | 2 | 1 |
+| airplane | 1 | 1 |
+| bird | 1 | 1 |
+| dining table | 1 | 1 |
+| tie | 1 | 1 |
+| train | 1 | 1 |
 
 
 ## 032sA2rGtJaC

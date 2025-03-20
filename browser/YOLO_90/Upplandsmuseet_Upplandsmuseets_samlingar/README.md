@@ -21,6 +21,45 @@ weighted avg       0.96      0.96      0.96       206
 
 ```
 
+| Label | Items | Images |
+|:--- | ---:| ---:|
+| person | 518 | 100 |
+| tie | 158 | 51 |
+| chair | 56 | 26 |
+| vase | 39 | 13 |
+| cup | 26 | 5 |
+| potted plant | 23 | 12 |
+| dining table | 19 | 14 |
+| umbrella | 14 | 5 |
+| book | 13 | 6 |
+| horse | 11 | 3 |
+| bench | 8 | 8 |
+| clock | 6 | 5 |
+| bicycle | 6 | 2 |
+| cake | 6 | 2 |
+| bottle | 5 | 4 |
+| bowl | 4 | 3 |
+| couch | 4 | 3 |
+| truck | 4 | 3 |
+| boat | 3 | 3 |
+| handbag | 3 | 2 |
+| bed | 2 | 2 |
+| car | 2 | 2 |
+| dog | 2 | 2 |
+| sink | 2 | 2 |
+| cat | 2 | 1 |
+| frisbee | 2 | 1 |
+| train | 2 | 1 |
+| banana | 1 | 1 |
+| bus | 1 | 1 |
+| cell phone | 1 | 1 |
+| cow | 1 | 1 |
+| knife | 1 | 1 |
+| oven | 1 | 1 |
+| refrigerator | 1 | 1 |
+| remote | 1 | 1 |
+| skis | 1 | 1 |
+| tennis racket | 1 | 1 |
 
 
 ## 0331wxZ5SkKk

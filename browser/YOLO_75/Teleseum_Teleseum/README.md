@@ -5,6 +5,14 @@ This file contains 1 images processed by the model: YOLO_75
 
 
 
+| Label | Items | Images |
+|:--- | ---:| ---:|
+| person | 24 | 1 |
+| tie | 3 | 1 |
+| car | 1 | 1 |
+| sports ball | 1 | 1 |
+| train | 1 | 1 |
+| truck | 1 | 1 |
 
 
 ## 03349SRZEKQt

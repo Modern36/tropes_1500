@@ -5,6 +5,17 @@ This file contains 20 images processed by the model: YOLO_90
 
 
 
+| Label | Items | Images |
+|:--- | ---:| ---:|
+| person | 200 | 20 |
+| tie | 22 | 6 |
+| bicycle | 9 | 4 |
+| bench | 3 | 3 |
+| motorcycle | 2 | 2 |
+| horse | 2 | 1 |
+| book | 1 | 1 |
+| chair | 1 | 1 |
+| clock | 1 | 1 |
 
 
 ## 013AmPFSTbaP

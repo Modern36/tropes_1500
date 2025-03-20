@@ -21,6 +21,23 @@ weighted avg       0.96      0.95      0.95        19
 
 ```
 
+| Label | Items | Images |
+|:--- | ---:| ---:|
+| person | 293 | 16 |
+| sheep | 44 | 1 |
+| car | 15 | 3 |
+| truck | 15 | 2 |
+| chair | 10 | 1 |
+| tie | 9 | 3 |
+| snowboard | 2 | 1 |
+| bench | 1 | 1 |
+| bicycle | 1 | 1 |
+| bus | 1 | 1 |
+| cell phone | 1 | 1 |
+| fire hydrant | 1 | 1 |
+| handbag | 1 | 1 |
+| kite | 1 | 1 |
+| traffic light | 1 | 1 |
 
 
 ## 0331xx6PV3DH
