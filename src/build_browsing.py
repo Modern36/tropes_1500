@@ -77,6 +77,31 @@ def calculate_report(conn, model, collection=None):
     return str_report
 
 
+def tabulate_objects(conn, model, collection):
+    if not model.startswith("YOLO"):
+        return ""
+    threshold = float(model.split("_")[-1]) / 100
+    query = (
+        "select label, count(yolo.image_id) as items, "
+        "count(distinct yolo.image_id) as images from yolo "
+    )
+    if collection:
+        query += (
+            "join images on yolo.image_id == images.image_id "
+            " and collection_name == :collection_name "
+        )
+    query += f" where score >= {threshold} "
+    query += "group by label order by items desc, images desc"
+
+    cursor = conn.execute(query, {"collection_name": collection})
+    results = cursor.fetchall()
+    table_string = "| Label | Items | Images |\n|:--- | ---:| ---:|\n"
+    for label, items, images in results:
+        table_string += f"| {label} | {items} | {images} |\n"
+
+    return table_string
+
+
 # Create tree structure for .md files
 def build_tree():
     # First we remove the old
@@ -122,6 +147,10 @@ def build_tree():
                     conn, model=model, collection=collection[1]
                 )
 
+                objects_table = tabulate_objects(
+                    conn, model=model, collection=collection[1]
+                )
+
                 # Create a README.md file for each collection directory
                 readme_path = coll_dir / "README.md"
                 with open(readme_path, "w") as f:
@@ -132,6 +161,8 @@ def build_tree():
                     )
 
                     f.write(report)
+
+                    f.write(objects_table)
 
                     for image_data in get_images(conn, model, collection[1]):
                         f.write(image_data_to_str(*image_data, model=model))

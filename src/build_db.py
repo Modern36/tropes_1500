@@ -125,8 +125,8 @@ def load_yolo_objects(conn):
         data = pd.read_csv(box_table, sep="\t")
 
         conn.executemany(
-            f"insert into yolo (image_id, label, threshold) values ('{image_id}', ?, ?)",
-            data[["score", "label"]].values.tolist(),
+            f"insert into yolo (image_id, label, score) values ('{image_id}', ?, ?)",
+            data[["label", "score"]].values.tolist(),
         )
 
 
@@ -183,7 +183,7 @@ def build_db():
         CREATE table  yolo (
             image_id text,
             label,
-            threshold
+            score
             )
             """
         )
