@@ -21,6 +21,14 @@ weighted avg       1.00      1.00      1.00         6
 
 ```
 
+| Label | Items | Images |
+|:--- | ---:| ---:|
+| person | 55 | 5 |
+| boat | 8 | 2 |
+| chair | 3 | 2 |
+| dining table | 2 | 1 |
+| potted plant | 1 | 1 |
+| tie | 1 | 1 |
 
 
 ## 022sC3Pm48QE

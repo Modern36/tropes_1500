@@ -5,6 +5,17 @@ This file contains 4 images processed by the model: YOLO_50
 
 
 
+| Label | Items | Images |
+|:--- | ---:| ---:|
+| person | 44 | 4 |
+| bottle | 14 | 1 |
+| tie | 9 | 2 |
+| bicycle | 4 | 1 |
+| wine glass | 4 | 1 |
+| cup | 2 | 1 |
+| chair | 1 | 1 |
+| dining table | 1 | 1 |
+| handbag | 1 | 1 |
 
 
 ## 013AmsTCUrWM

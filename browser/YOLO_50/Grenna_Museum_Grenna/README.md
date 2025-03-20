@@ -21,6 +21,14 @@ weighted avg       1.00      1.00      1.00        11
 
 ```
 
+| Label | Items | Images |
+|:--- | ---:| ---:|
+| person | 102 | 9 |
+| tie | 27 | 7 |
+| boat | 10 | 1 |
+| bicycle | 2 | 1 |
+| chair | 1 | 1 |
+| handbag | 1 | 1 |
 
 
 ## 0136LRyc7DJE

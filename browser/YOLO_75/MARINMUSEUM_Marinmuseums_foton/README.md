@@ -21,6 +21,12 @@ weighted avg       0.91      0.88      0.88        25
 
 ```
 
+| Label | Items | Images |
+|:--- | ---:| ---:|
+| person | 39 | 11 |
+| boat | 9 | 6 |
+| tie | 9 | 3 |
+| chair | 1 | 1 |
 
 
 ## 012uN2Ad1twk

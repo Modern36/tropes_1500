@@ -21,6 +21,26 @@ weighted avg       0.92      0.92      0.92        25
 
 ```
 
+| Label | Items | Images |
+|:--- | ---:| ---:|
+| person | 94 | 13 |
+| tie | 19 | 4 |
+| truck | 8 | 5 |
+| chair | 7 | 3 |
+| boat | 5 | 1 |
+| bus | 3 | 3 |
+| airplane | 3 | 2 |
+| cup | 2 | 2 |
+| dining table | 2 | 2 |
+| dog | 2 | 1 |
+| potted plant | 2 | 1 |
+| train | 2 | 1 |
+| book | 1 | 1 |
+| cake | 1 | 1 |
+| car | 1 | 1 |
+| clock | 1 | 1 |
+| fork | 1 | 1 |
+| wine glass | 1 | 1 |
 
 
 ## 012uK2RMRyTp

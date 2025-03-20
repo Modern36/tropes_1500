@@ -21,6 +21,26 @@ weighted avg       0.97      0.96      0.96        54
 
 ```
 
+| Label | Items | Images |
+|:--- | ---:| ---:|
+| person | 169 | 21 |
+| tie | 80 | 9 |
+| chair | 22 | 6 |
+| bird | 17 | 2 |
+| cup | 13 | 1 |
+| bicycle | 8 | 4 |
+| dining table | 7 | 3 |
+| clock | 6 | 4 |
+| handbag | 3 | 3 |
+| bench | 3 | 2 |
+| bed | 3 | 1 |
+| book | 3 | 1 |
+| vase | 3 | 1 |
+| boat | 1 | 1 |
+| bowl | 1 | 1 |
+| car | 1 | 1 |
+| train | 1 | 1 |
+| truck | 1 | 1 |
 
 
 ## 019EBvkKLgP6q

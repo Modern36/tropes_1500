@@ -5,6 +5,13 @@ This file contains 4 images processed by the model: YOLO_90
 
 
 
+| Label | Items | Images |
+|:--- | ---:| ---:|
+| person | 21 | 4 |
+| bottle | 7 | 1 |
+| tie | 5 | 1 |
+| bicycle | 2 | 1 |
+| dining table | 1 | 1 |
 
 
 ## 013AmsTCUrWM

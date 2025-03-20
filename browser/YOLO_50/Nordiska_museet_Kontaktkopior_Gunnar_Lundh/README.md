@@ -21,6 +21,9 @@ weighted avg       1.00      0.50      0.67         2
 
 ```
 
+| Label | Items | Images |
+|:--- | ---:| ---:|
+| person | 1 | 1 |
 
 
 ## 032yjz2b2HDJ

@@ -5,6 +5,12 @@ This file contains 1 images processed by the model: YOLO_50
 
 
 
+| Label | Items | Images |
+|:--- | ---:| ---:|
+| person | 9 | 1 |
+| tie | 8 | 1 |
+| chair | 4 | 1 |
+| handbag | 1 | 1 |
 
 
 ## 019EBsk7txU63

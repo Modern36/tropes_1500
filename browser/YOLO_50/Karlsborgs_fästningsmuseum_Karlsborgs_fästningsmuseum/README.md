@@ -5,6 +5,13 @@ This file contains 4 images processed by the model: YOLO_50
 
 
 
+| Label | Items | Images |
+|:--- | ---:| ---:|
+| person | 56 | 4 |
+| horse | 7 | 1 |
+| tie | 3 | 1 |
+| cell phone | 1 | 1 |
+| handbag | 1 | 1 |
 
 
 ## 04TzeWG8Md

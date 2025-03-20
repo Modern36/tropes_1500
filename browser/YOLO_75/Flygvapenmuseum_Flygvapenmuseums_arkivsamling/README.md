@@ -21,6 +21,13 @@ weighted avg       0.64      0.80      0.71         5
 
 ```
 
+| Label | Items | Images |
+|:--- | ---:| ---:|
+| person | 12 | 5 |
+| cup | 2 | 1 |
+| airplane | 1 | 1 |
+| boat | 1 | 1 |
+| tie | 1 | 1 |
 
 
 ## 032sA2rGtJaC

@@ -21,6 +21,15 @@ weighted avg       0.94      0.93      0.93        15
 
 ```
 
+| Label | Items | Images |
+|:--- | ---:| ---:|
+| person | 68 | 9 |
+| wine glass | 6 | 1 |
+| car | 2 | 2 |
+| tie | 2 | 1 |
+| bench | 1 | 1 |
+| dining table | 1 | 1 |
+| dog | 1 | 1 |
 
 
 ## 0136MvB8dHsL

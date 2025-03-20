@@ -21,6 +21,20 @@ weighted avg       0.94      0.94      0.93        16
 
 ```
 
+| Label | Items | Images |
+|:--- | ---:| ---:|
+| bottle | 17 | 2 |
+| book | 17 | 1 |
+| person | 12 | 3 |
+| chair | 4 | 3 |
+| bowl | 3 | 1 |
+| car | 2 | 2 |
+| dining table | 2 | 1 |
+| truck | 2 | 1 |
+| cup | 1 | 1 |
+| oven | 1 | 1 |
+| potted plant | 1 | 1 |
+| vase | 1 | 1 |
 
 
 ## 032ynTzLEjGL

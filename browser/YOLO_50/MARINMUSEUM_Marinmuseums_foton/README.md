@@ -21,6 +21,17 @@ weighted avg       0.88      0.80      0.81        25
 
 ```
 
+| Label | Items | Images |
+|:--- | ---:| ---:|
+| person | 50 | 13 |
+| boat | 25 | 9 |
+| tie | 16 | 3 |
+| airplane | 1 | 1 |
+| bench | 1 | 1 |
+| chair | 1 | 1 |
+| donut | 1 | 1 |
+| handbag | 1 | 1 |
+| potted plant | 1 | 1 |
 
 
 ## 012uN2Ad1twk

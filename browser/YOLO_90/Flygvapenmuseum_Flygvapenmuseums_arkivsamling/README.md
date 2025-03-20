@@ -21,6 +21,11 @@ weighted avg       1.00      1.00      1.00         5
 
 ```
 
+| Label | Items | Images |
+|:--- | ---:| ---:|
+| person | 11 | 4 |
+| airplane | 1 | 1 |
+| tie | 1 | 1 |
 
 
 ## 032sA2rGtJaC

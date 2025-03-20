@@ -21,6 +21,24 @@ weighted avg       0.94      0.92      0.92        36
 
 ```
 
+| Label | Items | Images |
+|:--- | ---:| ---:|
+| person | 94 | 25 |
+| boat | 18 | 5 |
+| car | 11 | 4 |
+| chair | 4 | 4 |
+| bench | 3 | 3 |
+| tie | 3 | 2 |
+| truck | 3 | 2 |
+| bicycle | 2 | 2 |
+| dog | 2 | 2 |
+| teddy bear | 2 | 1 |
+| bird | 1 | 1 |
+| cake | 1 | 1 |
+| cat | 1 | 1 |
+| cell phone | 1 | 1 |
+| clock | 1 | 1 |
+| elephant | 1 | 1 |
 
 
 ## 0331uxv3SWQ2

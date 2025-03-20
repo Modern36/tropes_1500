@@ -5,6 +5,11 @@ This file contains 1 images processed by the model: YOLO_90
 
 
 
+| Label | Items | Images |
+|:--- | ---:| ---:|
+| person | 11 | 1 |
+| car | 1 | 1 |
+| sports ball | 1 | 1 |
 
 
 ## 03349SRZEKQt

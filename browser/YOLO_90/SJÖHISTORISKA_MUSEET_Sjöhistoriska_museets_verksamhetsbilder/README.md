@@ -5,6 +5,11 @@ This file contains 4 images processed by the model: YOLO_90
 
 
 
+| Label | Items | Images |
+|:--- | ---:| ---:|
+| boat | 1 | 1 |
+| bowl | 1 | 1 |
+| knife | 1 | 1 |
 
 
 ## 012uP2GaH3Mq

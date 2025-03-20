@@ -21,6 +21,9 @@ weighted avg       1.00      1.00      1.00         2
 
 ```
 
+| Label | Items | Images |
+|:--- | ---:| ---:|
+| person | 1 | 1 |
 
 
 ## 012sBYWZWKnL

@@ -5,6 +5,26 @@ This file contains 20 images processed by the model: YOLO_50
 
 
 
+| Label | Items | Images |
+|:--- | ---:| ---:|
+| person | 430 | 20 |
+| tie | 88 | 11 |
+| bicycle | 20 | 4 |
+| bench | 12 | 5 |
+| book | 10 | 1 |
+| handbag | 8 | 3 |
+| motorcycle | 6 | 4 |
+| horse | 6 | 2 |
+| chair | 4 | 1 |
+| backpack | 3 | 3 |
+| baseball bat | 3 | 2 |
+| truck | 3 | 1 |
+| suitcase | 2 | 1 |
+| clock | 1 | 1 |
+| dining table | 1 | 1 |
+| skis | 1 | 1 |
+| train | 1 | 1 |
+| umbrella | 1 | 1 |
 
 
 ## 013AmPFSTbaP

@@ -5,6 +5,11 @@ This file contains 4 images processed by the model: YOLO_75
 
 
 
+| Label | Items | Images |
+|:--- | ---:| ---:|
+| person | 33 | 4 |
+| tie | 6 | 2 |
+| car | 3 | 1 |
 
 
 ## 032yjVUwe21E

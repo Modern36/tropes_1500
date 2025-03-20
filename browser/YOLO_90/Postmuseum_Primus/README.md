@@ -21,6 +21,22 @@ weighted avg       0.92      0.92      0.92        25
 
 ```
 
+| Label | Items | Images |
+|:--- | ---:| ---:|
+| person | 60 | 13 |
+| tie | 7 | 3 |
+| truck | 6 | 5 |
+| bus | 3 | 3 |
+| chair | 3 | 2 |
+| boat | 3 | 1 |
+| potted plant | 2 | 1 |
+| airplane | 1 | 1 |
+| car | 1 | 1 |
+| clock | 1 | 1 |
+| cup | 1 | 1 |
+| dining table | 1 | 1 |
+| dog | 1 | 1 |
+| train | 1 | 1 |
 
 
 ## 012uK2RMRyTp

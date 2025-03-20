@@ -5,6 +5,10 @@ This file contains 1 images processed by the model: YOLO_75
 
 
 
+| Label | Items | Images |
+|:--- | ---:| ---:|
+| car | 3 | 1 |
+| clock | 1 | 1 |
 
 
 ## 032waz7izCMk
