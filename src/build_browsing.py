@@ -215,8 +215,6 @@ def get_images(conn, model, collection_name=None):
 model_to_subdir = {
     "DinoManWoman": model_output / "DinoManWoman_th25",
     "DinoWomanMan": model_output / "DinoWomanMan_th25",
-    "DinoMan": model_output / "DinoMan_th25",
-    "DinoWoman": model_output / "DinoWoman_th25",
     "YOLO_50": model_output / "yolos-pretrained_th50",
     "YOLO_75": model_output / "yolos-pretrained_th75",
     "YOLO_90": model_output / "yolos-pretrained_th90",
