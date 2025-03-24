@@ -119,6 +119,17 @@ def load_dino():
             }
 
 
+def load_yolo_objects(conn):
+    for box_table in detections.glob("yolos-*.tsv"):
+        image_id = box_table.name.split("_")[-1].split(".")[0]
+        data = pd.read_csv(box_table, sep="\t")
+
+        conn.executemany(
+            f"insert into yolo (image_id, label, score) values ('{image_id}', ?, ?)",
+            data[["label", "score"]].values.tolist(),
+        )
+
+
 def build_db():
     if db_path.exists():
         db_path.unlink()
@@ -167,11 +178,25 @@ def build_db():
             """
         )
 
+        conn.execute(
+            """
+        CREATE table  yolo (
+            image_id text,
+            label,
+            score
+            )
+            """
+        )
+
+        conn.execute("CREATE  index yolo_objects on yolo (image_id)")
+
         add_model_output(conn, load_ground_truth())
 
         add_model_output(conn, load_yolo())
 
         add_model_output(conn, load_dino())
+
+        load_yolo_objects(conn)
 
         add_model_output(conn, load_vqa())
 
