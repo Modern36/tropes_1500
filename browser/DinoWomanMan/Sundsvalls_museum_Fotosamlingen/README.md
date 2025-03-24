@@ -68,19 +68,6 @@ weighted avg       0.69      0.83      0.76         6
 
 
 
-## 012sC3Pm48dT
-
-![010_model_output/DinoWomanMan_th25/012sC3Pm48dT.png](/010_model_output/DinoWomanMan_th25/012sC3Pm48dT.png)
-
-| label | GT | Pred | accurate |
-|:----|----|----|----|
-| Man | 0 | 0 | 🟢 |
-| Woman | 1 | 1 | 🟢 |
-| Person | 1 | 1 | 🟢 |
-
-
-
-
 ## 012uK2eTzxt5
 
 ![010_model_output/DinoWomanMan_th25/012uK2eTzxt5.png](/010_model_output/DinoWomanMan_th25/012uK2eTzxt5.png)
@@ -89,6 +76,19 @@ weighted avg       0.69      0.83      0.76         6
 |:----|----|----|----|
 | Man | 1 | 1 | 🟢 |
 | Woman | 0 | 1 | 🟥 |
+| Person | 1 | 1 | 🟢 |
+
+
+
+
+## 012sC3Pm48dT
+
+![010_model_output/DinoWomanMan_th25/012sC3Pm48dT.png](/010_model_output/DinoWomanMan_th25/012sC3Pm48dT.png)
+
+| label | GT | Pred | accurate |
+|:----|----|----|----|
+| Man | 0 | 0 | 🟢 |
+| Woman | 1 | 1 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 
@@ -107,9 +107,9 @@ weighted avg       0.69      0.83      0.76         6
 
 
 
-## 012sC3Pna8iy
+## 032uK2Xwx8Az
 
-![010_model_output/DinoWomanMan_th25/012sC3Pna8iy.png](/010_model_output/DinoWomanMan_th25/012sC3Pna8iy.png)
+![010_model_output/DinoWomanMan_th25/032uK2Xwx8Az.png](/010_model_output/DinoWomanMan_th25/032uK2Xwx8Az.png)
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
@@ -120,9 +120,9 @@ weighted avg       0.69      0.83      0.76         6
 
 
 
-## 032uK2Xwx8Az
+## 012sC3Pna8iy
 
-![010_model_output/DinoWomanMan_th25/032uK2Xwx8Az.png](/010_model_output/DinoWomanMan_th25/032uK2Xwx8Az.png)
+![010_model_output/DinoWomanMan_th25/012sC3Pna8iy.png](/010_model_output/DinoWomanMan_th25/012sC3Pna8iy.png)
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|

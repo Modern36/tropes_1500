@@ -39,6 +39,18 @@ weighted avg       0.83      0.67      0.67         3
 
 
 
+## 03346wnnBT19
+
+![010_model_output/DinoWoman_th25/03346wnnBT19.png](/010_model_output/DinoWoman_th25/03346wnnBT19.png)
+
+| label | GT | Pred | accurate |
+|:----|----|----|----|
+| Woman | 1 | 1 | 🟢 |
+| Person | 1 | 1 | 🟢 |
+
+
+
+
 ## 0231xTtRdDLu
 
 ![010_model_output/DinoWoman_th25/0231xTtRdDLu.png](/010_model_output/DinoWoman_th25/0231xTtRdDLu.png)
@@ -59,15 +71,3 @@ weighted avg       0.83      0.67      0.67         3
 |:----|----|----|----|
 | Woman | 0 | 1 | 🟥 |
 | Person | 0 | 1 | 🟥 |
-
-
-
-
-## 03346wnnBT19
-
-![010_model_output/DinoWoman_th25/03346wnnBT19.png](/010_model_output/DinoWoman_th25/03346wnnBT19.png)
-
-| label | GT | Pred | accurate |
-|:----|----|----|----|
-| Woman | 1 | 1 | 🟢 |
-| Person | 1 | 1 | 🟢 |
