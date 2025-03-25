@@ -54,6 +54,27 @@ weighted avg       0.67      0.63      0.63       265
 ```
 
 
+## VQA
+#### Men
+ - How many adult males are depicted in the image?
+ - Is there at least one adult male in the image?
+ - Is there an adult male in the image?
+ - How many adult males are depicted in the photograph?
+ - Is there at least one adult male in the photograph?
+ - Is there an adult male in the photograph?
+ - A man somewhere?
+
+#### Women
+ - How many adult females are depicted in the image?
+ - Is there at least one adult female in the image?
+ - Is there an adult female in the image?
+ - How many adult females are depicted in the photograph?
+ - Is there at least one adult female in the photograph?
+ - Is there an adult female in the photograph?
+ - A woman somewhere?
+
+
+
 
 ## 0231xy7HHXQ7
 
