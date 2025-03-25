@@ -13,8 +13,6 @@ from trope_paths import (
     raw_dir,
 )
 
-db_path = output_dir / "db.sqlite3"
-
 
 def remove_directory_tree(path: Path = browser_root):
     if not path.exists():
@@ -289,14 +287,14 @@ def image_data_to_str(image: str, gt: dict, pred: dict, model):
 | label | GT | Pred | accurate |
 |:----|----|----|----|"""
 
-    for label, l in [
+    for label, short_label in [
         ("Man", "m"),
         ("Woman", "w"),
         ("Person", "p"),
     ]:
-        if l in pred.keys():
-            ground = gt[l]
-            prediction = pred[l]
+        if short_label in pred.keys():
+            ground = gt[short_label]
+            prediction = pred[short_label]
             marker = emojis[ground == prediction]
             result += f"""
 | {label} | {ground} | {prediction} | {marker} |"""
