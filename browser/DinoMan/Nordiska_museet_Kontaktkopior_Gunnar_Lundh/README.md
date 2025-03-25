@@ -43,6 +43,7 @@ weighted avg       0.00      0.00      0.00       2.0
 
 ![010_model_output/DinoMan_th25/022yjz2b1xLg.png](/010_model_output/DinoMan_th25/022yjz2b1xLg.png)
 
+
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 0 | 1 | 🟥 |
@@ -54,6 +55,7 @@ weighted avg       0.00      0.00      0.00       2.0
 ## 032yjz2b2HDJ
 
 ![010_model_output/DinoMan_th25/032yjz2b2HDJ.png](/010_model_output/DinoMan_th25/032yjz2b2HDJ.png)
+
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|

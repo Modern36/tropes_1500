@@ -11,6 +11,7 @@ This file contains 4 images processed by the model: DinoMan
 
 ![010_model_output/DinoMan_th25/02TzY7eEMM.png](/010_model_output/DinoMan_th25/02TzY7eEMM.png)
 
+
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 1 | 🟢 |
@@ -22,6 +23,7 @@ This file contains 4 images processed by the model: DinoMan
 ## 04TzY7eEMH
 
 ![010_model_output/DinoMan_th25/04TzY7eEMH.png](/010_model_output/DinoMan_th25/04TzY7eEMH.png)
+
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
@@ -35,6 +37,7 @@ This file contains 4 images processed by the model: DinoMan
 
 ![010_model_output/DinoMan_th25/04TzeWG8Md.png](/010_model_output/DinoMan_th25/04TzeWG8Md.png)
 
+
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 1 | 🟢 |
@@ -46,6 +49,7 @@ This file contains 4 images processed by the model: DinoMan
 ## 01TzY7eDk2
 
 ![010_model_output/DinoMan_th25/01TzY7eDk2.png](/010_model_output/DinoMan_th25/01TzY7eDk2.png)
+
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|

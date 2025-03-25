@@ -8,9 +8,12 @@ from trope_paths import (
     browser_root,
     db_path,
     model_output,
+    ollama_desc_dir,
     output_dir,
     raw_dir,
 )
+
+db_path = output_dir / "db.sqlite3"
 
 
 def remove_directory_tree(path: Path = browser_root):
@@ -221,6 +224,7 @@ model_to_subdir = {
     "YOLO_75": model_output / "yolos-pretrained_th75",
     "YOLO_90": model_output / "yolos-pretrained_th90",
     "VQA": raw_dir,
+    "llama-desc": model_output / "ollama_description_output",
 }
 
 emojis = {0: "🟥", 1: "🟢"}
@@ -255,9 +259,12 @@ def image_data_to_str(image: str, gt: dict, pred: dict, model):
 ## {image}
 
 ![{relative_loc}](/{relative_loc})
+"""
 
+    result += """\n
 | label | GT | Pred | accurate |
 |:----|----|----|----|"""
+
     for label, l in [
         ("Man", "m"),
         ("Woman", "w"),
@@ -269,6 +276,13 @@ def image_data_to_str(image: str, gt: dict, pred: dict, model):
             marker = emojis[ground == prediction]
             result += f"""
 | {label} | {ground} | {prediction} | {marker} |"""
+    if model == "llama-desc":
+        with open(
+            ollama_desc_dir / (image + ".png.txt"), "r", encoding="utf8"
+        ) as f:
+            result += "\n\n```"
+            result += f.read()
+            result += "\n```\n"
     return result + "\n\n\n"
 
 

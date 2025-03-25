@@ -59,6 +59,7 @@ weighted avg       0.83      0.67      0.67         3
 
 ![000_raw/03346wnnBT19.png](/000_raw/03346wnnBT19.png)
 
+
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 1 | 🟢 |
@@ -72,6 +73,7 @@ weighted avg       0.83      0.67      0.67         3
 
 ![000_raw/0231xTtRdDLu.png](/000_raw/0231xTtRdDLu.png)
 
+
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 0 | 1 | 🟥 |
@@ -84,6 +86,7 @@ weighted avg       0.83      0.67      0.67         3
 ## 0331xTtRdDVn
 
 ![000_raw/0331xTtRdDVn.png](/000_raw/0331xTtRdDVn.png)
+
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|

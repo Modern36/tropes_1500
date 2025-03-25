@@ -27,6 +27,7 @@ weighted avg       0.00      0.00      0.00       1.0
 
 ![000_raw/019EBsk7txU63.png](/000_raw/019EBsk7txU63.png)
 
+
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 1 | 🟢 |

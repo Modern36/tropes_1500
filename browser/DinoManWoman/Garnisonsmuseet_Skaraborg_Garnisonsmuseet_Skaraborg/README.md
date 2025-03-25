@@ -43,6 +43,7 @@ weighted avg       1.00      0.95      0.97        20
 
 ![010_model_output/DinoManWoman_th25/013AmPFSTaxx.png](/010_model_output/DinoManWoman_th25/013AmPFSTaxx.png)
 
+
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 1 | 🟢 |
@@ -55,6 +56,7 @@ weighted avg       1.00      0.95      0.97        20
 ## 013AmPMkgZ9T
 
 ![010_model_output/DinoManWoman_th25/013AmPMkgZ9T.png](/010_model_output/DinoManWoman_th25/013AmPMkgZ9T.png)
+
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
@@ -69,6 +71,7 @@ weighted avg       1.00      0.95      0.97        20
 
 ![010_model_output/DinoManWoman_th25/013AmPFSUvy8.png](/010_model_output/DinoManWoman_th25/013AmPFSUvy8.png)
 
+
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 1 | 🟢 |
@@ -81,6 +84,7 @@ weighted avg       1.00      0.95      0.97        20
 ## 013AmPFSTGAk
 
 ![010_model_output/DinoManWoman_th25/013AmPFSTGAk.png](/010_model_output/DinoManWoman_th25/013AmPFSTGAk.png)
+
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
@@ -95,6 +99,7 @@ weighted avg       1.00      0.95      0.97        20
 
 ![010_model_output/DinoManWoman_th25/013AmPFSUwGt.png](/010_model_output/DinoManWoman_th25/013AmPFSUwGt.png)
 
+
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 1 | 🟢 |
@@ -107,6 +112,7 @@ weighted avg       1.00      0.95      0.97        20
 ## 013AmPFSUc6b
 
 ![010_model_output/DinoManWoman_th25/013AmPFSUc6b.png](/010_model_output/DinoManWoman_th25/013AmPFSUc6b.png)
+
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
@@ -121,6 +127,7 @@ weighted avg       1.00      0.95      0.97        20
 
 ![010_model_output/DinoManWoman_th25/013AmPFSUwaU.png](/010_model_output/DinoManWoman_th25/013AmPFSUwaU.png)
 
+
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 1 | 🟢 |
@@ -133,6 +140,7 @@ weighted avg       1.00      0.95      0.97        20
 ## 013AmPFSTbaP
 
 ![010_model_output/DinoManWoman_th25/013AmPFSTbaP.png](/010_model_output/DinoManWoman_th25/013AmPFSTbaP.png)
+
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
@@ -147,6 +155,7 @@ weighted avg       1.00      0.95      0.97        20
 
 ![010_model_output/DinoManWoman_th25/013AmPUNdzq6.png](/010_model_output/DinoManWoman_th25/013AmPUNdzq6.png)
 
+
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 1 | 🟢 |
@@ -159,6 +168,7 @@ weighted avg       1.00      0.95      0.97        20
 ## 013AmPUNdfeo
 
 ![010_model_output/DinoManWoman_th25/013AmPUNdfeo.png](/010_model_output/DinoManWoman_th25/013AmPUNdfeo.png)
+
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
@@ -173,6 +183,7 @@ weighted avg       1.00      0.95      0.97        20
 
 ![010_model_output/DinoManWoman_th25/013AmPFSTvuS.png](/010_model_output/DinoManWoman_th25/013AmPFSTvuS.png)
 
+
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 1 | 🟢 |
@@ -185,6 +196,7 @@ weighted avg       1.00      0.95      0.97        20
 ## 013AmPUMAM2e
 
 ![010_model_output/DinoManWoman_th25/013AmPUMAM2e.png](/010_model_output/DinoManWoman_th25/013AmPUMAM2e.png)
+
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
@@ -199,6 +211,7 @@ weighted avg       1.00      0.95      0.97        20
 
 ![010_model_output/DinoManWoman_th25/013AmPUNdzuV.png](/010_model_output/DinoManWoman_th25/013AmPUNdzuV.png)
 
+
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 1 | 🟢 |
@@ -211,6 +224,7 @@ weighted avg       1.00      0.95      0.97        20
 ## 013AmPFSVGuX
 
 ![010_model_output/DinoManWoman_th25/013AmPFSVGuX.png](/010_model_output/DinoManWoman_th25/013AmPFSVGuX.png)
+
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
@@ -225,6 +239,7 @@ weighted avg       1.00      0.95      0.97        20
 
 ![010_model_output/DinoManWoman_th25/013AmPFSTFZR.png](/010_model_output/DinoManWoman_th25/013AmPFSTFZR.png)
 
+
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 1 | 🟢 |
@@ -237,6 +252,7 @@ weighted avg       1.00      0.95      0.97        20
 ## 013AmPFSTay5
 
 ![010_model_output/DinoManWoman_th25/013AmPFSTay5.png](/010_model_output/DinoManWoman_th25/013AmPFSTay5.png)
+
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
@@ -251,6 +267,7 @@ weighted avg       1.00      0.95      0.97        20
 
 ![010_model_output/DinoManWoman_th25/013AmPFSUw7u.png](/010_model_output/DinoManWoman_th25/013AmPFSUw7u.png)
 
+
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 1 | 🟢 |
@@ -263,6 +280,7 @@ weighted avg       1.00      0.95      0.97        20
 ## 013AmPUNe14G
 
 ![010_model_output/DinoManWoman_th25/013AmPUNe14G.png](/010_model_output/DinoManWoman_th25/013AmPUNe14G.png)
+
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
@@ -277,6 +295,7 @@ weighted avg       1.00      0.95      0.97        20
 
 ![010_model_output/DinoManWoman_th25/013AmPFSUFvw.png](/010_model_output/DinoManWoman_th25/013AmPFSUFvw.png)
 
+
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 1 | 🟢 |
@@ -289,6 +308,7 @@ weighted avg       1.00      0.95      0.97        20
 ## 013AmPMt4oYL
 
 ![010_model_output/DinoManWoman_th25/013AmPMt4oYL.png](/010_model_output/DinoManWoman_th25/013AmPMt4oYL.png)
+
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|

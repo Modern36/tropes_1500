@@ -1,5 +1,3 @@
-import pytest
-
 from trope_paths import model_output
 
 subdirs = list(model_output.iterdir())

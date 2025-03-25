@@ -59,6 +59,7 @@ weighted avg       0.60      0.60      0.60         5
 
 ![000_raw/012uP1pKhRvG.png](/000_raw/012uP1pKhRvG.png)
 
+
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 0 | 🟥 |
@@ -71,6 +72,7 @@ weighted avg       0.60      0.60      0.60         5
 ## 019EBvk6MYLYF
 
 ![000_raw/019EBvk6MYLYF.png](/000_raw/019EBvk6MYLYF.png)
+
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
@@ -85,6 +87,7 @@ weighted avg       0.60      0.60      0.60         5
 
 ![000_raw/042s9YXpWzAo.png](/000_raw/042s9YXpWzAo.png)
 
+
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 0 | 🟥 |
@@ -98,6 +101,7 @@ weighted avg       0.60      0.60      0.60         5
 
 ![000_raw/032waW2WaTvv.png](/000_raw/032waW2WaTvv.png)
 
+
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 1 | 🟢 |
@@ -110,6 +114,7 @@ weighted avg       0.60      0.60      0.60         5
 ## 032sA2rGtJaC
 
 ![000_raw/032sA2rGtJaC.png](/000_raw/032sA2rGtJaC.png)
+
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|

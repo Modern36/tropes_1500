@@ -27,6 +27,7 @@ weighted avg       0.06      0.25      0.10         4
 
 ![010_model_output/DinoWoman_th25/032yjVUwe21E.png](/010_model_output/DinoWoman_th25/032yjVUwe21E.png)
 
+
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Woman | 0 | 1 | 🟥 |
@@ -38,6 +39,7 @@ weighted avg       0.06      0.25      0.10         4
 ## 022yjVUy4yR9
 
 ![010_model_output/DinoWoman_th25/022yjVUy4yR9.png](/010_model_output/DinoWoman_th25/022yjVUy4yR9.png)
+
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
@@ -51,6 +53,7 @@ weighted avg       0.06      0.25      0.10         4
 
 ![010_model_output/DinoWoman_th25/013AksaHHi2M.png](/010_model_output/DinoWoman_th25/013AksaHHi2M.png)
 
+
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Woman | 1 | 1 | 🟢 |
@@ -62,6 +65,7 @@ weighted avg       0.06      0.25      0.10         4
 ## 022yjVUwe1rH
 
 ![010_model_output/DinoWoman_th25/022yjVUwe1rH.png](/010_model_output/DinoWoman_th25/022yjVUwe1rH.png)
+
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|

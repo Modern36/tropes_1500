@@ -43,6 +43,7 @@ weighted avg       0.25      0.50      0.33         2
 
 ![010_model_output/DinoWoman_th25/032sBYWZWKQB.png](/010_model_output/DinoWoman_th25/032sBYWZWKQB.png)
 
+
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Woman | 0 | 1 | 🟥 |
@@ -54,6 +55,7 @@ weighted avg       0.25      0.50      0.33         2
 ## 012sBYWZWKnL
 
 ![010_model_output/DinoWoman_th25/012sBYWZWKnL.png](/010_model_output/DinoWoman_th25/012sBYWZWKnL.png)
+
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|

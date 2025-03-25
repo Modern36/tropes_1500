@@ -43,6 +43,7 @@ weighted avg       0.25      0.50      0.33         2
 
 ![000_raw/032sBYWZWKQB.png](/000_raw/032sBYWZWKQB.png)
 
+
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 0 | 1 | 🟥 |
@@ -55,6 +56,7 @@ weighted avg       0.25      0.50      0.33         2
 ## 012sBYWZWKnL
 
 ![000_raw/012sBYWZWKnL.png](/000_raw/012sBYWZWKnL.png)
+
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
