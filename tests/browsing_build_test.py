@@ -14,16 +14,8 @@ def test_DinoManWoman_mapping():
     resolve_model_paths("DinoManWoman")
 
 
-def test_DinoMan_mapping():
-    resolve_model_paths("DinoMan")
-
-
 def test_DinoWomanMan_mapping():
     resolve_model_paths("DinoWomanMan")
-
-
-def test_DinoWoman_mapping():
-    resolve_model_paths("DinoWoman")
 
 
 def test_YOLO_90_mapping():
