@@ -35,16 +35,6 @@ weighted avg       1.00      1.00      1.00         6
 
 ![010_model_output/yolos-pretrained_th75/022sC3Pm48QE.png](/010_model_output/yolos-pretrained_th75/022sC3Pm48QE.png)
 
-| label | GT | Pred | accurate |
-|:----|----|----|----|
-| Person | 1 | 1 | 🟢 |
-
-
-
-
-## 012sC3Pm48dT
-
-![010_model_output/yolos-pretrained_th75/012sC3Pm48dT.png](/010_model_output/yolos-pretrained_th75/012sC3Pm48dT.png)
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
@@ -57,6 +47,19 @@ weighted avg       1.00      1.00      1.00         6
 
 ![010_model_output/yolos-pretrained_th75/012uK2eTzxt5.png](/010_model_output/yolos-pretrained_th75/012uK2eTzxt5.png)
 
+
+| label | GT | Pred | accurate |
+|:----|----|----|----|
+| Person | 1 | 1 | 🟢 |
+
+
+
+
+## 012sC3Pm48dT
+
+![010_model_output/yolos-pretrained_th75/012sC3Pm48dT.png](/010_model_output/yolos-pretrained_th75/012sC3Pm48dT.png)
+
+
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Person | 1 | 1 | 🟢 |
@@ -68,6 +71,7 @@ weighted avg       1.00      1.00      1.00         6
 
 ![010_model_output/yolos-pretrained_th75/022sC3Pm3nze.png](/010_model_output/yolos-pretrained_th75/022sC3Pm3nze.png)
 
+
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Person | 0 | 0 | 🟢 |
@@ -75,9 +79,10 @@ weighted avg       1.00      1.00      1.00         6
 
 
 
-## 012sC3Pna8iy
+## 032uK2Xwx8Az
 
-![010_model_output/yolos-pretrained_th75/012sC3Pna8iy.png](/010_model_output/yolos-pretrained_th75/012sC3Pna8iy.png)
+![010_model_output/yolos-pretrained_th75/032uK2Xwx8Az.png](/010_model_output/yolos-pretrained_th75/032uK2Xwx8Az.png)
+
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
@@ -86,9 +91,10 @@ weighted avg       1.00      1.00      1.00         6
 
 
 
-## 032uK2Xwx8Az
+## 012sC3Pna8iy
 
-![010_model_output/yolos-pretrained_th75/032uK2Xwx8Az.png](/010_model_output/yolos-pretrained_th75/032uK2Xwx8Az.png)
+![010_model_output/yolos-pretrained_th75/012sC3Pna8iy.png](/010_model_output/yolos-pretrained_th75/012sC3Pna8iy.png)
+
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|

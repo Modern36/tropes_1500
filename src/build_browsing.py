@@ -8,6 +8,7 @@ from trope_paths import (
     browser_root,
     db_path,
     model_output,
+    ollama_desc_dir,
     output_dir,
     raw_dir,
 )
@@ -164,6 +165,32 @@ def build_tree():
 
                     f.write(objects_table)
 
+                    if model == "VQA":
+                        f.write(
+                            """
+## VQA
+#### Men
+ - How many adult males are depicted in the image?
+ - Is there at least one adult male in the image?
+ - Is there an adult male in the image?
+ - How many adult males are depicted in the photograph?
+ - Is there at least one adult male in the photograph?
+ - Is there an adult male in the photograph?
+ - A man somewhere?
+
+#### Women
+ - How many adult females are depicted in the image?
+ - Is there at least one adult female in the image?
+ - Is there an adult female in the image?
+ - How many adult females are depicted in the photograph?
+ - Is there at least one adult female in the photograph?
+ - Is there an adult female in the photograph?
+ - A woman somewhere?
+
+
+"""
+                        )
+
                     for image_data in get_images(conn, model, collection[1]):
                         f.write(image_data_to_str(*image_data, model=model))
             readme_path = model_dir / "README.md"
@@ -215,11 +242,11 @@ def get_images(conn, model, collection_name=None):
 model_to_subdir = {
     "DinoManWoman": model_output / "DinoManWoman_th25",
     "DinoWomanMan": model_output / "DinoWomanMan_th25",
-    "DinoMan": model_output / "DinoMan_th25",
-    "DinoWoman": model_output / "DinoWoman_th25",
     "YOLO_50": model_output / "yolos-pretrained_th50",
     "YOLO_75": model_output / "yolos-pretrained_th75",
     "YOLO_90": model_output / "yolos-pretrained_th90",
+    "VQA": raw_dir,
+    "llama-desc": model_output / "ollama_description_output",
 }
 
 emojis = {0: "🟥", 1: "🟢"}
@@ -254,20 +281,31 @@ def image_data_to_str(image: str, gt: dict, pred: dict, model):
 ## {image}
 
 ![{relative_loc}](/{relative_loc})
+"""
 
+    result += """\n
 | label | GT | Pred | accurate |
 |:----|----|----|----|"""
-    for label, l in [
+
+    for label, short_label in [
         ("Man", "m"),
         ("Woman", "w"),
         ("Person", "p"),
     ]:
-        if l in pred.keys():
-            ground = gt[l]
-            prediction = pred[l]
+        if short_label in pred.keys():
+            ground = gt[short_label]
+            prediction = pred[short_label]
             marker = emojis[ground == prediction]
             result += f"""
 | {label} | {ground} | {prediction} | {marker} |"""
+    if model == "llama-desc":
+        with open(
+            ollama_desc_dir / (image + ".png.txt"), "r", encoding="utf8"
+        ) as f:
+            result += "\n\n```"
+            result += f.read()
+            result += "\n```\n"
+
     return result + "\n\n\n"
 
 

@@ -29,9 +29,22 @@ weighted avg       1.00      1.00      1.00         3
 | chair | 1 | 1 |
 
 
+## 03346wnnBT19
+
+![010_model_output/yolos-pretrained_th90/03346wnnBT19.png](/010_model_output/yolos-pretrained_th90/03346wnnBT19.png)
+
+
+| label | GT | Pred | accurate |
+|:----|----|----|----|
+| Person | 1 | 1 | 🟢 |
+
+
+
+
 ## 0231xTtRdDLu
 
 ![010_model_output/yolos-pretrained_th90/0231xTtRdDLu.png](/010_model_output/yolos-pretrained_th90/0231xTtRdDLu.png)
+
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
@@ -44,17 +57,7 @@ weighted avg       1.00      1.00      1.00         3
 
 ![010_model_output/yolos-pretrained_th90/0331xTtRdDVn.png](/010_model_output/yolos-pretrained_th90/0331xTtRdDVn.png)
 
+
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Person | 0 | 0 | 🟢 |
-
-
-
-
-## 03346wnnBT19
-
-![010_model_output/yolos-pretrained_th90/03346wnnBT19.png](/010_model_output/yolos-pretrained_th90/03346wnnBT19.png)
-
-| label | GT | Pred | accurate |
-|:----|----|----|----|
-| Person | 1 | 1 | 🟢 |

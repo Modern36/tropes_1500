@@ -1,10 +1,17 @@
 # Build db
 import json
+import re
 import sqlite3
 
 import pandas as pd
 
-from trope_paths import db_path, detections, metadata_dir, read_data
+from trope_paths import (
+    db_path,
+    detections,
+    metadata_dir,
+    ollama_desc_dir,
+    read_data,
+)
 
 
 def add_metadata(db: sqlite3.Connection):
@@ -198,6 +205,10 @@ def build_db():
 
         load_yolo_objects(conn)
 
+        add_model_output(conn, load_vqa())
+
+        add_model_output(conn, load_llama_desc())
+
 
 # TODO: Add Moondream output
 
@@ -223,4 +234,52 @@ def load_metadata():
                 "collection_name": data["collection_name"],
                 "uuid": data["uuid"],
                 "collection_owner_name": data["collection_owner_name"],
+            }
+
+
+def load_vqa():
+    gt_data = read_data()
+
+    for _, row in gt_data.iterrows():
+        image_id = row["file_name"].split(".")[0]
+        pred = {
+            "m": row[f"vqa_m"],
+            "w": row[f"vqa_w"],
+        }
+        pred["p"] = max(pred.values())
+
+        for label, found in pred.items():
+
+            yield {
+                "image_id": image_id,
+                "label": label,
+                "model": "VQA",
+                "found": found,
+            }
+
+
+def load_llama_desc():
+    for desc_file in ollama_desc_dir.iterdir():
+        image_id = desc_file.name.split(".")[0]
+        with open(desc_file, "r", encoding="utf8") as f:
+            text = f.read()
+        m = len(re.findall(r"\bm[ae]n\b", text)) > 0
+        w = len(re.findall(r"\bwom[ae]n\b", text)) > 0
+        p = (
+            m
+            or w
+            or (
+                len(re.findall(r"\b(person|people)\b", text)) > 0
+                and len(re.findall(r"no \b(person|people|individual)", text))
+                == 0
+            )
+        )
+
+        for label, outcome in (("m", m), ("w", w), ("p", p)):
+            yield {
+                "image_id": image_id,
+                "label": label,
+                "model": "llama-desc",
+                "found": outcome,
+                "desc": text,
             }

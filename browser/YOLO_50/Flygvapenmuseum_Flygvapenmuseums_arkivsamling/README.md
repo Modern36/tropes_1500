@@ -33,20 +33,10 @@ weighted avg       0.64      0.80      0.71         5
 | train | 1 | 1 |
 
 
-## 032sA2rGtJaC
+## 012uP1pKhRvG
 
-![010_model_output/yolos-pretrained_th50/032sA2rGtJaC.png](/010_model_output/yolos-pretrained_th50/032sA2rGtJaC.png)
+![010_model_output/yolos-pretrained_th90/012uP1pKhRvG.png](/010_model_output/yolos-pretrained_th90/012uP1pKhRvG.png)
 
-| label | GT | Pred | accurate |
-|:----|----|----|----|
-| Person | 0 | 1 | 🟥 |
-
-
-
-
-## 042s9YXpWzAo
-
-![010_model_output/yolos-pretrained_th75/042s9YXpWzAo.png](/010_model_output/yolos-pretrained_th75/042s9YXpWzAo.png)
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
@@ -59,6 +49,7 @@ weighted avg       0.64      0.80      0.71         5
 
 ![010_model_output/yolos-pretrained_th75/019EBvk6MYLYF.png](/010_model_output/yolos-pretrained_th75/019EBvk6MYLYF.png)
 
+
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Person | 1 | 1 | 🟢 |
@@ -66,9 +57,10 @@ weighted avg       0.64      0.80      0.71         5
 
 
 
-## 012uP1pKhRvG
+## 042s9YXpWzAo
 
-![010_model_output/yolos-pretrained_th90/012uP1pKhRvG.png](/010_model_output/yolos-pretrained_th90/012uP1pKhRvG.png)
+![010_model_output/yolos-pretrained_th75/042s9YXpWzAo.png](/010_model_output/yolos-pretrained_th75/042s9YXpWzAo.png)
+
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
@@ -81,6 +73,19 @@ weighted avg       0.64      0.80      0.71         5
 
 ![010_model_output/yolos-pretrained_th50/032waW2WaTvv.png](/010_model_output/yolos-pretrained_th50/032waW2WaTvv.png)
 
+
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Person | 1 | 1 | 🟢 |
+
+
+
+
+## 032sA2rGtJaC
+
+![010_model_output/yolos-pretrained_th50/032sA2rGtJaC.png](/010_model_output/yolos-pretrained_th50/032sA2rGtJaC.png)
+
+
+| label | GT | Pred | accurate |
+|:----|----|----|----|
+| Person | 0 | 1 | 🟥 |

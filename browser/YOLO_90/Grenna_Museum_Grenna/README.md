@@ -29,9 +29,10 @@ weighted avg       1.00      1.00      1.00        11
 | chair | 1 | 1 |
 
 
-## 0136LRyc7DJE
+## 019EBskuj9w38
 
-![010_model_output/yolos-pretrained_th90/0136LRyc7DJE.png](/010_model_output/yolos-pretrained_th90/0136LRyc7DJE.png)
+![010_model_output/yolos-pretrained_th90/019EBskuj9w38.png](/010_model_output/yolos-pretrained_th90/019EBskuj9w38.png)
+
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
@@ -44,27 +45,6 @@ weighted avg       1.00      1.00      1.00        11
 
 ![010_model_output/yolos-pretrained_th90/02349SstFEC2.png](/010_model_output/yolos-pretrained_th90/02349SstFEC2.png)
 
-| label | GT | Pred | accurate |
-|:----|----|----|----|
-| Person | 1 | 1 | 🟢 |
-
-
-
-
-## 013AmPFG7hGB
-
-![010_model_output/yolos-pretrained_th90/013AmPFG7hGB.png](/010_model_output/yolos-pretrained_th90/013AmPFG7hGB.png)
-
-| label | GT | Pred | accurate |
-|:----|----|----|----|
-| Person | 0 | 0 | 🟢 |
-
-
-
-
-## 019EBskuj9w38
-
-![010_model_output/yolos-pretrained_th90/019EBskuj9w38.png](/010_model_output/yolos-pretrained_th90/019EBskuj9w38.png)
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
@@ -73,9 +53,10 @@ weighted avg       1.00      1.00      1.00        11
 
 
 
-## 032ykUTWYW5D
+## 0136LRyc7DJE
 
-![010_model_output/yolos-pretrained_th90/032ykUTWYW5D.png](/010_model_output/yolos-pretrained_th90/032ykUTWYW5D.png)
+![010_model_output/yolos-pretrained_th90/0136LRyc7DJE.png](/010_model_output/yolos-pretrained_th90/0136LRyc7DJE.png)
+
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
@@ -88,6 +69,7 @@ weighted avg       1.00      1.00      1.00        11
 
 ![010_model_output/yolos-pretrained_th90/022ykVMxiRTS.png](/010_model_output/yolos-pretrained_th90/022ykVMxiRTS.png)
 
+
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Person | 1 | 1 | 🟢 |
@@ -95,20 +77,22 @@ weighted avg       1.00      1.00      1.00        11
 
 
 
-## 032ymVEmvbKm
+## 013AkPbQVszt
 
-![010_model_output/yolos-pretrained_th90/032ymVEmvbKm.png](/010_model_output/yolos-pretrained_th90/032ymVEmvbKm.png)
+![010_model_output/yolos-pretrained_th90/013AkPbQVszt.png](/010_model_output/yolos-pretrained_th90/013AkPbQVszt.png)
+
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Person | 0 | 0 | 🟢 |
+| Person | 1 | 1 | 🟢 |
 
 
 
 
-## 013AkPbQVszv
+## 032ykUTWYW5D
 
-![010_model_output/yolos-pretrained_th90/013AkPbQVszv.png](/010_model_output/yolos-pretrained_th90/013AkPbQVszv.png)
+![010_model_output/yolos-pretrained_th90/032ykUTWYW5D.png](/010_model_output/yolos-pretrained_th90/032ykUTWYW5D.png)
+
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
@@ -121,6 +105,43 @@ weighted avg       1.00      1.00      1.00        11
 
 ![010_model_output/yolos-pretrained_th90/0234ASJXNS1e.png](/010_model_output/yolos-pretrained_th90/0234ASJXNS1e.png)
 
+
+| label | GT | Pred | accurate |
+|:----|----|----|----|
+| Person | 1 | 1 | 🟢 |
+
+
+
+
+## 032ymVEmvbKm
+
+![010_model_output/yolos-pretrained_th90/032ymVEmvbKm.png](/010_model_output/yolos-pretrained_th90/032ymVEmvbKm.png)
+
+
+| label | GT | Pred | accurate |
+|:----|----|----|----|
+| Person | 0 | 0 | 🟢 |
+
+
+
+
+## 013AmPFG7hGB
+
+![010_model_output/yolos-pretrained_th90/013AmPFG7hGB.png](/010_model_output/yolos-pretrained_th90/013AmPFG7hGB.png)
+
+
+| label | GT | Pred | accurate |
+|:----|----|----|----|
+| Person | 0 | 0 | 🟢 |
+
+
+
+
+## 013AkPbQVszv
+
+![010_model_output/yolos-pretrained_th90/013AkPbQVszv.png](/010_model_output/yolos-pretrained_th90/013AkPbQVszv.png)
+
+
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Person | 1 | 1 | 🟢 |
@@ -132,16 +153,6 @@ weighted avg       1.00      1.00      1.00        11
 
 ![010_model_output/yolos-pretrained_th90/032wY1PUg3uX.png](/010_model_output/yolos-pretrained_th90/032wY1PUg3uX.png)
 
-| label | GT | Pred | accurate |
-|:----|----|----|----|
-| Person | 1 | 1 | 🟢 |
-
-
-
-
-## 013AkPbQVszt
-
-![010_model_output/yolos-pretrained_th90/013AkPbQVszt.png](/010_model_output/yolos-pretrained_th90/013AkPbQVszt.png)
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|

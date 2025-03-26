@@ -1,6 +1,6 @@
 from m36_utils.detectors import GrounDino, YolosBase
 
-from trope_paths import data_file, detections, raw_dir, read_data, model_output
+from trope_paths import data_file, detections, model_output, raw_dir, read_data
 
 
 class DinoManWoman(GrounDino):
@@ -10,24 +10,6 @@ class DinoManWoman(GrounDino):
 
     def __str__(self):
         return "DinoManWoman"
-
-
-class DinoMan(GrounDino):
-    def __init__(self):
-        categories = ("man",)
-        super().__init__(categories=categories)
-
-    def __str__(self):
-        return "DinoMan"
-
-
-class DinoWoman(GrounDino):
-    def __init__(self):
-        categories = ("woman",)
-        super().__init__(categories=categories)
-
-    def __str__(self):
-        return "DinoWoman"
 
 
 class DinoWomanMan(GrounDino):
@@ -45,7 +27,6 @@ class YolosPretrained(YolosBase):
 
 
 def draw_images():
-
     def yolo_base():
         yolopre = YolosPretrained()
         yolopre.mode = "count|save"
@@ -60,8 +41,6 @@ def draw_images():
         for dino in [
             DinoManWoman(),
             DinoWomanMan(),
-            DinoMan(),
-            DinoWoman(),
         ]:
             dino.mode = "count|save"
             dino.box_scores = True
@@ -97,10 +76,6 @@ def create_data():
 
     df = add_dino_womanman(df, file_paths)
 
-    df = add_dino_man(df, file_paths)
-
-    df = add_dino_woman(df, file_paths)
-
     df = add_yolo_person(df, file_paths, threshold=0.5)
     df = add_yolo_person(df, file_paths, threshold=0.75)
     df = add_yolo_person(df, file_paths, threshold=0.9)
@@ -132,32 +107,6 @@ def add_dino_womanman(df, file_paths, force=False):
         dino_mw_p = dinowm.predict(file_paths, threshold=0.25)
         df["dwm_m"] = dino_mw_p["man"]
         df["dwm_w"] = dino_mw_p["woman"]
-
-    return df
-
-
-def add_dino_man(df, file_paths, force=False):
-
-    if force or "dm_m" not in df.columns:
-
-        dinomw = DinoMan()
-        dinomw.mode = ""
-
-        dino_mw_p = dinomw.predict(file_paths, threshold=0.25)
-        df["dm_m"] = dino_mw_p["man"]
-
-    return df
-
-
-def add_dino_woman(df, file_paths, force=False):
-
-    if force or "dw_m" not in df.columns:
-
-        dinowm = DinoWoman()
-        dinowm.mode = ""
-
-        dino_mw_p = dinowm.predict(file_paths, threshold=0.25)
-        df["dw_w"] = dino_mw_p["woman"]
 
     return df
 

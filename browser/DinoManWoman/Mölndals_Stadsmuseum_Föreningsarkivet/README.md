@@ -59,6 +59,7 @@ weighted avg       0.00      0.00      0.00       1.0
 
 ![010_model_output/DinoManWoman_th25/032waz7izCMk.png](/010_model_output/DinoManWoman_th25/032waz7izCMk.png)
 
+
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 0 | 1 | 🟥 |

@@ -13,9 +13,10 @@ This file contains 4 images processed by the model: YOLO_75
 | scissors | 1 | 1 |
 
 
-## 012uP2GaH3Mq
+## 012uMWwjtcS4
 
-![010_model_output/yolos-pretrained_th90/012uP2GaH3Mq.png](/010_model_output/yolos-pretrained_th90/012uP2GaH3Mq.png)
+![010_model_output/yolos-pretrained_th75/012uMWwjtcS4.png](/010_model_output/yolos-pretrained_th75/012uMWwjtcS4.png)
+
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
@@ -24,9 +25,22 @@ This file contains 4 images processed by the model: YOLO_75
 
 
 
-## 012uMWwjtcS4
+## 012uP2GaH3Mq
 
-![010_model_output/yolos-pretrained_th75/012uMWwjtcS4.png](/010_model_output/yolos-pretrained_th75/012uMWwjtcS4.png)
+![010_model_output/yolos-pretrained_th90/012uP2GaH3Mq.png](/010_model_output/yolos-pretrained_th90/012uP2GaH3Mq.png)
+
+
+| label | GT | Pred | accurate |
+|:----|----|----|----|
+| Person | 0 | 0 | 🟢 |
+
+
+
+
+## 012uP23Tj4zp
+
+![010_model_output/yolos-pretrained_th90/012uP23Tj4zp.png](/010_model_output/yolos-pretrained_th90/012uP23Tj4zp.png)
+
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
@@ -39,16 +53,6 @@ This file contains 4 images processed by the model: YOLO_75
 
 ![010_model_output/yolos-pretrained_th75/019EBwEJ7Wapd.png](/010_model_output/yolos-pretrained_th75/019EBwEJ7Wapd.png)
 
-| label | GT | Pred | accurate |
-|:----|----|----|----|
-| Person | 0 | 0 | 🟢 |
-
-
-
-
-## 012uP23Tj4zp
-
-![010_model_output/yolos-pretrained_th90/012uP23Tj4zp.png](/010_model_output/yolos-pretrained_th90/012uP23Tj4zp.png)
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|

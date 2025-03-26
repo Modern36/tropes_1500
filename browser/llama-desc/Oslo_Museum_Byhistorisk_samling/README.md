@@ -1,0 +1,26 @@
+# Collection: Byhistorisk samling
+Owner: Oslo Museum
+
+This file contains 1 images processed by the model: llama-desc
+
+
+
+
+
+## 019EBsk7txU63
+
+![000_raw/019EBsk7txU63.png](/000_raw/019EBsk7txU63.png)
+
+
+| label | GT | Pred | accurate |
+|:----|----|----|----|
+| Man | 1 | 1 | 🟢 |
+| Woman | 0 | 0 | 🟢 |
+| Person | 1 | 1 | 🟢 |
+
+```The photograph depicts a group of eight men standing together, dressed in formal attire. They are all wearing suits and ties, with some also sporting hats or caps. The individuals appear to be adults, likely professionals or officials based on their attire.
+
+In the background, there are several objects that provide context for the scene. A large building or structure is visible behind the group, suggesting an urban or institutional setting. Additionally, a few people can be seen walking in the distance, adding to the sense of activity and movement in the image.
+
+Overall, the photograph captures a moment of formal gathering or ceremony, with the group of men at its center. The presence of additional individuals in the background adds depth and context to the scene, while the objects and setting provide clues about the purpose and location of the event.
+```
