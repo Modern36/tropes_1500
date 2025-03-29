@@ -210,7 +210,7 @@ def build_db():
 
         add_model_output(conn, load_llama_desc())
 
-        calculate_groups()
+        calculate_groups(conn)
 
 
 # TODO: Add Moondream output
