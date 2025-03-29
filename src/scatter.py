@@ -72,8 +72,8 @@ def scatter_to_markdown():
     with open(scatter_file, "w") as f:
         f.write(
             "# Scatter found classes\n\n"
-            " - **X-axis***: Ratio of images with men.\n"
-            " - **Y-axis***: Ratio of images with women.\n\n"
+            " - **X-axis**: Ratio of images with men.\n"
+            " - **Y-axis**: Ratio of images with women.\n\n"
         )
 
         f.write(

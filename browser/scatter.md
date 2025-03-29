@@ -1,7 +1,7 @@
 # Scatter found classes
 
- - **X-axis***: Ratio of images with men.
- - **Y-axis***: Ratio of images with women.
+ - **X-axis**: Ratio of images with men.
+ - **Y-axis**: Ratio of images with women.
 
 - ![#00FF00](https://placehold.co/15x15/00ff00/00ff00.png) GroundTrut"
 - ![#999900](https://placehold.co/15x15/999900/999900.png) Dino
