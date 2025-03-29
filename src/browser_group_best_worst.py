@@ -72,7 +72,7 @@ def calculate_groups():
         )
 
 
-if __name__ == "__main__":
+def write_gathered_readmes():
     browser_gathering.mkdir(exist_ok=True)
 
     grp_to_images = defaultdict(set)
