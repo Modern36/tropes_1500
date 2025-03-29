@@ -1,7 +1,12 @@
 import sqlite3
 from collections import defaultdict
 
-from trope_paths import db_path
+from trope_paths import (
+    browser_gathering,
+    db_path,
+    output_dir,
+    resolve_image_path,
+)
 
 
 def group_images():
@@ -65,3 +70,33 @@ def calculate_groups():
             "insert into gathering (image_id, group_name) values (?, ?)",
             groups,
         )
+
+
+if __name__ == "__main__":
+    browser_gathering.mkdir(exist_ok=True)
+
+    grp_to_images = defaultdict(set)
+
+    with sqlite3.connect(db_path) as conn:
+        cursor = conn.cursor()
+
+        for image, grp_name in cursor.execute(
+            "select image_id, group_name from gathering"
+        ):
+            grp_to_images[grp_name].add(image)
+
+    for grp_name in grp_to_images.keys():
+        images = sorted(grp_to_images[grp_name])
+
+        out_path = browser_gathering / f"{grp_name}.md"
+
+        with open(out_path, "w") as f:
+            f.write(f"# {grp_name}\n\n")
+            for image in images:
+                image_loc = resolve_image_path(image, "VQA")
+
+                relative_loc = image_loc.relative_to(output_dir)
+
+                f.write(
+                    f"## {image}\n\n![{relative_loc}](/{relative_loc})\n\n"
+                )
