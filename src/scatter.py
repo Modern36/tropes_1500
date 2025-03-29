@@ -2,26 +2,26 @@ import sqlite3
 
 from trope_paths import db_path
 
-with sqlite3.connect(db_path) as conn:
-    cursor = conn.cursor()
 
-
-def make_scatterplot(cursor, Collection=None):
+def make_scatterplot(cursor, Collection=None, c=1500):
     query = (
         "select model, "
         "sum(case when label == 'm' then found else 0 end) as m, "
         "sum(case when label == 'w' then found else 0 end) as f, "
-        "count(distinct image_id) "
+        "count(distinct prediction.image_id) "
         "from prediction "
     )
 
     if Collection is not None:
-        query += f"where collection = '{Collection}' "
+        query += (
+            "join images on prediction.image_id == images.image_id "
+            f"where collection_name = '{Collection}' "
+        )
 
     query += "group by model"
 
     if Collection is None:
-        Collection = "ALL 1500"
+        Collection = f"ALL {c}"
 
     md = f"""```mermaid
         quadrantChart
@@ -52,3 +52,23 @@ def make_scatterplot(cursor, Collection=None):
 
     """
     return md
+
+
+def main():
+    with sqlite3.connect(db_path) as conn:
+        cursor = conn.cursor()
+
+    document = [make_scatterplot(cursor, None)]
+
+    for collection, c in conn.execute(
+        "select collection_name, count(*) as c from images "
+        "group by collection_name "
+        "order by c desc limit 10",
+    ).fetchall():
+        document.append(make_scatterplot(cursor, collection, c))
+
+    pass
+
+
+if __name__ == "__main__":
+    main()
