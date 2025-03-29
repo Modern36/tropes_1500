@@ -82,18 +82,40 @@ def write_gathered_readmes():
         ):
             grp_to_images[grp_name].add(image)
 
-    for grp_name in grp_to_images.keys():
-        images = sorted(grp_to_images[grp_name])
+        for grp_name in grp_to_images.keys():
+            images = sorted(grp_to_images[grp_name])
 
-        out_path = browser_gathering / f"{grp_name}.md"
+            out_path = browser_gathering / f"{grp_name}.md"
 
-        with open(out_path, "w") as f:
-            f.write(f"# {grp_name}\n\n")
-            for image in images:
-                image_loc = resolve_image_path(image, "VQA")
-
-                relative_loc = image_loc.relative_to(output_dir)
+            with open(out_path, "w") as f:
+                f.write(f"# {grp_name}\n\n")
 
                 f.write(
-                    f"## {image}\n\n![{relative_loc}](/{relative_loc})\n\n"
+                    """| icon | GroundTruth |
+|:----|------------|
+|🚷| No people annotated|
+|🚹| At least one man, but no women|
+|🚺| At least one woman, but no men|
+|🚻| At least one man and women|\n\n"""
                 )
+
+                for image in images:
+                    parking = {
+                        label: found
+                        for label, found in cursor.execute(
+                            'select label, found from prediction where image_id == ? and model == "GroundTruth"',
+                            (image,),
+                        )
+                    }
+
+                    index = parking["m"] + parking["w"] * 2
+
+                    icon = "🚷🚹🚺🚻"[index]
+
+                    image_loc = resolve_image_path(image, "VQA")
+
+                    relative_loc = image_loc.relative_to(output_dir)
+
+                    f.write(
+                        f"## {image} - {icon}\n\n![{relative_loc}](/{relative_loc})\n\n"
+                    )
