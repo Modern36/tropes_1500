@@ -5,22 +5,32 @@ from trope_paths import db_path
 with sqlite3.connect(db_path) as conn:
     cursor = conn.cursor()
 
-    Collection = "ALL 1500"
 
-    md = f"""```mermaid
-quadrantChart
-    title Men and women in {Collection}
-    x-axis Percent --> Men
-    y-axis Percent --> Women
-"""
-
-    for l, m, f, c in cursor.execute(
+def make_scatterplot(cursor, Collection=None):
+    query = (
         "select model, "
         "sum(case when label == 'm' then found else 0 end) as m, "
         "sum(case when label == 'w' then found else 0 end) as f, "
         "count(distinct image_id) "
-        "from prediction group by model;"
-    ):
+        "from prediction "
+    )
+
+    if Collection is not None:
+        query += f"where collection = '{Collection}' "
+
+    query += "group by model"
+
+    if Collection is None:
+        Collection = "ALL 1500"
+
+    md = f"""```mermaid
+        quadrantChart
+            title Men and women in {Collection}
+            x-axis Percent --> Men
+            y-axis Percent --> Women
+        """
+
+    for l, m, f, c in cursor.execute(query):
         if m == f == 0:
             continue
         M = m / c
@@ -37,8 +47,8 @@ quadrantChart
 
         md += "\n"
 
+        md += """
+        ```
 
-md += """
-```
-
-"""
+    """
+    return md
