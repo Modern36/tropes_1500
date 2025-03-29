@@ -19,6 +19,8 @@ quadrantChart
         "count(distinct image_id) "
         "from prediction group by model;"
     ):
+        if m == f == 0:
+            continue
         M = m / c
         F = f / c
         md += f"{l}: [{M}, {F}]\n"
