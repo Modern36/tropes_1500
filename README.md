@@ -95,10 +95,10 @@ quadrantChart
     title Men and women in material
     x-axis Percent --> Men
     y-axis Percent --> Women
-DinoManWoman: [0.7993333333333333, 0.61]
-DinoWomanMan: [0.6226666666666667, 0.842]
-GroundTruth: [0.36733333333333335, 0.23866666666666667]
-VQA: [0.59, 0.42866666666666664]
-llama-desc: [0.314, 0.24466666666666667]
+DinoManWoman: [0.7993333333333333, 0.61] color: #999900
+DinoWomanMan: [0.6226666666666667, 0.842] color: #999900
+GroundTruth: [0.36733333333333335, 0.23866666666666667] color: #009900
+VQA: [0.59, 0.42866666666666664] color: #FF0000
+llama-desc: [0.314, 0.24466666666666667] color: #0000AA
 
 ```
