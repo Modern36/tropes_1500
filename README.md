@@ -90,16 +90,15 @@ The thresholds used are 75% (for yolo) and 25% (for GroundingDino), which
 are arbitrarily chosen from default suggested values and previous
 experiments -- they seem to be neither too restrictive or permissive.
 
-
 ```mermaid
 quadrantChart
-    title Reach and engagement of campaigns
-    x-axis Low Reach --> High Reach
-    y-axis Low Engagement --> High Engagement
-    quadrant-1 We should expand
-    quadrant-2 Need to promote
-    quadrant-3 Re-evaluate
-    quadrant-4 May be improved
-    Campaign A: [0.36733333333333335, 0.23866666666666667]
+    title Men and women in material
+    x-axis Percent --> Men
+    y-axis Percent --> Women
+DinoManWoman: [0.7993333333333333, 0.61]
+DinoWomanMan: [0.6226666666666667, 0.842]
+GroundTruth: [0.36733333333333335, 0.23866666666666667]
+VQA: [0.59, 0.42866666666666664]
+llama-desc: [0.314, 0.24466666666666667]
 
 ```
