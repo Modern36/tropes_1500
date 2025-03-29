@@ -3,6 +3,7 @@ from pathlib import Path
 
 from sklearn.metrics import classification_report
 
+from browser_group_best_worst import write_gathered_readmes
 from build_db import build_db
 from trope_paths import (
     browser_root,
@@ -288,3 +289,4 @@ if __name__ == "__main__":
     build_db()
 
     build_tree()
+    write_gathered_readmes()
