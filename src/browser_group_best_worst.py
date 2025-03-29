@@ -73,8 +73,3 @@ def main():
             "insert into gathering (image_id, group_name) values (?, ?)",
             groups,
         )
-
-
-if __name__ == "__main__":
-    build_db()
-    main()
