@@ -56,7 +56,7 @@ quadrantChart
     return md
 
 
-def main():
+def scatter_to_markdown():
     with sqlite3.connect(db_path) as conn:
         cursor = conn.cursor()
 
@@ -93,4 +93,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    scatter_to_markdown()
