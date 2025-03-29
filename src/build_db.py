@@ -246,8 +246,8 @@ def load_vqa():
     for _, row in gt_data.iterrows():
         image_id = row["file_name"].split(".")[0]
         pred = {
-            "m": row[f"vqa_m"],
-            "w": row[f"vqa_w"],
+            "m": row["vqa_m"],
+            "w": row["vqa_w"],
         }
         pred["p"] = max(pred.values())
 
