@@ -5,6 +5,7 @@ import sqlite3
 
 import pandas as pd
 
+from browser_group_best_worst import calculate_groups
 from trope_paths import (
     db_path,
     detections,
@@ -97,7 +98,7 @@ def load_yolo():
         data = data[data.label == "person"]
         for threshold in [0.5, 0.75, 0.9]:
             data = data[data.score >= threshold]
-            model = f"YOLO_{int(threshold *100)}"
+            model = f"YOLO_{int(threshold * 100)}"
             yield {
                 "image_id": image_id,
                 "label": "p",
@@ -209,6 +210,8 @@ def build_db():
 
         add_model_output(conn, load_llama_desc())
 
+        calculate_groups()
+
 
 # TODO: Add Moondream output
 
@@ -249,7 +252,6 @@ def load_vqa():
         pred["p"] = max(pred.values())
 
         for label, found in pred.items():
-
             yield {
                 "image_id": image_id,
                 "label": label,
