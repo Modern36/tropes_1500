@@ -89,3 +89,17 @@ subdirectory.
 The thresholds used are 75% (for yolo) and 25% (for GroundingDino), which
 are arbitrarily chosen from default suggested values and previous
 experiments -- they seem to be neither too restrictive or permissive.
+
+
+```mermaid
+quadrantChart
+    title Reach and engagement of campaigns
+    x-axis Low Reach --> High Reach
+    y-axis Low Engagement --> High Engagement
+    quadrant-1 We should expand
+    quadrant-2 Need to promote
+    quadrant-3 Re-evaluate
+    quadrant-4 May be improved
+    Campaign A: [0.36733333333333335, 0.23866666666666667]
+
+```
