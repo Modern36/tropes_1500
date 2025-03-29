@@ -11,7 +11,7 @@
 
 ```mermaid
 quadrantChart
-    title Men and women in ALL 1500
+    title Men and women in ALL  1500
     x-axis Percent --> Men
     y-axis Percent --> Women
     DinoManWoman: [0.7993333333333333, 0.61] color: #999900
@@ -27,7 +27,7 @@ quadrantChart
 
 ```mermaid
 quadrantChart
-    title Men and women in Järnvägsmuseets foton
+    title Men and women in Järnvägsmuseets foton 265
     x-axis Percent --> Men
     y-axis Percent --> Women
     DinoManWoman: [0.6943396226415094, 0.47924528301886793] color: #999900
@@ -43,7 +43,7 @@ quadrantChart
 
 ```mermaid
 quadrantChart
-    title Men and women in Upplandsmuseets samlingar
+    title Men and women in Upplandsmuseets samlingar 206
     x-axis Percent --> Men
     y-axis Percent --> Women
     DinoManWoman: [0.7864077669902912, 0.587378640776699] color: #999900
@@ -59,7 +59,7 @@ quadrantChart
 
 ```mermaid
 quadrantChart
-    title Men and women in Fotosamling
+    title Men and women in Fotosamling 175
     x-axis Percent --> Men
     y-axis Percent --> Women
     DinoManWoman: [0.8514285714285714, 0.6285714285714286] color: #999900
@@ -75,7 +75,7 @@ quadrantChart
 
 ```mermaid
 quadrantChart
-    title Men and women in VGM Foto
+    title Men and women in VGM Foto 173
     x-axis Percent --> Men
     y-axis Percent --> Women
     DinoManWoman: [0.8959537572254336, 0.7109826589595376] color: #999900
@@ -91,7 +91,7 @@ quadrantChart
 
 ```mermaid
 quadrantChart
-    title Men and women in S14UM Fotosamlingen
+    title Men and women in S14UM Fotosamlingen 141
     x-axis Percent --> Men
     y-axis Percent --> Women
     DinoManWoman: [0.8439716312056738, 0.7163120567375887] color: #999900
@@ -107,7 +107,7 @@ quadrantChart
 
 ```mermaid
 quadrantChart
-    title Men and women in Kalmar läns museums fotoarkiv
+    title Men and women in Kalmar läns museums fotoarkiv 91
     x-axis Percent --> Men
     y-axis Percent --> Women
     DinoManWoman: [0.6703296703296703, 0.42857142857142855] color: #999900
@@ -123,7 +123,7 @@ quadrantChart
 
 ```mermaid
 quadrantChart
-    title Men and women in VM Foto
+    title Men and women in VM Foto 85
     x-axis Percent --> Men
     y-axis Percent --> Women
     DinoManWoman: [0.8705882352941177, 0.7647058823529411] color: #999900
@@ -139,7 +139,7 @@ quadrantChart
 
 ```mermaid
 quadrantChart
-    title Men and women in Foto
+    title Men and women in Foto 76
     x-axis Percent --> Men
     y-axis Percent --> Women
     DinoManWoman: [0.7631578947368421, 0.5657894736842105] color: #999900
@@ -155,7 +155,7 @@ quadrantChart
 
 ```mermaid
 quadrantChart
-    title Men and women in Bildarkiv
+    title Men and women in Bildarkiv 54
     x-axis Percent --> Men
     y-axis Percent --> Women
     DinoManWoman: [0.7037037037037037, 0.5370370370370371] color: #999900
@@ -171,7 +171,7 @@ quadrantChart
 
 ```mermaid
 quadrantChart
-    title Men and women in Nordiska museets arkiv
+    title Men and women in Nordiska museets arkiv 36
     x-axis Percent --> Men
     y-axis Percent --> Women
     DinoManWoman: [0.8055555555555556, 0.6666666666666666] color: #999900

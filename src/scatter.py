@@ -21,13 +21,13 @@ def make_scatterplot(cursor, Collection=None, c=1500):
     query += "group by model"
 
     if Collection is None:
-        Collection = f"ALL {c}"
+        Collection = "ALL "
 
     md = f"""
 
 ```mermaid
 quadrantChart
-    title Men and women in {Collection}
+    title Men and women in {Collection} {c}
     x-axis Percent --> Men
     y-axis Percent --> Women
 """
