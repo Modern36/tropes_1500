@@ -2,6 +2,14 @@ import sqlite3
 
 from trope_paths import db_path, scatter_file
 
+one_char = {
+    "GroundTruth": "GT",
+    "VQA": "V",
+    "DinoManWoman": "M",
+    "DinoWomanMan": "W",
+    "llama-desc": "L",
+}
+
 
 def make_scatterplot(cursor, Collection=None, c=1500):
     query = (
@@ -37,7 +45,7 @@ quadrantChart
             continue
         M = m / c
         F = f / c
-        md += f"    {l}: [{M}, {F}]"
+        md += f"    {one_char[l]}%: [{M}, {F}]"
         if l == "GroundTruth":
             md += " color: #00FF00"
         elif l.startswith("Dino"):
@@ -48,6 +56,8 @@ quadrantChart
             md += " color: #FF0000"
 
         md += "\n"
+
+    # Calculate and add metrics.
 
     md += """
 ```
