@@ -52,6 +52,28 @@ quadrantChart
 
     # Calculate and add metrics.
 
+    GT = cursor.execute(
+        """
+        SELECT prediction.image_id, case when label == 'm' then found else 0 end as m,
+        case when label == 'w' then found else 0 end as w
+        FROM prediction
+        where model == 'GroundTruth'
+        group by prediction.image_id
+        ORDER BY prediction.image_id desc
+        """
+    ).fetchall()
+
+    for model in cursor.execute(
+        """
+        SELECT model
+        FROM prediction
+        where model != 'GroundTruth'
+        group by model
+        ORDER BY model desc
+        """
+    ).fetchall():
+        pass
+
     """
     1. Get GT.
     2. Per model:
