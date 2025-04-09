@@ -52,32 +52,26 @@ quadrantChart
 
     # Calculate and add metrics.
 
-    GT = cursor.execute(
-        """
-        SELECT prediction.image_id, case when label == 'm' then found else 0 end as m,
-        case when label == 'w' then found else 0 end as w
-        FROM prediction
-        where model == 'GroundTruth'
-        group by prediction.image_id
-        ORDER BY prediction.image_id desc
-        """
-    ).fetchall()
+    GT = image_level_output_for_model(cursor, collection=Collection)
 
-    for model in cursor.execute(
+    for model, *_ in cursor.execute(
         """
         SELECT model
         FROM prediction
         where model != 'GroundTruth'
+        and label in ("m", "w")
         group by model
         ORDER BY model desc
         """
     ).fetchall():
-        pass
+        model_predictions = image_level_output_for_model(
+            cursor, collection=Collection, model=model
+        )
+
+        assert len(model_predictions) == len(GT)
 
     """
-    1. Get GT.
     2. Per model:
-       a. Get data
        b. Get metrics
        c. Add metrics:
            i. f1
@@ -91,6 +85,32 @@ quadrantChart
 
 """
     return md
+
+
+def image_level_output_for_model(
+    cursor,
+    collection,
+    model="GroundTruth",
+):
+    query = """
+        SELECT prediction.image_id, case when label == 'm' then found else 0 end as m,
+        case when label == 'w' then found else 0 end as w
+        FROM prediction """
+    if collection != "ALL":
+        query += (
+            "join images on prediction.image_id == images.image_id "
+            f"where collection_name = '{collection}' and "
+        )
+    else:
+        query += "Where "
+
+    query += f"""
+         model == "{model}"
+        group by prediction.image_id
+        ORDER BY prediction.image_id desc
+        """
+
+    return cursor.execute(query).fetchall()
 
 
 def add_color(l):
