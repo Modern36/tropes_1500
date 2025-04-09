@@ -1,5 +1,7 @@
 import sqlite3
 
+from sklearn.metrics import classification_report
+
 from trope_paths import db_path, scatter_file
 
 one_char = {
@@ -54,6 +56,8 @@ quadrantChart
 
     GT = image_level_output_for_model(cursor, collection=Collection)
 
+    m_gt, w_gt = GT
+
     for model, *_ in cursor.execute(
         """
         SELECT model
@@ -70,9 +74,21 @@ quadrantChart
 
         assert len(model_predictions) == len(GT)
 
+        m_pred, w_pred = model_predictions
+
+        m_c_r = classification_report(
+            y_true=m_gt, y_pred=m_pred, output_dict=True
+        )
+        w_c_r = classification_report(
+            y_true=w_gt, y_pred=w_pred, output_dict=True
+        )
+
+        for metric in ["f1-score", "precision", "recall"]:
+            x = m_c_r["1"][metric]
+            y = w_c_r["1"][metric]
+
     """
     2. Per model:
-       b. Get metrics
        c. Add metrics:
            i. f1
            ii. precision
@@ -93,10 +109,9 @@ def image_level_output_for_model(
     model="GroundTruth",
 ):
     query = """
-        SELECT prediction.image_id, case when label == 'm' then found else 0 end as m,
-        case when label == 'w' then found else 0 end as w
+        SELECT found
         FROM prediction """
-    if collection != "ALL":
+    if collection.strip() != "ALL":
         query += (
             "join images on prediction.image_id == images.image_id "
             f"where collection_name = '{collection}' and "
@@ -104,13 +119,16 @@ def image_level_output_for_model(
     else:
         query += "Where "
 
-    query += f"""
-         model == "{model}"
+    query += """
+         model == :model and label == :label
         group by prediction.image_id
         ORDER BY prediction.image_id desc
         """
 
-    return cursor.execute(query).fetchall()
+    m = cursor.execute(query, {"model": model, "label": "m"}).fetchall()
+    w = cursor.execute(query, {"model": model, "label": "w"}).fetchall()
+
+    return m, w
 
 
 def add_color(l):
