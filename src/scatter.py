@@ -46,18 +46,12 @@ quadrantChart
         M = m / c
         F = f / c
         md += f"    {one_char[l]}%: [{M}, {F}]"
-        if l == "GroundTruth":
-            md += " color: #00FF00"
-        elif l.startswith("Dino"):
-            md += " color: #999900"
-        elif l.startswith("llama-desc"):
-            md += " color: #0000AA"
-        elif l == "VQA":
-            md += " color: #FF0000"
+        md += add_color(l)
 
         md += "\n"
 
     # Calculate and add metrics.
+
     """
     1. Get GT.
     2. Per model:
@@ -75,6 +69,18 @@ quadrantChart
 
 """
     return md
+
+
+def add_color(l):
+    if l == "GroundTruth":
+        return " color: #00FF00"
+    elif l.startswith("Dino"):
+        return " color: #999900"
+    elif l.startswith("llama-desc"):
+        return " color: #0000AA"
+    elif l == "VQA":
+        return " color: #FF0000"
+    return ""
 
 
 def scatter_to_markdown():
