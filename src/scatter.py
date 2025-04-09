@@ -58,6 +58,17 @@ quadrantChart
         md += "\n"
 
     # Calculate and add metrics.
+    """
+    1. Get GT.
+    2. Per model:
+       a. Get data
+       b. Get metrics
+       c. Add metrics:
+           i. f1
+           ii. precision
+           iii. recall
+
+    """
 
     md += """
 ```
