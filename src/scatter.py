@@ -167,16 +167,14 @@ def scatter_to_markdown():
         )
 
         f.write(
-            "- ![#00FF00](https://placehold.co/15x15/00ff00/00ff00.png) GroundTruth\n"
-        )
-        f.write(
-            "- ![#999900](https://placehold.co/15x15/999900/999900.png) Dino\n"
-        )
-        f.write(
-            "- ![#0000AA](https://placehold.co/15x15/0000aa/0000aa.png) llama-desc\n"
-        )
-        f.write(
-            "- ![#FF0000](https://placehold.co/15x15/ff0000/ff0000.png) VQA\n"
+            """
+| Color | Model | | Symbol | Metric |
+| ---   |:--- | --- | ---: |:---    |
+|![#00FF00](https://placehold.co/15x15/00ff00/00ff00.png)| (GT) GroundTruth| | % | Ratio of images with object |
+|![#999900](https://placehold.co/15x15/999900/999900.png)| (W/M) Dino| | f | F1-score |
+|![#0000AA](https://placehold.co/15x15/0000aa/0000aa.png)| (L) llama-desc| | p | Precision |
+|![#FF0000](https://placehold.co/15x15/ff0000/ff0000.png)| (V) VQA| | r | Recall |
+"""
         )
 
         f.write("\n".join(document))
