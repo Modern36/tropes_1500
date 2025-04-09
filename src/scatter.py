@@ -12,6 +12,8 @@ one_char = {
     "llama-desc": "L",
 }
 
+metric_to_symbol = {"f1-score": "f", "precision": "p", "recall": "r"}
+
 
 def make_scatterplot(cursor, Collection=None, c=1500):
     query = (
@@ -82,19 +84,21 @@ quadrantChart
         w_c_r = classification_report(
             y_true=w_gt, y_pred=w_pred, output_dict=True
         )
-
         for metric in ["f1-score", "precision", "recall"]:
             x = m_c_r["1"][metric]
+            if x == 1.0:
+                x = 0.9999
             y = w_c_r["1"][metric]
+            if y == 1.0:
+                y = 0.9999
+            char = one_char[model].upper()
 
-    """
-    2. Per model:
-       c. Add metrics:
-           i. f1
-           ii. precision
-           iii. recall
+            metric_symbol = metric_to_symbol[metric]
+            color = add_color(model)
 
-    """
+            assert y != 1
+
+            md += f"    {char}{metric_symbol}: [{x}, {y}] {color} \n"
 
     md += """
 ```
@@ -140,7 +144,6 @@ def add_color(l):
         return " color: #0000AA"
     elif l == "VQA":
         return " color: #FF0000"
-    return ""
 
 
 def scatter_to_markdown():
