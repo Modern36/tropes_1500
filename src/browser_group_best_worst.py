@@ -36,14 +36,14 @@ def group_images(conn):
         for name, pair in pairs.items():
             pair_to_names[pair].add(name)
 
-        if len(pair_to_names[gt]) == len(pair_to_names):
+        if len(pair_to_names[gt]) == len(pairs):
             yield image_id, "AllGood"
         elif len(pair_to_names[gt]) == 0:
             yield image_id, "AllBad"
         elif len(pair_to_names[gt]) == 1:
             model, *_ = pair_to_names[gt]
             yield image_id, f"Good_{model}"
-        elif len(pair_to_names[gt]) == len(pair_to_names) - 1:
+        elif len(pair_to_names[gt]) == len(pairs) - 1:
             model = [key for key, item in pairs.items() if item != gt][0]
             yield image_id, f"Bad_{model}"
 
