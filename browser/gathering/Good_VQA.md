@@ -1,5 +1,6 @@
 # Good_VQA
 
+
 | icon | GroundTruth |
 |:----|------------|
 |🚷| No women or men annotated|
