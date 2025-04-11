@@ -100,17 +100,7 @@ def write_gathered_readmes():
                 )
 
                 for image in images:
-                    parking = {
-                        label: found
-                        for label, found in cursor.execute(
-                            'select label, found from prediction where image_id == ? and model == "GroundTruth"',
-                            (image,),
-                        )
-                    }
-
-                    index = parking["m"] + parking["w"] * 2
-
-                    icon = "🚷🚹🚺🚻"[index]
+                    icon = get_image_icon(cursor, image)
 
                     image_loc = resolve_image_path(image, "VQA")
 
@@ -119,3 +109,18 @@ def write_gathered_readmes():
                     f.write(
                         f"## {image} - {icon}\n\n![{relative_loc}](/{relative_loc})\n\n"
                     )
+
+
+def get_image_icon(cursor, image):
+    parking = {
+        label: found
+        for label, found in cursor.execute(
+            'select label, found from prediction where image_id == ? and model == "GroundTruth"',
+            (image,),
+        )
+    }
+
+    index = parking["m"] + parking["w"] * 2
+
+    icon = "🚷🚹🚺🚻"[index]
+    return icon
