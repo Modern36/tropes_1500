@@ -70,6 +70,14 @@ def calculate_groups(conn):
 
 
 def write_gathered_readmes():
+    legend = """
+| icon | GroundTruth |
+|:----|------------|
+|🚷| No women or men annotated|
+|🚹| At least one man, but no women|
+|🚺| At least one woman, but no men|
+|🚻| At least one man and woman|\n\n"""
+
     browser_gathering.mkdir(exist_ok=True)
 
     grp_to_images = defaultdict(set)
@@ -90,14 +98,7 @@ def write_gathered_readmes():
             with open(out_path, "w") as f:
                 f.write(f"# {grp_name}\n\n")
 
-                f.write(
-                    """| icon | GroundTruth |
-|:----|------------|
-|🚷| No women or men annotated|
-|🚹| At least one man, but no women|
-|🚺| At least one woman, but no men|
-|🚻| At least one man and woman|\n\n"""
-                )
+                f.write(legend)
 
                 for image in images:
                     icon = get_image_icon(cursor, image)
