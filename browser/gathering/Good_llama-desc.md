@@ -2,10 +2,10 @@
 
 | icon | GroundTruth |
 |:----|------------|
-|🚷| No people annotated|
+|🚷| No women or men annotated|
 |🚹| At least one man, but no women|
 |🚺| At least one woman, but no men|
-|🚻| At least one man and women|
+|🚻| At least one man and woman|
 
 ## 012s8YsrzEki - 🚺
 
