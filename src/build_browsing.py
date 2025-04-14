@@ -300,9 +300,9 @@ def image_data_to_str(image: str, gt: dict, pred: dict, model):
         with open(
             ollama_desc_dir / (image + ".png.txt"), "r", encoding="utf8"
         ) as f:
-            result += "\n\n```"
             llama_desc = f.read()
             assert len(llama_desc.strip()) > 0
+            result += "\n\n```\n\n"
             result += llama_desc
             result += "\n```\n"
 
