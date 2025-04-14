@@ -66,7 +66,8 @@ weighted avg       1.00      1.00      1.00         6
 | Woman | 1 | 1 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
-```The image is a black-and-white photograph of a large group of people, likely taken at an event or gathering. The majority of the individuals appear to be adults, with some possibly being older children or teenagers.
+```
+The image is a black-and-white photograph of a large group of people, likely taken at an event or gathering. The majority of the individuals appear to be adults, with some possibly being older children or teenagers.
 
 In the front row, there are several women wearing dresses and hats, while men in suits and ties stand behind them. Some individuals wear glasses, and one person has a mustache. A few people hold items such as books, purses, or cameras.
 
@@ -90,7 +91,8 @@ It's challenging to determine the exact number of people in the photograph due t
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
-```The person featured in this photograph is a man wearing dark sunglasses and what appears to be swimming trunks or shorts. He is sitting in a kayak, holding a paddle in both hands. The man has short hair that could be considered blond, but the black-and-white image makes it difficult to determine with certainty.
+```
+The person featured in this photograph is a man wearing dark sunglasses and what appears to be swimming trunks or shorts. He is sitting in a kayak, holding a paddle in both hands. The man has short hair that could be considered blond, but the black-and-white image makes it difficult to determine with certainty.
 
 In the background, there are no other people visible. However, there appear to be some trees along the shoreline, suggesting that the photograph was taken near a body of water such as a lake or river. The overall atmosphere of the image is one of relaxation and leisure, with the man enjoying his time on the water.
 ```
@@ -110,7 +112,8 @@ In the background, there are no other people visible. However, there appear to b
 | Woman | 1 | 1 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
-```The photograph depicts a group of people gathered around a table, with six individuals standing behind it and one person seated at the far end. The standing figures are all women, as evidenced by their long-sleeved dresses that reach down to their ankles. They wear aprons over their dresses, which feature white collars and cuffs. Two of the women have their hands clasped together in front of them.
+```
+The photograph depicts a group of people gathered around a table, with six individuals standing behind it and one person seated at the far end. The standing figures are all women, as evidenced by their long-sleeved dresses that reach down to their ankles. They wear aprons over their dresses, which feature white collars and cuffs. Two of the women have their hands clasped together in front of them.
 
 In the background, there appears to be a man sitting at the far end of the table, although he is not clearly visible due to being out of focus. He seems to be wearing a suit jacket and tie. Additionally, another person can be seen standing behind him, but their features are indistinct.
 
@@ -132,7 +135,8 @@ The overall atmosphere of the scene suggests that it may be related to an event 
 | Woman | 0 | 0 | 🟢 |
 | Person | 0 | 0 | 🟢 |
 
-```There are no people visible in this photograph. The image appears to be a landscape or aerial view of an area, possibly a body of water with landmasses in the distance, but it does not depict any human figures.
+```
+There are no people visible in this photograph. The image appears to be a landscape or aerial view of an area, possibly a body of water with landmasses in the distance, but it does not depict any human figures.
 ```
 
 
@@ -150,7 +154,8 @@ The overall atmosphere of the scene suggests that it may be related to an event 
 | Woman | 0 | 1 | 🟥 |
 | Person | 1 | 1 | 🟢 |
 
-```The photograph you provided shows a large group of young women standing on stone steps outside a church.
+```
+The photograph you provided shows a large group of young women standing on stone steps outside a church.
 
 There are approximately 100 girls visible in the image. Most of them wear white dresses with dark sashes, and many have flowers pinned to their chests or in their hair. The majority appear to be between the ages of 10 and 18 years old.
 
@@ -174,7 +179,8 @@ There appear to be no children under 10 years old or people over 50 years old in
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
-```The photograph appears to be a black and white image of a group of young men on a beach or near water, with some trees visible in the distance.
+```
+The photograph appears to be a black and white image of a group of young men on a beach or near water, with some trees visible in the distance.
 
 **Clothing:**
 

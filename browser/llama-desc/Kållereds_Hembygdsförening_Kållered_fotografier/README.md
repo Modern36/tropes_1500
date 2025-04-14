@@ -66,7 +66,8 @@ weighted avg       1.00      0.75      0.86         4
 | Woman | 1 | 1 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
-```The photograph shows a black-and-white scene of a group of people gathered around a table, with some individuals standing in the background. The image appears to be from an older era, possibly the early 20th century.
+```
+The photograph shows a black-and-white scene of a group of people gathered around a table, with some individuals standing in the background. The image appears to be from an older era, possibly the early 20th century.
 
 In the foreground, there are several people seated at the table, including children and adults. One child is sitting on someone's lap, while another child stands next to them. There are also two women visible in the foreground, one of whom is holding a baby.
 
@@ -92,7 +93,8 @@ Overall, based on their clothing and hairstyles, I would estimate that most of t
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
-```The photograph depicts a group of six men standing with their bicycles on what appears to be a country road. The image features several individuals with varying levels of visibility and clarity.
+```
+The photograph depicts a group of six men standing with their bicycles on what appears to be a country road. The image features several individuals with varying levels of visibility and clarity.
 
 There are two individuals in the foreground, positioned centrally within the frame. One man is wearing a dark suit jacket with a white shirt underneath, while the other sports a lighter-colored suit jacket paired with a tie. Both men have dark hair and mustaches.
 
@@ -116,7 +118,8 @@ In summary, there appear to be six men present within this historical photograph
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 0 | 🟥 |
 
-```The photograph depicts two small children standing outdoors on a dirt road. The child nearest to the viewer appears to be wearing dark, possibly brown overalls or a dress with white stockings and shoes. They have short blonde hair and appear to be a girl. Behind her stands another child who is dressed in light-colored clothing that may include an apron. This child has slightly darker hair than the first one but still appears fair-haired.
+```
+The photograph depicts two small children standing outdoors on a dirt road. The child nearest to the viewer appears to be wearing dark, possibly brown overalls or a dress with white stockings and shoes. They have short blonde hair and appear to be a girl. Behind her stands another child who is dressed in light-colored clothing that may include an apron. This child has slightly darker hair than the first one but still appears fair-haired.
 
 In the background of the image, there are several adults visible near buildings or vehicles. One adult can be seen standing behind the children, while others appear farther away amidst trees and structures such as houses or barns. Some individuals seem engaged in various activities like tending animals (possibly cows) alongside wagons pulled by horses; however, these details remain somewhat indistinct due to distance from the camera lens.
 
@@ -138,7 +141,8 @@ Overall, based on their attire alone it's difficult to definitively ascertain ge
 | Woman | 1 | 1 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
-```The photograph appears to depict two women posing for a portrait outdoors. One woman stands tall behind another who is crouching down on her knees.
+```
+The photograph appears to depict two women posing for a portrait outdoors. One woman stands tall behind another who is crouching down on her knees.
 
 Both women wear long dresses with short sleeves and have dark hair that falls just below their shoulders or ears. They are both smiling and looking directly at the camera, suggesting they were posing for this photograph rather than being caught in an unguarded moment.
 

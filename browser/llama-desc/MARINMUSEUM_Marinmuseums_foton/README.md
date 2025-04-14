@@ -66,7 +66,8 @@ weighted avg       0.86      0.76      0.77        25
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
-```The photograph features a single individual, dressed in military attire from the early 19th century. The soldier's uniform consists of a dark blue jacket with white trim and buttons, paired with light-colored pants and black boots. A wide-brimmed hat adorns his head, complete with feathers and other decorations.
+```
+The photograph features a single individual, dressed in military attire from the early 19th century. The soldier's uniform consists of a dark blue jacket with white trim and buttons, paired with light-colored pants and black boots. A wide-brimmed hat adorns his head, complete with feathers and other decorations.
 
 In terms of gender identification, it is clear that the person in the photograph is male due to their attire and physical appearance. The uniform style and accessories are consistent with those worn by men during this time period.
 
@@ -88,7 +89,8 @@ Upon closer inspection, no other people are visible in the background or out of 
 | Woman | 0 | 1 | 🟥 |
 | Person | 0 | 1 | 🟥 |
 
-```The photograph provided does not depict any individuals. The image appears to be a scientific illustration or diagram, featuring circular shapes with various patterns and textures inside them. There are no human figures present in the image.
+```
+The photograph provided does not depict any individuals. The image appears to be a scientific illustration or diagram, featuring circular shapes with various patterns and textures inside them. There are no human figures present in the image.
 
 Therefore, it is impossible to determine if there are men, women, or children depicted in the picture since there are no people visible at all.
 ```
@@ -108,7 +110,8 @@ Therefore, it is impossible to determine if there are men, women, or children de
 | Woman | 0 | 0 | 🟢 |
 | Person | 0 | 0 | 🟢 |
 
-```The photograph does not depict any individuals. The image features a large ship with smoke billowing from its stack, set against a backdrop of water and sky. There are no visible human figures in the picture.
+```
+The photograph does not depict any individuals. The image features a large ship with smoke billowing from its stack, set against a backdrop of water and sky. There are no visible human figures in the picture.
 ```
 
 
@@ -126,7 +129,8 @@ Therefore, it is impossible to determine if there are men, women, or children de
 | Woman | 0 | 0 | 🟢 |
 | Person | 0 | 0 | 🟢 |
 
-```There are no people visible in this photograph. The image appears to depict a body of water with waves or ripples on its surface, but there are no individuals present within the frame.
+```
+There are no people visible in this photograph. The image appears to depict a body of water with waves or ripples on its surface, but there are no individuals present within the frame.
 ```
 
 
@@ -144,7 +148,8 @@ Therefore, it is impossible to determine if there are men, women, or children de
 | Woman | 0 | 0 | 🟢 |
 | Person | 0 | 0 | 🟢 |
 
-```There are no individuals present in this photograph. The scene depicts a ship sailing on the water, with no visible signs of human presence or activity.
+```
+There are no individuals present in this photograph. The scene depicts a ship sailing on the water, with no visible signs of human presence or activity.
 ```
 
 
@@ -162,7 +167,8 @@ Therefore, it is impossible to determine if there are men, women, or children de
 | Woman | 0 | 0 | 🟢 |
 | Person | 0 | 0 | 🟢 |
 
-```There are no people visible in this photograph. The image appears to be a black-and-white picture of an empty shipyard or warehouse, with various pieces of equipment and machinery scattered throughout the space.
+```
+There are no people visible in this photograph. The image appears to be a black-and-white picture of an empty shipyard or warehouse, with various pieces of equipment and machinery scattered throughout the space.
 
 The overall atmosphere of the image suggests that it was taken during a time when the facility was not actively being used, possibly due to maintenance or repairs.
 ```
@@ -182,7 +188,8 @@ The overall atmosphere of the image suggests that it was taken during a time whe
 | Woman | 0 | 1 | 🟥 |
 | Person | 0 | 1 | 🟥 |
 
-```There does not appear to be any people visible in this image. The image shows a black-and-white photograph of an ornate picture frame containing a portrait of a woman. The woman in the painting is wearing a large, elaborate dress and has her hair styled in an updo. She appears to be from the 18th century. The frame itself is made of wood and features intricate carvings along its edges. Above the frame, there is a decorative crown or crest that adds to the overall sense of grandeur and luxury.
+```
+There does not appear to be any people visible in this image. The image shows a black-and-white photograph of an ornate picture frame containing a portrait of a woman. The woman in the painting is wearing a large, elaborate dress and has her hair styled in an updo. She appears to be from the 18th century. The frame itself is made of wood and features intricate carvings along its edges. Above the frame, there is a decorative crown or crest that adds to the overall sense of grandeur and luxury.
 ```
 
 
@@ -200,7 +207,8 @@ The overall atmosphere of the image suggests that it was taken during a time whe
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
-```There do not appear to be any people present in this image. The vessel appears empty and there are no visible individuals on board or in the surrounding environment.
+```
+There do not appear to be any people present in this image. The vessel appears empty and there are no visible individuals on board or in the surrounding environment.
 ```
 
 
@@ -218,7 +226,8 @@ The overall atmosphere of the image suggests that it was taken during a time whe
 | Woman | 0 | 0 | 🟢 |
 | Person | 0 | 1 | 🟥 |
 
-```There does not appear to be any people present in this image.
+```
+There does not appear to be any people present in this image.
 
 The photograph shows a black-and-white picture of a folding stool or seat made of metal tubing with a plastic seat. The seat is white and has a subtle texture, possibly indicating it's made from plastic or vinyl. It rests on four legs that are splayed outwards for stability, with the front two legs being slightly shorter than the back ones to create an incline for comfort while sitting.
 
@@ -240,7 +249,8 @@ In the background, there appears to be a wall or backdrop which seems to have so
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
-```The photograph depicts a person kneeling on the ground, intently focused on an object situated on top of two wooden crates or boxes. The individual is attired in dark-colored pants and a jacket featuring epaulets and a badge, which suggests that they may be a member of a military or law enforcement unit.
+```
+The photograph depicts a person kneeling on the ground, intently focused on an object situated on top of two wooden crates or boxes. The individual is attired in dark-colored pants and a jacket featuring epaulets and a badge, which suggests that they may be a member of a military or law enforcement unit.
 
 In the background, another person can be seen standing behind the first individual, although their features are not clearly discernible due to the distance and lack of focus. This person appears to be wearing a light-colored shirt with sleeves rolled up, but no other distinguishing characteristics are visible.
 
@@ -262,7 +272,8 @@ Notably, there are no children present in the image. The overall atmosphere of t
 | Woman | 0 | 0 | 🟢 |
 | Person | 0 | 1 | 🟥 |
 
-```The image does not depict any individuals. The photograph shows a warship on the water, with no visible people in the foreground or background.
+```
+The image does not depict any individuals. The photograph shows a warship on the water, with no visible people in the foreground or background.
 ```
 
 
@@ -280,7 +291,8 @@ Notably, there are no children present in the image. The overall atmosphere of t
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
-```There do not appear to be any people visible in this image. The image depicts a ship on water with buildings along the shoreline in the distance.
+```
+There do not appear to be any people visible in this image. The image depicts a ship on water with buildings along the shoreline in the distance.
 
 If you would like me to describe the buildings or ships, I can do so.
 ```
@@ -300,7 +312,8 @@ If you would like me to describe the buildings or ships, I can do so.
 | Woman | 0 | 0 | 🟢 |
 | Person | 0 | 0 | 🟢 |
 
-```There are no individuals visible in this photograph. The image appears to be a close-up of an antique chair or other piece of furniture, with intricate carvings and details on display.
+```
+There are no individuals visible in this photograph. The image appears to be a close-up of an antique chair or other piece of furniture, with intricate carvings and details on display.
 
 **Key Features:**
 
@@ -327,7 +340,8 @@ Given that there are no people present in the image, it is not possible to deter
 | Woman | 0 | 0 | 🟢 |
 | Person | 0 | 0 | 🟢 |
 
-```There do not appear to be any people visible in this photograph. The image depicts a large wooden structure with scaffolding and ladders, but there are no individuals present within it.
+```
+There do not appear to be any people visible in this photograph. The image depicts a large wooden structure with scaffolding and ladders, but there are no individuals present within it.
 ```
 
 
@@ -345,7 +359,8 @@ Given that there are no people present in the image, it is not possible to deter
 | Woman | 0 | 0 | 🟢 |
 | Person | 0 | 0 | 🟢 |
 
-```There are no people visible in this photograph. The image appears to be a black-and-white historical collection photo of two model ships on display, with no individuals present in the scene.
+```
+There are no people visible in this photograph. The image appears to be a black-and-white historical collection photo of two model ships on display, with no individuals present in the scene.
 ```
 
 
@@ -363,7 +378,8 @@ Given that there are no people present in the image, it is not possible to deter
 | Woman | 0 | 0 | 🟢 |
 | Person | 0 | 0 | 🟢 |
 
-```There are no people visible in this image. The photograph appears to be a collection of architectural or engineering drawings on display in a room with white walls and wooden floors. There are several pieces of paper pinned up on the wall, but they do not depict any human figures.
+```
+There are no people visible in this image. The photograph appears to be a collection of architectural or engineering drawings on display in a room with white walls and wooden floors. There are several pieces of paper pinned up on the wall, but they do not depict any human figures.
 ```
 
 
@@ -381,7 +397,8 @@ Given that there are no people present in the image, it is not possible to deter
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
-```The photograph depicts a man standing beside an object resembling a boat hull, with another person visible in the background. The man on the left is dressed in attire typical for his era, including a cap, jacket, vest, shirt, tie, trousers, and shoes. He stands next to what appears to be a partially constructed boat or ship's hull, which features a metal frame and wooden planks.
+```
+The photograph depicts a man standing beside an object resembling a boat hull, with another person visible in the background. The man on the left is dressed in attire typical for his era, including a cap, jacket, vest, shirt, tie, trousers, and shoes. He stands next to what appears to be a partially constructed boat or ship's hull, which features a metal frame and wooden planks.
 
 In the background, there are at least two other people, one of whom is wearing a hat and standing near the wall on the right side of the image. The presence of these individuals suggests that they may be involved in the construction or repair of boats or ships, possibly as workers or sailors.
 ```
@@ -401,7 +418,8 @@ In the background, there are at least two other people, one of whom is wearing a
 | Woman | 0 | 0 | 🟢 |
 | Person | 0 | 0 | 🟢 |
 
-```There do not appear to be any individuals present within this image.
+```
+There do not appear to be any individuals present within this image.
 ```
 
 
@@ -419,7 +437,8 @@ In the background, there are at least two other people, one of whom is wearing a
 | Woman | 0 | 0 | 🟢 |
 | Person | 0 | 1 | 🟥 |
 
-```There do not appear to be any people visible in this image. The photograph depicts a large black cannon on wheels in front of two buildings. There appears to be a man standing behind the left building but he is too far away and out of focus to make out any detail. He is wearing what looks like a long coat and hat, which suggests that it may have been taken at some point in the 19th century. It's possible that there could be other people present who are not visible due to being obscured by objects or simply because they were not captured within the frame of the photo.
+```
+There do not appear to be any people visible in this image. The photograph depicts a large black cannon on wheels in front of two buildings. There appears to be a man standing behind the left building but he is too far away and out of focus to make out any detail. He is wearing what looks like a long coat and hat, which suggests that it may have been taken at some point in the 19th century. It's possible that there could be other people present who are not visible due to being obscured by objects or simply because they were not captured within the frame of the photo.
 ```
 
 
@@ -437,7 +456,8 @@ In the background, there are at least two other people, one of whom is wearing a
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
-```The photograph features a large group of men dressed in military uniforms, with most wearing hats. They are arranged in rows and appear to be standing at attention.
+```
+The photograph features a large group of men dressed in military uniforms, with most wearing hats. They are arranged in rows and appear to be standing at attention.
 
 In the foreground, there is a dirt road or path that leads up to the building where the men are gathered. The background of the image shows several buildings, including what appears to be a large stone structure with a clock tower. There are also some trees visible in the distance.
 
@@ -459,7 +479,8 @@ Overall, the atmosphere of the photograph suggests a formal event or ceremony, p
 | Woman | 0 | 0 | 🟢 |
 | Person | 0 | 0 | 🟢 |
 
-```There are no people visible in this photograph. The image appears to depict a room filled with various scientific instruments and equipment, but it does not contain any individuals.
+```
+There are no people visible in this photograph. The image appears to depict a room filled with various scientific instruments and equipment, but it does not contain any individuals.
 ```
 
 
@@ -477,7 +498,8 @@ Overall, the atmosphere of the photograph suggests a formal event or ceremony, p
 | Woman | 0 | 0 | 🟢 |
 | Person | 0 | 0 | 🟢 |
 
-```There are no people visible in this photograph. The image appears to be a historical picture of a submarine or warship, with no human figures present.
+```
+There are no people visible in this photograph. The image appears to be a historical picture of a submarine or warship, with no human figures present.
 ```
 
 
@@ -495,7 +517,8 @@ Overall, the atmosphere of the photograph suggests a formal event or ceremony, p
 | Woman | 0 | 0 | 🟢 |
 | Person | 0 | 1 | 🟥 |
 
-```The photograph you provided appears to be an old black-and-white image of a boat workshop or shipyard. The primary focus of the image is on the boats and the equipment used in their construction, rather than people.
+```
+The photograph you provided appears to be an old black-and-white image of a boat workshop or shipyard. The primary focus of the image is on the boats and the equipment used in their construction, rather than people.
 
 Upon careful examination, I did not find any individuals depicted in this particular photograph. The scene seems to highlight the craftsmanship and tools involved in building boats during that era, with no visible human presence captured within the frame.
 ```
@@ -515,7 +538,8 @@ Upon careful examination, I did not find any individuals depicted in this partic
 | Woman | 0 | 1 | 🟥 |
 | Person | 1 | 1 | 🟢 |
 
-```The photograph depicts a group of men standing in front of an artillery gun, with no women or children present. The men are dressed in dark-colored uniforms adorned with medals and insignia, indicating their military affiliation. They appear to be posing for the camera, suggesting that they may be part of a formal ceremony or commemoration.
+```
+The photograph depicts a group of men standing in front of an artillery gun, with no women or children present. The men are dressed in dark-colored uniforms adorned with medals and insignia, indicating their military affiliation. They appear to be posing for the camera, suggesting that they may be part of a formal ceremony or commemoration.
 
 In the background, there is another group of people who are not clearly visible due to being out of focus. However, based on their attire and posture, it can be inferred that they are also men, likely accompanying the main group or participating in the event.
 
@@ -537,7 +561,8 @@ Overall, the image suggests a sense of formality and solemnity, with the men pos
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
-```The photograph shows a man standing on the deck of a ship. He is wearing dark pants and a white hat with a thin black band around it, as well as a white collar peeking out from under his jacket. The man has short hair.
+```
+The photograph shows a man standing on the deck of a ship. He is wearing dark pants and a white hat with a thin black band around it, as well as a white collar peeking out from under his jacket. The man has short hair.
 
 Behind him, there are several other men who appear to be sailors or crew members. They are all wearing similar uniforms, consisting of light-colored shirts and dark pants. Some of them have hats on their heads, while others do not. In the background, there is a large structure that appears to be part of the ship's superstructure. It has several windows and doors, and what looks like a ladder leading up to it.
 

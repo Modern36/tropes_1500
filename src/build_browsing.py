@@ -302,7 +302,7 @@ def image_data_to_str(image: str, gt: dict, pred: dict, model):
         ) as f:
             llama_desc = f.read()
             assert len(llama_desc.strip()) > 0
-            result += "\n\n```\n\n"
+            result += "\n\n```\n"
             result += llama_desc
             result += "\n```\n"
 

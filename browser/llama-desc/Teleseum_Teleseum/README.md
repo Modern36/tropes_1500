@@ -18,7 +18,8 @@ This file contains 1 images processed by the model: llama-desc
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
-```The image depicts a scene with numerous individuals, but it's challenging to discern their gender due to the black-and-white nature of the photograph and the fact that they are all wearing similar attire. The majority of the people appear to be men, as evidenced by their suits and hats, which were common male fashion items during the time period when the photo was taken.
+```
+The image depicts a scene with numerous individuals, but it's challenging to discern their gender due to the black-and-white nature of the photograph and the fact that they are all wearing similar attire. The majority of the people appear to be men, as evidenced by their suits and hats, which were common male fashion items during the time period when the photo was taken.
 
 In the foreground, there is a group of people standing in front of a building, with some of them facing towards the camera while others have their backs turned. The individuals in this group are dressed in formal attire, suggesting that they may be attending an event or gathering of some sort.
 

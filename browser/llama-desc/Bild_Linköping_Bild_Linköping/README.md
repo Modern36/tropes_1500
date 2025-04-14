@@ -50,7 +50,8 @@ weighted avg       0.56      0.75      0.64         4
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
-```The photograph depicts two men standing on a wooden platform, surrounded by construction materials and tools. The man on the left wears a dark coat with a white shirt underneath, while the man on the right is dressed in overalls and a hat. In the background, another person can be seen wearing a light-colored suit jacket.
+```
+The photograph depicts two men standing on a wooden platform, surrounded by construction materials and tools. The man on the left wears a dark coat with a white shirt underneath, while the man on the right is dressed in overalls and a hat. In the background, another person can be seen wearing a light-colored suit jacket.
 
 Given their attire and hairstyles, which were typical of men during that era, it appears that all individuals visible in the image are male adults.
 ```
@@ -70,7 +71,8 @@ Given their attire and hairstyles, which were typical of men during that era, it
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
-```The image depicts a black-and-white photograph of a road with trees on either side, featuring two individuals in the foreground. The person on the left is dressed in dark attire and appears to be walking towards the right side of the frame. In contrast, the individual on the right is wearing light-colored clothing and seems to be heading in the opposite direction.
+```
+The image depicts a black-and-white photograph of a road with trees on either side, featuring two individuals in the foreground. The person on the left is dressed in dark attire and appears to be walking towards the right side of the frame. In contrast, the individual on the right is wearing light-colored clothing and seems to be heading in the opposite direction.
 
 In the background, there are several other people visible, although they are not as clearly defined due to their distance from the camera. It is challenging to determine the gender or age of these individuals with certainty, but based on their clothing and posture, it appears that most of them are adults, possibly men.
 
@@ -94,7 +96,8 @@ Overall, while it is difficult to discern specific details about each person's i
 | Woman | 1 | 1 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
-```The photograph depicts a group of women dressed in long skirts and blouses, with headscarves or hats covering their hair. They are walking along a dirt road, carrying baskets and bags.
+```
+The photograph depicts a group of women dressed in long skirts and blouses, with headscarves or hats covering their hair. They are walking along a dirt road, carrying baskets and bags.
 
 **Key Observations:**
 
@@ -122,7 +125,8 @@ Based on their clothing and activities, it appears that the people in this histo
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
-```The image depicts a black-and-white photograph of two men working on a construction site, with one man standing on a platform and the other bending over near him. The men are dressed in casual attire, consisting of long-sleeved shirts and pants.
+```
+The image depicts a black-and-white photograph of two men working on a construction site, with one man standing on a platform and the other bending over near him. The men are dressed in casual attire, consisting of long-sleeved shirts and pants.
 
 In the background, there is no one visible. The scene appears to be set outdoors, possibly during the daytime given the lighting conditions. However, it's difficult to determine the exact time of day or season due to the lack of color information.
 

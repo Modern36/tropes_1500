@@ -50,7 +50,8 @@ weighted avg       0.90      0.80      0.82         5
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
-```The photograph depicts a single individual, who appears to be a man dressed in military attire. He is wearing a formal uniform with epaulets on his shoulders and medals pinned to his chest. The man's facial expression suggests that he may be of middle age or older.
+```
+The photograph depicts a single individual, who appears to be a man dressed in military attire. He is wearing a formal uniform with epaulets on his shoulders and medals pinned to his chest. The man's facial expression suggests that he may be of middle age or older.
 
 In the background, there are no other people visible in the image. However, it is worth noting that the photograph has been cropped at the top, which means that any additional individuals who may have been present above the frame cannot be seen.
 
@@ -72,7 +73,8 @@ Overall, based on the available information, I would conclude that this photogra
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 0 | 🟥 |
 
-```There do not appear to be any people visible in this photograph. The image depicts a vintage airplane parked on what seems to be an airfield or open space, with no individuals present around it. The focus of the photo is clearly on the aircraft itself and its surroundings, without including any human figures.
+```
+There do not appear to be any people visible in this photograph. The image depicts a vintage airplane parked on what seems to be an airfield or open space, with no individuals present around it. The focus of the photo is clearly on the aircraft itself and its surroundings, without including any human figures.
 ```
 
 
@@ -90,7 +92,8 @@ Overall, based on the available information, I would conclude that this photogra
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
-```In this black-and-white photograph, two individuals can be seen in the distance on the left-hand side of the image, standing on a hill. The person on the right appears to be wearing dark trousers and a lighter-colored shirt, while the other individual's attire cannot be discerned due to being out of focus.
+```
+In this black-and-white photograph, two individuals can be seen in the distance on the left-hand side of the image, standing on a hill. The person on the right appears to be wearing dark trousers and a lighter-colored shirt, while the other individual's attire cannot be discerned due to being out of focus.
 
 The background of the picture features a grassy field with trees visible behind it. In the foreground, there is a house engulfed in flames, with smoke billowing into the air. The overall atmosphere suggests that the scene depicts a fire or some other catastrophic event.
 ```
@@ -110,7 +113,8 @@ The background of the picture features a grassy field with trees visible behind 
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
-```The photograph shows a group of men working in a workshop or factory setting. The image is black and white, which makes it difficult to discern specific details about the individuals' appearances.
+```
+The photograph shows a group of men working in a workshop or factory setting. The image is black and white, which makes it difficult to discern specific details about the individuals' appearances.
 
 **Physical Characteristics:**
 
@@ -151,5 +155,6 @@ In summary, the people depicted in this historical photograph are all adult male
 | Woman | 0 | 0 | 🟢 |
 | Person | 0 | 0 | 🟢 |
 
-```There are no people visible in this image. The photograph shows a large body of water with several objects floating on its surface, but there is no sign of human presence or activity.
+```
+There are no people visible in this image. The photograph shows a large body of water with several objects floating on its surface, but there is no sign of human presence or activity.
 ```

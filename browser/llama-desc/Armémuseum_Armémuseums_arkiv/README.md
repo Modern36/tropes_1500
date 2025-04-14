@@ -66,7 +66,8 @@ weighted avg       0.94      0.93      0.93        15
 | Woman | 0 | 0 | 🟢 |
 | Person | 0 | 0 | 🟢 |
 
-```There are no people visible in this photograph. The image appears to be a page from an album or scrapbook featuring three black-and-white landscape photographs with handwritten captions in Russian. Each photo shows mountains, rivers, and lakes under cloudy skies. There are also two landscape photos on the back of the page, one showing a river flowing through a valley and another depicting a mountainous area with trees and a body of water.
+```
+There are no people visible in this photograph. The image appears to be a page from an album or scrapbook featuring three black-and-white landscape photographs with handwritten captions in Russian. Each photo shows mountains, rivers, and lakes under cloudy skies. There are also two landscape photos on the back of the page, one showing a river flowing through a valley and another depicting a mountainous area with trees and a body of water.
 ```
 
 
@@ -84,7 +85,8 @@ weighted avg       0.94      0.93      0.93        15
 | Woman | 0 | 0 | 🟢 |
 | Person | 0 | 0 | 🟢 |
 
-```There are no people visible in this photograph. The image appears to be a landscape or nature scene, with trees, water, and sky visible but no human figures present.
+```
+There are no people visible in this photograph. The image appears to be a landscape or nature scene, with trees, water, and sky visible but no human figures present.
 ```
 
 
@@ -102,7 +104,8 @@ weighted avg       0.94      0.93      0.93        15
 | Woman | 0 | 0 | 🟢 |
 | Person | 0 | 0 | 🟢 |
 
-```There are no people visible in the photograph. The scene appears to be a serene landscape with rolling hills and a body of water, but it does not depict any human figures or individuals.
+```
+There are no people visible in the photograph. The scene appears to be a serene landscape with rolling hills and a body of water, but it does not depict any human figures or individuals.
 ```
 
 
@@ -120,7 +123,8 @@ weighted avg       0.94      0.93      0.93        15
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
-```The photograph features three men standing at different positions in front of a ruined structure with grass growing through the floor.
+```
+The photograph features three men standing at different positions in front of a ruined structure with grass growing through the floor.
 
 The man on the left is wearing a suit jacket and trousers with his arms crossed over his chest. He has dark hair, which is difficult to make out due to the low quality of the image. The middle man is dressed similarly but appears to be wearing a hat, although it's hard to discern any defining features from this distance.
 
@@ -142,7 +146,8 @@ The third man on the right wears what seems to be a lighter-colored shirt and da
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
-```The photograph shows a group of men sitting on the ground in front of a wall with numbers painted on it. The men are all wearing casual clothing, such as shirts and pants, and some have hats or caps on their heads. They appear to be relaxed and comfortable, with some leaning against each other or resting their arms on their knees.
+```
+The photograph shows a group of men sitting on the ground in front of a wall with numbers painted on it. The men are all wearing casual clothing, such as shirts and pants, and some have hats or caps on their heads. They appear to be relaxed and comfortable, with some leaning against each other or resting their arms on their knees.
 
 In the background, there is a large pile of rocks or gravel that stretches up behind the wall. The sky above is clear and blue, suggesting a sunny day. Overall, the image conveys a sense of tranquility and leisure, as if the men are enjoying a break from work or other activities.
 
@@ -164,7 +169,8 @@ It's worth noting that the exact location and context of the photograph are uncl
 | Woman | 1 | 1 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
-```This blurry black-and-white photograph depicts a man and woman standing outdoors on a winter's day. The woman stands at the left side of the image, her face obscured by the blur. Her dark dress reaches just below the knee; she wears stockings that can be seen above her dark shoes.
+```
+This blurry black-and-white photograph depicts a man and woman standing outdoors on a winter's day. The woman stands at the left side of the image, her face obscured by the blur. Her dark dress reaches just below the knee; she wears stockings that can be seen above her dark shoes.
 
 The man stands to the right of the woman, wearing a long-sleeved suit jacket and trousers. A hat obscures his face, but he appears to be smiling at the camera. The two people stand on what appears to be snow-covered grass in front of a house with a porch. The house is situated in the left-hand side of the image, partially obscured by a tree. In the background are two additional trees and another building that may be a garage or barn.
 ```
@@ -184,7 +190,8 @@ The man stands to the right of the woman, wearing a long-sleeved suit jacket and
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
-```There do not appear to be any people in this image. The images shown depict bridges and roads.
+```
+There do not appear to be any people in this image. The images shown depict bridges and roads.
 ```
 
 
@@ -202,7 +209,8 @@ The man stands to the right of the woman, wearing a long-sleeved suit jacket and
 | Woman | 0 | 1 | 🟥 |
 | Person | 1 | 1 | 🟢 |
 
-```The photograph appears to show a group of men standing in a field, dressed in military uniforms. They are all wearing hats and jackets with epaulets on the shoulders, which suggests that they may be officers or non-commissioned officers.
+```
+The photograph appears to show a group of men standing in a field, dressed in military uniforms. They are all wearing hats and jackets with epaulets on the shoulders, which suggests that they may be officers or non-commissioned officers.
 
 In the foreground, there is one man who stands out as being slightly taller than the others. He has a more prominent presence in the photo, possibly due to his position of authority within the group. The other men are arranged around him, some looking directly at the camera while others appear to be engaged in conversation or simply standing at attention.
 
@@ -226,7 +234,8 @@ Overall, based on their attire and body language, it seems likely that everyone 
 | Woman | 0 | 0 | 🟢 |
 | Person | 0 | 0 | 🟢 |
 
-```There are no people visible in this photograph. The image depicts a bridge or overpass with a metal structure and concrete pillars, but there are no individuals present in the scene.
+```
+There are no people visible in this photograph. The image depicts a bridge or overpass with a metal structure and concrete pillars, but there are no individuals present in the scene.
 ```
 
 
@@ -244,7 +253,8 @@ Overall, based on their attire and body language, it seems likely that everyone 
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
-```The photograph features a single individual, who appears to be an older man. He is dressed in formal attire, including a military uniform adorned with medals and insignia, suggesting that he holds a high-ranking position or has received honors for his service.
+```
+The photograph features a single individual, who appears to be an older man. He is dressed in formal attire, including a military uniform adorned with medals and insignia, suggesting that he holds a high-ranking position or has received honors for his service.
 
 **Key Observations:**
 
@@ -271,7 +281,8 @@ Based on the visible details, it is reasonable to conclude that this individual 
 | Woman | 0 | 0 | 🟢 |
 | Person | 0 | 0 | 🟢 |
 
-```The photograph appears to be a landscape or nature scene, with no visible human figures. The image does not depict any people, so there are no individuals to describe based on gender, age, or other characteristics.
+```
+The photograph appears to be a landscape or nature scene, with no visible human figures. The image does not depict any people, so there are no individuals to describe based on gender, age, or other characteristics.
 
 Therefore, I cannot provide information about the sex of anyone in this picture as it contains no humans.
 ```
@@ -291,7 +302,8 @@ Therefore, I cannot provide information about the sex of anyone in this picture 
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 0 | 🟥 |
 
-```There are no people visible in this image. The image appears to be a collection of photographs related to boats or ships, with captions written in an unknown language.
+```
+There are no people visible in this image. The image appears to be a collection of photographs related to boats or ships, with captions written in an unknown language.
 ```
 
 
@@ -309,7 +321,8 @@ Therefore, I cannot provide information about the sex of anyone in this picture 
 | Woman | 0 | 1 | 🟥 |
 | Person | 1 | 1 | 🟢 |
 
-```The photograph shows a group of men sitting around a table, with some standing behind them. The men are dressed in military uniforms, suggesting that they may be soldiers or officers.
+```
+The photograph shows a group of men sitting around a table, with some standing behind them. The men are dressed in military uniforms, suggesting that they may be soldiers or officers.
 
 There are no women or children visible in the image.
 
@@ -333,7 +346,8 @@ Overall, the image suggests a formal gathering or meeting among military personn
 | Woman | 0 | 1 | 🟥 |
 | Person | 1 | 1 | 🟢 |
 
-```The image appears to be a collage of photographs from an album, featuring black-and-white images with captions in German. The photos depict scenes from construction sites, including workers, buildings under construction, and other related activities.
+```
+The image appears to be a collage of photographs from an album, featuring black-and-white images with captions in German. The photos depict scenes from construction sites, including workers, buildings under construction, and other related activities.
 
 **Identifying People:**
 
@@ -368,7 +382,8 @@ Given the nature of the images as construction site photos from a historical alb
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
-```The photograph depicts a single person, who appears to be a male soldier or military officer. The individual is attired in a uniform and hat, which suggests his profession as a member of the armed forces. He stands in front of a backdrop that includes trees, buildings, and other structures, indicating an outdoor setting.
+```
+The photograph depicts a single person, who appears to be a male soldier or military officer. The individual is attired in a uniform and hat, which suggests his profession as a member of the armed forces. He stands in front of a backdrop that includes trees, buildings, and other structures, indicating an outdoor setting.
 
 **Key Observations:**
 

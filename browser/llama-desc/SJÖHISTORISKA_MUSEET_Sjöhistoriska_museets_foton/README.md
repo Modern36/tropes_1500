@@ -66,7 +66,8 @@ weighted avg       0.77      0.77      0.77        30
 | Woman | 0 | 0 | 🟢 |
 | Person | 0 | 0 | 🟢 |
 
-```The image depicts a black-and-white photograph of a shipwreck, with no visible individuals present. The scene shows the aftermath of a maritime disaster, featuring debris and wreckage scattered across the water's surface. In the foreground, a large piece of the ship's hull lies partially submerged, while in the background, other remnants of the vessel can be seen floating or sinking beneath the waves.
+```
+The image depicts a black-and-white photograph of a shipwreck, with no visible individuals present. The scene shows the aftermath of a maritime disaster, featuring debris and wreckage scattered across the water's surface. In the foreground, a large piece of the ship's hull lies partially submerged, while in the background, other remnants of the vessel can be seen floating or sinking beneath the waves.
 
 There are no people visible in this photograph, as it appears to have been taken shortly after the incident occurred, capturing the immediate aftermath without any signs of human presence. The focus is solely on documenting the destruction caused by the shipwreck, providing a somber and haunting glimpse into the devastating consequences of such an event.
 ```
@@ -86,7 +87,8 @@ There are no people visible in this photograph, as it appears to have been taken
 | Woman | 0 | 0 | 🟢 |
 | Person | 0 | 0 | 🟢 |
 
-```The image is a black-and-white photograph of an industrial area, possibly a shipyard or construction site. The scene appears to be from the early 20th century based on the style of buildings and equipment visible.
+```
+The image is a black-and-white photograph of an industrial area, possibly a shipyard or construction site. The scene appears to be from the early 20th century based on the style of buildings and equipment visible.
 
 Upon examining the image closely for individuals, it becomes apparent that there are no people present in this particular photograph. The focus seems to be entirely on the infrastructure and machinery within the industrial setting. There are no figures discernible in the foreground or background, nor any signs of recent human activity beyond the structures and vehicles captured in the photo.
 
@@ -108,7 +110,8 @@ Given the absence of individuals, it is not possible to determine gender, age, o
 | Woman | 0 | 1 | 🟥 |
 | Person | 1 | 1 | 🟢 |
 
-```The photograph depicts a large group of people gathered on the deck of a boat, with some individuals standing at the bow and others seated or leaning against the railings. The majority of these people appear to be men, dressed in formal attire such as suits and hats, while there are only a few women present, wearing long dresses and head coverings.
+```
+The photograph depicts a large group of people gathered on the deck of a boat, with some individuals standing at the bow and others seated or leaning against the railings. The majority of these people appear to be men, dressed in formal attire such as suits and hats, while there are only a few women present, wearing long dresses and head coverings.
 
 In addition to the main group on the deck, several other people can be seen in the background, including sailors working on the ship's rigging or standing at attention along the railings. Some of these individuals may also be men, but their features are not clearly visible due to the distance and quality of the image.
 
@@ -130,7 +133,8 @@ Overall, based on the clothing and hairstyles depicted in the photograph, it is 
 | Woman | 0 | 0 | 🟢 |
 | Person | 0 | 0 | 🟢 |
 
-```There do not appear to be any people visible in this photograph.
+```
+There do not appear to be any people visible in this photograph.
 
 The image shows a harbor with several boats docked at the pier, but there are no individuals present. The focus of the image appears to be on the boats and the surrounding environment rather than on capturing human subjects.
 ```
@@ -150,7 +154,8 @@ The image shows a harbor with several boats docked at the pier, but there are no
 | Woman | 1 | 0 | 🟥 |
 | Person | 1 | 1 | 🟢 |
 
-```There do not appear to be any people visible in this image.
+```
+There do not appear to be any people visible in this image.
 
 The image depicts a black-and-white photograph of several boats with flags and pennants flying from them, possibly at some sort of regatta or celebration. The vessels are moored next to one another, creating the illusion of a long row of sailboats. In the background, there appears to be a small town or village situated on the opposite shore.
 
@@ -174,7 +179,8 @@ Overall, the image captures a lively scene filled with excitement and energy, sh
 | Woman | 0 | 0 | 🟢 |
 | Person | 0 | 1 | 🟥 |
 
-```There do not appear to be any people visible in this image. The photograph depicts what appears to be a ship under construction or repair on a slipway, with scaffolding surrounding it. Various workmen, some wearing hats and jackets, are engaged in different activities such as hammering and carrying wooden planks. In the background, there is a body of water with several boats and ships moored along the shore, including a large cargo ship being loaded or unloaded by cranes and pulleys. The overall atmosphere suggests a busy industrial scene during the day.
+```
+There do not appear to be any people visible in this image. The photograph depicts what appears to be a ship under construction or repair on a slipway, with scaffolding surrounding it. Various workmen, some wearing hats and jackets, are engaged in different activities such as hammering and carrying wooden planks. In the background, there is a body of water with several boats and ships moored along the shore, including a large cargo ship being loaded or unloaded by cranes and pulleys. The overall atmosphere suggests a busy industrial scene during the day.
 ```
 
 
@@ -192,7 +198,8 @@ Overall, the image captures a lively scene filled with excitement and energy, sh
 | Woman | 1 | 1 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
-```The photograph shows a man standing on the bow of a boat, with two women seated behind him. The man is wearing dark pants and a light-colored shirt, while the women are dressed in long skirts and blouses. One woman has her hair pulled back into a bun, while the other's hair is loose and flowing.
+```
+The photograph shows a man standing on the bow of a boat, with two women seated behind him. The man is wearing dark pants and a light-colored shirt, while the women are dressed in long skirts and blouses. One woman has her hair pulled back into a bun, while the other's hair is loose and flowing.
 
 In the background, there appears to be another person sitting on the shore, but they are not clearly visible due to the distance and focus of the camera. This individual could potentially be male or female based on their attire alone; however, without more information or context regarding this figure's identity (e.g., whether it might represent someone known within historical records), we cannot make any definitive conclusions about gender from just visual cues provided here.
 
@@ -214,7 +221,8 @@ Overall, based solely on the clothing worn by each individual depicted in the im
 | Woman | 0 | 0 | 🟢 |
 | Person | 0 | 1 | 🟥 |
 
-```The photograph provided does not depict any individuals. The scene appears to be a collection of sailboats or yachts on land, with no visible signs of people in the foreground or background.
+```
+The photograph provided does not depict any individuals. The scene appears to be a collection of sailboats or yachts on land, with no visible signs of people in the foreground or background.
 
 **Key Observations:**
 
@@ -242,7 +250,8 @@ Given the absence of any human figures within the image, it is not possible to d
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 0 | 🟥 |
 
-```The photograph shows a cityscape with boats on a river or dock. There are no individuals visible in this image. The scene appears to be focused on capturing the urban landscape and maritime activity rather than depicting people.
+```
+The photograph shows a cityscape with boats on a river or dock. There are no individuals visible in this image. The scene appears to be focused on capturing the urban landscape and maritime activity rather than depicting people.
 
 **Key Features:**
 
@@ -270,7 +279,8 @@ Given the absence of people in the photograph, it is not possible to describe th
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
-```The photograph depicts a sailboat on the water, with two individuals visible inside it. The person at the front of the boat appears to be wearing a light-colored shirt and dark pants or shorts, while the individual at the back seems to have on a darker top paired with lighter bottoms.
+```
+The photograph depicts a sailboat on the water, with two individuals visible inside it. The person at the front of the boat appears to be wearing a light-colored shirt and dark pants or shorts, while the individual at the back seems to have on a darker top paired with lighter bottoms.
 
 Given these details, it is reasonable to infer that both people in the image are likely adults, as there is no indication of children being present. However, without further information or clearer images, it's challenging to definitively determine their ages beyond adulthood.
 
@@ -294,7 +304,8 @@ In conclusion, while we can reasonably conclude both individuals are adults base
 | Woman | 0 | 0 | 🟢 |
 | Person | 0 | 0 | 🟢 |
 
-```There are no people visible in this photograph. The image features a ship, the Nestor, with its name displayed on the side, but there are no individuals present in the scene.
+```
+There are no people visible in this photograph. The image features a ship, the Nestor, with its name displayed on the side, but there are no individuals present in the scene.
 ```
 
 
@@ -312,7 +323,8 @@ In conclusion, while we can reasonably conclude both individuals are adults base
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 0 | 🟥 |
 
-```The photograph shows a serene scene with boats docked at a marina, but there are no people visible in the image. The focus appears to be on the boats and the surrounding environment rather than individuals.
+```
+The photograph shows a serene scene with boats docked at a marina, but there are no people visible in the image. The focus appears to be on the boats and the surrounding environment rather than individuals.
 
 **Relevant Elements:**
 
@@ -340,7 +352,8 @@ Since there are no people present in the photograph, it is not possible to deter
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
-```The photograph depicts a man standing on the dock, dressed in white attire and wearing a hat. He is positioned near several sailboats adorned with flags, which are likely participating in a regatta or other sailing event.
+```
+The photograph depicts a man standing on the dock, dressed in white attire and wearing a hat. He is positioned near several sailboats adorned with flags, which are likely participating in a regatta or other sailing event.
 
 **Key Observations:**
 
@@ -368,7 +381,8 @@ Based on the available information and visual cues, it appears that the only per
 | Woman | 1 | 1 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
-```The photograph depicts a man standing behind a telescope on a tripod, with his right hand resting on the top of the device. He is dressed in a light-colored suit and hat, and appears to be looking through the telescope.
+```
+The photograph depicts a man standing behind a telescope on a tripod, with his right hand resting on the top of the device. He is dressed in a light-colored suit and hat, and appears to be looking through the telescope.
 
 In the background, there are several people visible, including two men standing near the water's edge. One of these men is wearing a dark jacket and pants, while the other has on a lighter-colored shirt and tie. A woman can also be seen in the distance, walking along the shore with her back to the camera. She is wearing a long dress or coat.
 
@@ -392,7 +406,8 @@ Overall, the photograph captures a serene and peaceful scene of everyday life by
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
-```There appear to be two men on the bottom left side of the photograph working in a shipyard, likely building or repairing a boat. The man closest to the camera seems to be wearing a hat and light-colored shirt with rolled-up sleeves. He has his back turned toward the camera as he works with what appears to be wood planks. There is another person further away from the camera who is partially hidden behind a pile of wood. This person also appears to be a man, possibly wearing a dark-colored jacket or sweater over their clothes.
+```
+There appear to be two men on the bottom left side of the photograph working in a shipyard, likely building or repairing a boat. The man closest to the camera seems to be wearing a hat and light-colored shirt with rolled-up sleeves. He has his back turned toward the camera as he works with what appears to be wood planks. There is another person further away from the camera who is partially hidden behind a pile of wood. This person also appears to be a man, possibly wearing a dark-colored jacket or sweater over their clothes.
 
 In the background, there are no other people visible in this black-and-white photograph due to its age and quality.
 ```
@@ -412,7 +427,8 @@ In the background, there are no other people visible in this black-and-white pho
 | Woman | 0 | 1 | 🟥 |
 | Person | 0 | 1 | 🟥 |
 
-```There do not appear to be any people visible in this photograph. The image shows a body of water with several boats or ships in the distance, but no individuals can be seen on land or on the vessels. Therefore, it is impossible to determine whether there are men, women, children, or other types of people present in the scene.
+```
+There do not appear to be any people visible in this photograph. The image shows a body of water with several boats or ships in the distance, but no individuals can be seen on land or on the vessels. Therefore, it is impossible to determine whether there are men, women, children, or other types of people present in the scene.
 
 It's worth noting that the photograph may have been taken from a distance or at an angle that obscures any potential human figures. Additionally, the image quality and resolution may not be high enough to reveal subtle details such as people standing on the shore or walking along the dock. Overall, based on the available information, it appears that there are no discernible people in this photograph.
 ```
@@ -432,7 +448,8 @@ It's worth noting that the photograph may have been taken from a distance or at 
 | Woman | 0 | 0 | 🟢 |
 | Person | 0 | 1 | 🟥 |
 
-```The photograph depicts a room with a large display case containing various trophies and awards. The case is situated on a table or pedestal, and it appears to be made of glass or acrylic. Inside the case, there are several trophies, including what looks like a football-shaped trophy, as well as some smaller cups and medals.
+```
+The photograph depicts a room with a large display case containing various trophies and awards. The case is situated on a table or pedestal, and it appears to be made of glass or acrylic. Inside the case, there are several trophies, including what looks like a football-shaped trophy, as well as some smaller cups and medals.
 
 In front of the display case, there is a group of people posing for the camera. There are six individuals in total, all of whom appear to be adults. Five of them are wearing suits and ties, while one person is dressed in a more casual outfit. They are all standing in a line, facing the camera, and smiling.
 
@@ -456,7 +473,8 @@ Overall, the image suggests that this is some kind of award ceremony or recognit
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 0 | 🟥 |
 
-```There are no individuals visible in this photograph. The image features a serene scene with three sailboats on the water, but it does not depict any people.
+```
+There are no individuals visible in this photograph. The image features a serene scene with three sailboats on the water, but it does not depict any people.
 ```
 
 
@@ -474,7 +492,8 @@ Overall, the image suggests that this is some kind of award ceremony or recognit
 | Woman | 0 | 0 | 🟢 |
 | Person | 0 | 0 | 🟢 |
 
-```There are no individuals visible in this photograph. The scene depicted appears to be a rural or countryside setting with buildings and trees, but it does not feature any people.
+```
+There are no individuals visible in this photograph. The scene depicted appears to be a rural or countryside setting with buildings and trees, but it does not feature any people.
 ```
 
 
@@ -492,7 +511,8 @@ Overall, the image suggests that this is some kind of award ceremony or recognit
 | Woman | 0 | 1 | 🟥 |
 | Person | 1 | 1 | 🟢 |
 
-```The image presents a group of individuals gathered on a dock or beach, with boats visible in the background. The majority of the people are men, dressed in suits and hats, while some wear uniforms adorned with medals. A few women are also present, clad in dresses and hats.
+```
+The image presents a group of individuals gathered on a dock or beach, with boats visible in the background. The majority of the people are men, dressed in suits and hats, while some wear uniforms adorned with medals. A few women are also present, clad in dresses and hats.
 
 In the foreground, several men stand facing each other, engaged in conversation. One man is attired in a dark suit and tie, while another wears a light-colored suit and no tie. Behind them, additional individuals can be seen standing or sitting on benches.
 
@@ -516,7 +536,8 @@ The background of the image features several boats moored at the dock or floatin
 | Woman | 1 | 1 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
-```The photograph shows three women sitting at a desk. They all appear to have short hair and wear dresses or blouses with skirts, which were common attire for women during this time period.
+```
+The photograph shows three women sitting at a desk. They all appear to have short hair and wear dresses or blouses with skirts, which were common attire for women during this time period.
 
 **Clothing:**
 
@@ -557,7 +578,8 @@ Overall, the photograph provides a glimpse into the lives of these three women, 
 | Woman | 0 | 0 | 🟢 |
 | Person | 0 | 0 | 🟢 |
 
-```There are no people visible in this photograph. The image depicts a large ship on a body of water, with trees lining the shore in the background. However, there are no individuals present in the scene.
+```
+There are no people visible in this photograph. The image depicts a large ship on a body of water, with trees lining the shore in the background. However, there are no individuals present in the scene.
 
 **Key Features:**
 
@@ -584,7 +606,8 @@ Given that there are no people present in the photograph, it is not possible to 
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
-```The photograph depicts three individuals, all of whom appear to be men. The man seated at a table is dressed in formal attire, consisting of a dark suit jacket and white shirt with an open collar. His hair is grayish-white and styled neatly.
+```
+The photograph depicts three individuals, all of whom appear to be men. The man seated at a table is dressed in formal attire, consisting of a dark suit jacket and white shirt with an open collar. His hair is grayish-white and styled neatly.
 
 Standing behind him are two other men, both wearing suits and ties. One has dark hair that is thinning on top, while the other has light-colored hair that is also thinning. All three individuals have fair skin tones.
 
@@ -608,7 +631,8 @@ Overall, based on their clothing and hairstyles, it is likely that all three ind
 | Woman | 0 | 0 | 🟢 |
 | Person | 0 | 0 | 🟢 |
 
-```There do not appear to be any people visible in this image. The image appears to be a black-and-white photograph of a boat docked at a pier or harbor, with buildings and trees in the background. There are no individuals depicted in the photo.
+```
+There do not appear to be any people visible in this image. The image appears to be a black-and-white photograph of a boat docked at a pier or harbor, with buildings and trees in the background. There are no individuals depicted in the photo.
 ```
 
 
@@ -626,7 +650,8 @@ Overall, based on their clothing and hairstyles, it is likely that all three ind
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
-```The photograph depicts a scene of a shipwrecked vessel, with several individuals standing on the dock or nearby structures. The people in the image are primarily men, dressed in attire typical of the early 20th century, including suits, hats, and coats. Some appear to be sailors or workers involved in salvaging operations, while others seem to be bystanders observing the scene.
+```
+The photograph depicts a scene of a shipwrecked vessel, with several individuals standing on the dock or nearby structures. The people in the image are primarily men, dressed in attire typical of the early 20th century, including suits, hats, and coats. Some appear to be sailors or workers involved in salvaging operations, while others seem to be bystanders observing the scene.
 
 In terms of specific details about each individual's appearance, it is challenging to provide an accurate description due to the distance and resolution of the image. However, based on their clothing and posture, it can be inferred that they are likely adults, with no visible children present in the photograph.
 
@@ -648,7 +673,8 @@ Overall, the people in this historical image appear to be men engaged in various
 | Woman | 0 | 0 | 🟢 |
 | Person | 0 | 0 | 🟢 |
 
-```There are no people visible in the provided photograph. The image appears to be a landscape or seascape with rocks and water, but it does not contain any human figures.
+```
+There are no people visible in the provided photograph. The image appears to be a landscape or seascape with rocks and water, but it does not contain any human figures.
 ```
 
 
@@ -666,7 +692,8 @@ Overall, the people in this historical image appear to be men engaged in various
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
-```The photograph depicts three individuals standing on a boat, with two of them wearing caps and the third person not visible enough to determine their gender or age. The caps worn by the first two individuals suggest that they may be men, but it is impossible to say for certain without more information.
+```
+The photograph depicts three individuals standing on a boat, with two of them wearing caps and the third person not visible enough to determine their gender or age. The caps worn by the first two individuals suggest that they may be men, but it is impossible to say for certain without more information.
 
 In the background, there are several buildings and trees visible, which could potentially provide clues about the location and time period of the photograph. However, without further context or details, it is difficult to make any definitive conclusions about the people in the image.
 
@@ -688,7 +715,8 @@ Overall, while we can make some educated guesses based on the clothing and acces
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
-```There are four men in this photograph.
+```
+There are four men in this photograph.
 
 There is one man standing on a dock wearing white pants and shoes with a dark jacket. He has his hands behind his back and he appears to be looking at something off camera.
 
@@ -712,7 +740,8 @@ There is also a man in the background who is partially hidden by the dock railin
 | Woman | 0 | 0 | 🟢 |
 | Person | 0 | 0 | 🟢 |
 
-```There are no people visible in this photograph. The image depicts a large ship on the water, with trees and buildings in the background. The sky is cloudy, but there appears to be some sunlight coming through the clouds. The overall atmosphere of the image suggests that it was taken during the daytime, possibly in the late afternoon or early evening.
+```
+There are no people visible in this photograph. The image depicts a large ship on the water, with trees and buildings in the background. The sky is cloudy, but there appears to be some sunlight coming through the clouds. The overall atmosphere of the image suggests that it was taken during the daytime, possibly in the late afternoon or early evening.
 
 The absence of people in the photograph makes it difficult to determine any specific details about them. However, based on the context and setting of the image, it is likely that the people who were present when the photo was taken were either sailors or passengers on the ship, or individuals living or working near the waterfront.
 ```
@@ -732,7 +761,8 @@ The absence of people in the photograph makes it difficult to determine any spec
 | Woman | 1 | 1 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
-```The photograph shows a black-and-white scene with two men standing on a dock or pier, surrounded by boats and flags. The man on the left wears a dark suit jacket over a white shirt and tie, while the man on the right has on a light-colored shirt and pants.
+```
+The photograph shows a black-and-white scene with two men standing on a dock or pier, surrounded by boats and flags. The man on the left wears a dark suit jacket over a white shirt and tie, while the man on the right has on a light-colored shirt and pants.
 
 In the background, there are several other people visible, including a woman in a long dress and hat walking towards the camera, as well as two men standing near a boat. There is also a child playing with a ball in the foreground.
 

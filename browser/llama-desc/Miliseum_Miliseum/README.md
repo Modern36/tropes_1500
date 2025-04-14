@@ -66,7 +66,8 @@ weighted avg       0.95      0.95      0.94        19
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
-```The photograph depicts a group of men in military uniforms gathered around a large cannon, with one man standing on top of it. The men are all wearing dark-colored jackets and pants, along with hats and boots. They appear to be engaged in some sort of activity related to the cannon, possibly preparing for battle or conducting maintenance.
+```
+The photograph depicts a group of men in military uniforms gathered around a large cannon, with one man standing on top of it. The men are all wearing dark-colored jackets and pants, along with hats and boots. They appear to be engaged in some sort of activity related to the cannon, possibly preparing for battle or conducting maintenance.
 
 In addition to the men near the cannon, there is another man visible in the background, walking away from the group towards the right side of the image. He is also dressed in a similar military uniform and appears to be carrying something under his arm.
 
@@ -88,7 +89,8 @@ Overall, the photograph suggests that these individuals are soldiers who are par
 | Woman | 0 | 1 | 🟥 |
 | Person | 1 | 1 | 🟢 |
 
-```The photograph appears to be a black-and-white image of a large group of men standing in formation on what seems to be a military parade ground or training area. The men are dressed in uniforms, which suggests that they belong to some sort of organized unit or organization.
+```
+The photograph appears to be a black-and-white image of a large group of men standing in formation on what seems to be a military parade ground or training area. The men are dressed in uniforms, which suggests that they belong to some sort of organized unit or organization.
 
 **Key Observations:**
 
@@ -117,7 +119,8 @@ Given these observations, it can be inferred with reasonable certainty that all 
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
-```There appears to be one person in the photograph. They seem to be a man, dressed in a long coat, standing on the left side of the image near a row of cars parked along the road. His face is not visible as he seems to have his back turned towards the camera.
+```
+There appears to be one person in the photograph. They seem to be a man, dressed in a long coat, standing on the left side of the image near a row of cars parked along the road. His face is not visible as he seems to have his back turned towards the camera.
 
 The main focus of the picture appears to be the old cars rather than people, but there might be more individuals present that are out of frame or obscured from view.
 ```
@@ -137,7 +140,8 @@ The main focus of the picture appears to be the old cars rather than people, but
 | Woman | 0 | 1 | 🟥 |
 | Person | 1 | 1 | 🟢 |
 
-```The photograph features two individuals standing on a dirt road, facing the camera. They are both wearing light-colored jackets with dark pants and boots, but their faces are not clearly visible due to the low resolution of the image.
+```
+The photograph features two individuals standing on a dirt road, facing the camera. They are both wearing light-colored jackets with dark pants and boots, but their faces are not clearly visible due to the low resolution of the image.
 
 In the background, there appears to be another person walking away from the camera, dressed in darker clothing. However, this individual is too far away to discern any distinguishing features.
 
@@ -165,7 +169,8 @@ Overall, the photograph captures a group of people engaged in various activities
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
-```The photograph features three individuals, all dressed in attire typical of the early 20th century. The person on the left wears a long-sleeved shirt with buttons down the front and dark pants tucked into knee-high boots. A wide leather belt encircles their waist, and they have a cap on their head. They are holding a large cylindrical object that appears to be made of metal or wood.
+```
+The photograph features three individuals, all dressed in attire typical of the early 20th century. The person on the left wears a long-sleeved shirt with buttons down the front and dark pants tucked into knee-high boots. A wide leather belt encircles their waist, and they have a cap on their head. They are holding a large cylindrical object that appears to be made of metal or wood.
 
 In the middle stands another person, similarly attired in a long-sleeved shirt with buttons down the front and dark pants tucked into knee-high boots. This individual also wears a wide leather belt around their waist but has no cap on their head. They are not holding any objects.
 
@@ -189,7 +194,8 @@ All three individuals are standing in what appears to be a field or open area, w
 | Woman | 0 | 0 | 🟢 |
 | Person | 0 | 0 | 🟢 |
 
-```There are no people visible in the photograph you provided. The image appears to be an aerial view of a city or town, with buildings and streets visible but no individuals present.
+```
+There are no people visible in the photograph you provided. The image appears to be an aerial view of a city or town, with buildings and streets visible but no individuals present.
 ```
 
 
@@ -207,7 +213,8 @@ All three individuals are standing in what appears to be a field or open area, w
 | Woman | 0 | 1 | 🟥 |
 | Person | 1 | 1 | 🟢 |
 
-```The photograph shows a large airship hangar with a crowd of people gathered outside it. The majority of the individuals appear to be men, although some women can also be seen in the image.
+```
+The photograph shows a large airship hangar with a crowd of people gathered outside it. The majority of the individuals appear to be men, although some women can also be seen in the image.
 
 In the foreground, there are several men standing near the entrance of the hangar, wearing suits and hats typical of the early 20th century. Some of them have their hands on their hips or are holding objects such as tools or equipment. Behind this group, a few women can be seen walking towards the camera, dressed in long skirts and blouses with hats on their heads.
 
@@ -231,7 +238,8 @@ Overall, while the majority of the people depicted in this photograph are men, t
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
-```The photograph shows a single person standing next to a large cannon. The individual is dressed in dark attire, which makes it challenging to discern any distinct features or accessories. However, based on the overall appearance and context of the image, it appears that this person is likely an adult male.
+```
+The photograph shows a single person standing next to a large cannon. The individual is dressed in dark attire, which makes it challenging to discern any distinct features or accessories. However, based on the overall appearance and context of the image, it appears that this person is likely an adult male.
 
 There are no other individuals visible in the background or foreground of the photograph. The focus seems to be primarily on the cannon and the solitary figure accompanying it. Given the absence of additional people, there is no opportunity to compare clothing styles or make gender distinctions beyond what can be inferred from the sole individual present.
 ```
@@ -251,7 +259,8 @@ There are no other individuals visible in the background or foreground of the ph
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
-```The photograph depicts a black-and-white image of soldiers lying on the ground, possibly during military training or combat. The individuals are dressed in uniforms and appear to be men, as indicated by their attire and hairstyles. They are positioned in a line, with some facing forward and others turned away from the camera.
+```
+The photograph depicts a black-and-white image of soldiers lying on the ground, possibly during military training or combat. The individuals are dressed in uniforms and appear to be men, as indicated by their attire and hairstyles. They are positioned in a line, with some facing forward and others turned away from the camera.
 
 In the background, there is a grassy field with trees visible in the distance. The sky above is overcast, suggesting that the photo was taken on a cloudy day. There do not appear to be any people in the background of this image.
 
@@ -273,7 +282,8 @@ Overall, the photograph provides a glimpse into the lives of soldiers during war
 | Woman | 1 | 1 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
-```The image depicts a large hot air balloon being prepared for launch, with several people visible in the foreground and background. The individuals are dressed in casual attire, including jackets, hats, and scarves, which suggests that they may be crew members or spectators.
+```
+The image depicts a large hot air balloon being prepared for launch, with several people visible in the foreground and background. The individuals are dressed in casual attire, including jackets, hats, and scarves, which suggests that they may be crew members or spectators.
 
 Upon closer inspection, it appears that most of the people in the image are men, although there is one woman visible on the left side of the frame, wearing a long coat and hat. She seems to be observing the scene from a distance, possibly taking notes or photographs.
 
@@ -297,7 +307,8 @@ Overall, based on the clothing and hairstyles depicted in the image, it appears 
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
-```The image shows a large group of men in military uniforms standing on a lawn, with several buildings visible in the background.
+```
+The image shows a large group of men in military uniforms standing on a lawn, with several buildings visible in the background.
 
 **Key Observations:**
 
@@ -324,7 +335,8 @@ Based on their clothing and organization, it is reasonable to infer that these i
 | Woman | 0 | 0 | 🟢 |
 | Person | 0 | 1 | 🟥 |
 
-```There do not appear to be any people visible in this image. There appears to be a town with buildings in the distance, cars parked on a street, and some trees scattered throughout the scene. The overall atmosphere suggests a quiet, peaceful day in a small town or village during the winter season.
+```
+There do not appear to be any people visible in this image. There appears to be a town with buildings in the distance, cars parked on a street, and some trees scattered throughout the scene. The overall atmosphere suggests a quiet, peaceful day in a small town or village during the winter season.
 ```
 
 
@@ -342,7 +354,8 @@ Based on their clothing and organization, it is reasonable to infer that these i
 | Woman | 1 | 0 | 🟥 |
 | Person | 1 | 1 | 🟢 |
 
-```The photograph features a group of men gathered around cannons on a hill overlooking what appears to be a town or cityscape. The image captures 11 men who are clearly visible, with another 6 individuals partially seen behind others.
+```
+The photograph features a group of men gathered around cannons on a hill overlooking what appears to be a town or cityscape. The image captures 11 men who are clearly visible, with another 6 individuals partially seen behind others.
 
 In terms of attire, the majority of the men wear dark-colored jackets and light-colored shirts without collars, while some have hats and neckties. One man stands out in his lighter-colored jacket and darker shirt. Notably, all the men wear trousers tucked into knee-high leather boots. Most of them also sport full beards.
 
@@ -368,7 +381,8 @@ Given these details, it is reasonable to conclude that the people depicted in th
 | Woman | 0 | 1 | 🟥 |
 | Person | 1 | 1 | 🟢 |
 
-```The photograph appears to show a large group of uniformed men marching in formation. They seem to be wearing dark military-style uniforms with caps or hats and have some kind of belts around their waists. There appear to be no women, children, or other people visible in the image.
+```
+The photograph appears to show a large group of uniformed men marching in formation. They seem to be wearing dark military-style uniforms with caps or hats and have some kind of belts around their waists. There appear to be no women, children, or other people visible in the image.
 
 Behind the men is what looks like a brick building, which seems to extend beyond both sides of the photograph. The sky appears to be overcast and there are trees growing behind it on either side.
 ```
@@ -388,7 +402,8 @@ Behind the men is what looks like a brick building, which seems to extend beyond
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
-```The photograph displays a group of men dressed in military uniforms, posing for the camera. They are arranged in rows, with some standing and others seated on chairs or benches.
+```
+The photograph displays a group of men dressed in military uniforms, posing for the camera. They are arranged in rows, with some standing and others seated on chairs or benches.
 
 **Key Observations:**
 
@@ -417,7 +432,8 @@ Based on these observations, it can be concluded that the people in this photogr
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
-```The photograph depicts a single person, who appears to be a man dressed in military attire. He is wearing a helmet and holding what seems to be a rifle or another long object.
+```
+The photograph depicts a single person, who appears to be a man dressed in military attire. He is wearing a helmet and holding what seems to be a rifle or another long object.
 
 In the background, there are no other individuals visible within the frame of the image. The focus remains solely on the central figure, with no discernible people or objects that could potentially represent humans in the surrounding environment.
 ```
@@ -437,7 +453,8 @@ In the background, there are no other individuals visible within the frame of th
 | Woman | 1 | 0 | 🟥 |
 | Person | 1 | 1 | 🟢 |
 
-```The image depicts a sepia-toned photograph of a street scene, with several individuals visible in various parts of the frame.
+```
+The image depicts a sepia-toned photograph of a street scene, with several individuals visible in various parts of the frame.
 
 In the foreground, there are three people walking along the sidewalk on the right side of the road. The person closest to the camera appears to be wearing a long coat and hat, while the other two individuals are partially obscured by trees or other objects. It is difficult to determine their gender due to the distance and lack of clear details.
 
@@ -463,7 +480,8 @@ Overall, while it is possible to identify some of the individuals in the photogr
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
-```The photograph depicts a group of people gathered around an object that appears to be a large, metal structure or machinery part. The individuals are dressed in casual attire, with some wearing jackets and hats. They seem to be engaged in conversation or observing the object with interest.
+```
+The photograph depicts a group of people gathered around an object that appears to be a large, metal structure or machinery part. The individuals are dressed in casual attire, with some wearing jackets and hats. They seem to be engaged in conversation or observing the object with interest.
 
 In the background, there is another person standing alone, looking at something on the ground. This individual is also dressed in casual clothing and appears to be focused on whatever they are examining.
 
@@ -485,7 +503,8 @@ Overall, the image suggests that the people present are likely workers or indivi
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
-```The photograph depicts a group of men gathered around large artillery shells, likely soldiers during World War I. They are dressed in military uniforms and appear to be engaged in some form of activity related to the shells.
+```
+The photograph depicts a group of men gathered around large artillery shells, likely soldiers during World War I. They are dressed in military uniforms and appear to be engaged in some form of activity related to the shells.
 
 **Key Observations:**
 

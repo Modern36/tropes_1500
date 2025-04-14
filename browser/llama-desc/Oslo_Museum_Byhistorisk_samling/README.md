@@ -18,7 +18,8 @@ This file contains 1 images processed by the model: llama-desc
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
-```The photograph depicts a group of eight men standing together, dressed in formal attire. They are all wearing suits and ties, with some also sporting hats or caps. The individuals appear to be adults, likely professionals or officials based on their attire.
+```
+The photograph depicts a group of eight men standing together, dressed in formal attire. They are all wearing suits and ties, with some also sporting hats or caps. The individuals appear to be adults, likely professionals or officials based on their attire.
 
 In the background, there are several objects that provide context for the scene. A large building or structure is visible behind the group, suggesting an urban or institutional setting. Additionally, a few people can be seen walking in the distance, adding to the sense of activity and movement in the image.
 

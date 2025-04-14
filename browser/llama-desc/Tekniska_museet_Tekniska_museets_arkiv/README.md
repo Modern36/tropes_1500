@@ -66,7 +66,8 @@ weighted avg       0.92      0.88      0.88        16
 | Woman | 0 | 1 | 🟥 |
 | Person | 0 | 1 | 🟥 |
 
-```There are no people visible in this photograph. The scene appears to be an industrial or commercial setting, with a large building and some machinery or equipment present. However, there are no individuals depicted in the image.
+```
+There are no people visible in this photograph. The scene appears to be an industrial or commercial setting, with a large building and some machinery or equipment present. However, there are no individuals depicted in the image.
 
 **Key Observations:**
 
@@ -93,7 +94,8 @@ Based on the visual evidence, it is clear that there are no men, women, children
 | Woman | 0 | 0 | 🟢 |
 | Person | 0 | 0 | 🟢 |
 
-```There do not appear to be any people visible in this image. The photo shows a black-and-white photograph of what appears to be an old warehouse or storage building with train tracks running along its side, and some trees in the background. There are no individuals present in the scene.
+```
+There do not appear to be any people visible in this image. The photo shows a black-and-white photograph of what appears to be an old warehouse or storage building with train tracks running along its side, and some trees in the background. There are no individuals present in the scene.
 ```
 
 
@@ -111,7 +113,8 @@ Based on the visual evidence, it is clear that there are no men, women, children
 | Woman | 0 | 0 | 🟢 |
 | Person | 0 | 1 | 🟥 |
 
-```There are no visible people in this photograph. The image appears to be a landscape or scenic view, possibly of a river or waterfall, with no human figures present.
+```
+There are no visible people in this photograph. The image appears to be a landscape or scenic view, possibly of a river or waterfall, with no human figures present.
 ```
 
 
@@ -129,7 +132,8 @@ Based on the visual evidence, it is clear that there are no men, women, children
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
-```The image depicts a single individual, a man, who is the central figure in the photograph. He is dressed in dark attire and appears to be engaged in some form of industrial or manufacturing activity.
+```
+The image depicts a single individual, a man, who is the central figure in the photograph. He is dressed in dark attire and appears to be engaged in some form of industrial or manufacturing activity.
 
 **Key Features:**
 
@@ -157,7 +161,8 @@ Based on the available information within the image, there is only one person vi
 | Woman | 0 | 0 | 🟢 |
 | Person | 0 | 0 | 🟢 |
 
-```There are no people visible in this photograph.
+```
+There are no people visible in this photograph.
 
 The image depicts a large room with rows of looms and other machinery, but there are no individuals present. The focus appears to be on the equipment and the industrial setting rather than human subjects.
 ```
@@ -177,7 +182,8 @@ The image depicts a large room with rows of looms and other machinery, but there
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
-```The photograph shows a man sitting at a desk in an office setting. He is wearing a white lab coat and has short hair. The man appears to be working on some papers or documents, as he is holding a pen in his hand and looking down at the desk.
+```
+The photograph shows a man sitting at a desk in an office setting. He is wearing a white lab coat and has short hair. The man appears to be working on some papers or documents, as he is holding a pen in his hand and looking down at the desk.
 
 There are no other people visible in the background of the image. The focus of the photograph is clearly on the man at the desk, and there are no other individuals present in the scene.
 
@@ -199,7 +205,8 @@ Overall, the image presents a professional and studious atmosphere, with the man
 | Woman | 0 | 0 | 🟢 |
 | Person | 0 | 0 | 🟢 |
 
-```There are no people visible in this photograph. The image depicts a room with furniture and objects, but there are no individuals present.
+```
+There are no people visible in this photograph. The image depicts a room with furniture and objects, but there are no individuals present.
 
 **Key Features:**
 
@@ -228,7 +235,8 @@ Since there are no people in the image, it is not possible to determine their ge
 | Woman | 0 | 1 | 🟥 |
 | Person | 1 | 1 | 🟢 |
 
-```The photograph shows a group of people gathered around several cars in an industrial setting, likely a factory or garage. The individuals are dressed in casual attire, with some wearing hats and others not. They appear to be engaged in various activities such as inspecting the vehicles, discussing something, or simply standing by.
+```
+The photograph shows a group of people gathered around several cars in an industrial setting, likely a factory or garage. The individuals are dressed in casual attire, with some wearing hats and others not. They appear to be engaged in various activities such as inspecting the vehicles, discussing something, or simply standing by.
 
 Upon closer examination, it is challenging to determine the gender of all the people present due to the quality of the image and the fact that many are partially obscured or out of focus. However, based on their clothing and hairstyles, most appear to be men. There do not seem to be any women or children visible in the photograph.
 
@@ -250,7 +258,8 @@ In terms of specific details about each person's appearance, it is difficult to 
 | Woman | 0 | 0 | 🟢 |
 | Person | 0 | 0 | 🟢 |
 
-```There do not appear to be any people visible in this image. The photograph seems to depict a rural scene with buildings and a waterway or stream running through it, but there are no individuals present within the frame.
+```
+There do not appear to be any people visible in this image. The photograph seems to depict a rural scene with buildings and a waterway or stream running through it, but there are no individuals present within the frame.
 ```
 
 
@@ -268,7 +277,8 @@ In terms of specific details about each person's appearance, it is difficult to 
 | Woman | 0 | 0 | 🟢 |
 | Person | 0 | 0 | 🟢 |
 
-```There are no individuals present in this photograph. The image depicts an interior space with a fireplace and chimney, but it does not contain any human figures or portraits.
+```
+There are no individuals present in this photograph. The image depicts an interior space with a fireplace and chimney, but it does not contain any human figures or portraits.
 ```
 
 
@@ -286,7 +296,8 @@ In terms of specific details about each person's appearance, it is difficult to 
 | Woman | 0 | 0 | 🟢 |
 | Person | 0 | 0 | 🟢 |
 
-```There do not appear to be any people visible in this image. The photograph shows a large white building with many windows beside a body of water, but there are no individuals present in the scene.
+```
+There do not appear to be any people visible in this image. The photograph shows a large white building with many windows beside a body of water, but there are no individuals present in the scene.
 ```
 
 
@@ -304,7 +315,8 @@ In terms of specific details about each person's appearance, it is difficult to 
 | Woman | 0 | 0 | 🟢 |
 | Person | 0 | 0 | 🟢 |
 
-```There are no people visible in this photograph. The image appears to be an aerial view of a landscape, likely taken from a high altitude or using a drone, capturing various structures and natural features without any human presence.
+```
+There are no people visible in this photograph. The image appears to be an aerial view of a landscape, likely taken from a high altitude or using a drone, capturing various structures and natural features without any human presence.
 ```
 
 
@@ -322,7 +334,8 @@ In terms of specific details about each person's appearance, it is difficult to 
 | Woman | 0 | 0 | 🟢 |
 | Person | 0 | 0 | 🟢 |
 
-```There are no individuals visible in this photograph. The image appears to be a black-and-white depiction of an interior space, possibly a kitchen or laboratory setting, with various objects and equipment but no people present.
+```
+There are no individuals visible in this photograph. The image appears to be a black-and-white depiction of an interior space, possibly a kitchen or laboratory setting, with various objects and equipment but no people present.
 ```
 
 
@@ -340,7 +353,8 @@ In terms of specific details about each person's appearance, it is difficult to 
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
-```There do not appear to be any people in this photograph. The image depicts a bridge over a river or stream with trees on either side. In the background, there appears to be a building surrounded by trees and hills. There are no visible individuals within the scene.
+```
+There do not appear to be any people in this photograph. The image depicts a bridge over a river or stream with trees on either side. In the background, there appears to be a building surrounded by trees and hills. There are no visible individuals within the scene.
 ```
 
 
@@ -358,7 +372,8 @@ In terms of specific details about each person's appearance, it is difficult to 
 | Woman | 0 | 0 | 🟢 |
 | Person | 0 | 0 | 🟢 |
 
-```There are no people visible in this photograph. The image appears to be a construction site with two large cranes or towers being built, and there is no sign of any individuals present.
+```
+There are no people visible in this photograph. The image appears to be a construction site with two large cranes or towers being built, and there is no sign of any individuals present.
 ```
 
 
@@ -376,7 +391,8 @@ In terms of specific details about each person's appearance, it is difficult to 
 | Woman | 0 | 0 | 🟢 |
 | Person | 0 | 0 | 🟢 |
 
-```There are no individuals visible in this photograph. The image depicts a serene scene with a river flowing through it, surrounded by trees and buildings on either side.
+```
+There are no individuals visible in this photograph. The image depicts a serene scene with a river flowing through it, surrounded by trees and buildings on either side.
 
 The absence of any human figures means there is no information available about gender or other characteristics.
 ```
