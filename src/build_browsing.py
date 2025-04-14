@@ -38,7 +38,6 @@ def calculate_report(conn, model, collection=None):
     str_report = "\n\n\n"
 
     for label in "wmp":
-
         gt = [
             label
             for label, *_ in conn.execute(
@@ -63,7 +62,6 @@ def calculate_report(conn, model, collection=None):
         ]
 
         if len(gt) == len(pred) and len(set(gt) | set(pred)) > 1:
-
             label_report = classification_report(gt, pred, zero_division=False)
 
             str_report += f"""
@@ -303,7 +301,9 @@ def image_data_to_str(image: str, gt: dict, pred: dict, model):
             ollama_desc_dir / (image + ".png.txt"), "r", encoding="utf8"
         ) as f:
             result += "\n\n```"
-            result += f.read()
+            llama_desc = f.read()
+            assert len(llama_desc.strip()) > 0
+            result += llama_desc
             result += "\n```\n"
 
     return result + "\n\n\n"
