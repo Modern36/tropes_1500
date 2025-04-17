@@ -6,6 +6,7 @@ dependencies =[
   "ollama",
   "tqdm",
   "scikit-learn",
+  "dotenv==0.9.9",
 ]
 readme = "README.md"
 

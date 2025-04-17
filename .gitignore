@@ -11,3 +11,6 @@ moondreammodel/
 
 .venv/
 *.sqlite3
+
+.env
+rendered_documents

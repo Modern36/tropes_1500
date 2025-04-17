@@ -1,6 +1,8 @@
+import os
 from pathlib import Path
 
 import pandas as pd
+from dotenv import load_dotenv
 
 output_dir = Path(__file__).parents[1]
 raw_dir = output_dir / "000_raw"
@@ -32,3 +34,21 @@ def read_data():
 
 
 db_path = output_dir / "db.sqlite3"
+
+
+def get_doc_root():
+    dot_path = os.getenv("DOCUMENTS_ROOT")
+
+    if dot_path is not None:
+        return Path(dot_path)
+
+    Warning(
+        "No DOCUMENTS_ROOT environment variable set. "
+        "Falling back to root / rendered_documents"
+    )
+
+    return output_dir / "rendered_documents"
+
+
+doc_root = get_doc_root()
+assert doc_root.exists()
