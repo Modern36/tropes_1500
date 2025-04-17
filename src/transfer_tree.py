@@ -33,7 +33,9 @@ def transfer_tree(target_dir=doc_root, browser_root=browser_root):
             transfers.append((image, target))
 
     for doc in browser_root.glob("**/*.md"):
-        target = target_dir / doc.relative_to(browser_root)
+        target = target_dir / doc.relative_to(browser_root).with_suffix(
+            ".docx"
+        )
         if not target.exists():
             transfers.append((doc, target))
         elif has_file_changed(doc):
@@ -41,7 +43,10 @@ def transfer_tree(target_dir=doc_root, browser_root=browser_root):
 
     for src, target in tqdm(transfers, desc="Transferring documents"):
         target.parent.mkdir(parents=True, exist_ok=True)
-        shutil.copy2(src, target)
+        if src.suffix == ".png":
+            shutil.copy2(src, target)
+        elif src.suffix == ".md":
+            subprocess.run(["pandoc", str(src), "-o", str(target)], check=True)
 
 
 if __name__ == "__main__":

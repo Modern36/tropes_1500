@@ -28,3 +28,10 @@ repos:
         entry: pytest
         language: system
         pass_filenames: false
+    -   id: make-documents
+        name: make-documents
+        always_run: true
+        entry: python src/transfer_tree.py
+        language: system
+        pass_filenames: false
+        stages: [pre-push]
