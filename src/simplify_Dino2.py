@@ -1,3 +1,4 @@
+import csv
 from itertools import combinations
 
 import pandas as pd
@@ -43,7 +44,13 @@ def simplify_dino_boxes():
             if not box.keep:
                 data.drop(index=box.uuid, inplace=True)
 
-        data.to_csv(out_path, sep="\t", index=False)
+        data.to_csv(
+            out_path,
+            sep="\t",
+            index=False,
+            quotechar='"',
+            quoting=csv.QUOTE_NONNUMERIC,
+        )
 
 
 if __name__ == "__main__":
