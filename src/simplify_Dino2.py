@@ -1,14 +1,18 @@
 from itertools import combinations
 
 import pandas as pd
+from tqdm import tqdm
 
 from box import Box
 from trope_paths import detections
 
 
 def simplify_dino_boxes():
+    pbar = tqdm(total=3000)
     for dino_detection in detections.glob("Dino*[n]_*.tsv"):
         in_name = dino_detection.name
+        pbar.desc = in_name
+        pbar.update()
         out_name = in_name.replace("_", "2_")
         out_path = dino_detection.parent / out_name
         if out_path.exists():
@@ -40,3 +44,7 @@ def simplify_dino_boxes():
                 data.drop(index=box.uuid, inplace=True)
 
         data.to_csv(out_path, sep="\t", index=False)
+
+
+if __name__ == "__main__":
+    simplify_dino_boxes()
