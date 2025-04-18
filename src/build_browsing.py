@@ -38,7 +38,6 @@ def calculate_report(conn, model, collection=None):
     str_report = "\n\n\n"
 
     for label in "wmp":
-
         gt = [
             label
             for label, *_ in conn.execute(
@@ -63,7 +62,6 @@ def calculate_report(conn, model, collection=None):
         ]
 
         if len(gt) == len(pred) and len(set(gt) | set(pred)) > 1:
-
             label_report = classification_report(gt, pred, zero_division=False)
 
             str_report += f"""
@@ -242,6 +240,8 @@ def get_images(conn, model, collection_name=None):
 model_to_subdir = {
     "DinoManWoman": model_output / "DinoManWoman_th25",
     "DinoWomanMan": model_output / "DinoWomanMan_th25",
+    "DinoManWoman2": model_output / "DinoManWoman_th25",
+    "DinoWomanMan2": model_output / "DinoWomanMan_th25",
     "YOLO_50": model_output / "yolos-pretrained_th50",
     "YOLO_75": model_output / "yolos-pretrained_th75",
     "YOLO_90": model_output / "yolos-pretrained_th90",
