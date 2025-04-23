@@ -5,6 +5,7 @@ import sqlite3
 
 import pandas as pd
 
+from browser_group_best_worst import calculate_groups
 from trope_paths import (
     db_path,
     detections,
@@ -209,6 +210,8 @@ def build_db():
 
         add_model_output(conn, load_llama_desc())
 
+        calculate_groups(conn)
+
 
 # TODO: Add Moondream output
 
@@ -243,8 +246,8 @@ def load_vqa():
     for _, row in gt_data.iterrows():
         image_id = row["file_name"].split(".")[0]
         pred = {
-            "m": row[f"vqa_m"],
-            "w": row[f"vqa_w"],
+            "m": row["vqa_m"],
+            "w": row["vqa_w"],
         }
         pred["p"] = max(pred.values())
 

@@ -1,5 +1,4 @@
-from build_browsing import resolve_image_path
-from trope_paths import raw_dir
+from trope_paths import raw_dir, resolve_image_path
 
 filenames = [p.with_suffix("").name for p in raw_dir.iterdir()]
 

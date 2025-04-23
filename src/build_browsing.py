@@ -3,14 +3,16 @@ from pathlib import Path
 
 from sklearn.metrics import classification_report
 
+from browser_group_best_worst import write_gathered_readmes
 from build_db import build_db
+from scatter import scatter_to_markdown
 from trope_paths import (
     browser_root,
     db_path,
-    model_output,
     ollama_desc_dir,
     output_dir,
     raw_dir,
+    resolve_image_path,
 )
 
 
@@ -252,21 +254,6 @@ model_to_subdir = {
 emojis = {0: "🟥", 1: "🟢"}
 
 
-def resolve_image_path(image, model):
-    image_dir = model_to_subdir[model]
-
-    image_loc = image_dir / (image + ".png")
-    if image_loc.exists():
-        return image_loc
-
-    if model == "YOLO_50":
-        return resolve_image_path(image, "YOLO_75")
-    elif model == "YOLO_75":
-        return resolve_image_path(image, "YOLO_90")
-    else:
-        return raw_dir / (image + ".png")
-
-
 def image_data_to_str(image: str, gt: dict, pred: dict, model):
     # temporary going to default image
     image_loc = resolve_image_path(image, model)
@@ -313,3 +300,6 @@ if __name__ == "__main__":
     build_db()
 
     build_tree()
+
+    scatter_to_markdown()
+    write_gathered_readmes()
