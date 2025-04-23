@@ -5,6 +5,7 @@ from sklearn.metrics import classification_report
 
 from browser_group_best_worst import write_gathered_readmes
 from build_db import build_db
+from scatter import scatter_to_markdown
 from trope_paths import (
     browser_root,
     db_path,
@@ -39,7 +40,6 @@ def calculate_report(conn, model, collection=None):
     str_report = "\n\n\n"
 
     for label in "wmp":
-
         gt = [
             label
             for label, *_ in conn.execute(
@@ -64,7 +64,6 @@ def calculate_report(conn, model, collection=None):
         ]
 
         if len(gt) == len(pred) and len(set(gt) | set(pred)) > 1:
-
             label_report = classification_report(gt, pred, zero_division=False)
 
             str_report += f"""
@@ -289,4 +288,6 @@ if __name__ == "__main__":
     build_db()
 
     build_tree()
+
+    scatter_to_markdown()
     write_gathered_readmes()
