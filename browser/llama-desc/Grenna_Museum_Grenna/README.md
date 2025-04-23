@@ -66,7 +66,8 @@ weighted avg       1.00      1.00      1.00        11
 | Woman | 0 | 1 | 🟥 |
 | Person | 1 | 1 | 🟢 |
 
-```The photograph depicts a man standing at a podium, addressing an audience. He is dressed in formal attire, consisting of a dark suit jacket and vest, complemented by a white shirt with a high collar and a bow tie. His hair is neatly trimmed, and he sports a well-groomed beard.
+```
+The photograph depicts a man standing at a podium, addressing an audience. He is dressed in formal attire, consisting of a dark suit jacket and vest, complemented by a white shirt with a high collar and a bow tie. His hair is neatly trimmed, and he sports a well-groomed beard.
 
 Behind the speaker, there are several individuals seated on chairs or benches, all attired in similar formal clothing. The majority of these people appear to be men, although it is challenging to discern any women due to their attire being less distinct from that of the men.
 
@@ -90,7 +91,8 @@ Overall, the photograph captures a moment of public speaking or performance, wit
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
-```The photograph depicts a man with short hair, dressed in formal attire consisting of a dark suit jacket, white shirt, and black tie. He is positioned centrally in the image, facing forward.
+```
+The photograph depicts a man with short hair, dressed in formal attire consisting of a dark suit jacket, white shirt, and black tie. He is positioned centrally in the image, facing forward.
 
 In the background, there are no other individuals visible. The overall atmosphere suggests that this is an official portrait or professional photo shoot, likely taken for business or personal purposes.
 ```
@@ -110,7 +112,8 @@ In the background, there are no other individuals visible. The overall atmospher
 | Woman | 1 | 1 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
-```The image shows a group of 20 people posing for a photograph. The majority of them appear to be adults, with no children visible in the picture.
+```
+The image shows a group of 20 people posing for a photograph. The majority of them appear to be adults, with no children visible in the picture.
 
 There are 12 men and eight women present in the photo. All individuals are dressed in formal attire, suggesting that this may have been taken at a special occasion or event.
 
@@ -132,7 +135,8 @@ The background is plain, indicating that it was likely taken indoors.
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
-```This black-and-white photograph presents two portraits of men with a distinctive appearance, featuring long mustaches, beards, and sideburns. The man on the left wears a dark suit jacket, vest, shirt, tie, and pants, while the man on the right sports a bowler hat, light-colored coat, vest, shirt, tie, and pants.
+```
+This black-and-white photograph presents two portraits of men with a distinctive appearance, featuring long mustaches, beards, and sideburns. The man on the left wears a dark suit jacket, vest, shirt, tie, and pants, while the man on the right sports a bowler hat, light-colored coat, vest, shirt, tie, and pants.
 
 The background of both portraits features a dark color with visible texture, suggesting that they were taken in front of a painted canvas or backdrop. The overall atmosphere of the photographs exudes formality and seriousness, characteristic of traditional portrait photography from the late 19th to early 20th centuries.
 ```
@@ -152,7 +156,8 @@ The background of both portraits features a dark color with visible texture, sug
 | Woman | 1 | 1 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
-```The photograph features a large statue of a man's bust on top of a rectangular stone pillar with the name "Ibsen" inscribed at the base. The statue appears to be made of bronze or another metal and has a dark patina.
+```
+The photograph features a large statue of a man's bust on top of a rectangular stone pillar with the name "Ibsen" inscribed at the base. The statue appears to be made of bronze or another metal and has a dark patina.
 
 In front of the statue, there are several people standing in two rows. The first row consists of three men wearing suits and hats, while the second row has five women dressed in long skirts and blouses. They all appear to be looking at the camera with serious expressions.
 
@@ -176,7 +181,8 @@ Overall, the image suggests that this could be a historical event or ceremony re
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
-```The image depicts a group of people playing musical instruments outdoors, likely during the daytime. The individuals are dressed in long coats and hats, suggesting they may be part of an orchestra or band.
+```
+The image depicts a group of people playing musical instruments outdoors, likely during the daytime. The individuals are dressed in long coats and hats, suggesting they may be part of an orchestra or band.
 
 **Key Observations:**
 
@@ -204,7 +210,8 @@ Based on the available information, it appears that the group consists mainly of
 | Woman | 1 | 1 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
-```The photograph shows a man and woman dressed for their wedding. The woman is seated on the left side of the image wearing a white dress and veil with a floral headpiece. She holds a bouquet of flowers in her right hand, which rests on her lap.
+```
+The photograph shows a man and woman dressed for their wedding. The woman is seated on the left side of the image wearing a white dress and veil with a floral headpiece. She holds a bouquet of flowers in her right hand, which rests on her lap.
 
 Standing to her right is the man who wears a dark suit with a light shirt and tie. His left hand rests on the back of the woman's chair while his right arm hangs by his side.
 
@@ -228,7 +235,8 @@ On either side of this group sit several women also attired in formal attire; so
 | Woman | 0 | 0 | 🟢 |
 | Person | 0 | 0 | 🟢 |
 
-```There are no individuals visible in this photograph. The image appears to be a black-and-white depiction of two metal objects, possibly some kind of machinery or equipment, with text at the bottom that reads "Boj Nr:7 och Nr:8." There is no indication of any human presence in the scene.
+```
+There are no individuals visible in this photograph. The image appears to be a black-and-white depiction of two metal objects, possibly some kind of machinery or equipment, with text at the bottom that reads "Boj Nr:7 och Nr:8." There is no indication of any human presence in the scene.
 ```
 
 
@@ -246,7 +254,8 @@ On either side of this group sit several women also attired in formal attire; so
 | Woman | 0 | 0 | 🟢 |
 | Person | 0 | 0 | 🟢 |
 
-```There are no individuals present in this picture. The image features an old building with a dome-shaped ceiling adorned with intricate designs, possibly depicting religious or cultural scenes. There are no visible faces or figures anywhere within the scene.
+```
+There are no individuals present in this picture. The image features an old building with a dome-shaped ceiling adorned with intricate designs, possibly depicting religious or cultural scenes. There are no visible faces or figures anywhere within the scene.
 ```
 
 
@@ -264,7 +273,8 @@ On either side of this group sit several women also attired in formal attire; so
 | Woman | 1 | 1 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
-```The image depicts a formal black-and-white photograph of a man and woman walking through a crowd of people outdoors. The woman on the left wears a dark dress with white polka dots, while the man on her right is dressed in a suit and tie. He appears to be holding an umbrella.
+```
+The image depicts a formal black-and-white photograph of a man and woman walking through a crowd of people outdoors. The woman on the left wears a dark dress with white polka dots, while the man on her right is dressed in a suit and tie. He appears to be holding an umbrella.
 
 Behind them, a group of approximately 20 individuals can be seen standing or sitting under trees. In the background, several buildings are visible, although they are not clearly defined due to the distance and quality of the image.
 
@@ -286,7 +296,8 @@ The overall atmosphere suggests that this may have been taken at some kind of ou
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
-```There does not appear to be any people visible in this image.
+```
+There does not appear to be any people visible in this image.
 
 The image shows a black-and-white photograph of a ship moored at a dock, with several buildings and other structures visible in the background. The ship is positioned in the center of the image, with its bow facing towards the left side. It appears to be a large vessel, possibly a cargo ship or a passenger liner.
 

@@ -66,7 +66,8 @@ weighted avg       0.80      0.79      0.79        76
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 0 | 🟥 |
 
-```The photograph does not contain any people. The image appears to be a black-and-white depiction of an old house or building with some construction materials scattered around it. There are no individuals visible in the foreground, background, or anywhere else within the frame. Therefore, there is no information available regarding gender based on clothing or other distinguishing features since no human figures are present in the image.
+```
+The photograph does not contain any people. The image appears to be a black-and-white depiction of an old house or building with some construction materials scattered around it. There are no individuals visible in the foreground, background, or anywhere else within the frame. Therefore, there is no information available regarding gender based on clothing or other distinguishing features since no human figures are present in the image.
 ```
 
 
@@ -84,7 +85,8 @@ weighted avg       0.80      0.79      0.79        76
 | Woman | 1 | 1 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
-```The photograph shows a woman standing outside with her arms crossed. She has short hair and appears to have been photographed during the day. There are no other visible individuals or people in the image.
+```
+The photograph shows a woman standing outside with her arms crossed. She has short hair and appears to have been photographed during the day. There are no other visible individuals or people in the image.
 ```
 
 
@@ -102,7 +104,8 @@ weighted avg       0.80      0.79      0.79        76
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 0 | 🟥 |
 
-```There are no individuals visible in this photograph. The image depicts a building with no people present.
+```
+There are no individuals visible in this photograph. The image depicts a building with no people present.
 ```
 
 
@@ -120,7 +123,8 @@ weighted avg       0.80      0.79      0.79        76
 | Woman | 0 | 0 | 🟢 |
 | Person | 0 | 0 | 🟢 |
 
-```There are no individuals visible in this picture. The scene appears to depict a rural landscape with fields and buildings, but there is no sign of human presence or activity. Therefore, it is not possible to identify any specific characteristics about the individuals present, as none are depicted.
+```
+There are no individuals visible in this picture. The scene appears to depict a rural landscape with fields and buildings, but there is no sign of human presence or activity. Therefore, it is not possible to identify any specific characteristics about the individuals present, as none are depicted.
 
 **Key Observations:**
 
@@ -146,7 +150,8 @@ Given these observations, it is clear that this picture does not contain any inf
 | Woman | 0 | 0 | 🟢 |
 | Person | 0 | 0 | 🟢 |
 
-```There are no people present in this photograph. The image depicts a serene waterfront scene with boats docked along the shore, but it does not feature any individuals or human figures.
+```
+There are no people present in this photograph. The image depicts a serene waterfront scene with boats docked along the shore, but it does not feature any individuals or human figures.
 ```
 
 
@@ -164,7 +169,8 @@ Given these observations, it is clear that this picture does not contain any inf
 | Woman | 1 | 0 | 🟥 |
 | Person | 1 | 0 | 🟥 |
 
-```There are no people visible in this photograph. The image appears to be a street scene with buildings and signs, but it does not depict any individuals.
+```
+There are no people visible in this photograph. The image appears to be a street scene with buildings and signs, but it does not depict any individuals.
 ```
 
 
@@ -182,7 +188,8 @@ Given these observations, it is clear that this picture does not contain any inf
 | Woman | 1 | 0 | 🟥 |
 | Person | 1 | 1 | 🟢 |
 
-```The photograph depicts a group of people, predominantly children, with some adults present. The children are dressed in casual attire, while the adults wear more formal clothing. It is challenging to determine the exact ages of the individuals due to the black and white nature of the image and the fact that they are not clearly visible.
+```
+The photograph depicts a group of people, predominantly children, with some adults present. The children are dressed in casual attire, while the adults wear more formal clothing. It is challenging to determine the exact ages of the individuals due to the black and white nature of the image and the fact that they are not clearly visible.
 
 In the background, there appears to be a building or structure, but it is unclear what type of setting this is. The overall atmosphere suggests a gathering or event, possibly related to education or community activities. However, without more context, it is difficult to provide further details about the specific occasion or purpose of the photograph.
 ```
@@ -202,7 +209,8 @@ In the background, there appears to be a building or structure, but it is unclea
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
-```The photograph depicts a single individual, who appears to be a man. He is attired in formal business attire, consisting of a suit jacket, vest, white shirt, tie, and dress shoes. His dark hair is neatly combed back, and he sports a mustache.
+```
+The photograph depicts a single individual, who appears to be a man. He is attired in formal business attire, consisting of a suit jacket, vest, white shirt, tie, and dress shoes. His dark hair is neatly combed back, and he sports a mustache.
 
 In the background, there are no other individuals visible. The setting suggests an indoor environment, with a wall or backdrop behind the subject. The overall atmosphere of the image exudes professionalism and formality, likely indicating that it was taken for official or business purposes.
 ```
@@ -222,7 +230,8 @@ In the background, there are no other individuals visible. The setting suggests 
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
-```This image shows a black-and-white photograph from a historical collection, depicting four men standing in front of an omnibus.
+```
+This image shows a black-and-white photograph from a historical collection, depicting four men standing in front of an omnibus.
 
 The men are all dressed in formal attire, with three wearing caps or hats and two sporting ties. They stand on a dirt road or parking lot, positioned to the left of the bus. The bus itself is parked facing towards the right side of the image, featuring large windows and a prominent logo that reads "ASTERAS OMNIBUS A-B" along its side.
 
@@ -244,7 +253,8 @@ In the background, trees are visible behind the men, providing context for the s
 | Woman | 0 | 0 | 🟢 |
 | Person | 0 | 0 | 🟢 |
 
-```There do not appear to be any people visible in this photograph. The image seems to depict a landscape or outdoor setting with trees and grassy areas, but no individuals are present within the frame.
+```
+There do not appear to be any people visible in this photograph. The image seems to depict a landscape or outdoor setting with trees and grassy areas, but no individuals are present within the frame.
 ```
 
 
@@ -262,7 +272,8 @@ In the background, trees are visible behind the men, providing context for the s
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
-```The image depicts a single person, who appears to be an adult male. He is dressed in attire typical of early 20th-century farming or laboring activities, including overalls and a hat. The man's gender can be inferred from his clothing style, which was more commonly associated with men during that period.
+```
+The image depicts a single person, who appears to be an adult male. He is dressed in attire typical of early 20th-century farming or laboring activities, including overalls and a hat. The man's gender can be inferred from his clothing style, which was more commonly associated with men during that period.
 
 In the background, there are no other individuals visible. The focus of the image is on the solitary figure in the foreground, engaged in some form of manual labor or agricultural activity. There are no people partially hidden by objects or out of focus in the photograph.
 ```
@@ -282,7 +293,8 @@ In the background, there are no other individuals visible. The focus of the imag
 | Woman | 0 | 0 | 🟢 |
 | Person | 0 | 0 | 🟢 |
 
-```The image does not depict any individuals. It appears to be an aerial view of a town or city, with buildings and streets visible but no people present in the photograph.
+```
+The image does not depict any individuals. It appears to be an aerial view of a town or city, with buildings and streets visible but no people present in the photograph.
 ```
 
 
@@ -300,7 +312,8 @@ In the background, there are no other individuals visible. The focus of the imag
 | Woman | 0 | 1 | 🟥 |
 | Person | 1 | 1 | 🟢 |
 
-```The photograph depicts a group of men dressed in formal attire, posing for the camera. The majority of them wear suits with ties, while some individuals can be seen standing behind or partially hidden from view.
+```
+The photograph depicts a group of men dressed in formal attire, posing for the camera. The majority of them wear suits with ties, while some individuals can be seen standing behind or partially hidden from view.
 
 In the foreground, several people are visible, including those who appear to be seated on chairs or benches. These individuals are more prominent and easier to discern than others in the background.
 
@@ -324,7 +337,8 @@ The overall atmosphere of the image suggests a sense of formality and profession
 | Woman | 1 | 1 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
-```There appear to be two people visible in this photograph, both standing in the foreground. The person on the left appears to be a woman wearing a dark dress with a white apron over it, and her hair tied up under a cap. She appears to have a basket or bag hanging from her right arm. To her right is a man, wearing dark trousers and a light-colored shirt tucked into them. He has a tie on and his sleeves are rolled up to just below the elbow. His left hand rests in the pocket of his trousers while he holds the handle of what looks like a large bucket with his other hand. Neither person's face can be made out clearly, but judging by their clothing it appears they may be dressed for work or some kind of outdoor activity.
+```
+There appear to be two people visible in this photograph, both standing in the foreground. The person on the left appears to be a woman wearing a dark dress with a white apron over it, and her hair tied up under a cap. She appears to have a basket or bag hanging from her right arm. To her right is a man, wearing dark trousers and a light-colored shirt tucked into them. He has a tie on and his sleeves are rolled up to just below the elbow. His left hand rests in the pocket of his trousers while he holds the handle of what looks like a large bucket with his other hand. Neither person's face can be made out clearly, but judging by their clothing it appears they may be dressed for work or some kind of outdoor activity.
 
 There are no people visible in the background of this photograph.
 ```
@@ -344,7 +358,8 @@ There are no people visible in the background of this photograph.
 | Woman | 1 | 0 | 🟥 |
 | Person | 1 | 1 | 🟢 |
 
-```The photograph depicts a group of young girls posing for a class photo. The girls are all dressed in dark-colored dresses with light-colored blouses underneath, and they wear their hair in braids or buns. They sit on benches arranged in rows, with the tallest girls standing behind them.
+```
+The photograph depicts a group of young girls posing for a class photo. The girls are all dressed in dark-colored dresses with light-colored blouses underneath, and they wear their hair in braids or buns. They sit on benches arranged in rows, with the tallest girls standing behind them.
 
 In the background, there is a chalkboard on the wall with some writing on it that appears to be Swedish text. A teacher stands at the back of the room, overseeing the students. The overall atmosphere suggests a formal school setting from the early 20th century.
 
@@ -366,7 +381,8 @@ There are no other people visible in the photograph beyond the girls and their t
 | Woman | 0 | 1 | 🟥 |
 | Person | 0 | 1 | 🟥 |
 
-```The image does not depict any individuals; it appears to be a black-and-white photograph of a landscape or townscape, possibly taken from an elevated vantage point. The scene shows buildings and trees but no people are visible within the frame.
+```
+The image does not depict any individuals; it appears to be a black-and-white photograph of a landscape or townscape, possibly taken from an elevated vantage point. The scene shows buildings and trees but no people are visible within the frame.
 
 Therefore, there is no information about men, women, children, or other gender categories in this image because it does not contain any human subjects.
 ```
@@ -386,7 +402,8 @@ Therefore, there is no information about men, women, children, or other gender c
 | Woman | 0 | 0 | 🟢 |
 | Person | 0 | 0 | 🟢 |
 
-```There does not appear to be any individuals in this photograph. The image shows an aerial view of a property surrounded by water, with trees and buildings visible on the landmass. No human figures can be seen in the picture.
+```
+There does not appear to be any individuals in this photograph. The image shows an aerial view of a property surrounded by water, with trees and buildings visible on the landmass. No human figures can be seen in the picture.
 ```
 
 
@@ -404,7 +421,8 @@ Therefore, there is no information about men, women, children, or other gender c
 | Woman | 0 | 0 | 🟢 |
 | Person | 0 | 0 | 🟢 |
 
-```There are no people visible in this photograph. The image appears to be an aerial view of a landscape, possibly taken from a high vantage point or using a drone. It does not depict any individuals within its frame.
+```
+There are no people visible in this photograph. The image appears to be an aerial view of a landscape, possibly taken from a high vantage point or using a drone. It does not depict any individuals within its frame.
 
 **Key Features:**
 
@@ -429,7 +447,8 @@ Given the absence of people in the image, it's impossible to determine their gen
 | Woman | 1 | 1 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
-```The image depicts a woman with short hair, wearing a dress and pearl necklace. She is holding a hat in her right hand and appears to be looking at something off-camera.
+```
+The image depicts a woman with short hair, wearing a dress and pearl necklace. She is holding a hat in her right hand and appears to be looking at something off-camera.
 
 In the background, there are no other people visible. The focus of the photograph is solely on the woman, and she takes up most of the frame. There are no individuals who can only partially be seen or whose faces cannot be identified due to being out of focus or obscured by objects.
 ```
@@ -449,7 +468,8 @@ In the background, there are no other people visible. The focus of the photograp
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
-```The photograph depicts a group of four men standing in front of a fountain or water feature, with one man holding a map. The individuals are dressed in attire typical of the early 20th century, including suits, hats, and coats.
+```
+The photograph depicts a group of four men standing in front of a fountain or water feature, with one man holding a map. The individuals are dressed in attire typical of the early 20th century, including suits, hats, and coats.
 
 **Key Observations:**
 
@@ -477,7 +497,8 @@ Based on these observations, it is reasonable to conclude that all four individu
 | Woman | 0 | 0 | 🟢 |
 | Person | 0 | 0 | 🟢 |
 
-```There are no people visible in this photograph. The image appears to be an aerial view of a rural area or countryside, with fields, trees, and buildings scattered throughout. There are no discernible human figures present in the scene.
+```
+There are no people visible in this photograph. The image appears to be an aerial view of a rural area or countryside, with fields, trees, and buildings scattered throughout. There are no discernible human figures present in the scene.
 
 If you would like me to analyze other aspects of the image, such as the landscape features, architecture, or potential historical context, I'd be happy to assist further.
 ```
@@ -497,7 +518,8 @@ If you would like me to analyze other aspects of the image, such as the landscap
 | Woman | 0 | 0 | 🟢 |
 | Person | 0 | 0 | 🟢 |
 
-```There are no people shown in this photograph. The image depicts a room with furniture and decorations, but it does not contain any individuals or groups of people. Therefore, there is no need to identify anyone's gender based on their appearance or clothing since there are no people present in the picture.
+```
+There are no people shown in this photograph. The image depicts a room with furniture and decorations, but it does not contain any individuals or groups of people. Therefore, there is no need to identify anyone's gender based on their appearance or clothing since there are no people present in the picture.
 ```
 
 
@@ -515,7 +537,8 @@ If you would like me to analyze other aspects of the image, such as the landscap
 | Woman | 0 | 0 | 🟢 |
 | Person | 0 | 0 | 🟢 |
 
-```There are no people visible in this photograph. The image depicts a formal dining table set with fine china and crystal glasses, but there are no individuals present at the table or in the surrounding area.
+```
+There are no people visible in this photograph. The image depicts a formal dining table set with fine china and crystal glasses, but there are no individuals present at the table or in the surrounding area.
 
 The absence of people suggests that the focus of the photograph is on the setting itself rather than any specific individuals. This could be due to various reasons such as the photographer's intention to capture the ambiance or decor without including human subjects, or perhaps the scene was staged for a particular purpose where the emphasis was not on portraying people.
 
@@ -537,7 +560,8 @@ Given the lack of visible persons in the image, it is impossible to determine th
 | Woman | 1 | 1 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
-```The photograph depicts a woman standing in front of a stack of mattresses, engaged in an activity that appears to be related to her work. She is wearing a long-sleeved dress with a floral pattern and has her hair tied back in a bun. The woman's attire suggests that she may be working in a factory or warehouse setting.
+```
+The photograph depicts a woman standing in front of a stack of mattresses, engaged in an activity that appears to be related to her work. She is wearing a long-sleeved dress with a floral pattern and has her hair tied back in a bun. The woman's attire suggests that she may be working in a factory or warehouse setting.
 
 In the background, there are several other people visible, although they are not as clearly defined as the main subject. One person appears to be standing near a table or counter, while another is partially obscured by a stack of boxes. It is difficult to determine their genders due to the lack of clear details in the image.
 
@@ -559,7 +583,8 @@ Overall, the photograph provides a glimpse into the lives of working-class indiv
 | Woman | 0 | 0 | 🟢 |
 | Person | 0 | 0 | 🟢 |
 
-```There do not appear to be any people visible in this image. The photograph shows a serene lake scene with trees and vegetation surrounding it, but there are no individuals present.
+```
+There do not appear to be any people visible in this image. The photograph shows a serene lake scene with trees and vegetation surrounding it, but there are no individuals present.
 ```
 
 
@@ -577,7 +602,8 @@ Overall, the photograph provides a glimpse into the lives of working-class indiv
 | Woman | 0 | 0 | 🟢 |
 | Person | 0 | 0 | 🟢 |
 
-```There is no photograph attached to this message for me to describe. Please attach the image you would like me to describe so I can help you.
+```
+There is no photograph attached to this message for me to describe. Please attach the image you would like me to describe so I can help you.
 ```
 
 
@@ -595,7 +621,8 @@ Overall, the photograph provides a glimpse into the lives of working-class indiv
 | Woman | 1 | 0 | 🟥 |
 | Person | 1 | 1 | 🟢 |
 
-```The photograph appears to depict a group of people gathered together, possibly for a special occasion or event.
+```
+The photograph appears to depict a group of people gathered together, possibly for a special occasion or event.
 
 Upon closer inspection, it is difficult to determine the gender of the individuals due to the lack of clear visual cues such as facial features, hairstyles, or clothing that would typically indicate male or female characteristics. The image does not provide enough information to confidently identify any specific genders among the people present.
 
@@ -617,7 +644,8 @@ It's important to note that making assumptions about someone's gender based on l
 | Woman | 0 | 0 | 🟢 |
 | Person | 0 | 0 | 🟢 |
 
-```There are no people visible in this photograph. The image appears to be a landscape or scenery, possibly taken from an elevated position, with buildings and trees present but no human figures discernible within its scope.
+```
+There are no people visible in this photograph. The image appears to be a landscape or scenery, possibly taken from an elevated position, with buildings and trees present but no human figures discernible within its scope.
 ```
 
 
@@ -635,7 +663,8 @@ It's important to note that making assumptions about someone's gender based on l
 | Woman | 1 | 1 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
-```The photograph appears to depict a group of young men and women dressed formally for what seems to be a special occasion. The majority of the individuals in this image are wearing white dresses with long sleeves, while others are attired in dark suits, suggesting an event such as a wedding or a graduation ceremony.
+```
+The photograph appears to depict a group of young men and women dressed formally for what seems to be a special occasion. The majority of the individuals in this image are wearing white dresses with long sleeves, while others are attired in dark suits, suggesting an event such as a wedding or a graduation ceremony.
 
 In the foreground, several people are standing together, posing for the camera. Some of them have their arms around each other's shoulders or waists, indicating close relationships or friendships. Behind this group, there are more individuals visible through gaps between trees or buildings, although they are not clearly defined due to distance and focus issues.
 
@@ -657,7 +686,8 @@ It is challenging to determine gender based solely on clothing in some cases, as
 | Woman | 0 | 0 | 🟢 |
 | Person | 0 | 0 | 🟢 |
 
-```There are no people visible in this image. The photograph appears to be an aerial view of a church or other religious building, surrounded by trees and fields. There are no individuals present in the scene.
+```
+There are no people visible in this image. The photograph appears to be an aerial view of a church or other religious building, surrounded by trees and fields. There are no individuals present in the scene.
 
 **Key Observations:**
 
@@ -681,7 +711,8 @@ It is challenging to determine gender based solely on clothing in some cases, as
 | Woman | 0 | 0 | 🟢 |
 | Person | 0 | 0 | 🟢 |
 
-```There are no people visible in this photograph. The image depicts a large house with a dirt path leading up to it, surrounded by trees and bushes. No individuals can be seen in the foreground or background of the picture.
+```
+There are no people visible in this photograph. The image depicts a large house with a dirt path leading up to it, surrounded by trees and bushes. No individuals can be seen in the foreground or background of the picture.
 ```
 
 
@@ -699,7 +730,8 @@ It is challenging to determine gender based solely on clothing in some cases, as
 | Woman | 0 | 0 | 🟢 |
 | Person | 0 | 1 | 🟥 |
 
-```There does not appear to be any people visible in this image. The photograph depicts a large industrial scene with various structures and equipment, but there are no discernible human figures present.
+```
+There does not appear to be any people visible in this image. The photograph depicts a large industrial scene with various structures and equipment, but there are no discernible human figures present.
 ```
 
 
@@ -717,7 +749,8 @@ It is challenging to determine gender based solely on clothing in some cases, as
 | Woman | 0 | 0 | 🟢 |
 | Person | 0 | 0 | 🟢 |
 
-```There do not appear to be any people visible within this image, as it depicts an empty landscape with no signs of human activity or figures. The scene is dominated by natural elements such as trees, grass, and a body of water, which suggests that the photograph was taken in a rural or wilderness area.
+```
+There do not appear to be any people visible within this image, as it depicts an empty landscape with no signs of human activity or figures. The scene is dominated by natural elements such as trees, grass, and a body of water, which suggests that the photograph was taken in a rural or wilderness area.
 
 Since there are no individuals present in the image, it is not possible to determine their gender based on clothing or other visual cues. Therefore, I will refer to them simply as "people" if they were present, but since they are not, this description does not apply.
 
@@ -739,7 +772,8 @@ In summary, the photograph shows a serene natural landscape devoid of any human 
 | Woman | 0 | 0 | 🟢 |
 | Person | 0 | 0 | 🟢 |
 
-```There are no people present in this photograph. The image appears to be an aerial view of a church or similar building surrounded by trees and other structures, with no visible individuals.
+```
+There are no people present in this photograph. The image appears to be an aerial view of a church or similar building surrounded by trees and other structures, with no visible individuals.
 ```
 
 
@@ -757,7 +791,8 @@ In summary, the photograph shows a serene natural landscape devoid of any human 
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
-```The photograph shows a group of boys posing for a class photo, with two men likely being the teachers or staff members.
+```
+The photograph shows a group of boys posing for a class photo, with two men likely being the teachers or staff members.
 
 In the front row, there are approximately 10 boys sitting on the floor, all wearing dark jackets and ties. Behind them, another 15 boys stand in three rows, also dressed in dark jackets and ties. The majority of the students appear to be between 12-14 years old.
 
@@ -783,7 +818,8 @@ The background of the image shows a large blackboard with chalk writing on it, i
 | Woman | 0 | 0 | 🟢 |
 | Person | 0 | 0 | 🟢 |
 
-```The photograph provided appears to be an aerial view of a landscape with buildings and trees, but it does not contain any images of humans or animals. Therefore, there are no individuals in this picture for me to describe based on gender, age, attire, position within the frame, or facial expressions. The focus of the image seems to be on showcasing a particular area from above rather than capturing people or their activities.
+```
+The photograph provided appears to be an aerial view of a landscape with buildings and trees, but it does not contain any images of humans or animals. Therefore, there are no individuals in this picture for me to describe based on gender, age, attire, position within the frame, or facial expressions. The focus of the image seems to be on showcasing a particular area from above rather than capturing people or their activities.
 ```
 
 
@@ -801,7 +837,8 @@ The background of the image shows a large blackboard with chalk writing on it, i
 | Woman | 0 | 0 | 🟢 |
 | Person | 0 | 1 | 🟥 |
 
-```There does not appear to be any people visible in this image.
+```
+There does not appear to be any people visible in this image.
 ```
 
 
@@ -819,7 +856,8 @@ The background of the image shows a large blackboard with chalk writing on it, i
 | Woman | 0 | 0 | 🟢 |
 | Person | 0 | 0 | 🟢 |
 
-```There are no people visible in this photograph. The image appears to be an aerial view of a rural area with buildings and roads, but it does not depict any individuals.
+```
+There are no people visible in this photograph. The image appears to be an aerial view of a rural area with buildings and roads, but it does not depict any individuals.
 ```
 
 
@@ -837,7 +875,8 @@ The background of the image shows a large blackboard with chalk writing on it, i
 | Woman | 0 | 0 | 🟢 |
 | Person | 0 | 0 | 🟢 |
 
-```There is no person in this photograph. The photograph appears to show a graveyard with headstones and trees. In the background there is a church steeple. The photograph is black and white, which may have been taken many years ago.
+```
+There is no person in this photograph. The photograph appears to show a graveyard with headstones and trees. In the background there is a church steeple. The photograph is black and white, which may have been taken many years ago.
 
 The image does not contain any people; it primarily focuses on capturing the scenery of the graveyard and its surroundings rather than depicting individuals.
 ```
@@ -857,7 +896,8 @@ The image does not contain any people; it primarily focuses on capturing the sce
 | Woman | 1 | 1 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
-```The photograph features a group of individuals arranged in rows, with each person depicted in an oval frame. The majority of these frames contain portraits of men, while some display women's faces. A few frames appear to be empty or feature unclear images.
+```
+The photograph features a group of individuals arranged in rows, with each person depicted in an oval frame. The majority of these frames contain portraits of men, while some display women's faces. A few frames appear to be empty or feature unclear images.
 
 **Key Observations:**
 
@@ -886,7 +926,8 @@ The image presents a collection of portraits primarily featuring men, interspers
 | Woman | 0 | 1 | 🟥 |
 | Person | 1 | 1 | 🟢 |
 
-```The image depicts a man in winter attire, standing on skis with ski poles in hand. He is dressed in a white hat and jacket, complemented by dark pants and boots. A number tag reading "16" is prominently displayed on his chest.
+```
+The image depicts a man in winter attire, standing on skis with ski poles in hand. He is dressed in a white hat and jacket, complemented by dark pants and boots. A number tag reading "16" is prominently displayed on his chest.
 
 In the background, another individual can be seen walking away from the camera, clad in a light-colored coat and dark pants. The scene is set against a snowy backdrop, with trees visible in the distance. Notably, there are no women or children present in this photograph.
 ```
@@ -906,7 +947,8 @@ In the background, another individual can be seen walking away from the camera, 
 | Woman | 1 | 0 | 🟥 |
 | Person | 1 | 0 | 🟥 |
 
-```The photograph appears to show a street scene with buildings on either side. There are no people visible in the image.
+```
+The photograph appears to show a street scene with buildings on either side. There are no people visible in the image.
 
 **Key Observations:**
 
@@ -930,7 +972,8 @@ In the background, another individual can be seen walking away from the camera, 
 | Woman | 0 | 0 | 🟢 |
 | Person | 0 | 0 | 🟢 |
 
-```The photograph does not depict any individuals. The image shows a statue with three smaller statues on either side of it, which appears to be religious figures from the medieval period. There are no people visible in the background or foreground of the image.
+```
+The photograph does not depict any individuals. The image shows a statue with three smaller statues on either side of it, which appears to be religious figures from the medieval period. There are no people visible in the background or foreground of the image.
 
 Therefore, there is no information about people that can be inferred from this image.
 ```
@@ -950,7 +993,8 @@ Therefore, there is no information about people that can be inferred from this i
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 0 | 🟥 |
 
-```There do not appear to be any individuals visible in this photograph.
+```
+There do not appear to be any individuals visible in this photograph.
 ```
 
 
@@ -968,7 +1012,8 @@ Therefore, there is no information about people that can be inferred from this i
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 0 | 🟥 |
 
-```There do not appear to be any people visible in this photograph. The image depicts a serene scene with boats on the water, but there are no individuals present within the frame.
+```
+There do not appear to be any people visible in this photograph. The image depicts a serene scene with boats on the water, but there are no individuals present within the frame.
 
 **Key Observations:**
 
@@ -995,7 +1040,8 @@ Based on a thorough examination of the photograph, it can be concluded that ther
 | Woman | 1 | 1 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
-```The image appears to be an old photograph of a man and woman posing for a formal portrait. The person on the left is wearing dark, Victorian-era attire consisting of a long-sleeved jacket with a high collar and buttons down the front, along with matching trousers tucked into high boots. A top hat sits atop their head, which is balding at the crown but has white hair on the sides.
+```
+The image appears to be an old photograph of a man and woman posing for a formal portrait. The person on the left is wearing dark, Victorian-era attire consisting of a long-sleeved jacket with a high collar and buttons down the front, along with matching trousers tucked into high boots. A top hat sits atop their head, which is balding at the crown but has white hair on the sides.
 
 The person on the right wears a similarly styled suit but without the vest or pocket watch chain visible under their jacket. Their tie is darker than the man's and features subtle patterns not clearly discernible due to image quality limitations; however, it adds texture against his otherwise plain white shirt collar. Both individuals have serious expressions typical of early photography portraits where subjects were often instructed not to smile during long exposure times required for capturing images back then.
 
@@ -1017,7 +1063,8 @@ In summary, there are two people in this photo: one male and one female, both dr
 | Woman | 0 | 0 | 🟢 |
 | Person | 0 | 0 | 🟢 |
 
-```There are no humans visible in this photograph. The image appears to be a room with rugs on the floor and walls, but there are no individuals present.
+```
+There are no humans visible in this photograph. The image appears to be a room with rugs on the floor and walls, but there are no individuals present.
 ```
 
 
@@ -1035,7 +1082,8 @@ In summary, there are two people in this photo: one male and one female, both dr
 | Woman | 1 | 1 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
-```This black-and-white photograph depicts a group of 13 individuals outdoors, possibly during the early 20th century.
+```
+This black-and-white photograph depicts a group of 13 individuals outdoors, possibly during the early 20th century.
 
 In the foreground, the group is arranged in two rows on the grassy field. The front row consists of seven people: five women and two men, with one woman sitting on the ground and the others kneeling or squatting behind her. The back row features six individuals: three men standing behind the seated woman, and three more men standing to their right.
 
@@ -1066,7 +1114,8 @@ Overall, based on their clothing and body language, it can be inferred that the 
 | Woman | 1 | 0 | 🟥 |
 | Person | 1 | 0 | 🟥 |
 
-```The photograph shows a large group of young girls standing outside a building with brick walls and arched windows. The girls are all wearing similar white dresses and hats, suggesting they may be part of a school or religious group.
+```
+The photograph shows a large group of young girls standing outside a building with brick walls and arched windows. The girls are all wearing similar white dresses and hats, suggesting they may be part of a school or religious group.
 
 In the foreground, one girl stands out as she holds a bouquet of flowers in her right hand. Her dress is slightly different from the others, possibly indicating that she has a specific role or status within the group. The other girls are arranged behind her in rows, with some looking directly at the camera and others gazing off to the side.
 
@@ -1090,7 +1139,8 @@ Overall, the photograph captures a moment in time when these young girls were ga
 | Woman | 0 | 0 | 🟢 |
 | Person | 0 | 0 | 🟢 |
 
-```There are no individuals visible in this photograph. The image appears to be an aerial view of a city or town, with buildings and streets visible but no people.
+```
+There are no individuals visible in this photograph. The image appears to be an aerial view of a city or town, with buildings and streets visible but no people.
 ```
 
 
@@ -1108,7 +1158,8 @@ Overall, the photograph captures a moment in time when these young girls were ga
 | Woman | 0 | 1 | 🟥 |
 | Person | 1 | 1 | 🟢 |
 
-```The photograph shows a man standing beside a large bus parked on a street. The man is wearing a dark jacket with what appears to be a pocket watch or other device attached to his waistcoat, and he has a hat and gloves.
+```
+The photograph shows a man standing beside a large bus parked on a street. The man is wearing a dark jacket with what appears to be a pocket watch or other device attached to his waistcoat, and he has a hat and gloves.
 
 There are several people in the background of the photo, but they are not clearly visible due to being out of focus. However, it appears that there may be two women standing near the bus, one wearing a long dress with what looks like an apron and another wearing something similar. They appear to have their hands on their hips or holding something up.
 
@@ -1132,7 +1183,8 @@ Overall, based on the limited information available from the photograph, it is d
 | Woman | 1 | 1 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
-```The photograph shows a man and woman sitting together on what appears to be a couch.
+```
+The photograph shows a man and woman sitting together on what appears to be a couch.
 
 The woman sits with her hands folded in her lap, wearing a white sweater featuring intricate black embroidery. Her blonde hair is styled in a neat updo. The man's head rests gently against the back of the couch behind him as he looks straight ahead. He wears a dark suit jacket and light-colored shirt.
 
@@ -1156,7 +1208,8 @@ The background is out of focus but consists of a large window adorned with sheer
 | Woman | 0 | 0 | 🟢 |
 | Person | 0 | 0 | 🟢 |
 
-```There are no people visible in this photograph. The image appears to be a historical building or structure, possibly an old house or institution, with no individuals present.
+```
+There are no people visible in this photograph. The image appears to be a historical building or structure, possibly an old house or institution, with no individuals present.
 ```
 
 
@@ -1174,7 +1227,8 @@ The background is out of focus but consists of a large window adorned with sheer
 | Woman | 0 | 0 | 🟢 |
 | Person | 0 | 0 | 🟢 |
 
-```There are no people visible in this photograph. The image appears to be a landscape or seascape, featuring water with rocks and vegetation along the shore, but it does not contain any human figures.
+```
+There are no people visible in this photograph. The image appears to be a landscape or seascape, featuring water with rocks and vegetation along the shore, but it does not contain any human figures.
 ```
 
 
@@ -1192,7 +1246,8 @@ The background is out of focus but consists of a large window adorned with sheer
 | Woman | 1 | 1 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
-```The image depicts an elderly couple, likely from a historical era, posing together for a photograph. The woman on the left has her hair styled in a neat bun and wears a dark-colored dress with a high neckline and long sleeves, typical of early 20th-century attire. Her facial expression is serious, with deep-set eyes and thin lips.
+```
+The image depicts an elderly couple, likely from a historical era, posing together for a photograph. The woman on the left has her hair styled in a neat bun and wears a dark-colored dress with a high neckline and long sleeves, typical of early 20th-century attire. Her facial expression is serious, with deep-set eyes and thin lips.
 
 On the right side of the image stands the man, dressed in formal attire consisting of a suit jacket, vest, white shirt, and tie. His hair is slicked back, revealing a prominent forehead and nose. Like his companion, he maintains a somber demeanor.
 
@@ -1214,7 +1269,8 @@ In the background, there are no other people visible, suggesting that this photo
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
-```The photograph features a single individual, who appears to be a male soldier based on his attire. He is dressed in military uniform and wears a cap with insignia, which suggests he belongs to a specific regiment or branch of service.
+```
+The photograph features a single individual, who appears to be a male soldier based on his attire. He is dressed in military uniform and wears a cap with insignia, which suggests he belongs to a specific regiment or branch of service.
 
 **Key Features:**
 
@@ -1241,7 +1297,8 @@ Based on the available information, it can be concluded that the person in the p
 | Woman | 0 | 0 | 🟢 |
 | Person | 0 | 1 | 🟥 |
 
-```The image does not contain any individuals. It appears to be a black-and-white aerial photograph of a house and its surrounding area, with no visible people in sight. The focus seems to be on the architecture and landscape rather than human subjects.
+```
+The image does not contain any individuals. It appears to be a black-and-white aerial photograph of a house and its surrounding area, with no visible people in sight. The focus seems to be on the architecture and landscape rather than human subjects.
 ```
 
 
@@ -1259,7 +1316,8 @@ Based on the available information, it can be concluded that the person in the p
 | Woman | 1 | 0 | 🟥 |
 | Person | 1 | 0 | 🟥 |
 
-```There are no people visible in this photograph. The image appears to be a blank or empty space, with no individuals present.
+```
+There are no people visible in this photograph. The image appears to be a blank or empty space, with no individuals present.
 
 Please note that there may have been an error in my previous response as I am unable to view images and can only respond based on the text provided. If you would like to provide more information about the image or clarify your request, I will do my best to assist you further.
 ```
@@ -1279,7 +1337,8 @@ Please note that there may have been an error in my previous response as I am un
 | Woman | 0 | 0 | 🟢 |
 | Person | 0 | 1 | 🟥 |
 
-```The image shows a black-and-white photograph of an older building with a grassy field in front. There appears to be some people standing on the sidewalk on the right-hand side of the photo, but they are very out-of-focus and difficult to see.
+```
+The image shows a black-and-white photograph of an older building with a grassy field in front. There appears to be some people standing on the sidewalk on the right-hand side of the photo, but they are very out-of-focus and difficult to see.
 
 In the background of the picture there is a large building that spans most of the image. The building has three stories and is made of brick or stone. There are several windows visible in the image, as well as what appears to be a door on the ground floor.
 ```
@@ -1299,7 +1358,8 @@ In the background of the picture there is a large building that spans most of th
 | Woman | 0 | 0 | 🟢 |
 | Person | 0 | 0 | 🟢 |
 
-```The photograph you provided does not depict any people. The image shows a close-up view of an old-fashioned wooden rake or cultivator tool lying on the ground, with its tines pointing towards the bottom-left corner and its handle extending diagonally up to the top-right corner. In the background, there is grass and dirt, as well as some indistinct objects that are out of focus. There are no individuals visible in the image.
+```
+The photograph you provided does not depict any people. The image shows a close-up view of an old-fashioned wooden rake or cultivator tool lying on the ground, with its tines pointing towards the bottom-left corner and its handle extending diagonally up to the top-right corner. In the background, there is grass and dirt, as well as some indistinct objects that are out of focus. There are no individuals visible in the image.
 ```
 
 
@@ -1317,7 +1377,8 @@ In the background of the picture there is a large building that spans most of th
 | Woman | 0 | 0 | 🟢 |
 | Person | 0 | 0 | 🟢 |
 
-```There is no person visible in this image. The photograph appears to be a black-and-white depiction of an object with numbers on it, possibly a vintage or antique item such as a clock face or a sign. However, without more context or information about the specific historical collection it belongs to, it's difficult to provide further details about its significance or purpose.
+```
+There is no person visible in this image. The photograph appears to be a black-and-white depiction of an object with numbers on it, possibly a vintage or antique item such as a clock face or a sign. However, without more context or information about the specific historical collection it belongs to, it's difficult to provide further details about its significance or purpose.
 
 In terms of gender identification based on clothing, since there are no people present in the image, this method is not applicable here.
 ```
@@ -1337,7 +1398,8 @@ In terms of gender identification based on clothing, since there are no people p
 | Woman | 1 | 0 | 🟥 |
 | Person | 1 | 0 | 🟥 |
 
-```The photograph appears to be a black-and-white portrait of Queen Mary, the wife of King George V.
+```
+The photograph appears to be a black-and-white portrait of Queen Mary, the wife of King George V.
 
 Queen Mary is standing on the left side of the picture, slightly facing the right. She wears an elaborate wedding dress with a long train flowing behind her, which extends beyond the frame and is not fully visible. Her dress also features puffed sleeves and a high neckline, adorned with pearls or other forms of jewelry. A veil covers her head and shoulders.
 
@@ -1361,7 +1423,8 @@ In the background, a table or cabinet can be seen against the wall on the right 
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
-```The photograph appears to show a man standing against a wall, dressed in formal attire.
+```
+The photograph appears to show a man standing against a wall, dressed in formal attire.
 
 He has short dark hair that is neatly combed back away from his face. He wears a suit with a white shirt and a patterned tie, which is tucked into the top of his high-waisted trousers. The jacket is single-breasted, fastened at one button, and features two flap pockets on either side. A small pin adorns his left lapel.
 
@@ -1383,7 +1446,8 @@ The background consists of a plain wall that appears to be made from wooden pane
 | Woman | 1 | 1 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
-```The black-and-white photograph depicts a large group of people gathered together for an event. The majority of individuals in the image are adults, with no children visible.
+```
+The black-and-white photograph depicts a large group of people gathered together for an event. The majority of individuals in the image are adults, with no children visible.
 
 In the foreground, there is a table covered with a white cloth, accompanied by several chairs and objects on top of it. A person wearing dark clothing stands behind the table, while another individual sits at the far end. To the right side of the image, a man in dark attire appears to be addressing the crowd or leading an activity.
 
@@ -1409,7 +1473,8 @@ Overall, the scene suggests that this is a formal gathering or celebration, poss
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 0 | 🟥 |
 
-```There are no people visible in this photograph. The scene appears to be a rural setting with a greenhouse or conservatory, possibly from an earlier era given the style of the structures and the presence of horse-drawn transportation elements in some parts of the image.
+```
+There are no people visible in this photograph. The scene appears to be a rural setting with a greenhouse or conservatory, possibly from an earlier era given the style of the structures and the presence of horse-drawn transportation elements in some parts of the image.
 
 The absence of individuals allows for a focus on the architectural details and the natural surroundings without human subjects to interpret gender expressions through clothing or other visual cues.
 ```
@@ -1429,7 +1494,8 @@ The absence of individuals allows for a focus on the architectural details and t
 | Woman | 0 | 0 | 🟢 |
 | Person | 0 | 0 | 🟢 |
 
-```There are no people visible in this photograph. The image depicts a house with trees and grass, but there are no individuals present.
+```
+There are no people visible in this photograph. The image depicts a house with trees and grass, but there are no individuals present.
 ```
 
 
@@ -1447,7 +1513,8 @@ The absence of individuals allows for a focus on the architectural details and t
 | Woman | 0 | 0 | 🟢 |
 | Person | 0 | 0 | 🟢 |
 
-```There are no people visible in this photograph. The scene appears to depict a building with a fence and trees around it, but there are no individuals present within the image.
+```
+There are no people visible in this photograph. The scene appears to depict a building with a fence and trees around it, but there are no individuals present within the image.
 ```
 
 
@@ -1465,7 +1532,8 @@ The absence of individuals allows for a focus on the architectural details and t
 | Woman | 1 | 1 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
-```The photograph appears to depict a man and woman seated at a table with a white cloth in an outdoor setting.
+```
+The photograph appears to depict a man and woman seated at a table with a white cloth in an outdoor setting.
 
 In the foreground, the two individuals are sitting on chairs positioned behind the table. The person on the left wears dark-colored clothing, while the person on the right sports a light-colored hat and lighter-toned attire. Although their faces are not clearly visible due to blurriness, they seem to be engaged in conversation or simply enjoying each other's company.
 
@@ -1487,7 +1555,8 @@ The background of the image features trees and bushes, which adds a natural ambi
 | Woman | 0 | 0 | 🟢 |
 | Person | 0 | 0 | 🟢 |
 
-```There are no people visible in the photograph you've provided. The image appears to be a black-and-white still life or product photo of an antique silver pitcher or jug with a handle on its side and a decorative lid, possibly taken for historical documentation or cataloging purposes within a museum collection.
+```
+There are no people visible in the photograph you've provided. The image appears to be a black-and-white still life or product photo of an antique silver pitcher or jug with a handle on its side and a decorative lid, possibly taken for historical documentation or cataloging purposes within a museum collection.
 
 Since there are no individuals present in the scene, it is not possible to identify any people by gender, age, clothing, or other distinguishing features. The focus of the image is solely on the object itself, which suggests that the photograph was intended to capture detailed information about the artifact rather than depict human subjects.
 ```
@@ -1507,7 +1576,8 @@ Since there are no individuals present in the scene, it is not possible to ident
 | Woman | 0 | 0 | 🟢 |
 | Person | 0 | 0 | 🟢 |
 
-```There do not appear to be any people visible in this image. The photograph appears to show an aerial view of a large property with several buildings and trees, but no individuals or groups can be seen within it.
+```
+There do not appear to be any people visible in this image. The photograph appears to show an aerial view of a large property with several buildings and trees, but no individuals or groups can be seen within it.
 ```
 
 
@@ -1525,7 +1595,8 @@ Since there are no individuals present in the scene, it is not possible to ident
 | Woman | 0 | 0 | 🟢 |
 | Person | 0 | 0 | 🟢 |
 
-```There are no individuals visible in this picture. The photograph depicts a building with a tree and some grass, but there is no indication of human presence.
+```
+There are no individuals visible in this picture. The photograph depicts a building with a tree and some grass, but there is no indication of human presence.
 ```
 
 
@@ -1543,7 +1614,8 @@ Since there are no individuals present in the scene, it is not possible to ident
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
-```The photograph depicts a group of individuals standing in front of a building, with some partially obscured or out of focus. The primary figures appear to be men wearing suits and hats, while others in the background seem to be dressed similarly but are less clear due to distance or obstruction.
+```
+The photograph depicts a group of individuals standing in front of a building, with some partially obscured or out of focus. The primary figures appear to be men wearing suits and hats, while others in the background seem to be dressed similarly but are less clear due to distance or obstruction.
 
 In the foreground, there is a prominent figure who appears to be a man based on his attire and posture. He is centered in the image and seems to be addressing the other individuals present. Behind him, several people can be seen standing together, although their faces are not clearly visible due to the quality of the photograph.
 
@@ -1569,7 +1641,8 @@ Overall, while some assumptions can be made about the genders of the individuals
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
-```The photograph appears to be a portrait of one man in a suit.
+```
+The photograph appears to be a portrait of one man in a suit.
 
 He has short hair that is combed back from his forehead. He wears a dark suit with a white shirt and tie. A pocket handkerchief can be seen in the breast pocket of his jacket, but it cannot be determined what colour it is.
 
@@ -1591,7 +1664,8 @@ The background appears to be light-coloured wall paper or a curtain. The man is 
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
-```The photograph depicts a man engaged in carpentry work, specifically measuring and marking wood for construction purposes. He is dressed in attire typical of the early 20th century, including overalls and a hat, which suggests that he may be working outdoors or on a job site.
+```
+The photograph depicts a man engaged in carpentry work, specifically measuring and marking wood for construction purposes. He is dressed in attire typical of the early 20th century, including overalls and a hat, which suggests that he may be working outdoors or on a job site.
 
 **Key Features:**
 
@@ -1627,7 +1701,8 @@ It is important to note that these inferences are based on limited information a
 | Woman | 0 | 0 | 🟢 |
 | Person | 0 | 0 | 🟢 |
 
-```There are no individuals present in this photograph. The image features a collection of black-and-white posters or signs with text and graphics, but there are no people visible in the scene.
+```
+There are no individuals present in this photograph. The image features a collection of black-and-white posters or signs with text and graphics, but there are no people visible in the scene.
 ```
 
 
@@ -1645,7 +1720,8 @@ It is important to note that these inferences are based on limited information a
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 0 | 🟥 |
 
-```The photograph features three young girls posing together for a photo.
+```
+The photograph features three young girls posing together for a photo.
 
 In the foreground, there are two girls standing behind another girl who is seated on a chair. The girl sitting down has short blonde hair and is wearing a dark dress with a light-colored collar and buttons down the front. She has her hands clasped together in her lap. Behind her to the left stands a girl with short, wavy blonde hair. She is wearing a dark dress with a white collar and a bow at the neck. Her right hand rests on the shoulder of the seated girl. On the other side of the seated girl stands another girl with short, straight blonde hair. She is also dressed in a dark dress with a light-colored collar and buttons down the front.
 

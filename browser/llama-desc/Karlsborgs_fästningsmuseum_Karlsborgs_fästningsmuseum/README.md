@@ -66,7 +66,8 @@ weighted avg       1.00      0.75      0.86         4
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
-```The photograph depicts a group of men in military attire, seated on the ground with some standing behind them. The soldiers wear uniforms and hats, indicating they are part of an organized military unit.
+```
+The photograph depicts a group of men in military attire, seated on the ground with some standing behind them. The soldiers wear uniforms and hats, indicating they are part of an organized military unit.
 
 **Key Features:**
 
@@ -95,7 +96,8 @@ Based on the uniforms and hats worn by the individuals in the photograph, it is 
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 0 | 🟥 |
 
-```There are no people visible in this photograph. The image depicts a military scene with various objects, but there are no individuals present.
+```
+There are no people visible in this photograph. The image depicts a military scene with various objects, but there are no individuals present.
 
 **Key Objects:**
 
@@ -125,7 +127,8 @@ In summary, while the photograph provides insight into a historical military set
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
-```The photograph appears to depict a group of men in military uniforms, likely from World War I or an earlier conflict. The men are dressed in formal attire, with hats and coats adorned with medals and insignia. They seem to be posing for the camera, with some looking directly at it while others gaze off into the distance.
+```
+The photograph appears to depict a group of men in military uniforms, likely from World War I or an earlier conflict. The men are dressed in formal attire, with hats and coats adorned with medals and insignia. They seem to be posing for the camera, with some looking directly at it while others gaze off into the distance.
 
 In the background, there are trees and buildings that appear to be part of a cityscape or town square. The overall atmosphere suggests a sense of pride and camaraderie among the men, possibly during a parade or ceremony.
 ```
@@ -145,7 +148,8 @@ In the background, there are trees and buildings that appear to be part of a cit
 | Woman | 0 | 1 | 🟥 |
 | Person | 1 | 1 | 🟢 |
 
-```The photograph depicts a group of individuals, predominantly men, with some women and children present in the scene. The majority of the people are dressed in military attire or uniforms, suggesting that they may be soldiers or part of an army unit.
+```
+The photograph depicts a group of individuals, predominantly men, with some women and children present in the scene. The majority of the people are dressed in military attire or uniforms, suggesting that they may be soldiers or part of an army unit.
 
 In the foreground, there are several men standing together, wearing hats and holding rifles. One man is sitting on a horse, while another is standing next to him, possibly giving instructions or commands. Behind them, there are more people gathered around a large tent or structure, which appears to be some kind of military encampment.
 

@@ -66,7 +66,8 @@ weighted avg       1.00      1.00      1.00         3
 | Woman | 1 | 1 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
-```The image depicts a group of people gathered in front of a banner, with the majority being adults. There are no children visible in the photograph.
+```
+The image depicts a group of people gathered in front of a banner, with the majority being adults. There are no children visible in the photograph.
 
 **Gender Distribution:**
 
@@ -103,7 +104,8 @@ In summary, while there is no explicit information on gender distribution or clo
 | Woman | 0 | 0 | 🟢 |
 | Person | 0 | 0 | 🟢 |
 
-```There are no individuals present in this photograph. The image appears to be a landscape or scenery, possibly featuring trees, grass, and other natural elements, but it does not contain any human figures.
+```
+There are no individuals present in this photograph. The image appears to be a landscape or scenery, possibly featuring trees, grass, and other natural elements, but it does not contain any human figures.
 ```
 
 
@@ -121,5 +123,6 @@ In summary, while there is no explicit information on gender distribution or clo
 | Woman | 0 | 0 | 🟢 |
 | Person | 0 | 0 | 🟢 |
 
-```There are no people visible in this photograph. The image features a black-and-white landscape with tall grasses and reeds, but it does not depict any human figures or individuals.
+```
+There are no people visible in this photograph. The image features a black-and-white landscape with tall grasses and reeds, but it does not depict any human figures or individuals.
 ```

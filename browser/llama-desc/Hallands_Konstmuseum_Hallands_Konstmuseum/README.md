@@ -66,7 +66,8 @@ weighted avg       1.00      1.00      1.00         2
 | Woman | 0 | 0 | 🟢 |
 | Person | 0 | 0 | 🟢 |
 
-```There do not appear to be any people visible in this photograph. The image shows a landscape with a river or stream running through it, but there are no individuals present in the scene.
+```
+There do not appear to be any people visible in this photograph. The image shows a landscape with a river or stream running through it, but there are no individuals present in the scene.
 ```
 
 
@@ -84,7 +85,8 @@ weighted avg       1.00      1.00      1.00         2
 | Woman | 0 | 1 | 🟥 |
 | Person | 1 | 1 | 🟢 |
 
-```The photograph depicts a construction site, likely during the early stages of building a large structure such as a dam or bridge. In the foreground, there are several workers visible, but they are too far away and blurry to determine their gender with certainty.
+```
+The photograph depicts a construction site, likely during the early stages of building a large structure such as a dam or bridge. In the foreground, there are several workers visible, but they are too far away and blurry to determine their gender with certainty.
 
 In the background, near the center of the image, is a group of people standing on what appears to be a platform or walkway. They seem to be observing the construction work below them. Although it's difficult to make out any distinct features due to the distance and blurriness, these individuals appear to be wearing clothing that was typical for men during the time period when this photograph was taken.
 

@@ -66,7 +66,8 @@ weighted avg       1.00      0.95      0.97        20
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
-```The photograph depicts a group of men in military attire, likely soldiers or officers, gathered on a grassy field. They are dressed in uniforms and hats, with some wearing belts and carrying bags or other equipment. The men appear to be engaged in conversation or activity, possibly preparing for a mission or training exercise.
+```
+The photograph depicts a group of men in military attire, likely soldiers or officers, gathered on a grassy field. They are dressed in uniforms and hats, with some wearing belts and carrying bags or other equipment. The men appear to be engaged in conversation or activity, possibly preparing for a mission or training exercise.
 
 In the background, there is a large building that appears to be a barracks or headquarters of some sort. It has multiple stories and windows, and a flagpole stands outside with a flag flying from it.
 
@@ -88,7 +89,8 @@ Overall, the scene suggests a sense of military preparedness and organization, w
 | Woman | 1 | 1 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
-```The photograph appears to be a group portrait of approximately 40 individuals, mostly adults and possibly some older teenagers or younger adults.
+```
+The photograph appears to be a group portrait of approximately 40 individuals, mostly adults and possibly some older teenagers or younger adults.
 
 **Clothing:**
 
@@ -138,7 +140,8 @@ In summary, based on clothing styles and hairstyles alone, it is possible to ide
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
-```The photograph depicts a group of men standing in formation, with one man sitting on a bicycle. The men are dressed in military uniforms and appear to be engaged in some sort of training or exercise.
+```
+The photograph depicts a group of men standing in formation, with one man sitting on a bicycle. The men are dressed in military uniforms and appear to be engaged in some sort of training or exercise.
 
 In the background, there is a large building that appears to be a barracks or other military facility. There are also several trees and other objects visible in the distance, but they are not clearly defined due to the low resolution of the image.
 
@@ -160,7 +163,8 @@ Overall, the scene suggests that the men are part of a military unit or organiza
 | Woman | 0 | 1 | 🟥 |
 | Person | 1 | 1 | 🟢 |
 
-```The photograph portrays a line-up of soldiers on parade. They are all wearing military uniforms with hats and boots; some of them wear jackets and others wear tunics. There appear to be no women in the image, as none of the people pictured have any discernible female features or feminine clothing.
+```
+The photograph portrays a line-up of soldiers on parade. They are all wearing military uniforms with hats and boots; some of them wear jackets and others wear tunics. There appear to be no women in the image, as none of the people pictured have any discernible female features or feminine clothing.
 
 In the background is another group of soldiers standing at attention. On the far right-hand side of the photograph stands a large building that appears to be made from wood; it has multiple windows and a sloping roof. The ground in the foreground and mid-ground is flat, with no visible vegetation. In the distance behind the soldiers are trees.
 
@@ -182,7 +186,8 @@ The overall atmosphere suggests an official military event or ceremony, possibly
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
-```The photograph shows a large group of men standing in formation on what appears to be a parade ground or drill field. They are all wearing military uniforms, which suggests that they are soldiers.
+```
+The photograph shows a large group of men standing in formation on what appears to be a parade ground or drill field. They are all wearing military uniforms, which suggests that they are soldiers.
 
 In the foreground, there are several individuals who appear to be officers or non-commissioned officers (NCOs). They are distinguished by their insignia and badges, as well as their slightly different uniforms. One officer is standing at attention in front of the formation, while another is walking towards him from the right side of the image.
 
@@ -206,7 +211,8 @@ Overall, based on their clothing and context, it seems likely that all the peopl
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
-```The photograph depicts a group of men standing at attention in front of a building, with some individuals partially obscured by others or out of focus. The men are dressed in military uniforms and hats, suggesting that they are part of a formal event or ceremony.
+```
+The photograph depicts a group of men standing at attention in front of a building, with some individuals partially obscured by others or out of focus. The men are dressed in military uniforms and hats, suggesting that they are part of a formal event or ceremony.
 
 In the foreground, there is a row of men who appear to be officers or dignitaries, as evidenced by their more elaborate uniforms and decorations. Behind them, several rows of soldiers can be seen, all wearing similar attire but with varying levels of detail visible due to the angle and focus of the camera.
 
@@ -234,7 +240,8 @@ Overall, this photograph captures a moment in time when a large number of people
 | Woman | 0 | 1 | 🟥 |
 | Person | 1 | 1 | 🟢 |
 
-```The photograph depicts a group of men in military uniforms, with some standing in the foreground and others visible in the background.
+```
+The photograph depicts a group of men in military uniforms, with some standing in the foreground and others visible in the background.
 
 In the foreground, there are approximately 15-20 men dressed in dark-colored military attire, complete with hats and belts. They appear to be engaged in an activity, possibly reading or examining documents, as they hold papers in their hands. The men's facial features are not clearly discernible due to the black-and-white nature of the photograph.
 
@@ -258,7 +265,8 @@ It is worth noting that no women or children are visible in the photograph, whic
 | Woman | 0 | 1 | 🟥 |
 | Person | 1 | 1 | 🟢 |
 
-```The photograph depicts a group of soldiers gathered around vehicles, with several individuals standing in the background. The soldiers are attired in military uniforms and helmets, while those in the background appear to be wearing civilian clothing.
+```
+The photograph depicts a group of soldiers gathered around vehicles, with several individuals standing in the background. The soldiers are attired in military uniforms and helmets, while those in the background appear to be wearing civilian clothing.
 
 In the foreground, there are approximately 20 soldiers visible, all of whom are men. They are positioned near the vehicles, which include cars and trucks. Some of the soldiers are leaning against the vehicles or sitting on them, while others are standing nearby.
 
@@ -282,7 +290,8 @@ Overall, based on the clothing worn by the individuals in the photograph, it can
 | Woman | 0 | 1 | 🟥 |
 | Person | 1 | 1 | 🟢 |
 
-```The photograph depicts a large group of men standing in formation, with some holding musical instruments. The men are dressed in dark uniforms and hats, suggesting they may be part of a military or marching band.
+```
+The photograph depicts a large group of men standing in formation, with some holding musical instruments. The men are dressed in dark uniforms and hats, suggesting they may be part of a military or marching band.
 
 In the background, there appears to be another group of people, possibly also men, who are not as clearly visible due to their distance from the camera. They seem to be standing near a building or structure, but it is difficult to make out any details.
 
@@ -304,7 +313,8 @@ There do not appear to be any women or children present in the photograph. The o
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
-```The photograph shows eight men standing side-by-side in two rows in front of a stone staircase with ornate railings. The men are all wearing dark tunics and trousers with high-collared shirts, black boots, and helmets.
+```
+The photograph shows eight men standing side-by-side in two rows in front of a stone staircase with ornate railings. The men are all wearing dark tunics and trousers with high-collared shirts, black boots, and helmets.
 
 There are no other people visible in the background or foreground of this image.
 ```
@@ -324,7 +334,8 @@ There are no other people visible in the background or foreground of this image.
 | Woman | 0 | 1 | 🟥 |
 | Person | 1 | 1 | 🟢 |
 
-```The photograph depicts a group of people gathered around bicycles, with some individuals standing and others sitting on the bikes. The majority of the people appear to be men, as evidenced by their attire, which includes hats, coats, and trousers typical of male fashion during that era. However, it is challenging to determine the gender of all individuals due to the quality of the image and the fact that some are partially obscured or out of focus.
+```
+The photograph depicts a group of people gathered around bicycles, with some individuals standing and others sitting on the bikes. The majority of the people appear to be men, as evidenced by their attire, which includes hats, coats, and trousers typical of male fashion during that era. However, it is challenging to determine the gender of all individuals due to the quality of the image and the fact that some are partially obscured or out of focus.
 
 In the foreground, there are several men standing near the bicycles, while others are seated on the bikes themselves. Some people can be seen in the background, but their features are not clearly defined. It is also possible that women may be present in the scene, although it is difficult to confirm this based solely on the available information.
 
@@ -346,7 +357,8 @@ Overall, the photograph suggests a gathering of primarily male individuals, like
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
-```The photograph depicts a winter scene with several men lying in the snow, armed with rifles. They are dressed in military attire, including helmets and coats, suggesting they may be soldiers on duty. The image does not provide clear visibility of faces or distinguishing features that would allow for gender identification beyond the assumption based on their clothing and context.
+```
+The photograph depicts a winter scene with several men lying in the snow, armed with rifles. They are dressed in military attire, including helmets and coats, suggesting they may be soldiers on duty. The image does not provide clear visibility of faces or distinguishing features that would allow for gender identification beyond the assumption based on their clothing and context.
 
 In the background, there appears to be a tent or similar structure, which could indicate a temporary campsite. Given the presence of weapons and military gear, it is reasonable to infer that these individuals are engaged in some form of military activity or training exercise. However, without more specific details about the setting or context, it's challenging to determine their exact roles or missions.
 
@@ -368,7 +380,8 @@ Overall, while the photograph offers glimpses into the lives of these men during
 | Woman | 1 | 0 | 🟥 |
 | Person | 1 | 1 | 🟢 |
 
-```The photograph depicts a group of soldiers standing outside a building with a cobblestone courtyard. Five men, likely military officers or guards, are positioned in front of the entrance.
+```
+The photograph depicts a group of soldiers standing outside a building with a cobblestone courtyard. Five men, likely military officers or guards, are positioned in front of the entrance.
 
 **Key Observations:**
 
@@ -396,7 +409,8 @@ In the background, several people can be seen walking towards or away from the c
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
-```The photograph depicts a group of men engaged in physical exercise, with one man standing on the right side and another partially visible in the background. The men are dressed in white shirts and dark pants, while the man on the right wears a light-colored shirt.
+```
+The photograph depicts a group of men engaged in physical exercise, with one man standing on the right side and another partially visible in the background. The men are dressed in white shirts and dark pants, while the man on the right wears a light-colored shirt.
 
 **Key Observations:**
 
@@ -421,7 +435,8 @@ These observations suggest that all individuals depicted in the photograph are m
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 0 | 🟥 |
 
-```There does not appear to be any people visible in this image. The photograph features a row of military ambulances with several horses being ridden or led in front of them, but no individuals can be seen. It's possible that some people are obscured behind the vehicles or off-camera, but based on what is visible, there do not appear to be any persons present.
+```
+There does not appear to be any people visible in this image. The photograph features a row of military ambulances with several horses being ridden or led in front of them, but no individuals can be seen. It's possible that some people are obscured behind the vehicles or off-camera, but based on what is visible, there do not appear to be any persons present.
 ```
 
 
@@ -439,7 +454,8 @@ These observations suggest that all individuals depicted in the photograph are m
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
-```The photograph captures a military scene with soldiers standing at attention, forming two distinct groups.
+```
+The photograph captures a military scene with soldiers standing at attention, forming two distinct groups.
 
 In the foreground, approximately 20 men, likely officers or non-commissioned officers (NCOs), face away from the camera and towards the right side of the image. They are dressed in formal military attire, including dark-colored jackets adorned with medals on their left chest, light-colored trousers, and tall hats featuring a narrow brim and indented crown.
 
@@ -463,7 +479,8 @@ Beyond this group, additional people can be seen standing along the top edge of 
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
-```The photograph features three men wearing military uniforms and helmets, with one man standing on the left side of the image and two others positioned near a machine gun on the right. The men are dressed in dark-colored jackets and pants, complemented by light-colored shirts underneath. Their attire suggests that they may be soldiers or members of a military unit.
+```
+The photograph features three men wearing military uniforms and helmets, with one man standing on the left side of the image and two others positioned near a machine gun on the right. The men are dressed in dark-colored jackets and pants, complemented by light-colored shirts underneath. Their attire suggests that they may be soldiers or members of a military unit.
 
 Upon closer inspection, it appears that the men are engaged in some form of activity related to the machine gun, although the exact nature of their actions is unclear due to the image quality. The background of the photograph shows a wall with windows, which could indicate an indoor setting such as a barracks or training facility.
 
@@ -485,7 +502,8 @@ Overall, based on the clothing and context provided by the image, it seems likel
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
-```The image depicts a group of men in military uniforms posing for a photograph. The individuals are all wearing dark-colored jackets with gold buttons and epaulets on their shoulders, along with hats adorned with feathers or other decorations.
+```
+The image depicts a group of men in military uniforms posing for a photograph. The individuals are all wearing dark-colored jackets with gold buttons and epaulets on their shoulders, along with hats adorned with feathers or other decorations.
 
 In the foreground, there is a man kneeling down who appears to be holding some sort of object, possibly a rifle or sword. Behind him stands another individual who seems to be saluting or gesturing towards something outside the frame.
 
@@ -509,7 +527,8 @@ In the background, trees and buildings can be seen, suggesting that the photo wa
 | Woman | 0 | 1 | 🟥 |
 | Person | 1 | 1 | 🟢 |
 
-```The photograph shows a large room filled with rows of beds, each occupied by multiple men. The men are dressed in military uniforms or casual attire.
+```
+The photograph shows a large room filled with rows of beds, each occupied by multiple men. The men are dressed in military uniforms or casual attire.
 
 In the foreground, several men are standing near the entrance of the room, while others are sitting on their beds or walking around. Some individuals appear to be engaged in various activities such as reading, writing, or playing games.
 
@@ -533,7 +552,8 @@ No children or women are present in the photograph.
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
-```The image depicts a group of men standing outside a building with a sign reading "RANTENS HOTEL." The men are dressed in formal attire, including suits and hats, suggesting that they may be business professionals or dignitaries.
+```
+The image depicts a group of men standing outside a building with a sign reading "RANTENS HOTEL." The men are dressed in formal attire, including suits and hats, suggesting that they may be business professionals or dignitaries.
 
 In the foreground, there are approximately 15-20 people visible. They appear to be all male, ranging in age from middle-aged to elderly. Some of them wear glasses, while others have facial hair such as mustaches or beards. One individual is holding a cane, indicating that he may have mobility issues.
 
