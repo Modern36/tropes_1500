@@ -28,12 +28,12 @@ weighted avg       0.85      0.85      0.85       173
 ```
               precision    recall  f1-score   support
 
-           0       0.84      0.89      0.87       112
-           1       0.78      0.69      0.73        61
+           0       0.84      0.90      0.87       112
+           1       0.79      0.69      0.74        61
 
-    accuracy                           0.82       173
-   macro avg       0.81      0.79      0.80       173
-weighted avg       0.82      0.82      0.82       173
+    accuracy                           0.83       173
+   macro avg       0.82      0.80      0.80       173
+weighted avg       0.82      0.83      0.82       173
 
 ```
 
@@ -3176,7 +3176,7 @@ There are no people visible in the provided photograph. The image depicts a chur
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 0 | 1 | 🟥 |
+| Man | 0 | 0 | 🟢 |
 | Woman | 1 | 1 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 

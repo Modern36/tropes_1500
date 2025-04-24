@@ -12,12 +12,12 @@ This file contains 25 images processed by the model: llama-desc
 ```
               precision    recall  f1-score   support
 
-           0       1.00      0.88      0.94        25
+           0       1.00      0.92      0.96        25
            1       0.00      0.00      0.00         0
 
-    accuracy                           0.88        25
-   macro avg       0.50      0.44      0.47        25
-weighted avg       1.00      0.88      0.94        25
+    accuracy                           0.92        25
+   macro avg       0.50      0.46      0.48        25
+weighted avg       1.00      0.92      0.96        25
 
 ```
 
@@ -450,7 +450,7 @@ There do not appear to be any people present in this image. The vessel appears e
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 1 | 🟢 |
-| Woman | 0 | 1 | 🟥 |
+| Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```

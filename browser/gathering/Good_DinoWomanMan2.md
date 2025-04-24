@@ -12,10 +12,6 @@
 
 ![000_raw/019EBsm2Ghmn3.png](/000_raw/019EBsm2Ghmn3.png)
 
-## 022s8YsxvXHa - 🚺
-
-![000_raw/022s8YsxvXHa.png](/000_raw/022s8YsxvXHa.png)
-
 ## 022sAYdfqB68 - 🚺
 
 ![000_raw/022sAYdfqB68.png](/000_raw/022sAYdfqB68.png)

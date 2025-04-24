@@ -12,12 +12,12 @@ This file contains 1500 images processed by the model: llama-desc
 ```
               precision    recall  f1-score   support
 
-           0       0.91      0.90      0.90      1142
-           1       0.68      0.70      0.69       358
+           0       0.90      0.91      0.91      1142
+           1       0.70      0.70      0.70       358
 
-    accuracy                           0.85      1500
-   macro avg       0.79      0.80      0.80      1500
-weighted avg       0.85      0.85      0.85      1500
+    accuracy                           0.86      1500
+   macro avg       0.80      0.80      0.80      1500
+weighted avg       0.86      0.86      0.86      1500
 
 ```
 
@@ -28,12 +28,12 @@ weighted avg       0.85      0.85      0.85      1500
 ```
               precision    recall  f1-score   support
 
-           0       0.86      0.93      0.89       949
-           1       0.85      0.73      0.79       551
+           0       0.86      0.94      0.89       949
+           1       0.87      0.73      0.79       551
 
-    accuracy                           0.85      1500
-   macro avg       0.85      0.83      0.84      1500
-weighted avg       0.85      0.85      0.85      1500
+    accuracy                           0.86      1500
+   macro avg       0.86      0.83      0.84      1500
+weighted avg       0.86      0.86      0.86      1500
 
 ```
 
@@ -1246,7 +1246,7 @@ The scene primarily focuses on the natural environment and structures within it,
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 1 | 🟢 |
-| Woman | 0 | 1 | 🟥 |
+| Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -1745,7 +1745,7 @@ Given these observations, it can be inferred with reasonable certainty that all 
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 0 | 1 | 🟥 |
+| Man | 0 | 0 | 🟢 |
 | Woman | 1 | 1 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
@@ -2104,7 +2104,7 @@ Based on the visual cues provided in the photograph, it can be inferred that the
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 0 | 1 | 🟥 |
+| Man | 0 | 0 | 🟢 |
 | Woman | 0 | 1 | 🟥 |
 | Person | 0 | 1 | 🟥 |
 
@@ -4589,7 +4589,7 @@ There are no individuals visible in the photograph. The image depicts an empty t
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 0 | 1 | 🟥 |
+| Man | 0 | 0 | 🟢 |
 | Woman | 0 | 1 | 🟥 |
 | Person | 0 | 1 | 🟥 |
 
@@ -4678,7 +4678,7 @@ In summary, the image depicts two women from the early 20th century, likely take
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 0 | 🟥 |
-| Woman | 0 | 1 | 🟥 |
+| Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -5435,7 +5435,7 @@ There do not appear to be any other people visible in this photograph beyond the
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 0 | 1 | 🟥 |
+| Man | 0 | 0 | 🟢 |
 | Woman | 0 | 1 | 🟥 |
 | Person | 0 | 1 | 🟥 |
 
@@ -8541,7 +8541,7 @@ There are no people visible in this photograph. The image depicts a serene scene
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 0 | 1 | 🟥 |
+| Man | 0 | 0 | 🟢 |
 | Woman | 0 | 1 | 🟥 |
 | Person | 1 | 1 | 🟢 |
 
@@ -8607,7 +8607,7 @@ There are no individuals visible in this picture. The photograph appears to be a
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 1 | 🟢 |
-| Woman | 0 | 1 | 🟥 |
+| Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -10857,7 +10857,7 @@ Overall, the photograph captures a moment in time when a group of people came to
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 1 | 🟢 |
-| Woman | 0 | 1 | 🟥 |
+| Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -12275,7 +12275,7 @@ There do not appear to be any people visible in this black-and-white photograph.
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 1 | 🟢 |
-| Woman | 0 | 1 | 🟥 |
+| Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -14845,7 +14845,7 @@ In the background of the photograph there are no other people present. The focus
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 1 | 🟢 |
-| Woman | 0 | 1 | 🟥 |
+| Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -15710,7 +15710,7 @@ In the background, there are no other people visible within the frame of this ph
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 0 | 1 | 🟥 |
+| Man | 0 | 0 | 🟢 |
 | Woman | 1 | 1 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
@@ -16700,7 +16700,7 @@ There are no people visible in this photograph. The image depicts a house with a
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 0 | 1 | 🟥 |
+| Man | 0 | 0 | 🟢 |
 | Woman | 1 | 1 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
@@ -22232,7 +22232,7 @@ There are no individuals visible in this photograph. The image appears to be an 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 1 | 🟢 |
-| Woman | 0 | 1 | 🟥 |
+| Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -24700,7 +24700,7 @@ There are no people visible in this photograph. The image appears to be a black-
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 1 | 🟢 |
-| Woman | 1 | 1 | 🟢 |
+| Woman | 1 | 0 | 🟥 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -24760,7 +24760,7 @@ If you would like me to describe the garden, I can do so. Please let me know if 
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 0 | 1 | 🟥 |
+| Man | 0 | 0 | 🟢 |
 | Woman | 0 | 1 | 🟥 |
 | Person | 0 | 1 | 🟥 |
 
@@ -25663,7 +25663,7 @@ In the background, there are some indistinct shapes that could potentially repre
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 1 | 1 | 🟢 |
+| Man | 1 | 0 | 🟥 |
 | Woman | 0 | 1 | 🟥 |
 | Person | 1 | 1 | 🟢 |
 
@@ -25819,7 +25819,7 @@ There are no people visible in this photograph. The image appears to be a histor
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 1 | 🟢 |
-| Woman | 0 | 1 | 🟥 |
+| Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -26129,7 +26129,7 @@ The background of the photo features a wall adorned with wallpaper or paint, add
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 0 | 1 | 🟥 |
+| Man | 0 | 0 | 🟢 |
 | Woman | 1 | 1 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
@@ -28732,7 +28732,7 @@ The people appear to be engaged in some form of labor or activity related to the
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 1 | 🟢 |
-| Woman | 0 | 1 | 🟥 |
+| Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -29217,7 +29217,7 @@ There are no people visible in this photograph. The image appears to depict a ra
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 1 | 🟢 |
-| Woman | 1 | 1 | 🟢 |
+| Woman | 1 | 0 | 🟥 |
 | Person | 1 | 1 | 🟢 |
 
 ```

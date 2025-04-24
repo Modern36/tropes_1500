@@ -12,12 +12,12 @@ This file contains 206 images processed by the model: llama-desc
 ```
               precision    recall  f1-score   support
 
-           0       0.90      0.86      0.88       154
-           1       0.64      0.71      0.67        52
+           0       0.90      0.87      0.88       154
+           1       0.65      0.71      0.68        52
 
     accuracy                           0.83       206
    macro avg       0.77      0.79      0.78       206
-weighted avg       0.83      0.83      0.83       206
+weighted avg       0.84      0.83      0.83       206
 
 ```
 
@@ -28,12 +28,12 @@ weighted avg       0.83      0.83      0.83       206
 ```
               precision    recall  f1-score   support
 
-           0       0.86      0.93      0.89       129
-           1       0.86      0.74      0.80        77
+           0       0.85      0.93      0.89       129
+           1       0.86      0.73      0.79        77
 
-    accuracy                           0.86       206
-   macro avg       0.86      0.84      0.84       206
-weighted avg       0.86      0.86      0.86       206
+    accuracy                           0.85       206
+   macro avg       0.86      0.83      0.84       206
+weighted avg       0.85      0.85      0.85       206
 
 ```
 
@@ -3646,7 +3646,7 @@ Overall, the image suggests a sense of urban density and community living, with 
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 1 | 1 | 🟢 |
+| Man | 1 | 0 | 🟥 |
 | Woman | 0 | 1 | 🟥 |
 | Person | 1 | 1 | 🟢 |
 
@@ -3668,7 +3668,7 @@ Since there are no people shown in the photograph, it is impossible to determine
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 1 | 🟢 |
-| Woman | 0 | 1 | 🟥 |
+| Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```

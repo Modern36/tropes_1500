@@ -28,12 +28,12 @@ weighted avg       0.79      0.78      0.77        36
 ```
               precision    recall  f1-score   support
 
-           0       0.73      0.90      0.81        21
-           1       0.80      0.53      0.64        15
+           0       0.74      0.95      0.83        21
+           1       0.89      0.53      0.67        15
 
-    accuracy                           0.75        36
-   macro avg       0.77      0.72      0.72        36
-weighted avg       0.76      0.75      0.74        36
+    accuracy                           0.78        36
+   macro avg       0.81      0.74      0.75        36
+weighted avg       0.80      0.78      0.76        36
 
 ```
 
@@ -89,7 +89,7 @@ All individuals in this photograph appear to be adults.
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 0 | 1 | 🟥 |
+| Man | 0 | 0 | 🟢 |
 | Woman | 1 | 1 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 

@@ -28,12 +28,12 @@ weighted avg       0.90      0.87      0.88        91
 ```
               precision    recall  f1-score   support
 
-           0       0.90      0.92      0.91        76
-           1       0.54      0.47      0.50        15
+           0       0.90      0.95      0.92        76
+           1       0.64      0.47      0.54        15
 
-    accuracy                           0.85        91
-   macro avg       0.72      0.69      0.70        91
-weighted avg       0.84      0.85      0.84        91
+    accuracy                           0.87        91
+   macro avg       0.77      0.71      0.73        91
+weighted avg       0.86      0.87      0.86        91
 
 ```
 
@@ -255,7 +255,7 @@ Overall, while there are people present in the photograph, they are not the prim
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 0 | 1 | 🟥 |
+| Man | 0 | 0 | 🟢 |
 | Woman | 0 | 1 | 🟥 |
 | Person | 0 | 1 | 🟥 |
 
@@ -1473,7 +1473,7 @@ There are no people visible in this photograph. The image depicts a landscape wi
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 0 | 1 | 🟥 |
+| Man | 0 | 0 | 🟢 |
 | Woman | 0 | 1 | 🟥 |
 | Person | 0 | 1 | 🟥 |
 

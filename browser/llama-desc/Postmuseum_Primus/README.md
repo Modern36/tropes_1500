@@ -28,12 +28,12 @@ weighted avg       0.78      0.80      0.79        25
 ```
               precision    recall  f1-score   support
 
-           0       0.75      0.80      0.77        15
-           1       0.67      0.60      0.63        10
+           0       0.76      0.87      0.81        15
+           1       0.75      0.60      0.67        10
 
-    accuracy                           0.72        25
-   macro avg       0.71      0.70      0.70        25
-weighted avg       0.72      0.72      0.72        25
+    accuracy                           0.76        25
+   macro avg       0.76      0.73      0.74        25
+weighted avg       0.76      0.76      0.75        25
 
 ```
 
@@ -296,7 +296,7 @@ There are no individuals visible in this photograph. The image depicts a vehicle
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 0 | 1 | 🟥 |
+| Man | 0 | 0 | 🟢 |
 | Woman | 1 | 1 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 

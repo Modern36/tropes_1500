@@ -28,12 +28,12 @@ weighted avg       1.00      0.88      0.93        16
 ```
               precision    recall  f1-score   support
 
-           0       1.00      0.92      0.96        13
-           1       0.75      1.00      0.86         3
+           0       1.00      1.00      1.00        13
+           1       1.00      1.00      1.00         3
 
-    accuracy                           0.94        16
-   macro avg       0.88      0.96      0.91        16
-weighted avg       0.95      0.94      0.94        16
+    accuracy                           1.00        16
+   macro avg       1.00      1.00      1.00        16
+weighted avg       1.00      1.00      1.00        16
 
 ```
 
@@ -83,7 +83,7 @@ The absence of any human figures means there is no information available about g
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 0 | 1 | 🟥 |
+| Man | 0 | 0 | 🟢 |
 | Woman | 0 | 1 | 🟥 |
 | Person | 0 | 1 | 🟥 |
 

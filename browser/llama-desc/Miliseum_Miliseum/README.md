@@ -12,12 +12,12 @@ This file contains 19 images processed by the model: llama-desc
 ```
               precision    recall  f1-score   support
 
-           0       0.86      0.75      0.80        16
-           1       0.20      0.33      0.25         3
+           0       0.87      0.81      0.84        16
+           1       0.25      0.33      0.29         3
 
-    accuracy                           0.68        19
-   macro avg       0.53      0.54      0.52        19
-weighted avg       0.75      0.68      0.71        19
+    accuracy                           0.74        19
+   macro avg       0.56      0.57      0.56        19
+weighted avg       0.77      0.74      0.75        19
 
 ```
 
@@ -337,7 +337,7 @@ There are no people visible in the photograph you provided. The image appears to
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 1 | 🟢 |
-| Woman | 0 | 1 | 🟥 |
+| Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```

@@ -13,11 +13,11 @@ This file contains 265 images processed by the model: llama-desc
               precision    recall  f1-score   support
 
            0       0.95      0.93      0.94       245
-           1       0.36      0.45      0.40        20
+           1       0.33      0.40      0.36        20
 
-    accuracy                           0.90       265
-   macro avg       0.66      0.69      0.67       265
-weighted avg       0.91      0.90      0.90       265
+    accuracy                           0.89       265
+   macro avg       0.64      0.67      0.65       265
+weighted avg       0.90      0.89      0.90       265
 
 ```
 
@@ -28,12 +28,12 @@ weighted avg       0.91      0.90      0.90       265
 ```
               precision    recall  f1-score   support
 
-           0       0.85      0.97      0.90       190
-           1       0.88      0.56      0.68        75
+           0       0.85      0.97      0.91       190
+           1       0.89      0.56      0.69        75
 
-    accuracy                           0.85       265
-   macro avg       0.86      0.76      0.79       265
-weighted avg       0.86      0.85      0.84       265
+    accuracy                           0.86       265
+   macro avg       0.87      0.77      0.80       265
+weighted avg       0.86      0.86      0.85       265
 
 ```
 
@@ -382,7 +382,7 @@ The image depicts a black-and-white photograph of an old-fashioned bus parked on
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 0 | 1 | 🟥 |
+| Man | 0 | 0 | 🟢 |
 | Woman | 0 | 1 | 🟥 |
 | Person | 0 | 1 | 🟥 |
 
@@ -4983,7 +4983,7 @@ There are no people visible in this photograph. The image appears to depict a ra
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 1 | 🟢 |
-| Woman | 1 | 1 | 🟢 |
+| Woman | 1 | 0 | 🟥 |
 | Person | 1 | 1 | 🟢 |
 
 ```

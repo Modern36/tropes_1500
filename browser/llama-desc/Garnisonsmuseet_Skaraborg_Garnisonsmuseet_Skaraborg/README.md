@@ -12,12 +12,12 @@ This file contains 20 images processed by the model: llama-desc
 ```
               precision    recall  f1-score   support
 
-           0       0.92      0.67      0.77        18
-           1       0.14      0.50      0.22         2
+           0       0.93      0.78      0.85        18
+           1       0.20      0.50      0.29         2
 
-    accuracy                           0.65        20
-   macro avg       0.53      0.58      0.50        20
-weighted avg       0.85      0.65      0.72        20
+    accuracy                           0.75        20
+   macro avg       0.57      0.64      0.57        20
+weighted avg       0.86      0.75      0.79        20
 
 ```
 
@@ -88,7 +88,7 @@ Overall, based on the clothing worn by the individuals in the photograph, it can
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 0 | 🟥 |
-| Woman | 0 | 1 | 🟥 |
+| Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -180,7 +180,7 @@ There do not appear to be any women or children present in the photograph. The o
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 1 | 🟢 |
-| Woman | 0 | 1 | 🟥 |
+| Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```

@@ -60,10 +60,6 @@
 
 ![000_raw/02349TDTsjbk.png](/000_raw/02349TDTsjbk.png)
 
-## 02Tzm2JJFq - 🚹
-
-![000_raw/02Tzm2JJFq.png](/000_raw/02Tzm2JJFq.png)
-
 ## 032waW2QbVPh - 🚹
 
 ![000_raw/032waW2QbVPh.png](/000_raw/032waW2QbVPh.png)

@@ -12,12 +12,12 @@ This file contains 76 images processed by the model: llama-desc
 ```
               precision    recall  f1-score   support
 
-           0       0.87      0.93      0.90        56
-           1       0.75      0.60      0.67        20
+           0       0.87      0.96      0.92        56
+           1       0.86      0.60      0.71        20
 
-    accuracy                           0.84        76
-   macro avg       0.81      0.76      0.78        76
-weighted avg       0.84      0.84      0.84        76
+    accuracy                           0.87        76
+   macro avg       0.86      0.78      0.81        76
+weighted avg       0.87      0.87      0.86        76
 
 ```
 
@@ -420,7 +420,7 @@ There is no photograph attached to this message for me to describe. Please attac
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 1 | 🟢 |
-| Woman | 0 | 1 | 🟥 |
+| Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -1136,7 +1136,7 @@ The background of the image features trees and bushes, which adds a natural ambi
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 1 | 🟢 |
-| Woman | 0 | 1 | 🟥 |
+| Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```

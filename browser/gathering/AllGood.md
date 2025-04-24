@@ -396,10 +396,6 @@
 
 ![000_raw/0231ySyfUUGn.png](/000_raw/0231ySyfUUGn.png)
 
-## 0231yTmUEJTs - 🚻
-
-![000_raw/0231yTmUEJTs.png](/000_raw/0231yTmUEJTs.png)
-
 ## 0231yTt4hmPx - 🚷
 
 ![000_raw/0231yTt4hmPx.png](/000_raw/0231yTt4hmPx.png)
