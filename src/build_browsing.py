@@ -9,6 +9,7 @@ from scatter import scatter_to_markdown
 from trope_paths import (
     browser_root,
     db_path,
+    model_output,
     ollama_desc_dir,
     output_dir,
     raw_dir,

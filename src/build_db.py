@@ -265,8 +265,12 @@ def load_llama_desc():
         image_id = desc_file.name.split(".")[0]
         with open(desc_file, "r", encoding="utf8") as f:
             text = f.read()
-        m = len(re.findall(r"\bm[ae]n\b", text)) > 0
-        w = len(re.findall(r"\bwom[ae]n\b", text)) > 0
+        m = len(re.findall(r"\bm[ae]n\b", text)) > 0 and not bool(
+            re.search(r"no m[ae]n", text, re.IGNORECASE)
+        )
+        w = len(re.findall(r"\bwom[ae]n\b", text)) > 0 and not bool(
+            re.search(r"no wom[ae]n", text, re.IGNORECASE)
+        )
         p = (
             m
             or w
