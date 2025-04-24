@@ -14,9 +14,9 @@ This file contains 4 images processed by the model: YOLO_90
 | dining table | 1 | 1 |
 
 
-## 02347Tgr46KA
+## 013AmsTCUrWM
 
-![010_model_output/yolos-pretrained_th90/02347Tgr46KA.png](/010_model_output/yolos-pretrained_th90/02347Tgr46KA.png)
+![010_model_output/yolos-pretrained_th90/013AmsTCUrWM.png](/010_model_output/yolos-pretrained_th90/013AmsTCUrWM.png)
 
 
 | label | GT | Pred | accurate |
@@ -26,9 +26,9 @@ This file contains 4 images processed by the model: YOLO_90
 
 
 
-## 013AmsTCUrWM
+## 02347Tgr46KA
 
-![010_model_output/yolos-pretrained_th90/013AmsTCUrWM.png](/010_model_output/yolos-pretrained_th90/013AmsTCUrWM.png)
+![010_model_output/yolos-pretrained_th90/02347Tgr46KA.png](/010_model_output/yolos-pretrained_th90/02347Tgr46KA.png)
 
 
 | label | GT | Pred | accurate |

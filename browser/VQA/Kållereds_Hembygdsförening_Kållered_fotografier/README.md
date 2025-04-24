@@ -76,20 +76,6 @@ weighted avg       1.00      0.75      0.86         4
 
 
 
-## 02347Tgr46KA
-
-![000_raw/02347Tgr46KA.png](/000_raw/02347Tgr46KA.png)
-
-
-| label | GT | Pred | accurate |
-|:----|----|----|----|
-| Man | 1 | 1 | 🟢 |
-| Woman | 1 | 1 | 🟢 |
-| Person | 1 | 1 | 🟢 |
-
-
-
-
 ## 013AmsTCUrWM
 
 ![000_raw/013AmsTCUrWM.png](/000_raw/013AmsTCUrWM.png)
@@ -99,6 +85,20 @@ weighted avg       1.00      0.75      0.86         4
 |:----|----|----|----|
 | Man | 1 | 1 | 🟢 |
 | Woman | 0 | 1 | 🟥 |
+| Person | 1 | 1 | 🟢 |
+
+
+
+
+## 02347Tgr46KA
+
+![000_raw/02347Tgr46KA.png](/000_raw/02347Tgr46KA.png)
+
+
+| label | GT | Pred | accurate |
+|:----|----|----|----|
+| Man | 1 | 1 | 🟢 |
+| Woman | 1 | 1 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 

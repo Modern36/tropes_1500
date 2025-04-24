@@ -55,6 +55,31 @@ weighted avg       1.00      0.75      0.86         4
 
 
 
+## 013AmsTCUrWM
+
+![000_raw/013AmsTCUrWM.png](/000_raw/013AmsTCUrWM.png)
+
+
+| label | GT | Pred | accurate |
+|:----|----|----|----|
+| Man | 1 | 1 | 🟢 |
+| Woman | 0 | 0 | 🟢 |
+| Person | 1 | 1 | 🟢 |
+
+```
+The photograph depicts a group of six men standing with their bicycles on what appears to be a country road. The image features several individuals with varying levels of visibility and clarity.
+
+There are two individuals in the foreground, positioned centrally within the frame. One man is wearing a dark suit jacket with a white shirt underneath, while the other sports a lighter-colored suit jacket paired with a tie. Both men have dark hair and mustaches.
+
+Behind them stand four additional people, although their features are less distinct due to being out of focus. Three of these individuals wear light-colored clothing, including one person who is donning a hat. The fourth person in the background wears darker attire.
+
+In summary, there appear to be six men present within this historical photograph.
+```
+
+
+
+
+
 ## 02347Tgr46KA
 
 ![000_raw/02347Tgr46KA.png](/000_raw/02347Tgr46KA.png)
@@ -76,31 +101,6 @@ Behind the table, there are additional people standing or sitting, although they
 In the background, there are several objects that suggest the setting is likely a home or domestic environment. These include furniture, curtains, and what appears to be a fireplace or stove. However, it's difficult to make out many details due to the low resolution and graininess of the image.
 
 Overall, based on their clothing and hairstyles, I would estimate that most of the people in this photograph are adults, with some children present as well. The women wear dresses and hats, while the men wear suits and ties. The children are dressed in simple outfits consistent with the time period. While it's challenging to determine exact ages without more information, it seems likely that the majority of individuals depicted are between 20-50 years old at the time the photo was taken.
-```
-
-
-
-
-
-## 013AmsTCUrWM
-
-![000_raw/013AmsTCUrWM.png](/000_raw/013AmsTCUrWM.png)
-
-
-| label | GT | Pred | accurate |
-|:----|----|----|----|
-| Man | 1 | 1 | 🟢 |
-| Woman | 0 | 0 | 🟢 |
-| Person | 1 | 1 | 🟢 |
-
-```
-The photograph depicts a group of six men standing with their bicycles on what appears to be a country road. The image features several individuals with varying levels of visibility and clarity.
-
-There are two individuals in the foreground, positioned centrally within the frame. One man is wearing a dark suit jacket with a white shirt underneath, while the other sports a lighter-colored suit jacket paired with a tie. Both men have dark hair and mustaches.
-
-Behind them stand four additional people, although their features are less distinct due to being out of focus. Three of these individuals wear light-colored clothing, including one person who is donning a hat. The fourth person in the background wears darker attire.
-
-In summary, there appear to be six men present within this historical photograph.
 ```
 
 

@@ -18,9 +18,9 @@ This file contains 4 images processed by the model: YOLO_50
 | handbag | 1 | 1 |
 
 
-## 02347Tgr46KA
+## 013AmsTCUrWM
 
-![010_model_output/yolos-pretrained_th50/02347Tgr46KA.png](/010_model_output/yolos-pretrained_th50/02347Tgr46KA.png)
+![010_model_output/yolos-pretrained_th50/013AmsTCUrWM.png](/010_model_output/yolos-pretrained_th50/013AmsTCUrWM.png)
 
 
 | label | GT | Pred | accurate |
@@ -30,9 +30,9 @@ This file contains 4 images processed by the model: YOLO_50
 
 
 
-## 013AmsTCUrWM
+## 02347Tgr46KA
 
-![010_model_output/yolos-pretrained_th50/013AmsTCUrWM.png](/010_model_output/yolos-pretrained_th50/013AmsTCUrWM.png)
+![010_model_output/yolos-pretrained_th50/02347Tgr46KA.png](/010_model_output/yolos-pretrained_th50/02347Tgr46KA.png)
 
 
 | label | GT | Pred | accurate |

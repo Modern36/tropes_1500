@@ -55,25 +55,23 @@ weighted avg       1.00      1.00      1.00        11
 
 
 
-## 019EBskuj9w38
+## 0136LRyc7DJE
 
-![000_raw/019EBskuj9w38.png](/000_raw/019EBskuj9w38.png)
+![000_raw/0136LRyc7DJE.png](/000_raw/0136LRyc7DJE.png)
 
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 1 | 🟢 |
-| Woman | 0 | 1 | 🟥 |
+| Woman | 1 | 1 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```
-The photograph depicts a man standing at a podium, addressing an audience. He is dressed in formal attire, consisting of a dark suit jacket and vest, complemented by a white shirt with a high collar and a bow tie. His hair is neatly trimmed, and he sports a well-groomed beard.
+The image shows a group of 20 people posing for a photograph. The majority of them appear to be adults, with no children visible in the picture.
 
-Behind the speaker, there are several individuals seated on chairs or benches, all attired in similar formal clothing. The majority of these people appear to be men, although it is challenging to discern any women due to their attire being less distinct from that of the men.
+There are 12 men and eight women present in the photo. All individuals are dressed in formal attire, suggesting that this may have been taken at a special occasion or event.
 
-In the background, partially obscured by the podium and other objects, additional people can be seen standing or sitting. These individuals are also dressed in formal attire, but their features are not as clearly visible as those in the foreground.
-
-Overall, the photograph captures a moment of public speaking or performance, with the central figure commanding attention while surrounded by an audience of formally attired onlookers.
+The background is plain, indicating that it was likely taken indoors.
 ```
 
 
@@ -101,69 +99,44 @@ In the background, there are no other individuals visible. The overall atmospher
 
 
 
-## 0136LRyc7DJE
+## 013AmPFG7hGB
 
-![000_raw/0136LRyc7DJE.png](/000_raw/0136LRyc7DJE.png)
-
-
-| label | GT | Pred | accurate |
-|:----|----|----|----|
-| Man | 1 | 1 | 🟢 |
-| Woman | 1 | 1 | 🟢 |
-| Person | 1 | 1 | 🟢 |
-
-```
-The image shows a group of 20 people posing for a photograph. The majority of them appear to be adults, with no children visible in the picture.
-
-There are 12 men and eight women present in the photo. All individuals are dressed in formal attire, suggesting that this may have been taken at a special occasion or event.
-
-The background is plain, indicating that it was likely taken indoors.
-```
-
-
-
-
-
-## 022ykVMxiRTS
-
-![000_raw/022ykVMxiRTS.png](/000_raw/022ykVMxiRTS.png)
+![000_raw/013AmPFG7hGB.png](/000_raw/013AmPFG7hGB.png)
 
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 1 | 1 | 🟢 |
+| Man | 0 | 0 | 🟢 |
 | Woman | 0 | 0 | 🟢 |
-| Person | 1 | 1 | 🟢 |
+| Person | 0 | 0 | 🟢 |
 
 ```
-This black-and-white photograph presents two portraits of men with a distinctive appearance, featuring long mustaches, beards, and sideburns. The man on the left wears a dark suit jacket, vest, shirt, tie, and pants, while the man on the right sports a bowler hat, light-colored coat, vest, shirt, tie, and pants.
-
-The background of both portraits features a dark color with visible texture, suggesting that they were taken in front of a painted canvas or backdrop. The overall atmosphere of the photographs exudes formality and seriousness, characteristic of traditional portrait photography from the late 19th to early 20th centuries.
+There are no individuals present in this picture. The image features an old building with a dome-shaped ceiling adorned with intricate designs, possibly depicting religious or cultural scenes. There are no visible faces or figures anywhere within the scene.
 ```
 
 
 
 
 
-## 013AkPbQVszt
+## 019EBskuj9w38
 
-![000_raw/013AkPbQVszt.png](/000_raw/013AkPbQVszt.png)
+![000_raw/019EBskuj9w38.png](/000_raw/019EBskuj9w38.png)
 
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 1 | 🟢 |
-| Woman | 1 | 1 | 🟢 |
+| Woman | 0 | 1 | 🟥 |
 | Person | 1 | 1 | 🟢 |
 
 ```
-The photograph features a large statue of a man's bust on top of a rectangular stone pillar with the name "Ibsen" inscribed at the base. The statue appears to be made of bronze or another metal and has a dark patina.
+The photograph depicts a man standing at a podium, addressing an audience. He is dressed in formal attire, consisting of a dark suit jacket and vest, complemented by a white shirt with a high collar and a bow tie. His hair is neatly trimmed, and he sports a well-groomed beard.
 
-In front of the statue, there are several people standing in two rows. The first row consists of three men wearing suits and hats, while the second row has five women dressed in long skirts and blouses. They all appear to be looking at the camera with serious expressions.
+Behind the speaker, there are several individuals seated on chairs or benches, all attired in similar formal clothing. The majority of these people appear to be men, although it is challenging to discern any women due to their attire being less distinct from that of the men.
 
-Behind the group of people, there is a building with a large window on the left side. The sky above is overcast, suggesting that it may have been taken on a cloudy day.
+In the background, partially obscured by the podium and other objects, additional people can be seen standing or sitting. These individuals are also dressed in formal attire, but their features are not as clearly visible as those in the foreground.
 
-Overall, the image suggests that this could be a historical event or ceremony related to Henrik Ibsen, a famous Norwegian playwright and poet. The presence of dignitaries and the formal attire worn by the individuals in the photograph support this interpretation.
+Overall, the photograph captures a moment of public speaking or performance, with the central figure commanding attention while surrounded by an audience of formally attired onlookers.
 ```
 
 
@@ -199,25 +172,21 @@ Based on the available information, it appears that the group consists mainly of
 
 
 
-## 0234ASJXNS1e
+## 022ykVMxiRTS
 
-![000_raw/0234ASJXNS1e.png](/000_raw/0234ASJXNS1e.png)
+![000_raw/022ykVMxiRTS.png](/000_raw/022ykVMxiRTS.png)
 
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 1 | 🟢 |
-| Woman | 1 | 1 | 🟢 |
+| Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```
-The photograph shows a man and woman dressed for their wedding. The woman is seated on the left side of the image wearing a white dress and veil with a floral headpiece. She holds a bouquet of flowers in her right hand, which rests on her lap.
+This black-and-white photograph presents two portraits of men with a distinctive appearance, featuring long mustaches, beards, and sideburns. The man on the left wears a dark suit jacket, vest, shirt, tie, and pants, while the man on the right sports a bowler hat, light-colored coat, vest, shirt, tie, and pants.
 
-Standing to her right is the man who wears a dark suit with a light shirt and tie. His left hand rests on the back of the woman's chair while his right arm hangs by his side.
-
-In the background behind them are two men dressed similarly but without hats or ties. One stands behind the seated couple, and one in front leaning against a wall to their right. There is another person standing at the far end of the room near a doorway who appears to be wearing dark clothing as well.
-
-On either side of this group sit several women also attired in formal attire; some wear hats while others do not have any head coverings visible due to being partially obscured from view by other people or objects within frame.
+The background of both portraits features a dark color with visible texture, suggesting that they were taken in front of a painted canvas or backdrop. The overall atmosphere of the photographs exudes formality and seriousness, characteristic of traditional portrait photography from the late 19th to early 20th centuries.
 ```
 
 
@@ -237,25 +206,6 @@ On either side of this group sit several women also attired in formal attire; so
 
 ```
 There are no individuals visible in this photograph. The image appears to be a black-and-white depiction of two metal objects, possibly some kind of machinery or equipment, with text at the bottom that reads "Boj Nr:7 och Nr:8." There is no indication of any human presence in the scene.
-```
-
-
-
-
-
-## 013AmPFG7hGB
-
-![000_raw/013AmPFG7hGB.png](/000_raw/013AmPFG7hGB.png)
-
-
-| label | GT | Pred | accurate |
-|:----|----|----|----|
-| Man | 0 | 0 | 🟢 |
-| Woman | 0 | 0 | 🟢 |
-| Person | 0 | 0 | 🟢 |
-
-```
-There are no individuals present in this picture. The image features an old building with a dome-shaped ceiling adorned with intricate designs, possibly depicting religious or cultural scenes. There are no visible faces or figures anywhere within the scene.
 ```
 
 
@@ -285,6 +235,31 @@ The overall atmosphere suggests that this may have been taken at some kind of ou
 
 
 
+## 0234ASJXNS1e
+
+![000_raw/0234ASJXNS1e.png](/000_raw/0234ASJXNS1e.png)
+
+
+| label | GT | Pred | accurate |
+|:----|----|----|----|
+| Man | 1 | 1 | 🟢 |
+| Woman | 1 | 1 | 🟢 |
+| Person | 1 | 1 | 🟢 |
+
+```
+The photograph shows a man and woman dressed for their wedding. The woman is seated on the left side of the image wearing a white dress and veil with a floral headpiece. She holds a bouquet of flowers in her right hand, which rests on her lap.
+
+Standing to her right is the man who wears a dark suit with a light shirt and tie. His left hand rests on the back of the woman's chair while his right arm hangs by his side.
+
+In the background behind them are two men dressed similarly but without hats or ties. One stands behind the seated couple, and one in front leaning against a wall to their right. There is another person standing at the far end of the room near a doorway who appears to be wearing dark clothing as well.
+
+On either side of this group sit several women also attired in formal attire; some wear hats while others do not have any head coverings visible due to being partially obscured from view by other people or objects within frame.
+```
+
+
+
+
+
 ## 032wY1PUg3uX
 
 ![000_raw/032wY1PUg3uX.png](/000_raw/032wY1PUg3uX.png)
@@ -306,4 +281,29 @@ In the foreground, there are several people standing on the dock, but they are n
 Behind the ship, there are several buildings visible, including what appears to be a warehouse or a factory. These structures are also not clearly visible, but they add depth and context to the scene.
 
 Overall, the image provides a glimpse into the past, showing us how ships and docks looked like during that time period. It also highlights the importance of maritime trade and commerce in shaping our world today.
+```
+
+
+
+
+
+## 013AkPbQVszt
+
+![000_raw/013AkPbQVszt.png](/000_raw/013AkPbQVszt.png)
+
+
+| label | GT | Pred | accurate |
+|:----|----|----|----|
+| Man | 1 | 1 | 🟢 |
+| Woman | 1 | 1 | 🟢 |
+| Person | 1 | 1 | 🟢 |
+
+```
+The photograph features a large statue of a man's bust on top of a rectangular stone pillar with the name "Ibsen" inscribed at the base. The statue appears to be made of bronze or another metal and has a dark patina.
+
+In front of the statue, there are several people standing in two rows. The first row consists of three men wearing suits and hats, while the second row has five women dressed in long skirts and blouses. They all appear to be looking at the camera with serious expressions.
+
+Behind the group of people, there is a building with a large window on the left side. The sky above is overcast, suggesting that it may have been taken on a cloudy day.
+
+Overall, the image suggests that this could be a historical event or ceremony related to Henrik Ibsen, a famous Norwegian playwright and poet. The presence of dignitaries and the formal attire worn by the individuals in the photograph support this interpretation.
 ```

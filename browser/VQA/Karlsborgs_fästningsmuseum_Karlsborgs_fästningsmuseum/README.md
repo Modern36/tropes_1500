@@ -44,9 +44,23 @@ weighted avg       1.00      0.25      0.40         4
 
 
 
-## 02TzY7eEMM
+## 04TzeWG8Md
 
-![000_raw/02TzY7eEMM.png](/000_raw/02TzY7eEMM.png)
+![000_raw/04TzeWG8Md.png](/000_raw/04TzeWG8Md.png)
+
+
+| label | GT | Pred | accurate |
+|:----|----|----|----|
+| Man | 1 | 1 | 🟢 |
+| Woman | 0 | 1 | 🟥 |
+| Person | 1 | 1 | 🟢 |
+
+
+
+
+## 01TzY7eDk2
+
+![000_raw/01TzY7eDk2.png](/000_raw/01TzY7eDk2.png)
 
 
 | label | GT | Pred | accurate |
@@ -72,23 +86,9 @@ weighted avg       1.00      0.25      0.40         4
 
 
 
-## 04TzeWG8Md
+## 02TzY7eEMM
 
-![000_raw/04TzeWG8Md.png](/000_raw/04TzeWG8Md.png)
-
-
-| label | GT | Pred | accurate |
-|:----|----|----|----|
-| Man | 1 | 1 | 🟢 |
-| Woman | 0 | 1 | 🟥 |
-| Person | 1 | 1 | 🟢 |
-
-
-
-
-## 01TzY7eDk2
-
-![000_raw/01TzY7eDk2.png](/000_raw/01TzY7eDk2.png)
+![000_raw/02TzY7eEMM.png](/000_raw/02TzY7eEMM.png)
 
 
 | label | GT | Pred | accurate |
