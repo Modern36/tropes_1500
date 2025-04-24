@@ -9,6 +9,8 @@ one_char = {
     "VQA": "V",
     "DinoManWoman": "M",
     "DinoWomanMan": "W",
+    "DinoManWoman2": "M2",
+    "DinoWomanMan2": "W2",
     "llama-desc": "L",
 }
 
