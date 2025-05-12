@@ -12,12 +12,12 @@ This file contains 141 images processed by the model: llama-desc
 ```
               precision    recall  f1-score   support
 
-           0       0.82      0.93      0.87        87
-           1       0.86      0.67      0.75        54
+           0       0.82      0.90      0.86        87
+           1       0.80      0.69      0.74        54
 
-    accuracy                           0.83       141
-   macro avg       0.84      0.80      0.81       141
-weighted avg       0.83      0.83      0.82       141
+    accuracy                           0.82       141
+   macro avg       0.81      0.79      0.80       141
+weighted avg       0.81      0.82      0.81       141
 
 ```
 
@@ -28,12 +28,12 @@ weighted avg       0.83      0.83      0.82       141
 ```
               precision    recall  f1-score   support
 
-           0       0.92      0.92      0.92        98
-           1       0.81      0.81      0.81        43
+           0       0.92      0.89      0.90        98
+           1       0.76      0.81      0.79        43
 
-    accuracy                           0.89       141
-   macro avg       0.87      0.87      0.87       141
-weighted avg       0.89      0.89      0.89       141
+    accuracy                           0.87       141
+   macro avg       0.84      0.85      0.84       141
+weighted avg       0.87      0.87      0.87       141
 
 ```
 
@@ -44,12 +44,12 @@ weighted avg       0.89      0.89      0.89       141
 ```
               precision    recall  f1-score   support
 
-           0       0.77      0.96      0.85        46
-           1       0.98      0.86      0.92        95
+           0       0.79      0.96      0.86        46
+           1       0.98      0.87      0.92        95
 
-    accuracy                           0.89       141
-   macro avg       0.87      0.91      0.89       141
-weighted avg       0.91      0.89      0.90       141
+    accuracy                           0.90       141
+   macro avg       0.88      0.92      0.89       141
+weighted avg       0.91      0.90      0.90       141
 
 ```
 
@@ -182,7 +182,7 @@ There do not appear to be any women or children in this photograph.
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
 | Woman | 0 | 0 | 🟢 |
-| Person | 1 | 0 | 🟥 |
+| Person | 1 | 1 | 🟢 |
 
 ```
 The photograph shows a baby wearing no clothes except for shoes. The child's gender cannot be determined from this image because the child appears too young to determine its sex and there are no visible clues such as hair length or style, facial features, or clothing that would indicate whether it is male or female.
@@ -423,7 +423,7 @@ Given the absence of any human subjects in the provided visual content, it is no
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 1 | 🟢 |
-| Woman | 1 | 0 | 🟥 |
+| Woman | 1 | 1 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -579,7 +579,7 @@ The overall atmosphere suggests a solemn occasion, possibly a funeral or memoria
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 0 | 0 | 🟢 |
+| Man | 0 | 1 | 🟥 |
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
@@ -676,7 +676,7 @@ Based on these observations, it can be inferred that the person in the photograp
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
-| Woman | 0 | 0 | 🟢 |
+| Woman | 0 | 1 | 🟥 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -900,8 +900,8 @@ Both women appear to be adults, likely in their 20s or 30s. They are dressed in 
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 0 | 0 | 🟢 |
-| Woman | 0 | 0 | 🟢 |
+| Man | 0 | 1 | 🟥 |
+| Woman | 0 | 1 | 🟥 |
 | Person | 0 | 1 | 🟥 |
 
 ```
@@ -925,8 +925,8 @@ Overall, based on their clothing and body language, it appears that the people i
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 1 | 0 | 🟥 |
-| Woman | 1 | 0 | 🟥 |
+| Man | 1 | 1 | 🟢 |
+| Woman | 1 | 1 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -1085,7 +1085,7 @@ Overall, while there are limited details available from this photograph alone, i
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
 | Woman | 0 | 0 | 🟢 |
-| Person | 1 | 0 | 🟥 |
+| Person | 1 | 1 | 🟢 |
 
 ```
 The photograph depicts a baby sitting in an ornate chair, adorned with feathers and velvet. The baby is dressed in a white outfit and appears to be approximately six months old.
@@ -1263,7 +1263,7 @@ Both girls are looking directly at the camera with neutral expressions. In their
 |:----|----|----|----|
 | Man | 1 | 0 | 🟥 |
 | Woman | 1 | 0 | 🟥 |
-| Person | 1 | 1 | 🟢 |
+| Person | 1 | 0 | 🟥 |
 
 ```
 The photograph depicts a formal dinner party with 12 adults seated around a long table, dressed in attire typical of the early 20th century. The men wear suits and bow ties, while the women wear dresses. There are no children present in the image.
@@ -1416,7 +1416,7 @@ There do not appear to be any people visible in this photograph. The image depic
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 0 | 0 | 🟢 |
+| Man | 0 | 1 | 🟥 |
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
@@ -1870,7 +1870,7 @@ Overall, the photograph provides a glimpse into the lives of these workers durin
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
-| Woman | 0 | 0 | 🟢 |
+| Woman | 0 | 1 | 🟥 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -2190,7 +2190,7 @@ There are no people visible in this photograph. The image appears to be a black-
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
-| Woman | 0 | 0 | 🟢 |
+| Woman | 0 | 1 | 🟥 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -2458,7 +2458,7 @@ There do not appear to be any people visible in this photograph. The image depic
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
-| Woman | 1 | 0 | 🟥 |
+| Woman | 1 | 1 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -2669,7 +2669,7 @@ Given the absence of individuals in the photograph, it is not possible to determ
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 1 | 🟢 |
-| Woman | 1 | 1 | 🟢 |
+| Woman | 1 | 0 | 🟥 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -2974,7 +2974,7 @@ The image is too grainy and dark to make out many other details about the people
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
-| Woman | 0 | 1 | 🟥 |
+| Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -3023,8 +3023,8 @@ Overall, the photograph presents a diverse group of people, with a mix of ages, 
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 1 | 1 | 🟢 |
-| Woman | 1 | 1 | 🟢 |
+| Man | 1 | 0 | 🟥 |
+| Woman | 1 | 0 | 🟥 |
 | Person | 1 | 1 | 🟢 |
 
 ```

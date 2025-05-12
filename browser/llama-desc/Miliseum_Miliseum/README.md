@@ -12,12 +12,12 @@ This file contains 19 images processed by the model: llama-desc
 ```
               precision    recall  f1-score   support
 
-           0       0.82      0.88      0.85        16
-           1       0.00      0.00      0.00         3
+           0       0.88      0.88      0.88        16
+           1       0.33      0.33      0.33         3
 
-    accuracy                           0.74        19
-   macro avg       0.41      0.44      0.42        19
-weighted avg       0.69      0.74      0.71        19
+    accuracy                           0.79        19
+   macro avg       0.60      0.60      0.60        19
+weighted avg       0.79      0.79      0.79        19
 
 ```
 
@@ -279,7 +279,7 @@ Overall, the photograph provides a glimpse into the lives of soldiers during war
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 1 | 🟢 |
-| Woman | 1 | 0 | 🟥 |
+| Woman | 1 | 1 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```

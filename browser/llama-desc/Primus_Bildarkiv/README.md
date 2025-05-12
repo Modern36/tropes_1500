@@ -12,12 +12,12 @@ This file contains 54 images processed by the model: llama-desc
 ```
               precision    recall  f1-score   support
 
-           0       0.81      0.97      0.89        40
-           1       0.83      0.36      0.50        14
+           0       0.88      0.95      0.92        40
+           1       0.82      0.64      0.72        14
 
-    accuracy                           0.81        54
-   macro avg       0.82      0.67      0.69        54
-weighted avg       0.82      0.81      0.79        54
+    accuracy                           0.87        54
+   macro avg       0.85      0.80      0.82        54
+weighted avg       0.87      0.87      0.86        54
 
 ```
 
@@ -28,12 +28,12 @@ weighted avg       0.82      0.81      0.79        54
 ```
               precision    recall  f1-score   support
 
-           0       0.93      0.97      0.95        40
-           1       0.92      0.79      0.85        14
+           0       0.95      0.97      0.96        40
+           1       0.92      0.86      0.89        14
 
-    accuracy                           0.93        54
-   macro avg       0.92      0.88      0.90        54
-weighted avg       0.93      0.93      0.92        54
+    accuracy                           0.94        54
+   macro avg       0.94      0.92      0.93        54
+weighted avg       0.94      0.94      0.94        54
 
 ```
 
@@ -44,12 +44,12 @@ weighted avg       0.93      0.93      0.92        54
 ```
               precision    recall  f1-score   support
 
-           0       0.94      0.91      0.93        35
-           1       0.85      0.89      0.87        19
+           0       0.91      0.91      0.91        35
+           1       0.84      0.84      0.84        19
 
-    accuracy                           0.91        54
-   macro avg       0.90      0.90      0.90        54
-weighted avg       0.91      0.91      0.91        54
+    accuracy                           0.89        54
+   macro avg       0.88      0.88      0.88        54
+weighted avg       0.89      0.89      0.89        54
 
 ```
 
@@ -340,7 +340,7 @@ There are no people visible in this photograph. The image appears to be a black-
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 0 | 🟥 |
-| Woman | 1 | 0 | 🟥 |
+| Woman | 1 | 1 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -795,7 +795,7 @@ There are no people visible in this photograph. The image appears to be a serene
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 1 | 🟢 |
-| Woman | 0 | 0 | 🟢 |
+| Woman | 0 | 1 | 🟥 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -839,7 +839,7 @@ In summary, there are no people present in this photograph to analyze or describ
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 1 | 🟢 |
-| Woman | 1 | 0 | 🟥 |
+| Woman | 1 | 1 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -928,7 +928,7 @@ In the background, there is another person standing near the base of the bridge 
 |:----|----|----|----|
 | Man | 1 | 0 | 🟥 |
 | Woman | 1 | 0 | 🟥 |
-| Person | 1 | 1 | 🟢 |
+| Person | 1 | 0 | 🟥 |
 
 ```
 The photograph depicts a group of eight individuals, comprising four men and four women, arranged in two rows. The front row features three women seated on chairs, while the back row consists of five standing individuals - three men and two women.
@@ -1084,8 +1084,8 @@ There are no individuals visible in this picture. The scene appears to be a sere
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 1 | 0 | 🟥 |
-| Woman | 1 | 0 | 🟥 |
+| Man | 1 | 1 | 🟢 |
+| Woman | 1 | 1 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -1127,7 +1127,7 @@ Overall, based on their clothing and hairstyles, it appears that this photograph
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 1 | 🟢 |
-| Woman | 1 | 0 | 🟥 |
+| Woman | 1 | 1 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```

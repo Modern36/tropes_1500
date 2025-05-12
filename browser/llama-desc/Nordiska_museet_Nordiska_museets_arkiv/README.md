@@ -12,12 +12,12 @@ This file contains 36 images processed by the model: llama-desc
 ```
               precision    recall  f1-score   support
 
-           0       0.63      0.89      0.74        19
-           1       0.78      0.41      0.54        17
+           0       0.65      0.89      0.76        19
+           1       0.80      0.47      0.59        17
 
-    accuracy                           0.67        36
-   macro avg       0.70      0.65      0.64        36
-weighted avg       0.70      0.67      0.64        36
+    accuracy                           0.69        36
+   macro avg       0.73      0.68      0.67        36
+weighted avg       0.72      0.69      0.68        36
 
 ```
 
@@ -28,12 +28,12 @@ weighted avg       0.70      0.67      0.64        36
 ```
               precision    recall  f1-score   support
 
-           0       0.78      1.00      0.88        21
-           1       1.00      0.60      0.75        15
+           0       0.75      1.00      0.86        21
+           1       1.00      0.53      0.70        15
 
-    accuracy                           0.83        36
-   macro avg       0.89      0.80      0.81        36
-weighted avg       0.87      0.83      0.82        36
+    accuracy                           0.81        36
+   macro avg       0.88      0.77      0.78        36
+weighted avg       0.85      0.81      0.79        36
 
 ```
 
@@ -44,12 +44,12 @@ weighted avg       0.87      0.83      0.82        36
 ```
               precision    recall  f1-score   support
 
-           0       0.53      1.00      0.70         8
-           1       1.00      0.75      0.86        28
+           0       0.50      1.00      0.67         8
+           1       1.00      0.71      0.83        28
 
-    accuracy                           0.81        36
-   macro avg       0.77      0.88      0.78        36
-weighted avg       0.90      0.81      0.82        36
+    accuracy                           0.78        36
+   macro avg       0.75      0.86      0.75        36
+weighted avg       0.89      0.78      0.80        36
 
 ```
 
@@ -141,7 +141,7 @@ There are no people visible in this photograph. The scene appears to be a serene
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
 | Woman | 1 | 0 | 🟥 |
-| Person | 1 | 1 | 🟢 |
+| Person | 1 | 0 | 🟥 |
 
 ```
 The photograph depicts a young boy sitting on the ground, accompanied by an older woman standing behind him. The boy is dressed in a light-colored shirt and shorts, while the woman wears a dark dress with white polka dots.
@@ -603,7 +603,7 @@ Overall, the photograph presents a portrait of an elegantly dressed woman from a
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 1 | 1 | 🟢 |
+| Man | 1 | 0 | 🟥 |
 | Woman | 1 | 0 | 🟥 |
 | Person | 1 | 1 | 🟢 |
 
@@ -888,7 +888,7 @@ In addition to these individuals, there is also a dog present in the scene. The 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
-| Woman | 1 | 0 | 🟥 |
+| Woman | 1 | 1 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```

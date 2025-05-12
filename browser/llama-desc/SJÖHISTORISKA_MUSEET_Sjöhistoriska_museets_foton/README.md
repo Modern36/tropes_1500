@@ -12,12 +12,12 @@ This file contains 30 images processed by the model: llama-desc
 ```
               precision    recall  f1-score   support
 
-           0       0.92      0.96      0.94        25
-           1       0.75      0.60      0.67         5
+           0       0.96      0.92      0.94        25
+           1       0.67      0.80      0.73         5
 
     accuracy                           0.90        30
-   macro avg       0.84      0.78      0.80        30
-weighted avg       0.89      0.90      0.90        30
+   macro avg       0.81      0.86      0.83        30
+weighted avg       0.91      0.90      0.90        30
 
 ```
 
@@ -28,12 +28,12 @@ weighted avg       0.89      0.90      0.90        30
 ```
               precision    recall  f1-score   support
 
-           0       0.83      0.94      0.88        16
-           1       0.92      0.79      0.85        14
+           0       0.80      1.00      0.89        16
+           1       1.00      0.71      0.83        14
 
     accuracy                           0.87        30
-   macro avg       0.88      0.86      0.86        30
-weighted avg       0.87      0.87      0.87        30
+   macro avg       0.90      0.86      0.86        30
+weighted avg       0.89      0.87      0.86        30
 
 ```
 
@@ -107,7 +107,7 @@ Given the absence of individuals, it is not possible to determine gender, age, o
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 1 | 🟢 |
-| Woman | 0 | 0 | 🟢 |
+| Woman | 0 | 1 | 🟥 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -150,8 +150,8 @@ The image shows a harbor with several boats docked at the pier, but there are no
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 1 | 1 | 🟢 |
-| Woman | 1 | 1 | 🟢 |
+| Man | 1 | 0 | 🟥 |
+| Woman | 1 | 0 | 🟥 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -195,7 +195,7 @@ There do not appear to be any people visible in this image. The photograph depic
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 1 | 🟢 |
-| Woman | 1 | 0 | 🟥 |
+| Woman | 1 | 1 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -444,8 +444,8 @@ It's worth noting that the photograph may have been taken from a distance or at 
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 0 | 1 | 🟥 |
-| Woman | 0 | 1 | 🟥 |
+| Man | 0 | 0 | 🟢 |
+| Woman | 0 | 0 | 🟢 |
 | Person | 0 | 1 | 🟥 |
 
 ```
@@ -508,7 +508,7 @@ There are no individuals visible in this photograph. The scene depicted appears 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 1 | 🟢 |
-| Woman | 0 | 0 | 🟢 |
+| Woman | 0 | 1 | 🟥 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -758,7 +758,7 @@ The absence of people in the photograph makes it difficult to determine any spec
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 1 | 🟢 |
-| Woman | 1 | 0 | 🟥 |
+| Woman | 1 | 1 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```

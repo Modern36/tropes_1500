@@ -12,12 +12,12 @@ This file contains 175 images processed by the model: llama-desc
 ```
               precision    recall  f1-score   support
 
-           0       0.79      0.95      0.86       117
-           1       0.83      0.50      0.62        58
+           0       0.81      0.94      0.87       117
+           1       0.82      0.57      0.67        58
 
-    accuracy                           0.80       175
-   macro avg       0.81      0.72      0.74       175
-weighted avg       0.80      0.80      0.78       175
+    accuracy                           0.82       175
+   macro avg       0.82      0.75      0.77       175
+weighted avg       0.82      0.82      0.81       175
 
 ```
 
@@ -28,12 +28,12 @@ weighted avg       0.80      0.80      0.78       175
 ```
               precision    recall  f1-score   support
 
-           0       0.80      0.91      0.85        96
-           1       0.86      0.72      0.79        79
+           0       0.82      0.93      0.87        96
+           1       0.89      0.75      0.81        79
 
-    accuracy                           0.82       175
-   macro avg       0.83      0.81      0.82       175
-weighted avg       0.83      0.82      0.82       175
+    accuracy                           0.85       175
+   macro avg       0.86      0.84      0.84       175
+weighted avg       0.85      0.85      0.84       175
 
 ```
 
@@ -232,7 +232,7 @@ There are no individuals visible in this picture. The photograph depicts a rural
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 1 | 🟢 |
-| Woman | 0 | 0 | 🟢 |
+| Woman | 0 | 1 | 🟥 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -597,8 +597,8 @@ There do not appear to be any people visible in this image.
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 1 | 0 | 🟥 |
-| Woman | 1 | 0 | 🟥 |
+| Man | 1 | 1 | 🟢 |
+| Woman | 1 | 1 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -856,7 +856,7 @@ There are no individuals visible in this photograph. The scene appears to depict
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 0 | 🟥 |
-| Woman | 1 | 0 | 🟥 |
+| Woman | 1 | 1 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -1139,7 +1139,7 @@ Overall, the photograph presents a dignified and refined portrait of a woman fro
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 0 | 1 | 🟥 |
-| Woman | 1 | 0 | 🟥 |
+| Woman | 1 | 1 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -1260,7 +1260,7 @@ There are no people visible in the photograph. The image appears to be a serene 
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 0 | 1 | 🟥 |
+| Man | 0 | 0 | 🟢 |
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
@@ -1319,8 +1319,8 @@ There are no people visible in this photograph. The image depicts a church or ot
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 1 | 0 | 🟥 |
-| Woman | 1 | 0 | 🟥 |
+| Man | 1 | 1 | 🟢 |
+| Woman | 1 | 1 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -1730,8 +1730,8 @@ There are no people present in this photograph. The image depicts a bicycle with
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 1 | 1 | 🟢 |
-| Woman | 1 | 1 | 🟢 |
+| Man | 1 | 0 | 🟥 |
+| Woman | 1 | 0 | 🟥 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -2230,7 +2230,7 @@ Therefore, there are no individuals present in the scene that can be described b
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 1 | 🟢 |
-| Woman | 1 | 0 | 🟥 |
+| Woman | 1 | 1 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -2857,7 +2857,7 @@ There are no other people visible in the background or anywhere else in the imag
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
 | Woman | 0 | 0 | 🟢 |
-| Person | 1 | 0 | 🟥 |
+| Person | 1 | 1 | 🟢 |
 
 ```
 The image depicts two young boys, likely brothers, posing for a formal portrait. The boy on the left has short hair and wears a dark-colored suit with a white shirt and bow tie. He stands slightly behind his brother, who is positioned in front of him.
@@ -2991,7 +2991,7 @@ Overall, the image captures a lively and playful scene, showcasing the creativit
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 0 | 1 | 🟥 |
+| Man | 0 | 0 | 🟢 |
 | Woman | 1 | 0 | 🟥 |
 | Person | 1 | 1 | 🟢 |
 
@@ -3262,8 +3262,8 @@ There do not appear to be any people visible in this photograph. The image shows
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 1 | 0 | 🟥 |
-| Woman | 1 | 0 | 🟥 |
+| Man | 1 | 1 | 🟢 |
+| Woman | 1 | 1 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -3353,7 +3353,7 @@ The scene appears to be an empty landscape with the building as its central feat
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
-| Woman | 0 | 0 | 🟢 |
+| Woman | 0 | 1 | 🟥 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -3635,7 +3635,7 @@ In conclusion, based on the visual cues provided by the photograph, there is onl
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
-| Woman | 1 | 1 | 🟢 |
+| Woman | 1 | 0 | 🟥 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -3800,7 +3800,7 @@ There are no people visible in the photograph. The image appears to be an interi
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 1 | 🟢 |
-| Woman | 1 | 1 | 🟢 |
+| Woman | 1 | 0 | 🟥 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -3822,8 +3822,8 @@ In the background, there are no visible children or individuals who could be cle
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 1 | 0 | 🟥 |
-| Woman | 1 | 0 | 🟥 |
+| Man | 1 | 1 | 🟢 |
+| Woman | 1 | 1 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -4001,9 +4001,9 @@ Overall, the photograph appears to depict a peaceful scene of everyday life near
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 1 | 1 | 🟢 |
-| Woman | 0 | 1 | 🟥 |
-| Person | 1 | 1 | 🟢 |
+| Man | 1 | 0 | 🟥 |
+| Woman | 0 | 0 | 🟢 |
+| Person | 1 | 0 | 🟥 |
 
 ```
 The photograph depicts a black-and-white scene of an old ship docked at a harbor or pier, with several people visible on board and along the shore. The individuals present can be categorized as follows:

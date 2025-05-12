@@ -12,12 +12,12 @@ This file contains 206 images processed by the model: llama-desc
 ```
               precision    recall  f1-score   support
 
-           0       0.88      0.96      0.92       154
-           1       0.84      0.62      0.71        52
+           0       0.90      0.97      0.93       154
+           1       0.88      0.67      0.76        52
 
-    accuracy                           0.87       206
-   macro avg       0.86      0.79      0.82       206
-weighted avg       0.87      0.87      0.87       206
+    accuracy                           0.89       206
+   macro avg       0.89      0.82      0.85       206
+weighted avg       0.89      0.89      0.89       206
 
 ```
 
@@ -28,12 +28,12 @@ weighted avg       0.87      0.87      0.87       206
 ```
               precision    recall  f1-score   support
 
-           0       0.85      0.98      0.91       129
-           1       0.96      0.70      0.81        77
+           0       0.82      0.98      0.90       129
+           1       0.96      0.65      0.78        77
 
-    accuracy                           0.88       206
-   macro avg       0.91      0.84      0.86       206
-weighted avg       0.89      0.88      0.87       206
+    accuracy                           0.86       206
+   macro avg       0.89      0.82      0.84       206
+weighted avg       0.88      0.86      0.85       206
 
 ```
 
@@ -45,11 +45,11 @@ weighted avg       0.89      0.88      0.87       206
               precision    recall  f1-score   support
 
            0       0.86      0.99      0.92       103
-           1       0.99      0.84      0.91       103
+           1       0.99      0.83      0.91       103
 
-    accuracy                           0.92       206
-   macro avg       0.93      0.92      0.92       206
-weighted avg       0.93      0.92      0.92       206
+    accuracy                           0.91       206
+   macro avg       0.92      0.91      0.91       206
+weighted avg       0.92      0.91      0.91       206
 
 ```
 
@@ -104,7 +104,7 @@ There do not appear to be any people shown in this image.
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 1 | 1 | 🟢 |
+| Man | 1 | 0 | 🟥 |
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
@@ -566,7 +566,7 @@ There are no individuals visible in this photograph.
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
-| Woman | 1 | 0 | 🟥 |
+| Woman | 1 | 1 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -966,9 +966,9 @@ There are no people in this photograph. The image appears to be a black-and-whit
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 1 | 1 | 🟢 |
-| Woman | 1 | 1 | 🟢 |
-| Person | 1 | 1 | 🟢 |
+| Man | 1 | 0 | 🟥 |
+| Woman | 1 | 0 | 🟥 |
+| Person | 1 | 0 | 🟥 |
 
 ```
 The photograph features a group of individuals, with some being clearly visible and others partially hidden or out of focus.
@@ -1043,7 +1043,7 @@ There are no people visible in this photograph. The image features a vase with f
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 0 | 🟥 |
-| Woman | 0 | 0 | 🟢 |
+| Woman | 0 | 1 | 🟥 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -1068,7 +1068,7 @@ In summary, while there may not be any other people visible in the background or
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
-| Woman | 1 | 0 | 🟥 |
+| Woman | 1 | 1 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -1597,8 +1597,8 @@ There are no people visible in this photograph. The image depicts a rocky beach 
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 1 | 1 | 🟢 |
-| Woman | 0 | 1 | 🟥 |
+| Man | 1 | 0 | 🟥 |
+| Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -2008,7 +2008,7 @@ There are no individuals present in this photograph. The image depicts a room wi
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
-| Woman | 1 | 0 | 🟥 |
+| Woman | 1 | 1 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -3636,8 +3636,8 @@ In the background, there is another man wearing a similar uniform, although he i
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 1 | 1 | 🟢 |
-| Woman | 1 | 1 | 🟢 |
+| Man | 1 | 0 | 🟥 |
+| Woman | 1 | 0 | 🟥 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -4194,7 +4194,7 @@ There does not appear to be any people visible within this photograph.
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 1 | 🟢 |
-| Woman | 1 | 0 | 🟥 |
+| Woman | 1 | 1 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -4502,8 +4502,8 @@ There are no people visible in this photograph.
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 1 | 0 | 🟥 |
-| Woman | 1 | 0 | 🟥 |
+| Man | 1 | 1 | 🟢 |
+| Woman | 1 | 1 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -4619,8 +4619,8 @@ In the background, there are no other people visible. The focus of the image is 
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 1 | 1 | 🟢 |
-| Woman | 0 | 1 | 🟥 |
+| Man | 1 | 0 | 🟥 |
+| Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```

@@ -28,12 +28,12 @@ weighted avg       1.00      1.00      1.00        15
 ```
               precision    recall  f1-score   support
 
-           0       0.62      1.00      0.77         5
-           1       1.00      0.70      0.82        10
+           0       0.71      1.00      0.83         5
+           1       1.00      0.80      0.89        10
 
-    accuracy                           0.80        15
-   macro avg       0.81      0.85      0.80        15
-weighted avg       0.88      0.80      0.81        15
+    accuracy                           0.87        15
+   macro avg       0.86      0.90      0.86        15
+weighted avg       0.90      0.87      0.87        15
 
 ```
 
@@ -342,7 +342,7 @@ Overall, the image suggests a formal gathering or meeting among military personn
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 1 | 0 | 🟥 |
+| Man | 1 | 1 | 🟢 |
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 

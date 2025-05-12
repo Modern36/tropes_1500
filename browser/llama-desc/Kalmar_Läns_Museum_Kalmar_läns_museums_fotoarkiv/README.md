@@ -12,12 +12,12 @@ This file contains 91 images processed by the model: llama-desc
 ```
               precision    recall  f1-score   support
 
-           0       0.96      1.00      0.98        85
-           1       1.00      0.33      0.50         6
+           0       0.94      1.00      0.97        85
+           1       1.00      0.17      0.29         6
 
-    accuracy                           0.96        91
-   macro avg       0.98      0.67      0.74        91
-weighted avg       0.96      0.96      0.95        91
+    accuracy                           0.95        91
+   macro avg       0.97      0.58      0.63        91
+weighted avg       0.95      0.95      0.93        91
 
 ```
 
@@ -44,12 +44,12 @@ weighted avg       0.89      0.89      0.87        91
 ```
               precision    recall  f1-score   support
 
-           0       0.88      0.96      0.92        69
-           1       0.81      0.59      0.68        22
+           0       0.88      0.97      0.92        69
+           1       0.87      0.59      0.70        22
 
-    accuracy                           0.87        91
-   macro avg       0.85      0.77      0.80        91
-weighted avg       0.86      0.87      0.86        91
+    accuracy                           0.88        91
+   macro avg       0.87      0.78      0.81        91
+weighted avg       0.88      0.88      0.87        91
 
 ```
 
@@ -1180,7 +1180,7 @@ There are no individuals visible in this photo.
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 1 | 🟢 |
-| Woman | 1 | 1 | 🟢 |
+| Woman | 1 | 0 | 🟥 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -1231,7 +1231,7 @@ In the background, there are several other boats visible, including what appears
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
 | Woman | 0 | 0 | 🟢 |
-| Person | 0 | 1 | 🟥 |
+| Person | 0 | 0 | 🟢 |
 
 ```
 The image shows a black-and-white photograph of an old room with white walls, wood floors, several paintings on the wall and two wooden trunks. There are no people shown in this picture.

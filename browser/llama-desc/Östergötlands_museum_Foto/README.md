@@ -12,12 +12,12 @@ This file contains 76 images processed by the model: llama-desc
 ```
               precision    recall  f1-score   support
 
-           0       0.88      1.00      0.93        56
-           1       1.00      0.60      0.75        20
+           0       0.90      0.98      0.94        56
+           1       0.93      0.70      0.80        20
 
-    accuracy                           0.89        76
-   macro avg       0.94      0.80      0.84        76
-weighted avg       0.91      0.89      0.89        76
+    accuracy                           0.91        76
+   macro avg       0.92      0.84      0.87        76
+weighted avg       0.91      0.91      0.90        76
 
 ```
 
@@ -28,12 +28,12 @@ weighted avg       0.91      0.89      0.89        76
 ```
               precision    recall  f1-score   support
 
-           0       0.89      0.98      0.93        48
-           1       0.96      0.79      0.86        28
+           0       0.89      1.00      0.94        48
+           1       1.00      0.79      0.88        28
 
-    accuracy                           0.91        76
-   macro avg       0.92      0.88      0.90        76
-weighted avg       0.91      0.91      0.91        76
+    accuracy                           0.92        76
+   macro avg       0.94      0.89      0.91        76
+weighted avg       0.93      0.92      0.92        76
 
 ```
 
@@ -44,12 +44,12 @@ weighted avg       0.91      0.91      0.91        76
 ```
               precision    recall  f1-score   support
 
-           0       0.80      0.97      0.88        37
-           1       0.97      0.77      0.86        39
+           0       0.82      0.97      0.89        37
+           1       0.97      0.79      0.87        39
 
-    accuracy                           0.87        76
-   macro avg       0.88      0.87      0.87        76
-weighted avg       0.89      0.87      0.87        76
+    accuracy                           0.88        76
+   macro avg       0.89      0.88      0.88        76
+weighted avg       0.90      0.88      0.88        76
 
 ```
 
@@ -184,8 +184,8 @@ There are no people visible in this photograph. The image appears to be a street
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 0 | 1 | 🟥 |
-| Woman | 1 | 1 | 🟢 |
+| Man | 0 | 0 | 🟢 |
+| Woman | 1 | 0 | 🟥 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -1111,7 +1111,7 @@ Overall, based on their clothing and body language, it can be inferred that the 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 0 | 🟥 |
-| Woman | 1 | 0 | 🟥 |
+| Woman | 1 | 1 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -1155,7 +1155,7 @@ There are no individuals visible in this photograph. The image appears to be an 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 1 | 🟢 |
-| Woman | 0 | 0 | 🟢 |
+| Woman | 0 | 1 | 🟥 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -1395,7 +1395,7 @@ In terms of gender identification based on clothing, since there are no people p
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
-| Woman | 1 | 0 | 🟥 |
+| Woman | 1 | 1 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -1443,7 +1443,7 @@ The background consists of a plain wall that appears to be made from wooden pane
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 1 | 🟢 |
-| Woman | 1 | 0 | 🟥 |
+| Woman | 1 | 1 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -1718,7 +1718,7 @@ There are no individuals present in this photograph. The image features a collec
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
 | Woman | 0 | 0 | 🟢 |
-| Person | 1 | 0 | 🟥 |
+| Person | 1 | 1 | 🟢 |
 
 ```
 The photograph features three young girls posing together for a photo.

@@ -12,12 +12,12 @@ This file contains 85 images processed by the model: llama-desc
 ```
               precision    recall  f1-score   support
 
-           0       0.85      0.90      0.87        50
-           1       0.84      0.77      0.81        35
+           0       0.90      0.94      0.92        50
+           1       0.91      0.86      0.88        35
 
-    accuracy                           0.85        85
-   macro avg       0.85      0.84      0.84        85
-weighted avg       0.85      0.85      0.85        85
+    accuracy                           0.91        85
+   macro avg       0.91      0.90      0.90        85
+weighted avg       0.91      0.91      0.91        85
 
 ```
 
@@ -28,12 +28,12 @@ weighted avg       0.85      0.85      0.85        85
 ```
               precision    recall  f1-score   support
 
-           0       0.89      0.96      0.93        52
-           1       0.93      0.82      0.87        33
+           0       0.92      0.94      0.93        52
+           1       0.91      0.88      0.89        33
 
-    accuracy                           0.91        85
-   macro avg       0.91      0.89      0.90        85
-weighted avg       0.91      0.91      0.90        85
+    accuracy                           0.92        85
+   macro avg       0.92      0.91      0.91        85
+weighted avg       0.92      0.92      0.92        85
 
 ```
 
@@ -44,12 +44,12 @@ weighted avg       0.91      0.91      0.90        85
 ```
               precision    recall  f1-score   support
 
-           0       0.80      1.00      0.89        24
-           1       1.00      0.90      0.95        61
+           0       0.83      1.00      0.91        24
+           1       1.00      0.92      0.96        61
 
-    accuracy                           0.93        85
-   macro avg       0.90      0.95      0.92        85
-weighted avg       0.94      0.93      0.93        85
+    accuracy                           0.94        85
+   macro avg       0.91      0.96      0.93        85
+weighted avg       0.95      0.94      0.94        85
 
 ```
 
@@ -83,7 +83,7 @@ As there are no individuals present in the image, I am unable to provide any det
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 0 | 0 | 🟢 |
+| Man | 0 | 1 | 🟥 |
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
@@ -119,8 +119,8 @@ The photograph captures a moment of formality and possibly celebration, given th
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 1 | 0 | 🟥 |
-| Woman | 1 | 0 | 🟥 |
+| Man | 1 | 1 | 🟢 |
+| Woman | 1 | 1 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -364,7 +364,7 @@ There are no individuals visible in this photograph. The image appears to be an 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
-| Woman | 0 | 1 | 🟥 |
+| Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -545,8 +545,8 @@ In the background, there is no discernible scenery or objects that would provide
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 1 | 0 | 🟥 |
-| Woman | 1 | 0 | 🟥 |
+| Man | 1 | 1 | 🟢 |
+| Woman | 1 | 1 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -751,7 +751,7 @@ If you're looking for more information about the people in the image, I recommen
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
 | Woman | 0 | 0 | 🟢 |
-| Person | 1 | 0 | 🟥 |
+| Person | 1 | 1 | 🟢 |
 
 ```
 The image depicts a baby sitting on the floor, with no other individuals visible in the scene. The infant is positioned centrally in the frame, facing forward and looking directly at the camera.
@@ -828,7 +828,7 @@ In the background, there are no other people visible. However, it's worth noting
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
-| Woman | 1 | 1 | 🟢 |
+| Woman | 1 | 0 | 🟥 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -1161,7 +1161,7 @@ Overall, the image presents a clear and well-defined portrait of a single indivi
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
-| Woman | 1 | 0 | 🟥 |
+| Woman | 1 | 1 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -1205,7 +1205,7 @@ There are no women or children present in the photograph.
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
-| Woman | 0 | 1 | 🟥 |
+| Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -1937,7 +1937,7 @@ There is no one in this photograph. The image depicts a house with a large tree 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
-| Woman | 1 | 0 | 🟥 |
+| Woman | 1 | 1 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```

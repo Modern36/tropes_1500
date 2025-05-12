@@ -12,12 +12,12 @@ This file contains 4 images processed by the model: llama-desc
 ```
               precision    recall  f1-score   support
 
-           0       0.50      1.00      0.67         2
-           1       0.00      0.00      0.00         2
+           0       0.50      0.50      0.50         2
+           1       0.50      0.50      0.50         2
 
     accuracy                           0.50         4
-   macro avg       0.25      0.50      0.33         4
-weighted avg       0.25      0.50      0.33         4
+   macro avg       0.50      0.50      0.50         4
+weighted avg       0.50      0.50      0.50         4
 
 ```
 
@@ -28,12 +28,12 @@ weighted avg       0.25      0.50      0.33         4
 ```
               precision    recall  f1-score   support
 
-           0       0.67      1.00      0.80         2
-           1       1.00      0.50      0.67         2
+           0       0.50      0.50      0.50         2
+           1       0.50      0.50      0.50         2
 
-    accuracy                           0.75         4
-   macro avg       0.83      0.75      0.73         4
-weighted avg       0.83      0.75      0.73         4
+    accuracy                           0.50         4
+   macro avg       0.50      0.50      0.50         4
+weighted avg       0.50      0.50      0.50         4
 
 ```
 
@@ -98,8 +98,8 @@ In summary, there appear to be six men present within this historical photograph
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 0 | 0 | 🟢 |
-| Woman | 0 | 0 | 🟢 |
+| Man | 0 | 1 | 🟥 |
+| Woman | 0 | 1 | 🟥 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -122,7 +122,7 @@ Overall, based on their attire alone it's difficult to definitively ascertain ge
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
-| Woman | 1 | 0 | 🟥 |
+| Woman | 1 | 1 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```

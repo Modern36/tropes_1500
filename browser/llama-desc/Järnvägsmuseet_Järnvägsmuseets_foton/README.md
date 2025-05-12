@@ -12,11 +12,11 @@ This file contains 265 images processed by the model: llama-desc
 ```
               precision    recall  f1-score   support
 
-           0       0.95      0.98      0.97       245
-           1       0.67      0.40      0.50        20
+           0       0.95      0.99      0.97       245
+           1       0.70      0.35      0.47        20
 
     accuracy                           0.94       265
-   macro avg       0.81      0.69      0.73       265
+   macro avg       0.82      0.67      0.72       265
 weighted avg       0.93      0.94      0.93       265
 
 ```
@@ -28,12 +28,12 @@ weighted avg       0.93      0.94      0.93       265
 ```
               precision    recall  f1-score   support
 
-           0       0.85      0.99      0.92       190
-           1       0.98      0.56      0.71        75
+           0       0.84      0.99      0.91       190
+           1       0.97      0.52      0.68        75
 
-    accuracy                           0.87       265
-   macro avg       0.91      0.78      0.81       265
-weighted avg       0.89      0.87      0.86       265
+    accuracy                           0.86       265
+   macro avg       0.91      0.76      0.79       265
+weighted avg       0.88      0.86      0.85       265
 
 ```
 
@@ -44,11 +44,11 @@ weighted avg       0.89      0.87      0.86       265
 ```
               precision    recall  f1-score   support
 
-           0       0.80      0.99      0.89       163
-           1       0.98      0.61      0.75       102
+           0       0.81      0.99      0.89       163
+           1       0.98      0.62      0.76       102
 
     accuracy                           0.85       265
-   macro avg       0.89      0.80      0.82       265
+   macro avg       0.90      0.81      0.82       265
 weighted avg       0.87      0.85      0.84       265
 
 ```
@@ -1170,7 +1170,7 @@ The photograph does not depict any people. The image shows a house with trees an
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 1 | 0 | 🟥 |
+| Man | 1 | 1 | 🟢 |
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
@@ -1872,7 +1872,7 @@ There are no people visible in this photograph. The image depicts a building wit
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 1 | 🟢 |
-| Woman | 0 | 1 | 🟥 |
+| Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -3371,7 +3371,7 @@ In summary, there are no individuals present in this historical photograph for a
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 1 | 1 | 🟢 |
+| Man | 1 | 0 | 🟥 |
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
@@ -4047,7 +4047,7 @@ Overall, there appear to be three people in this photograph but only one of thes
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 1 | 🟢 |
-| Woman | 0 | 0 | 🟢 |
+| Woman | 0 | 1 | 🟥 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -4526,7 +4526,7 @@ Given the absence of any visible human figures, it is not possible to determine 
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
 | Woman | 0 | 0 | 🟢 |
-| Person | 1 | 0 | 🟥 |
+| Person | 1 | 1 | 🟢 |
 
 ```
 There do not appear to be any people visible in this image. The photograph appears to show a black-and-white railway station scene with no individuals present.
@@ -5015,8 +5015,8 @@ Based on the clothing and hairstyles visible in the image, it appears that this 
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 1 | 1 | 🟢 |
-| Woman | 0 | 1 | 🟥 |
+| Man | 1 | 0 | 🟥 |
+| Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -5057,8 +5057,8 @@ There do not appear to be any people visible within this photograph.
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 1 | 1 | 🟢 |
-| Woman | 1 | 1 | 🟢 |
+| Man | 1 | 0 | 🟥 |
+| Woman | 1 | 0 | 🟥 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -5591,7 +5591,7 @@ The image depicts a black-and-white photograph of an old-fashioned bus parked on
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 1 | 1 | 🟢 |
+| Man | 1 | 0 | 🟥 |
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
