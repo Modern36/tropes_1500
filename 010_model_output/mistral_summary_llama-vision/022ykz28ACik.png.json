@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "The description suggests the possibility of a woman based on attire, but it is not definitive.",
+  "man": false,
+  "man_reasoning": "The description suggests the possibility of a man based on hairstyle, but it is not definitive.",
+  "person": true,
+  "person_reasoning": "The description explicitly mentions 'two people' and refers to them as 'individual' and 'person', confirming the presence of at least two people."
+}

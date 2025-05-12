@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "The image explicitly mentions two women standing in front of a table and two more women sitting at a table in the background.",
+  "man": true,
+  "man_reasoning": "The image explicitly mentions a man standing behind the counter.",
+  "person": true,
+  "person_reasoning": "The image mentions several other individuals scattered throughout the space."
+}

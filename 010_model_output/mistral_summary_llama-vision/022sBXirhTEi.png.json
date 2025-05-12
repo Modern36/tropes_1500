@@ -1,0 +1,8 @@
+{
+    "woman": true,
+    "woman_reasoning": "The description mentions 'a group of women wearing hats or head coverings' in the front row of the church.",
+    "man": true,
+    "man_reasoning": "The description mentions 'men can be seen sitting in the pews' behind the women.",
+    "person": true,
+    "person_reasoning": "The description mentions 'rows of pews filled with people', 'children are also present' and 'the individuals are dressed in dark attire'"
+}

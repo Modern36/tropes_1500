@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "The text does not mention any woman.",
+  "man": true,
+  "man_reasoning": "The text explicitly mentions 'two men' in the photograph.",
+  "person": true,
+  "person_reasoning": "Since 'men' are mentioned, they also count as 'persons'."
+}

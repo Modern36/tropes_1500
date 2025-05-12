@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "The text explicitly mentions that there are women seated at the table, wearing dresses that cover their shoulders.",
+  "man": true,
+  "man_reasoning": "The text explicitly mentions that there are men standing behind the table, wearing suits and ties, as well as men seated at the table wearing white shirts.",
+  "person": true,
+  "person_reasoning": "The text mentions several men and women, which also counts as people. Additionally, there is a partially visible person in the background whose gender cannot be definitively identified."
+}

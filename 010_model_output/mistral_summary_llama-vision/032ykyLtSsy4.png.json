@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "The text explicitly mentions 'women' who are 'sorting wool or tending to younger animals', 'sitting on a bench, carefully examining a bundle of freshly shorn wool', and 'standing near a pen containing lambs, ensuring their safety and well-being'.",
+  "man": true,
+  "man_reasoning": "The text explicitly mentions 'men' who are 'engaged in various activities related to sheep shearing'. One man is 'kneeling down, holding a sheep by its legs' while another is 'operating the shears' and a third man is 'standing nearby, observing the process or possibly waiting for his turn to shear a sheep'.",
+  "person": true,
+  "person_reasoning": "The text mentions 'a group of people', 'several men', 'women', and 'children', indicating the presence of multiple persons."
+}

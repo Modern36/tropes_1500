@@ -1,0 +1,10 @@
+{
+  "woman": true,
+  "woman_reasoning": "The description explicitly mentions a woman standing at the left side of the image."
+  ,
+  "man": true,
+  "man_reasoning": "The description explicitly mentions a man standing to the right of the woman."
+  ,
+  "person": true,
+  "person_reasoning": "The description mentions a man and a woman, which are both types of people."
+}

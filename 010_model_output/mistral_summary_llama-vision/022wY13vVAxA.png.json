@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "There is no explicit mention of a woman, and the description does not provide clear visual cues to definitively identify the individual at the back as a woman.",
+  "man": false,
+  "man_reasoning": "There is no explicit mention of a man, and the description does not provide clear visual cues to definitively identify the individual at the front as a man.",
+  "person": true,
+  "person_reasoning": "The description mentions 'two individuals visible inside it' and 'the person at the front of the boat' and 'the individual at the back', clearly indicating the presence of people."
+}

@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "The description explicitly states 'There are no visible women' and 'The group consists entirely of adult males.'",
+  "man": true,
+  "man_reasoning": "The description states 'There are approximately 8-10 men visible in the image.' and 'The group consists entirely of adult males.'",
+  "person": true,
+  "person_reasoning": "The description mentions 'group of men' which indicates that there are people in the image."
+}

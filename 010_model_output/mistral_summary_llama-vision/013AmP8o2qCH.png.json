@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "A woman is explicitly mentioned sitting at the desk, and another figure in the background is described as possibly a woman.",
+  "man": true,
+  "man_reasoning": "A man is explicitly mentioned standing behind the counter, and another figure in the background is described as possibly a man.",
+  "person": true,
+  "person_reasoning": "Multiple individuals are described, including one person standing behind the desk whose gender cannot be determined, and several other people in the background."
+}

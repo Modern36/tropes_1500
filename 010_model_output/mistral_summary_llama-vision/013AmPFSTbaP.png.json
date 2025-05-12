@@ -1,0 +1,8 @@
+{
+    "woman": true,
+    "woman_reasoning": "It is mentioned that there may be some women present in the background, although it is not explicitly stated.",
+    "man": true,
+    "man_reasoning": "There are approximately 20 soldiers in the foreground who are all men. Additionally, it is mentioned that most of the people in the background appear to be men.",
+    "person": true,
+    "person_reasoning": "The description mentions 'several individuals' in the background and a 'large crowd of people' in the background, indicating the presence of persons."
+}

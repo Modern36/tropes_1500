@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "No mention of a woman or woman-related terms.",
+  "man": false,
+  "man_reasoning": "No mention of a man or man-related terms.",
+  "person": false,
+  "person_reasoning": "No mention of people."
+}

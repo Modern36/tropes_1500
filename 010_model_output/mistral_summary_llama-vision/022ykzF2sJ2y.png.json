@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "The description mentions 'a woman standing in front of a large fountain with statues.'",
+  "man": false,
+  "man_reasoning": "There is no explicit mention of a man in the description.",
+  "person": true,
+  "person_reasoning": "The description mentions 'several people walking around the fountain or sitting on benches nearby.' and 'a woman standing in front of a large fountain with statues.'"
+}

@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "Several women are explicitly mentioned in the description, distinguishable by their dresses and hats.",
+  "man": true,
+  "man_reasoning": "Several men are explicitly mentioned in the description, including a man wearing a hat and coat near the center and another man in the foreground wearing a suit and tie.",
+  "person": true,
+  "person_reasoning": "The description mentions a 'large crowd of people' and refers to numerous other people present throughout the scene. Both men and women are mentioned, confirming the presence of people."
+}

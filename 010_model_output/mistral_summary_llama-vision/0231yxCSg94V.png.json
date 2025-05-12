@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "There are one or two women mentioned, but it is not definitive. The statement says it is an educated guess.",
+  "man": true,
+  "man_reasoning": "Two men are explicitly mentioned in the foreground, and most of the group of people walking towards the camera appear to be men.",
+  "person": true,
+  "person_reasoning": "Several individuals are mentioned, including those in the foreground, the group walking towards the camera, and additional figures in the background."
+}

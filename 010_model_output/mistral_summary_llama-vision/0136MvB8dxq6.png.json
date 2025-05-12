@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "The text does not explicitly mention any women, and the context of construction sites and workers from a historical period suggests that it is more likely to depict men. The text mentions the difficulty in identifying gender due to resolution and historical context, but it does not confirm the presence of any women.",
+  "man": true,
+  "man_reasoning": "The text mentions 'workers' and 'construction workers,' which are roles traditionally associated with men. The historical context and the nature of the work depicted suggest that the individuals are likely men.",
+  "person": true,
+  "person_reasoning": "The text explicitly mentions 'workers' and 'individuals,' which are general terms for people. Therefore, it is clear that persons are mentioned."
+}

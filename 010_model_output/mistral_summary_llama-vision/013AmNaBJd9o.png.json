@@ -1,0 +1,8 @@
+{
+    "woman": false,
+    "woman_reasoning": "There are four women mentioned.",
+    "man": false,
+    "man_reasoning": "There are four men mentioned.",
+    "person": false,
+    "person_reasoning": "There are eight individuals mentioned."
+}

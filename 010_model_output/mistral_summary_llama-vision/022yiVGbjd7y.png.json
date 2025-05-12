@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "There is a description of a woman, but it is not clear whether it belongs to a woman or a person.",
+  "man": false,
+  "man_reasoning": "There are descriptions of men, but it is not clear whether it belongs to a man or a person.",
+  "person": true,
+  "person_reasoning": "There are descriptions of four persons."
+}

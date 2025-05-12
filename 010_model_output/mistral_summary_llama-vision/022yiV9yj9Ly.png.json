@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "Two women are explicitly mentioned, 'two women dressed in long skirts and blouses, one of whom wears a hat'.",
+  "man": true,
+  "man_reasoning": "Three men are explicitly mentioned, 'three men walking together in suits and hats'.",
+  "person": true,
+  "person_reasoning": "The terms 'individuals', 'people', and 'onlookers' are used to describe the group of people standing behind a rope barrier and others scattered throughout the image."
+}

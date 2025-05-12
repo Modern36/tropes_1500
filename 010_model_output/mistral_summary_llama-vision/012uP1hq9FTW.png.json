@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "The image does not depict any humans or other living creatures. Therefore, there are no women present.",
+  "man": false,
+  "man_reasoning": "The image does not depict any humans or other living creatures. Therefore, there are no men present.",
+  "person": false,
+  "person_reasoning": "The image does not depict any humans or other living creatures. Therefore, there are no people present."
+}

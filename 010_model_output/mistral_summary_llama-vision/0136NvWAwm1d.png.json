@@ -1,0 +1,8 @@
+{
+    "woman": true,
+    "woman_reasoning": "The description explicitly mentions a woman sitting on a chair, wearing a white dress with short sleeves and an apron, and holding a small object in her hand.",
+    "man": false,
+    "man_reasoning": "There is no mention of a man in the description.",
+    "person": true,
+    "person_reasoning": "A woman is mentioned, and since a woman is a person, this counts as a person being mentioned."
+}

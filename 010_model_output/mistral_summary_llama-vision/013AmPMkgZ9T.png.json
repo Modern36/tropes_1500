@@ -1,0 +1,10 @@
+{
+  "woman": true,
+  "woman_reasoning": "The description mentions 'women' specifically in the context of clothing and hairstyles, indicating that there are women present in the photograph.",
+
+  "man": true,
+  "man_reasoning": "The description mentions 'men' specifically in the context of clothing and hairstyles, indicating that there are men present in the photograph.",
+
+  "person": true,
+  "person_reasoning": "The description mentions 'individuals' and 'group portrait' which includes both men and women, confirming that there are persons present in the photograph."
+}

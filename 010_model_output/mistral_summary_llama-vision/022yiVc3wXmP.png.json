@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "The text mentions 'a woman' who is described as standing out from the rest of the crowd. This is a clear indication of a woman being present in the image.",
+  "man": true,
+  "man_reasoning": "The text mentions 'three men' in the front row, each described with specific details about their attire. This clearly indicates the presence of men in the image.",
+  "person": true,
+  "person_reasoning": "The text mentions 'a group of people' and 'several individuals' in both the foreground and background. Additionally, it mentions 'a woman' and 'three men,' which also counts as people being mentioned."
+}

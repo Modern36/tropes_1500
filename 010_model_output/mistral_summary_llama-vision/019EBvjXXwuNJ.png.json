@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "The description does not specify the gender of the two individuals riding bicycles.",
+  "man": false,
+  "man_reasoning": "The description does not specify the gender of the two individuals riding bicycles.",
+  "person": true,
+  "person_reasoning": "The description mentions two individuals riding bicycles, which counts as two people."
+}

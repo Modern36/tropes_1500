@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "The description explicitly states that there are no visible signs of people in the image. Therefore, there are no women mentioned.",
+  "man": false,
+  "man_reasoning": "The description explicitly states that there are no visible signs of people in the image. Therefore, there are no men mentioned.",
+  "person": false,
+  "person_reasoning": "The description explicitly states that there are no visible signs of people in the image. Therefore, there are no people mentioned."
+}

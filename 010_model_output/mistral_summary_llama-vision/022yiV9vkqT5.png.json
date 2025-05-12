@@ -1,0 +1,12 @@
+{
+  "woman": true,
+  "woman_reasoning": "The description mentions 'two women dressed in long coats and hats'."
+
+  ,
+  "man": true,
+  "man_reasoning": "The description mentions 'three men in military attire' and 'a group of soldiers'."
+
+  ,
+  "person": true,
+  "person_reasoning": "The description mentions 'several other people', 'two women', and 'a group of soldiers'."
+}

@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "The text explicitly mentions 'four women' in the image.",
+  "man": false,
+  "man_reasoning": "The text states 'There are no men or children visible in this image.'",
+  "person": true,
+  "person_reasoning": "Since the text mentions 'four women', it counts as four persons being mentioned."
+}

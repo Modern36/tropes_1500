@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "The text mentions 'a woman skiing' and 'another woman can be seen standing near the edge of the frame'.",
+  "man": true,
+  "man_reasoning": "The text mentions 'several men watching the skier from behind a rope barrier'.",
+  "person": true,
+  "person_reasoning": "Since both 'woman' and 'man' are mentioned, it also counts as a person being mentioned."
+}

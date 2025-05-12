@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "There are no women explicitly mentioned in the description. It states that all visible figures are men and there are no women or children present in the scene.",
+  "man": true,
+  "man_reasoning": "The description explicitly mentions that all visible figures in the image are men.",
+  "person": true,
+  "person_reasoning": "The description mentions a group of people gathered in a church or religious setting, which includes the men mentioned."
+}

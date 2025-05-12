@@ -1,0 +1,8 @@
+{
+    "woman": true,
+    "woman_reasoning": "The description mentions a woman pushing a stroller.",
+    "man": true,
+    "man_reasoning": "The description mentions a man walking behind the carousel.",
+    "person": true,
+    "person_reasoning": "The description mentions two boys, a man, a woman and other people."
+}

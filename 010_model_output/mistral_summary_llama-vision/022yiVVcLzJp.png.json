@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "The text explicitly mentions 'one woman is clearly identifiable among the participants.'",
+  "man": true,
+  "man_reasoning": "The text states that 'approximately 90% of the visible attendees appear to be men.'",
+  "person": true,
+  "person_reasoning": "Since both men and women are mentioned, this counts as people being mentioned."
+}

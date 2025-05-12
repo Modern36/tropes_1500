@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "The description explicitly mentions a young boy, which indicates a male person. There is no mention of any woman in the description.",
+  "man": true,
+  "man_reasoning": "The description explicitly mentions a young boy, which is a male person.",
+  "person": true,
+  "person_reasoning": "The description explicitly mentions a young boy, which is a person."
+}

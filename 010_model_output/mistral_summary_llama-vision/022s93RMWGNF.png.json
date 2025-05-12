@@ -1,0 +1,8 @@
+{
+    "woman": false,
+    "woman_reasoning": "The description explicitly mentions four individuals who appear to be men, with no mention of any women.",
+    "man": true,
+    "man_reasoning": "The description explicitly mentions four individuals who appear to be men.",
+    "person": true,
+    "person_reasoning": "The description mentions four individuals, all of whom are men. Since men are a subset of people, this counts as people being mentioned."
+}

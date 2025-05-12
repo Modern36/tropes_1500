@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "The description explicitly mentions only 'men' and does not refer to any women.",
+  "man": true,
+  "man_reasoning": "The description explicitly mentions 'men' in military uniforms.",
+  "person": true,
+  "person_reasoning": "Since 'men' are mentioned, it implies that there are people in the image."
+}

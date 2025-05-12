@@ -1,0 +1,8 @@
+{
+    "woman": false,
+    "woman_reasoning": "The description mentions a child who is possibly female, but it is not certain. Therefore, it does not count as a woman.",
+    "man": true,
+    "man_reasoning": "The description mentions an adult male.",
+    "person": true,
+    "person_reasoning": "The description mentions an adult male and a child (possibly female), as well as multiple individuals in the background. All of these count as people."
+}

@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "The text mentions 'a woman dressed in a long skirt and blouse' and 'another woman wearing a hat and coat'. Both are explicitly mentioned.",
+  "man": false,
+  "man_reasoning": "The text mentions 'a man in a hat and dark jacket', 'another man wearing a light-colored shirt and pants', and 'several men gathered on the dock'. All of these are explicitly mentioned.",
+  "person": false,
+  "person_reasoning": "The text mentions 'several people visible on board and along the shore', 'several individuals in the background or at a distance', and 'several younger figures present among the groups of people on the dock or ship'. These are all explicitly mentioned."
+}

@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "The description mentions 'a woman seated on a chair' and provides details about her appearance and attire.",
+  "man": true,
+  "man_reasoning": "The description mentions 'the man standing behind her' and provides details about his appearance and attire.",
+  "person": true,
+  "person_reasoning": "Both a woman and a man are mentioned, which counts as two persons being mentioned."
+}

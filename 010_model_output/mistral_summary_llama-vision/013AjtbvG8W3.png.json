@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "The text explicitly mentions a 'bride', which is a woman.",
+  "man": true,
+  "man_reasoning": "The text explicitly mentions a 'groom', which is a man.",
+  "person": true,
+  "person_reasoning": "The text mentions two people, a bride and a groom."
+}

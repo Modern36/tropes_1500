@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "The description explicitly mentions 'a woman standing next to a box' and 'another group of people who appear to be women'",
+  "man": true,
+  "man_reasoning": "The description explicitly mentions 'a group of men standing together'",
+  "person": true,
+  "person_reasoning": "The description explicitly mentions 'a woman', 'men' and 'group of people' and 'individuals'"
+}

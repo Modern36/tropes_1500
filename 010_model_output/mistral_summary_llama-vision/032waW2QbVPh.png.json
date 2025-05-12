@@ -1,0 +1,8 @@
+{
+    "woman": false,
+    "woman_reasoning": "The description does not mention any women.",
+    "man": false,
+    "man_reasoning": "The description mentions a person wearing a hat on board the vessel, but does not specify the gender.",
+    "person": true,
+    "person_reasoning": "The description mentions a person wearing a hat on board the vessel."
+}

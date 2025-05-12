@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "The description does not mention any women or girls. It only refers to individuals whose gender is ambiguous or likely to be men or boys.",
+  "man": false,
+  "man_reasoning": "While it is suggested that the individuals are likely men or boys, it is not explicitly stated.",
+  "person": true,
+  "person_reasoning": "The description mentions multiple individuals across four images: 'two individuals,' 'three people,' 'a single person,' and 'two people.' These all count as persons."
+}

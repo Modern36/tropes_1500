@@ -1,0 +1,8 @@
+{
+    "woman": true,
+    "woman_reasoning": "The photograph depicts a young woman standing beside a chair and table, with a plant on the table. She is wearing a dark dress with white lace trim around her neck and sleeves. Her hair is styled in an updo, and she has bangs that fall just above her eyebrows.",
+    "man": false,
+    "man_reasoning": "No mention of a man in the description.",
+    "person": true,
+    "person_reasoning": "A woman is mentioned, which also counts as a person being mentioned."
+}

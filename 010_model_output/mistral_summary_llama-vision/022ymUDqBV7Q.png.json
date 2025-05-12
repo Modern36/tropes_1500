@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "The bride is explicitly mentioned as a woman.",
+  "man": true,
+  "man_reasoning": "The groom is explicitly mentioned as a man.",
+  "person": true,
+  "person_reasoning": "Both the bride and groom are mentioned as people. Additionally, there are several people in the background who could possibly be family members or friends of the couple."
+}

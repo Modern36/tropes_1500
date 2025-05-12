@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "The description specifies an 'adult male,' which excludes the possibility of a woman being present.",
+  "man": true,
+  "man_reasoning": "The description explicitly mentions an 'adult male,' which confirms the presence of a man.",
+  "person": true,
+  "person_reasoning": "Since the description includes an 'adult male,' it implies the presence of a person."
+}

@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "The term 'bride' is used, which explicitly mentions a woman. Additionally, the description specifies 'the woman, positioned on the left side of the photograph'.",
+  "man": true,
+  "man_reasoning": "The term 'groom' is used, which explicitly mentions a man. Additionally, the description specifies 'the man, standing beside her'.",
+  "person": true,
+  "person_reasoning": "Both 'woman' and 'man' are mentioned, which count as 'person'. Additionally, the term 'people' is used to refer to family members or friends of the couple."
+}

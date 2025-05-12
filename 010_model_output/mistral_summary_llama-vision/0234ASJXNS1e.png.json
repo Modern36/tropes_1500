@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "The text mentions 'a woman dressed for their wedding' and 'several women also attired in formal attire'",
+  "man": true,
+  "man_reasoning": "The text mentions 'a man and woman dressed for their wedding', 'two men dressed similarly', and 'another person standing' who is likely a man given the context",
+  "person": true,
+  "person_reasoning": "The text mentions 'a man and woman dressed for their wedding', 'two men dressed similarly', 'another person standing', and 'several women also attired in formal attire'"
+}

@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "The image explicitly states that it does not show any women.",
+  "man": true,
+  "man_reasoning": "The image mentions 'a group of men' and 'several men' engaged in construction work. It also describes specific actions performed by men, such as 'one man is seen holding a tool'.",
+  "person": true,
+  "person_reasoning": "The description mentions 'a group of men' and 'several men,' which counts as mentioning 'persons.' Additionally, 'additional figures' are mentioned, which also counts as 'persons'."
+}

@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "No mention of a woman, only a landscape or nature scene without any human figures.",
+  "man": false,
+  "man_reasoning": "No mention of a man, only a landscape or nature scene without any human figures.",
+  "person": false,
+  "person_reasoning": "No mention of a person, only a landscape or nature scene without any human figures."
+}

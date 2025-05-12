@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "The description mentions 'an adult female' and 'two girls', so there are at least two women.",
+  "man": true,
+  "man_reasoning": "The description mentions 'an adult male' and 'two boys', so there are at least two men.",
+  "person": true,
+  "person_reasoning": "The description mentions 'six individuals' including 'two adults' and 'four children', so there are six people."
+}

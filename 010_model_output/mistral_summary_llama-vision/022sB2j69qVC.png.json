@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "The photograph mentions a baby whose gender cannot be determined, so it cannot be categorized as a woman.",
+  "man": false,
+  "man_reasoning": "The photograph mentions a baby whose gender cannot be determined, so it cannot be categorized as a man.",
+  "person": true,
+  "person_reasoning": "The photograph mentions a baby, which counts as a person."
+}

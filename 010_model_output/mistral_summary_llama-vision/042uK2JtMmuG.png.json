@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "The text mentions that women are harder to distinguish, but does not explicitly mention any women.",
+  "man": false,
+  "man_reasoning": "The text mentions some men wearing suits or jackets, but does not explicitly mention any men.",
+  "person": true,
+  "person_reasoning": "The text mentions 'several individuals', 'people', 'younger and older adults' and 'individuals'"
+}

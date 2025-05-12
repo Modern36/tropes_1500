@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "The description mentions 'a few women' and 'one woman'. This indicates the presence of at least two women in the image.",
+  "man": true,
+  "man_reasoning": "The description mentions 'Most of the men', indicating the presence of multiple men in the image.",
+  "person": true,
+  "person_reasoning": "The description mentions 'a group of approximately 40 people'. This indicates the presence of multiple people in the image."
+}

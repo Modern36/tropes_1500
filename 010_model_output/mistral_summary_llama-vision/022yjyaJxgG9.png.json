@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "No women are explicitly mentioned in the description.",
+  "man": true,
+  "man_reasoning": "Two men are prominently featured in the foreground. Additionally, there is a reference to 'several other individuals,' but it is not specified if any of them are men or women.",
+  "person": true,
+  "person_reasoning": "The description mentions 'a group of people,' 'two men,' 'several other individuals,' 'another person,' and 'someone.' These terms indicate the presence of multiple people."
+}

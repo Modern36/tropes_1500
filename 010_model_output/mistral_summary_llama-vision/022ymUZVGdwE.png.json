@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "There are no clear indications or descriptions that any of the individuals are women.",
+  "man": true,
+  "man_reasoning": "Two individuals are described as men based on their facial hair and attire.",
+  "person": true,
+  "person_reasoning": "There are five individuals in total, although some are obscured and their gender is unclear."
+}

@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "The image explicitly mentions 'a woman seated on a chair'",
+  "man": false,
+  "man_reasoning": "There is no mention of a man in the description",
+  "person": true,
+  "person_reasoning": "The description mentions 'a woman', which counts as a person"
+}

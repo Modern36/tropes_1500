@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "The photograph explicitly mentions 'two women seated behind him.'",
+  "man": true,
+  "man_reasoning": "The photograph explicitly mentions 'a man standing on the bow of a boat.'",
+  "person": true,
+  "person_reasoning": "The photograph mentions 'another person sitting on the shore,' although the gender is not clear, this individual still counts as a person."
+}

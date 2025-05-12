@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "The child is described as likely a girl, which falls under the category of a woman.",
+  "man": false,
+  "man_reasoning": "There is no mention of a man in the description.",
+  "person": true,
+  "person_reasoning": "The description explicitly mentions a young child, which counts as a person."
+}

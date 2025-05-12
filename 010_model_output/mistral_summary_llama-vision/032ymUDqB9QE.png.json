@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "No women are discernible in the image.",
+  "man": true,
+  "man_reasoning": "The image depicts three men: an older man seated at the table and two additional individuals in the background, both appearing to be men based on their attire.",
+  "person": true,
+  "person_reasoning": "The image describes three individuals, all of whom are men."
+}

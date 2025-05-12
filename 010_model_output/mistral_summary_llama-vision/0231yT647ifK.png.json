@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "No women are explicitly mentioned in the description.",
+  "man": true,
+  "man_reasoning": "One man is explicitly mentioned: 'a man dressed in white standing on the platform'.",
+  "person": true,
+  "person_reasoning": "The description mentions '1 person visible' and 'a man'. Additionally, it mentions 'a group of approximately 5-6 individuals', which counts as multiple people."
+}

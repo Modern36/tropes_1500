@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "One individual is explicitly described as a woman wearing traditional attire with an apron, suggesting domestic or agricultural work.",
+  "man": false,
+  "man_reasoning": "There is no explicit mention of a man. Although some figures in the background are speculated to be men based on attire, it is not definitive.",
+  "person": true,
+  "person_reasoning": "The description mentions 'several people', 'two primary figures', 'another person', and 'additional figures', indicating multiple individuals present in the image."
+}

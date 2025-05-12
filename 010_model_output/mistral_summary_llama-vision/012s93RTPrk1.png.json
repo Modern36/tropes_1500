@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "The description mentions that there are women seated in the foreground.",
+  "man": true,
+  "man_reasoning": "The description mentions that there are men seated in the foreground.",
+  "person": true,
+  "person_reasoning": "The description mentions a 'large group of people' and 'individuals' and 'additional people', indicating that there are multiple people present."
+}

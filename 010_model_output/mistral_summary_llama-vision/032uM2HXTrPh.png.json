@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "It is explicitly mentioned that there is one woman present.",
+  "man": true,
+  "man_reasoning": "It is mentioned that the majority of the individuals appear to be men.",
+  "person": true,
+  "person_reasoning": "It is explicitly mentioned that there are ten people standing outside a building."
+}

@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "The text mentions 'woman' explicitly.",
+  "man": true,
+  "man_reasoning": "The text mentions 'man' explicitly.",
+  "person": true,
+  "person_reasoning": "Both 'man' and 'woman' are mentioned, so there are persons."
+}

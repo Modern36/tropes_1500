@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "A few women are explicitly mentioned as present in the photograph, wearing long dresses and head coverings.",
+  "man": true,
+  "man_reasoning": "The majority of the people depicted are described as men, dressed in formal attire such as suits and hats.",
+  "person": true,
+  "person_reasoning": "The photograph describes a large group of people gathered on the deck of a boat, including men and women, as well as sailors working on the ship's rigging. Since 'man' and 'woman' are types of 'person', this also counts as 'person' being mentioned."
+}

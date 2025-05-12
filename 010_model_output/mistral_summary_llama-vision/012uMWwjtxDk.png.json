@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "The description mentions 'a few women are also present, clad in dresses and hats.'",
+  "man": true,
+  "man_reasoning": "The description mentions 'the majority of the people are men' and 'several men stand facing each other, engaged in conversation.'",
+  "person": true,
+  "person_reasoning": "The description mentions 'a group of individuals,' 'several men,' 'additional individuals,' 'a group of people,' and 'more people.'"
+}

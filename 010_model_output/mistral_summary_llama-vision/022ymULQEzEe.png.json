@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "The text does not mention any specific descriptions that refer to a woman.",
+  "man": false,
+  "man_reasoning": "The text does not mention any specific descriptions that refer to a man.",
+  "person": false,
+  "person_reasoning": "The text does not mention any specific descriptions that refer to a person."
+}

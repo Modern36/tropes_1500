@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "No woman is explicitly mentioned.",
+  "man": true,
+  "man_reasoning": "Two men are explicitly mentioned in the foreground.",
+  "person": true,
+  "person_reasoning": "The text mentions 'several individuals', 'two men', and 'additional people' walking down the street. The phrase 'multiple people' is also used, confirming the presence of persons."
+}

@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "The description explicitly mentions a female indicated by her long hair pulled back in a ponytail and her dress with puffy sleeves and a collar that covers her neck.",
+  "man": false,
+  "man_reasoning": "There is no mention of a man in the description.",
+  "person": true,
+  "person_reasoning": "The description mentions a person crouching on the floor."
+}

@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "The description does not provide any specific details indicating the presence of a woman.",
+  "man": false,
+  "man_reasoning": "The description suggests that two individuals might be men based on their caps, but it is not certain.",
+  "person": true,
+  "person_reasoning": "The description explicitly mentions 'three individuals' and 'the third person', which confirms the presence of people in the image."
+}

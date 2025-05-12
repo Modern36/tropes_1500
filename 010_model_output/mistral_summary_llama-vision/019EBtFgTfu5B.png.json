@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "The term 'baby girl' is used, but since it is a baby, it does not count as a woman.",
+  "man": false,
+  "man_reasoning": "No man is mentioned or depicted in the description.",
+  "person": true,
+  "person_reasoning": "The term 'baby girl' is used, which counts as a person being mentioned."
+}

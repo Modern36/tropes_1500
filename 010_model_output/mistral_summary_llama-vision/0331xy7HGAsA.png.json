@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "The description does not mention any specific details that indicate the presence of a woman.",
+  "man": false,
+  "man_reasoning": "The description does not mention any specific details that indicate the presence of a man.",
+  "person": true,
+  "person_reasoning": "The description mentions 'a total of 6 people visible in this image', 'three individuals', 'another individual', 'the third person', 'three additional figures', and 'five individuals'."
+}

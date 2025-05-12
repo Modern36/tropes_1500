@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "The text explicitly states that 'No women are present in the photograph.'",
+  "man": true,
+  "man_reasoning": "The text mentions 'multiple men' and 'additional men' in various contexts throughout the description.",
+  "person": true,
+  "person_reasoning": "Since 'man' is mentioned, it also counts as a 'person' being mentioned."
+}

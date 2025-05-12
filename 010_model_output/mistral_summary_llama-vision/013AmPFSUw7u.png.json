@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "No women are mentioned in the description.",
+  "man": true,
+  "man_reasoning": "The description explicitly mentions three men wearing military uniforms.",
+  "person": true,
+  "person_reasoning": "Since the description mentions three men, it implies three people are present."
+}

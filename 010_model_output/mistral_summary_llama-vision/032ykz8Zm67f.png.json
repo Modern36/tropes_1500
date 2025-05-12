@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "The subject is described as a 'woman', but it is also mentioned that it cannot be definitively stated whether the person depicted is male or female. Therefore, it counts as a 'person'.",
+  "man": false,
+  "man_reasoning": "No explicit mention of a 'man'.",
+  "person": true,
+  "person_reasoning": "The subject is described as a 'person'."
+}

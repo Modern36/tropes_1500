@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "The description mentions an 'adult female' and 'a woman' who is the mother of two children.",
+  "man": true,
+  "man_reasoning": "The description mentions an 'adult male' and 'a man' who is the father of two children.",
+  "person": true,
+  "person_reasoning": "The description mentions two 'children', who are both boys, as well as 'adult male' and 'adult female'."
+}

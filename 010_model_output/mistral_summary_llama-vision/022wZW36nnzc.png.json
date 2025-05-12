@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "The description explicitly states that there do not seem to be any women visible in the photograph.",
+  "man": true,
+  "man_reasoning": "The description mentions that most of the individuals appear to be men based on their clothing and hairstyles.",
+  "person": true,
+  "person_reasoning": "The description refers to a 'group of people' gathered around several cars."
+}

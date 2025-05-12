@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "The text explicitly mentions that a woman can be seen in the far distance.",
+  "man": true,
+  "man_reasoning": "The text explicitly mentions two individuals who appear to be men.",
+  "person": true,
+  "person_reasoning": "The text mentions several individuals on board the boat, including four people in the foreground whose genders are not all clear, one person in the background whose gender is indeterminable, and the woman in the far distance."
+}

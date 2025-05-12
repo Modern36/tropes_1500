@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "Two women are mentioned, but no other women are mentioned. They both are in a group of 2.",
+  "man": true,
+  "man_reasoning": "At least 6 men are mentioned. One man is in the foreground, 4 men are on the left and one man is on the right.",
+  "person": true,
+  "person_reasoning": "There are at least 9 people mentioned. 2 women and 6 men are mentioned. There might be more people, but they are not counted because it is not clear how many."
+}

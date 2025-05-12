@@ -1,0 +1,10 @@
+{
+  "woman": true,
+  "woman_reasoning": "The description mentions 'women wear dresses or skirts' and 'there are both men and women present in the scene.'"
+  ,
+  "man": true,
+  "man_reasoning": "The description mentions 'men wearing hats and coats' and 'there are both men and women present in the scene.'"
+  ,
+  "person": true,
+  "person_reasoning": "The description mentions 'numerous individuals', 'several people', 'some individuals', 'more people', 'individuals sitting on benches or leaning against walls' and 'both men and women' which indicates that people are mentioned."
+}

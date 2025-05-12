@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "There is no mention of a woman in the description.",
+  "man": true,
+  "man_reasoning": "Several men are explicitly mentioned in the description, specifically described as 'several men wearing hats and overalls' and 'one man is holding a tool.'",
+  "person": true,
+  "person_reasoning": "The description mentions 'several men,' 'one man,' and 'another person who could be either male or female.' This means there are people mentioned in the description."
+}

@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "The image mentions 'an adult woman sitting on a chair' which clearly identifies at least one woman in the image.",
+  "man": true,
+  "man_reasoning": "The image mentions 'several other people who can be seen through the open door' and specifies 'they appear to be men'.",
+  "person": true,
+  "person_reasoning": "The image mentions 'three individuals', 'an adult woman', 'another person standing in the doorway', and 'several other people'."
+}

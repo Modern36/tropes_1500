@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "The description mentions 'a woman dressed in attire typical of the 1950s stands on the left side of the platform'",
+  "man": true,
+  "man_reasoning": "The description mentions 'an older man with a balding head who wears a suit'",
+  "person": true,
+  "person_reasoning": "The description mentions 'three individuals standing on it' and 'The third person stands further back on the platform near the buildings behind them'"
+}

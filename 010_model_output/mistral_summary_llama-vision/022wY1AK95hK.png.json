@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "A woman in a long dress and hat is explicitly mentioned.",
+  "man": true,
+  "man_reasoning": "Two men are explicitly mentioned in the foreground, and two more men are mentioned in the background.",
+  "person": true,
+  "person_reasoning": "Several other people are visible, and a child is explicitly mentioned."
+}

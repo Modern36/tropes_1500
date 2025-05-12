@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "The description explicitly states that there do not appear to be any women present in the photograph.",
+  "man": true,
+  "man_reasoning": "The description mentions a large group of men standing in formation, with some holding musical instruments.",
+  "person": true,
+  "person_reasoning": "The description mentions a large group of men, which counts as persons being mentioned."
+}

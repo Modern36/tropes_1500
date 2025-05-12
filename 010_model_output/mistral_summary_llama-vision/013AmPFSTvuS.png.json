@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "The text mentions that it is possible that women may be present but does not explicitly confirm any.",
+  "man": true,
+  "man_reasoning": "The text states that the majority of the people appear to be men, as evidenced by their attire.",
+  "person": true,
+  "person_reasoning": "The text mentions 'a group of people' and 'individuals' which confirms the presence of persons."
+}

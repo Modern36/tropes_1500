@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "The description mentions 'male soldier or military officer' and no indication of a woman being present.",
+  "man": true,
+  "man_reasoning": "The description explicitly states 'male soldier or military officer'.",
+  "person": true,
+  "person_reasoning": "The description explicitly states 'male soldier or military officer' which counts as a person being mentioned."
+}

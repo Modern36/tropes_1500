@@ -1,0 +1,10 @@
+{
+  "woman": true,
+  "woman_reasoning": "The description mentions 'one woman sitting at a table'",
+
+  "man": true,
+  "man_reasoning": "The description mentions 'two men dressed in ski gear standing side-by-side'",
+
+  "person": true,
+  "person_reasoning": "The description mentions 'several other people' in the background. This is in addition to the woman and the men mentioned."
+}

@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "The phrase 'do not appear to be any people visible' explicitly states that no people are mentioned.",
+  "man": false,
+  "man_reasoning": "The phrase 'do not appear to be any people visible' explicitly states that no people are mentioned.",
+  "person": false,
+  "person_reasoning": "The phrase 'do not appear to be any people visible' explicitly states that no people are mentioned."
+}

@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "There is no clear indication that any of the people are women.",
+  "man": false,
+  "man_reasoning": "There is no clear indication that any of the people are men.",
+  "person": true,
+  "person_reasoning": "The description explicitly mentions 'two people in the photograph'."
+}

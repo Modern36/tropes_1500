@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "There is no mention of any women in the description.",
+  "man": true,
+  "man_reasoning": "The description explicitly mentions 'a group of eight men' and 'several objects' that are not described in detail, but are not human.",
+  "person": true,
+  "person_reasoning": "The description mentions 'a group of eight men' and 'a few people can be seen walking in the distance'."
+}

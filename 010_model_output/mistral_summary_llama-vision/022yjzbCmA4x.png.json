@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "One woman is explicitly mentioned as being visible on the left side of the frame.",
+  "man": true,
+  "man_reasoning": "The majority of the people in the image are described as men.",
+  "person": true,
+  "person_reasoning": "Several people are mentioned in the description, including individuals referred to as 'people,' 'crew members,' 'spectators,' 'adults,' and 'children.'"
+}

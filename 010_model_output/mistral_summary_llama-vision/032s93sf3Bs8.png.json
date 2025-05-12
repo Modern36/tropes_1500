@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "A woman is explicitly mentioned standing prominently on the left side of the image.",
+  "man": true,
+  "man_reasoning": "Two men are explicitly mentioned engaged in conversation.",
+  "person": true,
+  "person_reasoning": "In addition to the specific mentions of a woman and two men, there are several other people mentioned in the background, indicating the presence of more persons."
+}

@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "The description explicitly states that there are no women in the picture.",
+  "man": true,
+  "man_reasoning": "The description mentions '19 men'.",
+  "person": true,
+  "person_reasoning": "Since 'man' is a subset of 'person', and 19 men are mentioned, there are persons in the image."
+}

@@ -1,0 +1,8 @@
+{
+    "woman": false,
+    "woman_reasoning": "There is no explicit mention of a woman in the description.",
+    "man": true,
+    "man_reasoning": "The description explicitly mentions an older man behind the counter and another individual who appears to be an adult male near the front window.",
+    "person": true,
+    "person_reasoning": "In addition to the men, there are several other people visible through the storefront windows. These individuals are referred to as 'people' and are described as pedestrians."
+}

@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "The text explicitly states that there are no women visible in the image.",
+  "man": false,
+  "man_reasoning": "Although the text suggests that the individuals in the background might be men based on their clothing, it is not certain enough to count as a man.",
+  "person": true,
+  "person_reasoning": "The text mentions 'several workers' and 'a group of people', which indicates the presence of multiple individuals, even though their gender cannot be determined."
+}

@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "The photograph mentions 'two women running on a sandy beach' and 'one woman can be seen among this group'.",
+  "man": true,
+  "man_reasoning": "The photograph mentions 'a man in pursuit' and 'most of these people are men'.",
+  "person": true,
+  "person_reasoning": "The photograph mentions 'two women running on a sandy beach', 'a man in pursuit', and 'approximately 30 individuals'."
+}

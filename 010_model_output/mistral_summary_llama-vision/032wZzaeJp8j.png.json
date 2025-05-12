@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "There is no mention of a woman in the description.",
+  "man": true,
+  "man_reasoning": "The first person is described as appearing masculine. The next three individuals are described as typically wearing clothing worn by men.",
+  "person": true,
+  "person_reasoning": "There are 4 individuals standing in a line mentioned, and one additional figure in the background."
+}

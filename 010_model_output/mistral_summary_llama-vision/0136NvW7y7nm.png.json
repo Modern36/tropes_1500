@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "The text mentions a single individual who is described as an older man.",
+  "man": true,
+  "man_reasoning": "The text explicitly mentions 'older man', indicating the presence of a man.",
+  "person": true,
+  "person_reasoning": "Since a man is mentioned, this also counts as a person being mentioned."
+}

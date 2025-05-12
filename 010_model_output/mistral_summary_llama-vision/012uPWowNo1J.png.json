@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "A bride is mentioned, who is a woman.",
+  "man": true,
+  "man_reasoning": "A groom is mentioned, who is a man.",
+  "person": true,
+  "person_reasoning": "Both a bride and a groom are mentioned, which counts as two persons."
+}

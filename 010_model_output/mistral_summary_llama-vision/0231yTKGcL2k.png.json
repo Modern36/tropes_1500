@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "There is no explicit mention of a woman in the description.",
+  "man": true,
+  "man_reasoning": "The description mentions that most individuals in the foreground appear to be men.",
+  "person": true,
+  "person_reasoning": "The description mentions 'several individuals' and 'a group of approximately 20 people' present in the image."
+}

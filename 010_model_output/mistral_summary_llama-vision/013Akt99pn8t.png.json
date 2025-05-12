@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "The description mentions 'some women' and 'women are dressed in dresses and hats'.",
+  "man": true,
+  "man_reasoning": "The description mentions 'mainly of men' and 'Men wear suits and ties'.",
+  "person": true,
+  "person_reasoning": "The description mentions 'a gathering of people', 'a large group', 'individuals', 'older adults', 'middle-aged people', and 'younger children'."
+}

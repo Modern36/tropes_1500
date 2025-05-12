@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "The description explicitly states that all people depicted are men.",
+  "man": true,
+  "man_reasoning": "The description explicitly states that all people depicted are men.",
+  "person": true,
+  "person_reasoning": "Since all people depicted are men, this also means that persons are mentioned."
+}

@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "The text specifies 'a single individual, who appears to be an older man.' No woman is mentioned.",
+  "man": true,
+  "man_reasoning": "The text explicitly mentions 'an older man,' indicating a man is present.",
+  "person": true,
+  "person_reasoning": "The text mentions 'a single individual,' which qualifies as a person."
+}

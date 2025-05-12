@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "The image depicts a young girl, which falls under the category of 'woman'.",
+  "man": false,
+  "man_reasoning": "No man is mentioned in the description.",
+  "person": true,
+  "person_reasoning": "The image depicts a young girl, which falls under the category of 'person'."
+}

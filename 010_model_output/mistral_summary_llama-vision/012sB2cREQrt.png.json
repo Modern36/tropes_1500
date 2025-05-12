@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "The text mentions a woman sitting to the right of a young boy.",
+  "man": true,
+  "man_reasoning": "The text mentions two adult males: one on the left and another on the far right.",
+  "person": true,
+  "person_reasoning": "The text mentions four individuals in total, including a woman, two men, and a young boy."
+}

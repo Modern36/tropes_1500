@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "The description mentions a woman standing at a table with her back facing the camera.",
+  "man": false,
+  "man_reasoning": "There is no mention of a man in the description.",
+  "person": true,
+  "person_reasoning": "The description explicitly states 'There is one person in this photograph.'"
+}

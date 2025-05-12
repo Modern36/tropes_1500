@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "There is no explicit mention of a woman in the description.",
+  "man": false,
+  "man_reasoning": "There is mention of individuals, but it is not clear whether any of them are explicitly men.",
+  "person": true,
+  "person_reasoning": "The description mentions several individuals, specifically 'several individuals', 'the person closest to the camera', 'another person', 'several others', 'people walking down the street', 'standing on corners', or 'sitting on benches'."
+}

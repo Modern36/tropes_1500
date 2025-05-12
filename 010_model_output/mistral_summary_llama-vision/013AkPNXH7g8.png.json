@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "A woman is explicitly mentioned in the reflection on the left side of the street, and two women are mentioned walking together on the right side of the street.",
+  "man": false,
+  "man_reasoning": "No man is explicitly mentioned in the description.",
+  "person": true,
+  "person_reasoning": "A woman and two women are mentioned, which counts as three persons being mentioned. Additionally, another person is partially obscured by the awning."
+}

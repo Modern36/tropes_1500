@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "The text mentions 'one female' among the two adults.",
+  "man": true,
+  "man_reasoning": "The text mentions 'one male' among the two adults.",
+  "person": true,
+  "person_reasoning": "The text mentions 'two adults' and 'a group of approximately 25 children, both boys and girls'."
+}

@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "The description mentions that it is challenging to discern any women, but it does not explicitly confirm the presence of any women.",
+  "man": true,
+  "man_reasoning": "The description explicitly mentions a man standing at a podium and that the majority of the individuals seated on chairs or benches appear to be men.",
+  "person": true,
+  "person_reasoning": "The description mentions 'individuals' and 'people' multiple times, indicating the presence of persons."
+}

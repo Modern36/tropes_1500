@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "The description does not mention any woman explicitly.",
+  "man": true,
+  "man_reasoning": "The description mentions 'a man standing near the center of the image' and 'possibly men' in the background.",
+  "person": true,
+  "person_reasoning": "The description mentions 'two individuals' in the foreground and 'several other people' in the background."
+}

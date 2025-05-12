@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "The description mentions 'men and women' in the crowd.",
+  "man": true,
+  "man_reasoning": "The description explicitly mentions a 'man on stage' and 'men' in the crowd.",
+  "person": true,
+  "person_reasoning": "The description includes both 'man' and 'people', which covers all categories of individuals mentioned."
+}

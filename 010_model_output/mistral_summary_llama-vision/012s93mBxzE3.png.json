@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "The text mentions that the individuals in the foreground are men, and although there might be women in the background, it is not explicitly stated.",
+  "man": true,
+  "man_reasoning": "The text explicitly mentions that there are men in the foreground and possibly more in the background.",
+  "person": true,
+  "person_reasoning": "The text mentions 'individuals', 'figures', and 'adults' which all count as people."
+}

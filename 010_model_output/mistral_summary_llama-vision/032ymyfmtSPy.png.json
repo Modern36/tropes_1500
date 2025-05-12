@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "The description mentions that the image suggests a gathering of primarily adult males. There is no explicit mention of women or females in the description, therefore we count it as false.",
+  "man": true,
+  "man_reasoning": "The description mentions that the image suggests a gathering of primarily adult males. There is an explicit mention of males in the description, therefore we count it as true.",
+  "person": true,
+  "person_reasoning": "The description mentions that the image depicts a gathering of people. There is an explicit mention of people in the description, therefore we count it as true."
+}

@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "The image mentions 'a woman', 'Beside him is a woman', 'another woman sitting down', 'The woman in the middle', 'another woman' -- 4 times.",
+  "man": true,
+  "man_reasoning": "The image mentions 'A man', 'another man' -- 2 times.",
+  "person": true,
+  "person_reasoning": "Since 'man' and 'woman' are mentioned, it automatically counts as a person being mentioned. The image mentions 'a small child' as well."
+}

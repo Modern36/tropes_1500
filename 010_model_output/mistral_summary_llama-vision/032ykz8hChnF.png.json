@@ -1,0 +1,8 @@
+{
+    "woman": true,
+    "woman_reasoning": "There is no explicit mention of any women, but it is possible that some of the adults or teenagers are women, as the description does not specify their gender.",
+    "man": true,
+    "man_reasoning": "There is a mention of 'boys' and 'men', which are both included in the 'man' category. The description also mentions 'adults' and 'individuals' who could be men.",
+    "person": true,
+    "person_reasoning": "The description mentions 'children', 'younger figures', 'group of people', 'individuals', 'adults', 'teenagers', 'boys', and 'men', all of which fall under the 'person' category."
+}

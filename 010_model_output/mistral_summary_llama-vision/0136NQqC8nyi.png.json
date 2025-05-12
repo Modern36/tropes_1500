@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "No woman is mentioned in the description.",
+  "man": true,
+  "man_reasoning": "A man is explicitly mentioned in the description.",
+  "person": true,
+  "person_reasoning": "The description mentions a man, which also counts as a person."
+}

@@ -1,0 +1,10 @@
+{
+  "woman": true,
+  "woman_reasoning": "The description explicitly mentions 'a woman wearing a dark dress with a white apron over it'",
+
+  "man": true,
+  "man_reasoning": "The description explicitly mentions 'a man, wearing dark trousers and a light-colored shirt'",
+
+  "person": true,
+  "person_reasoning": "The description mentions 'two people visible in this photograph'"
+}

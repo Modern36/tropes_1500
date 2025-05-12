@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "No women are mentioned in the description.",
+  "man": true,
+  "man_reasoning": "The description explicitly mentions 'four men'.",
+  "person": true,
+  "person_reasoning": "Since 'man' is a subcategory of 'person', the mention of 'four men' implies that there are four persons."
+}

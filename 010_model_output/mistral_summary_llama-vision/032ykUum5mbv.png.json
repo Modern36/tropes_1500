@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "There is no mention of a woman in the description.",
+  "man": true,
+  "man_reasoning": "A man is explicitly mentioned walking on the sidewalk.",
+  "person": true,
+  "person_reasoning": "In addition to the man, there are two people standing near the building's entrance, and it is possible that others are present but not visible."
+}

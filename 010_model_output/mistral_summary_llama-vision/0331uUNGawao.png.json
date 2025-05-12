@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "The description mentions 'the woman on the right is dressed in a light-colored blouse and dark skirt.'",
+  "man": true,
+  "man_reasoning": "The description mentions 'the man on the left wears a dark suit jacket,'",
+  "person": true,
+  "person_reasoning": "The description mentions 'A young boy sits between them,' which counts as a person."
+}

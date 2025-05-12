@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "A woman is explicitly mentioned: 'A woman wearing a dress and hat, standing on the sidewalk to the right of the two men.'",
+  "man": true,
+  "man_reasoning": "Two men are explicitly mentioned: 'two men walking down a street', 'A man in a suit and tie, walking towards the camera from the left side of the image.'",
+  "person": true,
+  "person_reasoning": "In addition to the explicitly mentioned man and woman, there are 'several other individuals visible' and 'a group of people gathered near the entrance to a building'."
+}

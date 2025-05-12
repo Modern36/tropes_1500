@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "There is a mention of a person who appears to be a woman, although her gender is not definitively confirmed due to the partial visibility.",
+  "man": true,
+  "man_reasoning": "There are at least six men mentioned explicitly in the description.",
+  "person": true,
+  "person_reasoning": "There is a mention of a person who appears to be a woman, and several other people whose genders are indeterminate. Additionally, all the men mentioned are also persons."
+}

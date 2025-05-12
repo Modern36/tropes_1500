@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "The photograph explicitly states that it does not depict any individuals, including women.",
+  "man": false,
+  "man_reasoning": "The photograph explicitly states that it does not depict any individuals, including men.",
+  "person": false,
+  "person_reasoning": "The photograph explicitly states that it does not depict any individuals, including persons."
+}

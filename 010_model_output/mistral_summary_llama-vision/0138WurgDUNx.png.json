@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "The text explicitly mentions 'a woman with short, wavy hair and a wide smile.'",
+  "man": false,
+  "man_reasoning": "There is no mention of a man in the description.",
+  "person": true,
+  "person_reasoning": "The description includes 'a single individual,' which counts as a person."
+}

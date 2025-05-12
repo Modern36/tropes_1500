@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "The description explicitly mentions a 'woman dressed as a nurse.'",
+  "man": false,
+  "man_reasoning": "The description does not mention a man.",
+  "person": true,
+  "person_reasoning": "The description mentions a 'woman dressed as a nurse' and an 'infant,' both of whom are people."
+}

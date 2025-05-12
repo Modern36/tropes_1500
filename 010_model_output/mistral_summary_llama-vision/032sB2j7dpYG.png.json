@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "No women are explicitly mentioned.",
+  "man": false,
+  "man_reasoning": "No men are explicitly mentioned.",
+  "person": true,
+  "person_reasoning": "A baby is mentioned, which counts as a person."
+}

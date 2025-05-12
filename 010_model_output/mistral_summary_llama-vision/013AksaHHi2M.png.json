@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "The text explicitly mentions 'a group of women' and states 'The individuals in the image are all female.'",
+  "man": false,
+  "man_reasoning": "The text explicitly states 'No men are visible in the photograph.'",
+  "person": true,
+  "person_reasoning": "Since 'woman' is true, 'person' is also true."
+}

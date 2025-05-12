@@ -1,0 +1,8 @@
+{
+    "woman": false,
+    "woman_reasoning": "The description does not mention any characteristics or indications that would definitively identify either of the individuals as a woman.",
+    "man": false,
+    "man_reasoning": "The description does not mention any characteristics or indications that would definitively identify either of the individuals as a man.",
+    "person": true,
+    "person_reasoning": "The description explicitly mentions 'two individuals' and refers to them as 'figures' and 'people,' which qualifies them as 'person'."
+}

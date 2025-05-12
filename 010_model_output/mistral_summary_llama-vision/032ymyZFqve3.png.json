@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "There is a clear mention of 'a woman sits behind them' who is described as a maternal figure.",
+  "man": false,
+  "man_reasoning": "There is no explicit mention of a man in the description.",
+  "person": true,
+  "person_reasoning": "There are two babies (whose genders cannot be determined) and one adult female figure. Additionally, there is mention of 'another person who seems to be assisting with the photo shoot', although their gender is unclear."
+}

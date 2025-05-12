@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "No woman is mentioned explicitly.",
+  "man": false,
+  "man_reasoning": "No man is mentioned explicitly.",
+  "person": true,
+  "person_reasoning": "The text mentions 'a few people', 'one person', 'several other figures' and 'their features are indistinguishable'."
+}

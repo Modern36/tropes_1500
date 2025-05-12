@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "The image describes two individuals, but neither is explicitly identified as a woman. The person on the left is wearing a dress, but the gender is not clear.",
+  "man": false,
+  "man_reasoning": "Neither of the individuals is explicitly identified as a man.",
+  "person": true,
+  "person_reasoning": "The image explicitly mentions two individuals, one on the left and one on the right."
+}

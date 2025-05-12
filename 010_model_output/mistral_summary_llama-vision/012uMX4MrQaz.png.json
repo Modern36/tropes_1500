@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "No women are explicitly mentioned in the description.",
+  "man": true,
+  "man_reasoning": "The description explicitly mentions two men: one closest to the camera and another further away from the camera.",
+  "person": true,
+  "person_reasoning": "Since two men are mentioned, they are also counted as persons."
+}

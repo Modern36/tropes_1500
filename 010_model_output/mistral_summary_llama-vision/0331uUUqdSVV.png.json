@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "The description mentions 'a woman seated in a chair'",
+  "man": false,
+  "man_reasoning": "Although the description mentions a 'child on the left appears to be a boy', the boy is a child and not a man.",
+  "person": true,
+  "person_reasoning": "The description mentions 'a woman seated in a chair' and 'two children standing behind her'."
+}

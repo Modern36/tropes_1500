@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "There is no explicit mention of a woman in the description.",
+  "man": false,
+  "man_reasoning": "There is no explicit mention of a man in the description.",
+  "person": true,
+  "person_reasoning": "The description mentions 'four individuals' and 'at least one more person', indicating that there are people in the scene."
+}

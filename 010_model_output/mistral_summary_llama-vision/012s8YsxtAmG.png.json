@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "There is no mention of a woman in the description.",
+  "man": true,
+  "man_reasoning": "The description mentions 'a man standing in front of a group of people' and 'a man who appears to be wearing a light-colored shirt and dark pants.'",
+  "person": true,
+  "person_reasoning": "The description mentions 'a man' and 'a large crowd of people,' indicating the presence of at least one person."
+}

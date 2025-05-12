@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "The description mentions a person in the doorway wearing a dress or skirt, which suggests they may be female, but it is not definitive. Therefore, it does not count as a 'Woman'.",
+  "man": true,
+  "man_reasoning": "The description explicitly mentions a man standing in front of a house.",
+  "person": true,
+  "person_reasoning": "The description mentions a man and another person in the doorway."
+}

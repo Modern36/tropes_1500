@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "The photograph explicitly mentions two women: one standing prominently and another walking away in the background.",
+  "man": false,
+  "man_reasoning": "There is no mention of any man in the photograph.",
+  "person": true,
+  "person_reasoning": "Since both the terms 'woman' and 'person' are explicitly mentioned, this also counts as a person being mentioned."
+}

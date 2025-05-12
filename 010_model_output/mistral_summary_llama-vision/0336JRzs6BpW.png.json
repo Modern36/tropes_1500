@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "The description mentions 'women' and 'a woman' explicitly. Additionally, it mentions 'dresses', which typically indicates the presence of women.",
+  "man": true,
+  "man_reasoning": "The description mentions 'men' and 'a man' explicitly.",
+  "person": true,
+  "person_reasoning": "The description mentions 'people', 'individuals', 'a child', 'family', and 'relationships'. Additionally, 'men' and 'women' are mentioned, which also count as 'persons'."
+}

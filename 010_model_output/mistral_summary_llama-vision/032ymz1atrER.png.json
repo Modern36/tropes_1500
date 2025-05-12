@@ -1,0 +1,8 @@
+{
+    "woman": true,
+    "woman_reasoning": "A woman is explicitly mentioned: \"A woman can be seen standing behind them\"",
+    "man": false,
+    "man_reasoning": "No man is explicitly mentioned.",
+    "person": true,
+    "person_reasoning": "Multiple individuals are mentioned: \"two individuals\", \"another person\", \"a woman\", \"several people\", \"two children\""
+}

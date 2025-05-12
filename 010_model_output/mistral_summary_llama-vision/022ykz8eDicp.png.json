@@ -1,0 +1,8 @@
+{
+    "woman": false,
+    "woman_reasoning": "The photograph features a young girl, which implies a female under a certain age. However, the term 'woman' typically refers to an adult female, so we do not count this as a woman.",
+    "man": false,
+    "man_reasoning": "There are no indications of a man in the description.",
+    "person": true,
+    "person_reasoning": "The description explicitly mentions a young girl, which counts as a person."
+}

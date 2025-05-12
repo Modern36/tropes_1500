@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "The description mentions that it is challenging to discern the gender of the individuals, and the person in the background is speculated to be wearing a dress or skirt, but it is not clear enough to confirm.",
+  "man": false,
+  "man_reasoning": "The description mentions that the person in the foreground might be male, but it is not certain due to the low resolution and lack of clear details.",
+  "person": true,
+  "person_reasoning": "The description explicitly mentions two individuals (people) in the scene."
+}

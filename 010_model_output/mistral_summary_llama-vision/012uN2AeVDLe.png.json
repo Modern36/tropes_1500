@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "The description mentions 'There do not appear to be any people visible in this image' and specifies that a man is too far away and out of focus to make out any detail. Therefore, there is no clear indication of a woman.",
+  "man": false,
+  "man_reasoning": "Although a man is mentioned, the description states that he is too far away and out of focus to make out any detail. Therefore, there is no clear indication of a man.",
+  "person": true,
+  "person_reasoning": "The description mentions 'a man standing behind the left building' which indicates that a person is mentioned, even if they are not clearly visible."
+}

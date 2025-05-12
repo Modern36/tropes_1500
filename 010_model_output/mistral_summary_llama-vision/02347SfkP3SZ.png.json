@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "The text explicitly mentions 'some women' and 'a few women' and 'one woman', indicating the presence of women in the image.",
+  "man": true,
+  "man_reasoning": "The text explicitly mentions 'men' and 'several men', indicating the presence of men in the image.",
+  "person": true,
+  "person_reasoning": "The text mentions 'a crowd of people', 'several other individuals', and 'children', indicating the presence of people in the image."
+}

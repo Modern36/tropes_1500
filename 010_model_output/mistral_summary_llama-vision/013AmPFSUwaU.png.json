@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "The description explicitly states that 'no women' are visible in the photograph.",
+  "man": true,
+  "man_reasoning": "The description mentions 'a group of men in military uniforms' and specifies 'approximately 15-20 men' in the foreground, with additional 'individuals' in the background who are also described as men.",
+  "person": true,
+  "person_reasoning": "Since 'man' is a subcategory of 'person', and multiple men are mentioned, it counts as persons being mentioned."
+}

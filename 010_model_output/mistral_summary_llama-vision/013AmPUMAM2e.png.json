@@ -1,0 +1,8 @@
+{
+    "woman": false,
+    "woman_reasoning": "The image explicitly mentions only men.",
+    "man": true,
+    "man_reasoning": "The image explicitly mentions men.",
+    "person": true,
+    "person_reasoning": "Since men are mentioned, it implies that there are persons in the image."
+}

@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "The description does not mention any women or indicate that any of the individuals are female.",
+  "man": true,
+  "man_reasoning": "The description suggests that most or all of the individuals are likely male based on their attire.",
+  "person": true,
+  "person_reasoning": "The description mentions a group of approximately 10-12 people."
+}

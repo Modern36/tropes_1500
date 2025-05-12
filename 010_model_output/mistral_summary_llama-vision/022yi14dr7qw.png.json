@@ -1,0 +1,8 @@
+{
+    "woman": false,
+    "woman_reasoning": "No women are explicitly mentioned in the description.",
+    "man": true,
+    "man_reasoning": "The description mentions four men standing on a staircase.",
+    "person": true,
+    "person_reasoning": "The description mentions four men, a person standing behind a railing or barrier, and another person partially visible on the far right side."
+}

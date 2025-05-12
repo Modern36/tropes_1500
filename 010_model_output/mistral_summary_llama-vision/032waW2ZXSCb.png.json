@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "There is no explicit mention of a woman.",
+  "man": false,
+  "man_reasoning": "There is no explicit mention of a man.",
+  "person": true,
+  "person_reasoning": "The photograph shows two individuals in a boat. The term 'individuals' implies people, though their genders are not specified."
+}

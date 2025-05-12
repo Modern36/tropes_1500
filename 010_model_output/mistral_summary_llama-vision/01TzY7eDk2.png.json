@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "The description mentions 'several women' present in the scene.",
+  "man": true,
+  "man_reasoning": "The description mentions 'predominantly men', 'several men standing together', 'one man sitting on a horse', and 'another man standing next to him'.",
+  "person": true,
+  "person_reasoning": "The description mentions 'a group of individuals', 'some women and children', 'more people', 'several women and children', and 'they seem to be watching'. This includes all mentions of 'women', 'men', and 'children'."
+}

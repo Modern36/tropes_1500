@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "The term 'women' is mentioned. There are two women mentioned.",
+  "man": false,
+  "man_reasoning": "No man is mentioned.",
+  "person": false,
+  "person_reasoning": "Two women are mentioned, but they also count as persons."
+}

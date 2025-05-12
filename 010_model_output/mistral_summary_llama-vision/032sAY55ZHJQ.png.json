@@ -1,0 +1,8 @@
+{
+    "woman": false,
+    "woman_reasoning": "The text mentions a 'young girl', which implies a female. Since the word 'woman' is not used, we cannot count this as a 'woman'.",
+    "man": false,
+    "man_reasoning": "No specific mention of a man in the text.",
+    "person": true,
+    "person_reasoning": "The text mentions 'a young girl' and 'another person' so there is at least one person."
+}

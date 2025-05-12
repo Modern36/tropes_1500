@@ -1,0 +1,8 @@
+{
+    "woman": true,
+    "woman_reasoning": "The description explicitly states that the person depicted is 'most probably a woman based on her attire and the era represented.'",
+    "man": false,
+    "man_reasoning": "There is no mention of a man in the description.",
+    "person": true,
+    "person_reasoning": "The description mentions a 'single person depicted' and describes a 'woman standing next to a table,' which counts as a person being mentioned."
+}

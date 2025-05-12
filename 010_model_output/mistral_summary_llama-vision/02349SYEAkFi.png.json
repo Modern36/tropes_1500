@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "The person is referred to as a 'girl', but it is not explicitly stated that she is a woman. However, since 'girl' typically refers to a young female, it is reasonable to assume she is a woman.",
+  "man": false,
+  "man_reasoning": "No male is mentioned.",
+  "person": true,
+  "person_reasoning": "The description mentions a 'young girl', which counts as a person."
+}

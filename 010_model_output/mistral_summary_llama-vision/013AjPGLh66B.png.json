@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "The description explicitly mentions 'a woman' in the photograph.",
+  "man": true,
+  "man_reasoning": "The description explicitly mentions 'a man' in the photograph.",
+  "person": true,
+  "person_reasoning": "The description mentions both 'a man' and 'a woman', which count as 'person' being mentioned."
+}

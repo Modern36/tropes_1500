@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "The photograph explicitly mentions a woman standing in front of a wooden building. Additionally, it is inferred that the individuals in the background are likely women.",
+  "man": false,
+  "man_reasoning": "There is no explicit mention of a man in the description.",
+  "person": true,
+  "person_reasoning": "The description mentions a woman and implies the presence of another person or people in the background."
+}

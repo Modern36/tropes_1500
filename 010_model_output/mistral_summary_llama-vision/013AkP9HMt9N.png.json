@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "The image describes a baby girl, who is a female and thus counts as a woman.",
+  "man": false,
+  "man_reasoning": "There is no mention of any male individual in the image.",
+  "person": true,
+  "person_reasoning": "The baby girl is a person, so the category 'person' is also true."
+}

@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "The text mentions 'Two women dressed in similar attire, one holding an infant.'",
+  "man": true,
+  "man_reasoning": "The text mentions 'A man wearing traditional Sami clothing, including a hat and coat.'",
+  "person": true,
+  "person_reasoning": "The text mentions 'Several children, ranging from toddlers to older kids, all attired in traditional clothing.' Additionally, the mentions of 'man' and 'women' count as persons."
+}

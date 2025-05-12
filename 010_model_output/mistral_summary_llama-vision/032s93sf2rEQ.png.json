@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "The main subject is dressed as Saint Lucia, a female saint. Therefore, this person is a woman.",
+  "man": false,
+  "man_reasoning": "There is no explicit mention of a man.",
+  "person": true,
+  "person_reasoning": "The main subject is described as a person. Additionally, there are several people mentioned in the background, although their gender is not clearly defined."
+}

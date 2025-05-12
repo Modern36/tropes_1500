@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "The description explicitly mentions 'seven women' in the photograph.",
+  "man": false,
+  "man_reasoning": "The description explicitly states that there are 'no men' in the image.",
+  "person": true,
+  "person_reasoning": "Since the description mentions 'seven women', it implicitly counts as mentioning 'seven persons'."
+}

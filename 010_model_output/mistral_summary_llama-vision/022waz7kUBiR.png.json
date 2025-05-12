@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "Two women are explicitly mentioned in the description.",
+  "man": true,
+  "man_reasoning": "Two men are explicitly mentioned in the description.",
+  "person": true,
+  "person_reasoning": "The term 'individuals' is used, which implies people. Also, 'four individuals' are mentioned, which includes the two women and two men."
+}

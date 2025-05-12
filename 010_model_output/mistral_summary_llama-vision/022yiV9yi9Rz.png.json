@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "The text mentions that the majority of the people depicted are adults, likely men and women, which implies that there is at least one woman present.",
+  "man": true,
+  "man_reasoning": "The text explicitly mentions 'one man standing prominently in the foreground.' Additionally, it mentions that the majority of the people depicted are adults, likely men and women, which implies that there are multiple men present.",
+  "person": true,
+  "person_reasoning": "The text mentions 'a large group of people gathered outdoors' and 'several rows of people standing behind him,' indicating the presence of multiple people."
+}

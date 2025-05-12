@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "The text mentions 'women' explicitly in the sentence 'including men and women.'",
+  "man": true,
+  "man_reasoning": "The text mentions 'men' explicitly in the sentence 'including men and women.'",
+  "person": true,
+  "person_reasoning": "The text mentions 'people' and 'individuals' explicitly in the sentences 'a group of people gathered together' and 'Some individuals appear to be looking.'"
+}

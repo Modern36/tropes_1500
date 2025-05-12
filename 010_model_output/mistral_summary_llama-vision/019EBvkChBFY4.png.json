@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "The description mentions a mix of men and women in the foreground.",
+  "man": true,
+  "man_reasoning": "The description mentions a mix of men and women in the foreground.",
+  "person": true,
+  "person_reasoning": "The description mentions a group of people, including those visible in the background."
+}

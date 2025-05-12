@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "There is an individual described as possibly a woman due to her attire, but it is not explicitly stated that she is a woman. Hence, she is counted under 'Person'.",
+  "man": true,
+  "man_reasoning": "There is one individual explicitly mentioned as a man.",
+  "person": true,
+  "person_reasoning": "There are five people mentioned: one man, one possible woman (counted as person), and three additional individuals whose gender is not specified."
+}

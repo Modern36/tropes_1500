@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "There are no explicit mentions of any women in the image description.",
+  "man": true,
+  "man_reasoning": "Several men are visible walking along the bridge or standing near the railing.",
+  "person": true,
+  "person_reasoning": "Several men are visible walking along the bridge or standing near the railing. In addition, there are more people in the background."
+}

@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "The text mentions 'men' and 'women' but does not provide specific counts or clear indications of individual women.",
+  "man": false,
+  "man_reasoning": "The text mentions 'men' and 'women' but does not provide specific counts or clear indications of individual men.",
+  "person": true,
+  "person_reasoning": "The text mentions 'people', 'adults', 'children', 'individuals', 'parents', 'men' and 'women'. All of these terms indicate the presence of people in the image."
+}
