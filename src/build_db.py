@@ -10,6 +10,7 @@ from trope_paths import (
     db_path,
     detections,
     metadata_dir,
+    mistral_summary_dir,
     ollama_desc_dir,
     read_data,
 )
@@ -263,23 +264,19 @@ def load_vqa():
 def load_llama_desc():
     for desc_file in ollama_desc_dir.iterdir():
         image_id = desc_file.name.split(".")[0]
+        desc_summary_file = (
+            mistral_summary_dir / desc_file.with_suffix(".json").name
+        )
+        with open(desc_summary_file, "r", encoding="utf8") as f:
+            summary = json.load(f)
+        m = summary["man"]
+        w = summary["woman"]
+        p = summary["person"]
+
+        assert p >= max(m, w), desc_summary_file
+
         with open(desc_file, "r", encoding="utf8") as f:
             text = f.read()
-        m = len(re.findall(r"\bm[ae]n\b", text)) > 0 and not bool(
-            re.search(r"no m[ae]n", text, re.IGNORECASE)
-        )
-        w = len(re.findall(r"\bwom[ae]n\b", text)) > 0 and not bool(
-            re.search(r"no wom[ae]n", text, re.IGNORECASE)
-        )
-        p = (
-            m
-            or w
-            or (
-                len(re.findall(r"\b(person|people)\b", text)) > 0
-                and len(re.findall(r"no \b(person|people|individual)", text))
-                == 0
-            )
-        )
 
         for label, outcome in (("m", m), ("w", w), ("p", p)):
             yield {
