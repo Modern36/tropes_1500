@@ -54,7 +54,8 @@ if __name__ == "__main__":
                     'mentioned that no "Woman", "Man" and "Person" are mentioned,'
                     ' the response is "0". If a man or a woman is mentioned -- '
                     " this also counts as a person being mentioned. Provide "
-                    "a reasoning for each category. Reply in JSON format. \n\n"
+                    "a reasoning for each category. Reply in JSON format. "
+                    "a sculpture, painting or photograph of a person does not count as a person.\n\n"
                     f'"""\n\n" + {description} + "\n\n"""\n\n',
                     "role": "user",
                 }
