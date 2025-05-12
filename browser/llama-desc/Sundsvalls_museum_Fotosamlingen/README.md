@@ -12,12 +12,12 @@ This file contains 6 images processed by the model: llama-desc
 ```
               precision    recall  f1-score   support
 
-           0       1.00      0.75      0.86         4
-           1       0.67      1.00      0.80         2
+           0       0.75      0.75      0.75         4
+           1       0.50      0.50      0.50         2
 
-    accuracy                           0.83         6
-   macro avg       0.83      0.88      0.83         6
-weighted avg       0.89      0.83      0.84         6
+    accuracy                           0.67         6
+   macro avg       0.62      0.62      0.62         6
+weighted avg       0.67      0.67      0.67         6
 
 ```
 
@@ -80,29 +80,6 @@ It's challenging to determine the exact number of people in the photograph due t
 
 
 
-## 012sC3Pm48dT
-
-![000_raw/012sC3Pm48dT.png](/000_raw/012sC3Pm48dT.png)
-
-
-| label | GT | Pred | accurate |
-|:----|----|----|----|
-| Man | 0 | 1 | 🟥 |
-| Woman | 1 | 1 | 🟢 |
-| Person | 1 | 1 | 🟢 |
-
-```
-The photograph depicts a group of people gathered around a table, with six individuals standing behind it and one person seated at the far end. The standing figures are all women, as evidenced by their long-sleeved dresses that reach down to their ankles. They wear aprons over their dresses, which feature white collars and cuffs. Two of the women have their hands clasped together in front of them.
-
-In the background, there appears to be a man sitting at the far end of the table, although he is not clearly visible due to being out of focus. He seems to be wearing a suit jacket and tie. Additionally, another person can be seen standing behind him, but their features are indistinct.
-
-The overall atmosphere of the scene suggests that it may be related to an event or celebration, possibly involving food service given the presence of the table and aprons worn by the women. However, without more context, it is difficult to determine the specific occasion or purpose of the gathering.
-```
-
-
-
-
-
 ## 012uK2eTzxt5
 
 ![000_raw/012uK2eTzxt5.png](/000_raw/012uK2eTzxt5.png)
@@ -124,6 +101,29 @@ In the background, there are no other people visible. However, there appear to b
 
 
 
+## 012sC3Pm48dT
+
+![000_raw/012sC3Pm48dT.png](/000_raw/012sC3Pm48dT.png)
+
+
+| label | GT | Pred | accurate |
+|:----|----|----|----|
+| Man | 0 | 1 | 🟥 |
+| Woman | 1 | 0 | 🟥 |
+| Person | 1 | 1 | 🟢 |
+
+```
+The photograph depicts a group of people gathered around a table, with six individuals standing behind it and one person seated at the far end. The standing figures are all women, as evidenced by their long-sleeved dresses that reach down to their ankles. They wear aprons over their dresses, which feature white collars and cuffs. Two of the women have their hands clasped together in front of them.
+
+In the background, there appears to be a man sitting at the far end of the table, although he is not clearly visible due to being out of focus. He seems to be wearing a suit jacket and tie. Additionally, another person can be seen standing behind him, but their features are indistinct.
+
+The overall atmosphere of the scene suggests that it may be related to an event or celebration, possibly involving food service given the presence of the table and aprons worn by the women. However, without more context, it is difficult to determine the specific occasion or purpose of the gathering.
+```
+
+
+
+
+
 ## 022sC3Pm3nze
 
 ![000_raw/022sC3Pm3nze.png](/000_raw/022sC3Pm3nze.png)
@@ -137,6 +137,31 @@ In the background, there are no other people visible. However, there appear to b
 
 ```
 There are no people visible in this photograph. The image appears to be a landscape or aerial view of an area, possibly a body of water with landmasses in the distance, but it does not depict any human figures.
+```
+
+
+
+
+
+## 032uK2Xwx8Az
+
+![000_raw/032uK2Xwx8Az.png](/000_raw/032uK2Xwx8Az.png)
+
+
+| label | GT | Pred | accurate |
+|:----|----|----|----|
+| Man | 1 | 1 | 🟢 |
+| Woman | 0 | 1 | 🟥 |
+| Person | 1 | 1 | 🟢 |
+
+```
+The photograph you provided shows a large group of young women standing on stone steps outside a church.
+
+There are approximately 100 girls visible in the image. Most of them wear white dresses with dark sashes, and many have flowers pinned to their chests or in their hair. The majority appear to be between the ages of 10 and 18 years old.
+
+Behind the girls, there is an older woman standing on a balcony overlooking them. She wears a long dress and may possibly be holding something in her hands. Behind her, through the arched window, you can see the branches of trees. To the left of this figure, behind the group of girls, there are two men visible. They wear formal suits with hats.
+
+There appear to be no children under 10 years old or people over 50 years old in this image. The photograph has been taken from a slight distance above the subjects and was likely captured sometime during the early part of the twentieth century, judging by their clothing styles.
 ```
 
 
@@ -189,29 +214,4 @@ The photograph appears to be a black and white image of a group of young men on 
 *   There are no buildings or other structures visible in the distance.
 
 Overall, based on their clothing, hairstyles, and facial features, it appears that all the people in the photograph are men.
-```
-
-
-
-
-
-## 032uK2Xwx8Az
-
-![000_raw/032uK2Xwx8Az.png](/000_raw/032uK2Xwx8Az.png)
-
-
-| label | GT | Pred | accurate |
-|:----|----|----|----|
-| Man | 1 | 1 | 🟢 |
-| Woman | 0 | 1 | 🟥 |
-| Person | 1 | 1 | 🟢 |
-
-```
-The photograph you provided shows a large group of young women standing on stone steps outside a church.
-
-There are approximately 100 girls visible in the image. Most of them wear white dresses with dark sashes, and many have flowers pinned to their chests or in their hair. The majority appear to be between the ages of 10 and 18 years old.
-
-Behind the girls, there is an older woman standing on a balcony overlooking them. She wears a long dress and may possibly be holding something in her hands. Behind her, through the arched window, you can see the branches of trees. To the left of this figure, behind the group of girls, there are two men visible. They wear formal suits with hats.
-
-There appear to be no children under 10 years old or people over 50 years old in this image. The photograph has been taken from a slight distance above the subjects and was likely captured sometime during the early part of the twentieth century, judging by their clothing styles.
 ```

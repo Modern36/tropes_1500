@@ -76,100 +76,16 @@ weighted avg       0.80      0.80      0.79        15
 
 
 
-## 0136MvB8dHsL
+## 02347Tgma7MF
 
-![000_raw/0136MvB8dHsL.png](/000_raw/0136MvB8dHsL.png)
-
-
-| label | GT | Pred | accurate |
-|:----|----|----|----|
-| Man | 0 | 0 | 🟢 |
-| Woman | 0 | 0 | 🟢 |
-| Person | 0 | 0 | 🟢 |
-
-
-
-
-## 02347Tgma7Gk
-
-![000_raw/02347Tgma7Gk.png](/000_raw/02347Tgma7Gk.png)
-
-
-| label | GT | Pred | accurate |
-|:----|----|----|----|
-| Man | 1 | 1 | 🟢 |
-| Woman | 0 | 0 | 🟢 |
-| Person | 1 | 1 | 🟢 |
-
-
-
-
-## 0136MvB8ddGr
-
-![000_raw/0136MvB8ddGr.png](/000_raw/0136MvB8ddGr.png)
-
-
-| label | GT | Pred | accurate |
-|:----|----|----|----|
-| Man | 1 | 1 | 🟢 |
-| Woman | 0 | 1 | 🟥 |
-| Person | 1 | 1 | 🟢 |
-
-
-
-
-## 0136MvB8dxqC
-
-![000_raw/0136MvB8dxqC.png](/000_raw/0136MvB8dxqC.png)
-
-
-| label | GT | Pred | accurate |
-|:----|----|----|----|
-| Man | 1 | 1 | 🟢 |
-| Woman | 0 | 1 | 🟥 |
-| Person | 1 | 1 | 🟢 |
-
-
-
-
-## 032ymV8PKNfS
-
-![000_raw/032ymV8PKNfS.png](/000_raw/032ymV8PKNfS.png)
+![000_raw/02347Tgma7MF.png](/000_raw/02347Tgma7MF.png)
 
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 0 | 1 | 🟥 |
-| Woman | 0 | 1 | 🟥 |
+| Woman | 0 | 0 | 🟢 |
 | Person | 0 | 1 | 🟥 |
-
-
-
-
-## 0234ASJUQ87y
-
-![000_raw/0234ASJUQ87y.png](/000_raw/0234ASJUQ87y.png)
-
-
-| label | GT | Pred | accurate |
-|:----|----|----|----|
-| Man | 1 | 1 | 🟢 |
-| Woman | 0 | 1 | 🟥 |
-| Person | 1 | 1 | 🟢 |
-
-
-
-
-## 0231yxsdQpbJ
-
-![000_raw/0231yxsdQpbJ.png](/000_raw/0231yxsdQpbJ.png)
-
-
-| label | GT | Pred | accurate |
-|:----|----|----|----|
-| Man | 1 | 0 | 🟥 |
-| Woman | 0 | 1 | 🟥 |
-| Person | 1 | 1 | 🟢 |
 
 
 
@@ -188,9 +104,23 @@ weighted avg       0.80      0.80      0.79        15
 
 
 
-## 0136MvB8dxq6
+## 0334ASJURTyJ
 
-![000_raw/0136MvB8dxq6.png](/000_raw/0136MvB8dxq6.png)
+![000_raw/0334ASJURTyJ.png](/000_raw/0334ASJURTyJ.png)
+
+
+| label | GT | Pred | accurate |
+|:----|----|----|----|
+| Man | 0 | 0 | 🟢 |
+| Woman | 0 | 0 | 🟢 |
+| Person | 0 | 0 | 🟢 |
+
+
+
+
+## 0136MvB8dxqC
+
+![000_raw/0136MvB8dxqC.png](/000_raw/0136MvB8dxqC.png)
 
 
 | label | GT | Pred | accurate |
@@ -202,9 +132,9 @@ weighted avg       0.80      0.80      0.79        15
 
 
 
-## 0136MvB8dcyA
+## 0136MvB8dxkh
 
-![000_raw/0136MvB8dcyA.png](/000_raw/0136MvB8dcyA.png)
+![000_raw/0136MvB8dxkh.png](/000_raw/0136MvB8dxkh.png)
 
 
 | label | GT | Pred | accurate |
@@ -230,9 +160,9 @@ weighted avg       0.80      0.80      0.79        15
 
 
 
-## 0136MvB8dxkh
+## 0136MvB8ddGr
 
-![000_raw/0136MvB8dxkh.png](/000_raw/0136MvB8dxkh.png)
+![000_raw/0136MvB8ddGr.png](/000_raw/0136MvB8ddGr.png)
 
 
 | label | GT | Pred | accurate |
@@ -244,9 +174,23 @@ weighted avg       0.80      0.80      0.79        15
 
 
 
-## 0334ASJURTyJ
+## 0231yxsdQpbJ
 
-![000_raw/0334ASJURTyJ.png](/000_raw/0334ASJURTyJ.png)
+![000_raw/0231yxsdQpbJ.png](/000_raw/0231yxsdQpbJ.png)
+
+
+| label | GT | Pred | accurate |
+|:----|----|----|----|
+| Man | 1 | 0 | 🟥 |
+| Woman | 0 | 1 | 🟥 |
+| Person | 1 | 1 | 🟢 |
+
+
+
+
+## 0136MvB8dHsL
+
+![000_raw/0136MvB8dHsL.png](/000_raw/0136MvB8dHsL.png)
 
 
 | label | GT | Pred | accurate |
@@ -254,20 +198,6 @@ weighted avg       0.80      0.80      0.79        15
 | Man | 0 | 0 | 🟢 |
 | Woman | 0 | 0 | 🟢 |
 | Person | 0 | 0 | 🟢 |
-
-
-
-
-## 02347Tgma7MF
-
-![000_raw/02347Tgma7MF.png](/000_raw/02347Tgma7MF.png)
-
-
-| label | GT | Pred | accurate |
-|:----|----|----|----|
-| Man | 0 | 1 | 🟥 |
-| Woman | 0 | 0 | 🟢 |
-| Person | 0 | 1 | 🟥 |
 
 
 
@@ -282,3 +212,73 @@ weighted avg       0.80      0.80      0.79        15
 | Man | 1 | 0 | 🟥 |
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 0 | 🟥 |
+
+
+
+
+## 032ymV8PKNfS
+
+![000_raw/032ymV8PKNfS.png](/000_raw/032ymV8PKNfS.png)
+
+
+| label | GT | Pred | accurate |
+|:----|----|----|----|
+| Man | 0 | 1 | 🟥 |
+| Woman | 0 | 1 | 🟥 |
+| Person | 0 | 1 | 🟥 |
+
+
+
+
+## 0136MvB8dcyA
+
+![000_raw/0136MvB8dcyA.png](/000_raw/0136MvB8dcyA.png)
+
+
+| label | GT | Pred | accurate |
+|:----|----|----|----|
+| Man | 1 | 1 | 🟢 |
+| Woman | 0 | 1 | 🟥 |
+| Person | 1 | 1 | 🟢 |
+
+
+
+
+## 0234ASJUQ87y
+
+![000_raw/0234ASJUQ87y.png](/000_raw/0234ASJUQ87y.png)
+
+
+| label | GT | Pred | accurate |
+|:----|----|----|----|
+| Man | 1 | 1 | 🟢 |
+| Woman | 0 | 1 | 🟥 |
+| Person | 1 | 1 | 🟢 |
+
+
+
+
+## 0136MvB8dxq6
+
+![000_raw/0136MvB8dxq6.png](/000_raw/0136MvB8dxq6.png)
+
+
+| label | GT | Pred | accurate |
+|:----|----|----|----|
+| Man | 1 | 1 | 🟢 |
+| Woman | 0 | 1 | 🟥 |
+| Person | 1 | 1 | 🟢 |
+
+
+
+
+## 02347Tgma7Gk
+
+![000_raw/02347Tgma7Gk.png](/000_raw/02347Tgma7Gk.png)
+
+
+| label | GT | Pred | accurate |
+|:----|----|----|----|
+| Man | 1 | 1 | 🟢 |
+| Woman | 0 | 0 | 🟢 |
+| Person | 1 | 1 | 🟢 |

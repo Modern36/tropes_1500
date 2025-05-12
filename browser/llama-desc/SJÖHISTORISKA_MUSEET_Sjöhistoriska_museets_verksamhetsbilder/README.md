@@ -7,19 +7,22 @@ This file contains 4 images processed by the model: llama-desc
 
 
 
-## Label: p
+## 012uMWwjtcS4
+
+![000_raw/012uMWwjtcS4.png](/000_raw/012uMWwjtcS4.png)
+
+
+| label | GT | Pred | accurate |
+|:----|----|----|----|
+| Man | 0 | 0 | 🟢 |
+| Woman | 0 | 0 | 🟢 |
+| Person | 0 | 0 | 🟢 |
 
 ```
-              precision    recall  f1-score   support
-
-           0       1.00      0.75      0.86         4
-           1       0.00      0.00      0.00         0
-
-    accuracy                           0.75         4
-   macro avg       0.50      0.38      0.43         4
-weighted avg       1.00      0.75      0.86         4
-
+The photograph does not depict any individuals. The scene appears to be a maritime setting with ships or boats, but there are no visible people in the image. Therefore, it is not possible to describe the gender distribution of the people shown based on their physical characteristics or attire.
 ```
+
+
 
 
 
@@ -38,46 +41,6 @@ weighted avg       1.00      0.75      0.86         4
 There do not appear to be any people visible in this photograph. The image shows a large building with stairs leading up to it, surrounded by trees and other foliage. In the foreground, there is a sidewalk or path that runs along the bottom of the image.
 
 The photograph appears to have been taken on a cloudy day, as the sky above is overcast. There are no people visible in the image, either in the foreground or background. The focus of the photograph seems to be the building and its surroundings, rather than any individuals.
-```
-
-
-
-
-
-## 012uMWwjtcS4
-
-![000_raw/012uMWwjtcS4.png](/000_raw/012uMWwjtcS4.png)
-
-
-| label | GT | Pred | accurate |
-|:----|----|----|----|
-| Man | 0 | 0 | 🟢 |
-| Woman | 0 | 0 | 🟢 |
-| Person | 0 | 1 | 🟥 |
-
-```
-The photograph does not depict any individuals. The scene appears to be a maritime setting with ships or boats, but there are no visible people in the image. Therefore, it is not possible to describe the gender distribution of the people shown based on their physical characteristics or attire.
-```
-
-
-
-
-
-## 019EBwEJ7Wapd
-
-![000_raw/019EBwEJ7Wapd.png](/000_raw/019EBwEJ7Wapd.png)
-
-
-| label | GT | Pred | accurate |
-|:----|----|----|----|
-| Man | 0 | 0 | 🟢 |
-| Woman | 0 | 0 | 🟢 |
-| Person | 0 | 0 | 🟢 |
-
-```
-There are no individuals visible in this photograph. The scene appears to be a kitchen or cooking area, with various pots and pans on shelves, but there are no people present.
-
-**Answer:** There are no people in this image.
 ```
 
 
@@ -103,4 +66,25 @@ This black-and-white photograph depicts a long wooden structure extending from t
 In the background, there are several objects visible, including what appears to be a train track running parallel to the dam or seawall, as well as some buildings or structures in the distance. The overall atmosphere of the photograph suggests that it was taken in a rural or industrial setting, possibly during the early 20th century.
 
 The lighting in the image is soft and diffused, with no harsh shadows or bright highlights. The sky above is overcast, adding to the somber mood of the scene. Overall, the photograph presents a tranquil and peaceful view of a natural landscape, with the dam or seawall serving as a prominent feature.
+```
+
+
+
+
+
+## 019EBwEJ7Wapd
+
+![000_raw/019EBwEJ7Wapd.png](/000_raw/019EBwEJ7Wapd.png)
+
+
+| label | GT | Pred | accurate |
+|:----|----|----|----|
+| Man | 0 | 0 | 🟢 |
+| Woman | 0 | 0 | 🟢 |
+| Person | 0 | 0 | 🟢 |
+
+```
+There are no individuals visible in this photograph. The scene appears to be a kitchen or cooking area, with various pots and pans on shelves, but there are no people present.
+
+**Answer:** There are no people in this image.
 ```

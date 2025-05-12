@@ -25,18 +25,6 @@ weighted avg       0.25      0.50      0.33         2
 |:--- | ---:| ---:|
 
 
-## 012sBYWZWKnL
-
-![010_model_output/yolos-pretrained_th90/012sBYWZWKnL.png](/010_model_output/yolos-pretrained_th90/012sBYWZWKnL.png)
-
-
-| label | GT | Pred | accurate |
-|:----|----|----|----|
-| Person | 1 | 0 | 🟥 |
-
-
-
-
 ## 032sBYWZWKQB
 
 ![010_model_output/yolos-pretrained_th90/032sBYWZWKQB.png](/010_model_output/yolos-pretrained_th90/032sBYWZWKQB.png)
@@ -45,3 +33,15 @@ weighted avg       0.25      0.50      0.33         2
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Person | 0 | 0 | 🟢 |
+
+
+
+
+## 012sBYWZWKnL
+
+![010_model_output/yolos-pretrained_th90/012sBYWZWKnL.png](/010_model_output/yolos-pretrained_th90/012sBYWZWKnL.png)
+
+
+| label | GT | Pred | accurate |
+|:----|----|----|----|
+| Person | 1 | 0 | 🟥 |

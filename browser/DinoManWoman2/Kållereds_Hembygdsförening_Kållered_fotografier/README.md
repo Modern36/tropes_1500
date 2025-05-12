@@ -55,20 +55,6 @@ weighted avg       1.00      0.75      0.86         4
 
 
 
-## 013AmsTCUrWM
-
-![010_model_output/DinoManWoman_th25/013AmsTCUrWM.png](/010_model_output/DinoManWoman_th25/013AmsTCUrWM.png)
-
-
-| label | GT | Pred | accurate |
-|:----|----|----|----|
-| Man | 1 | 1 | 🟢 |
-| Woman | 0 | 1 | 🟥 |
-| Person | 1 | 1 | 🟢 |
-
-
-
-
 ## 02347Tgr46KA
 
 ![010_model_output/DinoManWoman_th25/02347Tgr46KA.png](/010_model_output/DinoManWoman_th25/02347Tgr46KA.png)
@@ -78,6 +64,20 @@ weighted avg       1.00      0.75      0.86         4
 |:----|----|----|----|
 | Man | 1 | 0 | 🟥 |
 | Woman | 1 | 1 | 🟢 |
+| Person | 1 | 1 | 🟢 |
+
+
+
+
+## 013AmsTCUrWM
+
+![010_model_output/DinoManWoman_th25/013AmsTCUrWM.png](/010_model_output/DinoManWoman_th25/013AmsTCUrWM.png)
+
+
+| label | GT | Pred | accurate |
+|:----|----|----|----|
+| Man | 1 | 1 | 🟢 |
+| Woman | 0 | 1 | 🟥 |
 | Person | 1 | 1 | 🟢 |
 
 
