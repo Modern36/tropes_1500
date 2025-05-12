@@ -10,14 +10,13 @@ model_output = output_dir / "010_model_output"
 
 ollama_desc_dir = model_output / "ollama_description_output"
 
+mistral_summary_dir = model_output / "mistral_summary_llama-vision"
+
 ollam_tmp_dir = output_dir / "ollama_confidence_output"
-ollam_tmp_dir.mkdir(parents=True, exist_ok=True)
 
 moon_tmp_dir = output_dir / "moon_point_output"
-moon_tmp_dir.mkdir(parents=True, exist_ok=True)
 
 moon_tmp_qa = model_output / "moon_QA_output"
-moon_tmp_qa.mkdir(parents=True, exist_ok=True)
 
 
 detections = output_dir / "999_detect_data"
