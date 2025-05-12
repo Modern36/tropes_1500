@@ -10,8 +10,11 @@ from trope_paths import mistral_summary_dir, ollama_desc_dir
 
 class Description(BaseModel):
     woman: bool
+    woman_reasoning: str
     man: bool
+    man_reasoning: str
     person: bool
+    person_reasoning: str
 
 
 if __name__ == "__main__":
@@ -48,9 +51,10 @@ if __name__ == "__main__":
                     ' "Woman", "Man" and "Person". If people are mentioned,'
                     ' but it is not clear whether it belongs to "Woman" or '
                     '"Man, they count as "Person". If it is explicitly '
-                    'mentioned that no "Woman", "Man" and "Person" are present,'
-                    ' the response is "0". If a man or a woman is present -- '
-                    " this also counts as a person being present.\n\n"
+                    'mentioned that no "Woman", "Man" and "Person" are mentioned,'
+                    ' the response is "0". If a man or a woman is mentioned -- '
+                    " this also counts as a person being mentioned. Provide "
+                    "a reasoning for each category. Reply in JSON format. \n\n"
                     f'"""\n\n" + {description} + "\n\n"""\n\n',
                     "role": "user",
                 }
@@ -62,7 +66,6 @@ if __name__ == "__main__":
         country = Description.model_validate_json(content)
 
         country = json.loads(country.model_dump_json())
-
         if country["person"] == 0 and (country["woman"] + country["man"]) > 0:
             raise ValueError(
                 "No 'Women' or 'Men' found in the image description."
