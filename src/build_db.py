@@ -1,6 +1,5 @@
 # Build db
 import json
-import re
 import sqlite3
 
 import pandas as pd
