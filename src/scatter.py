@@ -28,9 +28,7 @@ quadrantChart
     y-axis Percent --> Women
 """
 
-    for l, m, f, c in get_label_counts(
-        cursor, make_counts_query(Collection_in)
-    ):
+    for l, m, f, c in get_label_counts(cursor, Collection_in):
         if m == f == 0:
             continue
         M = m / c
@@ -93,7 +91,8 @@ quadrantChart
     return md
 
 
-def get_label_counts(cursor, query):
+def get_label_counts(cursor, collection):
+    query = make_counts_query(collection)
     return cursor.execute(query)
 
 
