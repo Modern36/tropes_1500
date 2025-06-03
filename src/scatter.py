@@ -20,20 +20,22 @@ metric_to_symbol = {"f1-score": "f", "precision": "p", "recall": "r"}
 def make_scatterplot(cursor, Collection_in=None, c=1500):
     if Collection_in is None:
         Collection = "ALL "
+    else:
+        Collection = Collection_in
 
     md = f"""
 
 ```mermaid
 quadrantChart
-    title Men and women in {Collection} {c}
+    title Men and women in {Collection_in} {c}
     x-axis Percent --> Men
     y-axis Percent --> Women
 """
 
-    for l, m, f, c in get_label_counts(
-        cursor, make_counts_query(Collection_in)
-    ):
+    for l, m, f, c in get_label_counts(cursor, Collection_in):
         if m == f == 0:
+            continue
+        if "2" in l:
             continue
         M = m / c
         F = f / c
@@ -44,34 +46,9 @@ quadrantChart
 
     # Calculate and add metrics.
 
-    GT = image_level_output_for_model(cursor, collection=Collection)
-
-    m_gt, w_gt = GT
-
-    for model, *_ in cursor.execute(
-        """
-        SELECT model
-        FROM prediction
-        where model != 'GroundTruth'
-        and label in ("m", "w")
-        group by model
-        ORDER BY model desc
-        """
-    ).fetchall():
-        model_predictions = image_level_output_for_model(
-            cursor, collection=Collection, model=model
-        )
-
-        assert len(model_predictions) == len(GT)
-
-        m_pred, w_pred = model_predictions
-
-        m_c_r = classification_report(
-            y_true=m_gt, y_pred=m_pred, output_dict=True
-        )
-        w_c_r = classification_report(
-            y_true=w_gt, y_pred=w_pred, output_dict=True
-        )
+    for model, m_c_r, w_c_r in get_classification_reports(
+        cursor=cursor, Collection=Collection
+    ):
         for metric in ["f1-score", "precision", "recall"]:
             x = m_c_r["1"][metric]
             if x == 1.0:
@@ -95,7 +72,45 @@ quadrantChart
     return md
 
 
-def get_label_counts(cursor, query):
+def get_classification_reports(*, cursor, Collection):
+    GT = image_level_output_for_model(cursor, collection=Collection)
+
+    m_gt, w_gt = GT
+
+    for model, *_ in cursor.execute(
+        """
+        SELECT model
+        FROM prediction
+        where model != 'GroundTruth'
+        and label in ("m", "w")
+        group by model
+        ORDER BY model desc
+        """
+    ).fetchall():
+        if "2" in model:
+            continue
+        m_pred, w_pred = image_level_output_for_model(
+            cursor, collection=Collection, model=model
+        )
+
+        assert len(m_pred) == len(w_pred)
+        assert len(m_gt) == len(w_gt)
+
+        m_c_r = classification_report(
+            y_true=m_gt,
+            y_pred=m_pred,
+        )
+        w_c_r = classification_report(
+            y_true=w_gt,
+            y_pred=w_pred,
+            output_dict=True,
+        )
+
+        yield model, m_c_r, w_c_r
+
+
+def get_label_counts(cursor, collection):
+    query = make_counts_query(collection)
     return cursor.execute(query)
 
 
