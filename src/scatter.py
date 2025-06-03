@@ -18,21 +18,7 @@ metric_to_symbol = {"f1-score": "f", "precision": "p", "recall": "r"}
 
 
 def make_scatterplot(cursor, Collection=None, c=1500):
-    query = (
-        "select model, "
-        "sum(case when label == 'm' then found else 0 end) as m, "
-        "sum(case when label == 'w' then found else 0 end) as f, "
-        "count(distinct prediction.image_id) "
-        "from prediction "
-    )
-
-    if Collection is not None:
-        query += (
-            "join images on prediction.image_id == images.image_id "
-            f"where collection_name = '{Collection}' "
-        )
-
-    query += "group by model"
+    query = make_counts_query(Collection)
 
     if Collection is None:
         Collection = "ALL "
@@ -107,6 +93,25 @@ quadrantChart
 
 """
     return md
+
+
+def make_counts_query(Collection):
+    query = (
+        "select model, "
+        "sum(case when label == 'm' then found else 0 end) as m, "
+        "sum(case when label == 'w' then found else 0 end) as f, "
+        "count(distinct prediction.image_id) "
+        "from prediction "
+    )
+
+    if Collection is not None:
+        query += (
+            "join images on prediction.image_id == images.image_id "
+            f"where collection_name = '{Collection}' "
+        )
+
+    query += "group by model"
+    return query
 
 
 def image_level_output_for_model(
