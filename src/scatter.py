@@ -15,10 +15,8 @@ one_char = {
 metric_to_symbol = {"f1-score": "f", "precision": "p", "recall": "r"}
 
 
-def make_scatterplot(cursor, Collection=None, c=1500):
-    query = make_counts_query(Collection)
-
-    if Collection is None:
+def make_scatterplot(cursor, Collection_in=None, c=1500):
+    if Collection_in is None:
         Collection = "ALL "
 
     md = f"""
@@ -30,7 +28,9 @@ quadrantChart
     y-axis Percent --> Women
 """
 
-    for l, m, f, c in cursor.execute(query):
+    for l, m, f, c in get_label_counts(
+        cursor, make_counts_query(Collection_in)
+    ):
         if m == f == 0:
             continue
         M = m / c
@@ -91,6 +91,10 @@ quadrantChart
 
 """
     return md
+
+
+def get_label_counts(cursor, query):
+    return cursor.execute(query)
 
 
 def make_counts_query(Collection):
