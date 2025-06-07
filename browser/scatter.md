@@ -14,7 +14,7 @@
 
 ```mermaid
 quadrantChart
-    title Men and women in ALL  1500
+    title Men and women in None 1500
     x-axis Percent --> Men
     y-axis Percent --> Women
     M%: [0.7993333333333333, 0.61] color: #999900

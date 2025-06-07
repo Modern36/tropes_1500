@@ -39,6 +39,8 @@ browser_gathering = browser_root / "gathering"
 model_to_subdir = {
     "DinoManWoman": model_output / "DinoManWoman_th25",
     "DinoWomanMan": model_output / "DinoWomanMan_th25",
+    "DinoManWoman2": model_output / "DinoManWoman_th25",
+    "DinoWomanMan2": model_output / "DinoWomanMan_th25",
     "YOLO_50": model_output / "yolos-pretrained_th50",
     "YOLO_75": model_output / "yolos-pretrained_th75",
     "YOLO_90": model_output / "yolos-pretrained_th90",
