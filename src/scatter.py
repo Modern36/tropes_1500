@@ -3,7 +3,7 @@ import sqlite3
 import pandas as pd
 from sklearn.metrics import classification_report
 
-from trope_paths import db_path, scatter_file
+from trope_paths import db_path, scatter_data_file, scatter_file
 
 one_char = {
     "GroundTruth": "GT",
@@ -236,4 +236,5 @@ if __name__ == "__main__":
 
     data = scatter_data_for_file()
     df = pd.DataFrame(sorted(data))
-    pass
+    df.columns = ["metric", "model", "men", "women"]
+    df.to_csv(scatter_data_file, index=False)
