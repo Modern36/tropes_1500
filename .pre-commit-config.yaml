@@ -28,3 +28,9 @@ repos:
         entry: pytest
         language: system
         pass_filenames: false
+    -   id: scatter
+        name: scatter
+        always_run: true
+        entry: python src/scatter.py
+        language: system
+        pass_filenames: false
