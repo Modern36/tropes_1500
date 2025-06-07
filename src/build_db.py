@@ -272,14 +272,17 @@ def load_vqa():
 def load_llama_desc():
     for desc_file in ollama_desc_dir.iterdir():
         image_id = desc_file.name.split(".")[0]
-        desc_summary_file = (
-            mistral_summary_dir / desc_file.with_suffix(".json").name
-        )
-        with open(desc_summary_file, "r", encoding="utf8") as f:
-            summary = json.load(f)
-        m = summary["man"]
-        w = summary["woman"]
-        p = summary["person"]
+        try:
+            m, w, p = ollama_correction[ollama_correction]
+        except KeyError:
+            desc_summary_file = (
+                mistral_summary_dir / desc_file.with_suffix(".json").name
+            )
+            with open(desc_summary_file, "r", encoding="utf8") as f:
+                summary = json.load(f)
+            m = summary["man"]
+            w = summary["woman"]
+            p = summary["person"]
 
         assert p >= max(m, w), desc_summary_file
 
