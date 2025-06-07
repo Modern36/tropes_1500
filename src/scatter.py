@@ -1,5 +1,6 @@
 import sqlite3
 
+import pandas as pd
 from sklearn.metrics import classification_report
 
 from trope_paths import db_path, scatter_file
@@ -207,3 +208,27 @@ def scatter_to_markdown():
 
 if __name__ == "__main__":
     scatter_to_markdown()
+
+    data = []
+
+    with sqlite3.connect(db_path, uri=True) as conn:
+        Collection = "ALL"
+        for model, m, f, c in get_label_counts(
+            cursor=conn.cursor(),
+            collection=None,
+        ):
+            assert c == 1500
+            data.append(("count", model, m, f))
+            data.append(("share", model, m / c, f / c))
+
+    for model, m_c_r, w_c_r in get_classification_reports(
+        cursor=conn.cursor(),
+        Collection=Collection,
+    ):
+        for metric in ["f1-score", "precision", "recall"]:
+            x = m_c_r["1"][metric]
+            y = w_c_r["1"][metric]
+
+            data.append((metric, model, x, y))
+    df = pd.DataFrame(sorted(data))
+    pass
