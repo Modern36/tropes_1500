@@ -229,8 +229,6 @@ def scatter_data_for_file():
 
 
 if __name__ == "__main__":
-    scatter_to_markdown()
-
     data = scatter_data_for_file()
     df = pd.DataFrame(sorted(data))
     df.columns = ["metric", "model", "men", "women"]
