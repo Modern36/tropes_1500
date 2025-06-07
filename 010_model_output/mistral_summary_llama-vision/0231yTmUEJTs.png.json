@@ -1,0 +1,8 @@
+{
+    "woman": true,
+    "woman_reasoning": "One woman is clearly identifiable in the foreground.",
+    "man": true,
+    "man_reasoning": "The majority of the visible people seem to be men, with men described in multiple sections of the image.",
+    "person": true,
+    "person_reasoning": "The image describes multiple groups of people, including individuals whose gender is unclear due to distance and indistinctness."
+}

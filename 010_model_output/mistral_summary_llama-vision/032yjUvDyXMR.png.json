@@ -1,0 +1,8 @@
+{
+    "woman": false,
+    "woman_reasoning": "There is no explicit mention of any women in the image description. Although it is possible to make educated guesses about the gender of individuals based on their appearance, the description explicitly states that all people depicted appear to be adult males.",
+    "man": true,
+    "man_reasoning": "The description explicitly mentions 'a group of men' and refers to several individuals as 'men' and 'adult males'.",
+    "person": true,
+    "person_reasoning": "The description mentions 'a group of men' and several 'individuals', 'people', and 'persons'."
+}

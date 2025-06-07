@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "The description does not explicitly mention any women, and while some individuals may be wearing clothing traditionally associated with women, it is not clear enough to categorize them as women.",
+  "man": false,
+  "man_reasoning": "The description does not explicitly mention any men, and while some individuals may be wearing clothing traditionally associated with men, it is not clear enough to categorize them as men.",
+  "person": true,
+  "person_reasoning": "The description mentions 'a group of individuals' and '13 people visible,' clearly indicating the presence of persons."
+}

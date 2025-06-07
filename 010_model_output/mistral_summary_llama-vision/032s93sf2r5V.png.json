@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "The description explicitly states that all the individuals appear to be men, thus no women are mentioned.",
+  "man": true,
+  "man_reasoning": "The description mentions 'all the individuals appear to be men' and 'another man', indicating multiple men are present.",
+  "person": true,
+  "person_reasoning": "The description mentions 'seven people', 'one person', 'two people', and 'another man', indicating that multiple persons are mentioned."
+}

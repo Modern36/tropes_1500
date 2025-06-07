@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "Two women are explicitly mentioned in the foreground. This counts as two women being mentioned.",
+  "man": false,
+  "man_reasoning": "Although some people are described as men, they are not explicitly mentioned as men. They are described as adults or individuals, which does not clarify their gender.",
+  "person": true,
+  "person_reasoning": "The description mentions several people, including children and adults, which counts as multiple persons being mentioned."
+}

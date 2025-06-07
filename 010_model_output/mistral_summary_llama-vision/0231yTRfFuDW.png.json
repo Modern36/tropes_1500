@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "No women are mentioned or implied in the description.",
+  "man": true,
+  "man_reasoning": "The description explicitly states that all visible individuals are adult males.",
+  "person": true,
+  "person_reasoning": "Since all individuals are described as men, they also count as persons."
+}

@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "The description mentions 'a woman in a light-colored dress sits on the steps behind them.'",
+  "man": true,
+  "man_reasoning": "The description mentions 'two boys in dark suits and hats' and 'another man in a suit stands beside her'. Boys are counted as men.",
+  "person": true,
+  "person_reasoning": "The description mentions 'at least seven individuals can be seen in the image' and also explicitly mentions 'two boys in dark suits and hats', 'a woman in a light-colored dress', 'another man in a suit', and 'a figure is visible standing near a tree at the edge of the road'."
+}

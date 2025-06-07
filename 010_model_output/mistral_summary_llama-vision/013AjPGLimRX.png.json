@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "The photograph explicitly mentions a woman as the central figure.",
+  "man": false,
+  "man_reasoning": "There is no explicit mention of a man in the description.",
+  "person": true,
+  "person_reasoning": "The description mentions 'several other individuals' in the background, although their gender is uncertain."
+}

@@ -1,0 +1,8 @@
+{
+    "woman": false,
+    "woman_reasoning": "The description mentions a 'young boy' and no other individuals are mentioned, so there is no woman in the image.",
+    "man": false,
+    "man_reasoning": "The description mentions a 'young boy' and no other individuals are mentioned, so there is no man in the image.",
+    "person": true,
+    "person_reasoning": "The description mentions a 'young boy', which counts as a person being mentioned in the image."
+}

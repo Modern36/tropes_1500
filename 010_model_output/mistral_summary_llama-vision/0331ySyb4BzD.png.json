@@ -1,0 +1,8 @@
+{
+    "woman": true,
+    "woman_reasoning": "The description mentions 'a woman wearing a long skirt or dress'.",
+    "man": true,
+    "man_reasoning": "The description mentions 'the man on the far right'.",
+    "person": true,
+    "person_reasoning": "The description mentions 'four individuals', 'three of them standing close together', 'one person positioned slightly behind the others', and 'two people in front of her' which include the woman, the man, and the two children."
+}

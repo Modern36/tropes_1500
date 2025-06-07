@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "No specific mention of a woman.",
+  "man": false,
+  "man_reasoning": "No specific mention of a man.",
+  "person": true,
+  "person_reasoning": "The text mentions 'a large crowd gathered along the waterfront, watching the event unfold.' and 'These individuals can be seen standing on the dock, as well as on the beach and in the surrounding area.'"
+}

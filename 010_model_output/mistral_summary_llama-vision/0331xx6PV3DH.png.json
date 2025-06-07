@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "The text explicitly mentions that there are no visible women in the image. Therefore, no women are counted.",
+  "man": true,
+  "man_reasoning": "The text describes a group of adult males in uniforms, standing in formation. This clearly indicates the presence of men.",
+  "person": true,
+  "person_reasoning": "Since the text specifies a group of adult males, it confirms the presence of persons in the image."
+}

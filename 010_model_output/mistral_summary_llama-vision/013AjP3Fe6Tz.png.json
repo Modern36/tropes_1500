@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "The image description explicitly states that there are no people depicted, so it cannot include a woman.",
+  "man": false,
+  "man_reasoning": "The image description explicitly states that there are no people depicted, so it cannot include a man.",
+  "person": false,
+  "person_reasoning": "The image description explicitly states that there are no people depicted, so it cannot include a person."
+}

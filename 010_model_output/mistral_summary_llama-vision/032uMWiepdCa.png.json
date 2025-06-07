@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "No woman is mentioned.",
+  "man": false,
+  "man_reasoning": "The description mentions a man, but it is explicitly stated that he is not a real person but rather a statue or object.",
+  "person": false,
+  "person_reasoning": "The description explicitly states that there are no people visible in the photograph."
+}

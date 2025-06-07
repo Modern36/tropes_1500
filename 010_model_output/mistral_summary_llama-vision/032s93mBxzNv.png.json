@@ -1,0 +1,8 @@
+{
+    "woman": true,
+    "woman_reasoning": "The description mentions an 'adult female' which counts as a woman.",
+    "man": true,
+    "man_reasoning": "The description mentions an 'adult male' which counts as a man.",
+    "person": true,
+    "person_reasoning": "The description mentions 'two adults and one child' as well as 'several other people', 'a person sitting on a bench' and 'another person standing behind the adult male'."
+}

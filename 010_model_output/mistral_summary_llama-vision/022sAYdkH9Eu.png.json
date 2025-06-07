@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "The description mentions 'an older woman'",
+  "man": true,
+  "man_reasoning": "The description mentions 'an older man'",
+  "person": true,
+  "person_reasoning": "Both 'an older woman' and 'an older man' count as persons"
+}

@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "There is no explicit mention of any woman in the image description. The description mentions that some individuals in the background might be female, but it is not certain.",
+  "man": true,
+  "man_reasoning": "The description explicitly mentions three men standing together and also suggests that most of the individuals in the background are likely men.",
+  "person": true,
+  "person_reasoning": "The description mentions three men and several people in the background, indicating that there are definitely people present in the image."
+}

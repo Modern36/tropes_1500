@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "The description does not mention any woman or individual described as a woman.",
+  "man": true,
+  "man_reasoning": "The description mentions 'men' and 'individuals' that appear to be men based on their attire and posture.",
+  "person": true,
+  "person_reasoning": "The description mentions 'individuals,' 'people,' and 'several people,' which can be categorized as persons."
+}

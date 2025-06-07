@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "The description does not specify that any of the individuals are women.",
+  "man": false,
+  "man_reasoning": "The description does not specify that any of the individuals are men.",
+  "person": true,
+  "person_reasoning": "The description mentions 'two individuals' and 'multiple individuals present in the scene', indicating that there are people in the image."
+}

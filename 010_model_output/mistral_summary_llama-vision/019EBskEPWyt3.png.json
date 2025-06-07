@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "The description mentions that 'some display women's faces', indicating that at least one woman is present.",
+  "man": true,
+  "man_reasoning": "The description states that 'the majority of these frames contain portraits of men', indicating that multiple men are present.",
+  "person": true,
+  "person_reasoning": "Since both men and women are mentioned, this counts as people being mentioned."
+}

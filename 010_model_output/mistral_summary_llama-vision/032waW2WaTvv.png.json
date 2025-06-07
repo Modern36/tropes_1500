@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "The text explicitly states that 'All the people visible in the photo appear to be adult males'. Therefore, no women are mentioned.",
+  "man": true,
+  "man_reasoning": "The text explicitly states that 'All the people visible in the photo appear to be adult males'. Therefore, men are mentioned.",
+  "person": true,
+  "person_reasoning": "The text mentions 'a group of men' and 'the individuals', which indicates that persons are mentioned."
+}

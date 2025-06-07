@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "Two women walking in the background and one woman standing in the background.",
+  "man": true,
+  "man_reasoning": "One man sitting on a bench near the fountain.",
+  "person": true,
+  "person_reasoning": "One man and three women are mentioned, so four people are mentioned."
+}

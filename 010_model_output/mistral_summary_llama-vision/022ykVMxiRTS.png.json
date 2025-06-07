@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "The text explicitly mentions two men and does not refer to any women.",
+  "man": true,
+  "man_reasoning": "The text explicitly mentions two men.",
+  "person": true,
+  "person_reasoning": "Since men are mentioned, this also counts as persons being mentioned."
+}

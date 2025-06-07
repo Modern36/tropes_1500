@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "The description explicitly mentions 'a woman' standing on either side of a tree stump.",
+  "man": true,
+  "man_reasoning": "The description explicitly mentions 'a man' standing on either side of a tree stump.",
+  "person": true,
+  "person_reasoning": "Both a man and a woman are mentioned, so it counts as two persons being mentioned."
+}

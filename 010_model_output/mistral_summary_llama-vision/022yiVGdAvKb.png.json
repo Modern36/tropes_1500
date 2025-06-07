@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "Two women are explicitly mentioned: 'an adult woman' and 'another woman'.",
+  "man": false,
+  "man_reasoning": "A boy is mentioned, but this does not explicitly confirm a man.",
+  "person": true,
+  "person_reasoning": "Four individuals inside the carriage and several people in the background are mentioned."
+}

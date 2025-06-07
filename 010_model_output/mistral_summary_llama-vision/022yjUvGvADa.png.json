@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "The description explicitly refers to a child, and no female characteristics or references are mentioned.",
+  "man": true,
+  "man_reasoning": "The description mentions a child who is likely male due to the attire commonly associated with boys during the depicted period.",
+  "person": true,
+  "person_reasoning": "The description explicitly refers to a child, which counts as a person."
+}

@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "Seven women are explicitly mentioned in the foreground. Therefore, at least one woman is present.",
+  "man": true,
+  "man_reasoning": "One man is explicitly mentioned in the foreground. Therefore, at least one man is present.",
+  "person": true,
+  "person_reasoning": "Multiple people are mentioned in the foreground and background, including those whose gender cannot be determined."
+}

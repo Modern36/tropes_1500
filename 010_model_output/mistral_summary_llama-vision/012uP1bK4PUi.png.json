@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "The description suggests that the person is likely a woman based on the style of the fur coat and the historical context provided.",
+  "man": false,
+  "man_reasoning": "There is no indication that the person is a man.",
+  "person": true,
+  "person_reasoning": "The description explicitly mentions a person."
+}

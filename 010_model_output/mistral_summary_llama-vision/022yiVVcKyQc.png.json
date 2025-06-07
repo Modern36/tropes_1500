@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "The text only mentions 'men' and 'individuals' and does not specify any women in the image.",
+  "man": true,
+  "man_reasoning": "The text explicitly mentions 'men'.",
+  "person": true,
+  "person_reasoning": "The text mentions 'individuals' and 'people', which counts as mentioning persons."
+}

@@ -1,0 +1,8 @@
+{
+    "woman": true,
+    "woman_reasoning": "The text mentions 'a woman in a long dress, possibly holding a child' and 'a woman who appears to be holding a baby'.",
+    "man": true,
+    "man_reasoning": "The text mentions 'an elderly man wearing dark clothing and a hat' and 'a man wearing a suit and tie'.",
+    "person": true,
+    "person_reasoning": "The text mentions 'a group of people', 'approximately 15 people', 'individuals', 'several men and women' and 'several other men and women'."
+}

@@ -12,12 +12,12 @@ This file contains 20 images processed by the model: llama-desc
 ```
               precision    recall  f1-score   support
 
-           0       0.92      0.67      0.77        18
-           1       0.14      0.50      0.22         2
+           0       0.94      0.94      0.94        18
+           1       0.50      0.50      0.50         2
 
-    accuracy                           0.65        20
-   macro avg       0.53      0.58      0.50        20
-weighted avg       0.85      0.65      0.72        20
+    accuracy                           0.90        20
+   macro avg       0.72      0.72      0.72        20
+weighted avg       0.90      0.90      0.90        20
 
 ```
 
@@ -29,11 +29,11 @@ weighted avg       0.85      0.65      0.72        20
               precision    recall  f1-score   support
 
            0       0.00      0.00      0.00         0
-           1       1.00      0.90      0.95        20
+           1       1.00      0.95      0.97        20
 
-    accuracy                           0.90        20
-   macro avg       0.50      0.45      0.47        20
-weighted avg       1.00      0.90      0.95        20
+    accuracy                           0.95        20
+   macro avg       0.50      0.47      0.49        20
+weighted avg       1.00      0.95      0.97        20
 
 ```
 
@@ -159,8 +159,8 @@ Overall, the scene suggests that the men are part of a military unit or organiza
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 1 | 0 | 🟥 |
-| Woman | 0 | 1 | 🟥 |
+| Man | 1 | 1 | 🟢 |
+| Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -237,7 +237,7 @@ Overall, this photograph captures a moment in time when a large number of people
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 1 | 🟢 |
-| Woman | 0 | 1 | 🟥 |
+| Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -287,7 +287,7 @@ Overall, based on the clothing worn by the individuals in the photograph, it can
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 1 | 🟢 |
-| Woman | 0 | 1 | 🟥 |
+| Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -331,7 +331,7 @@ There are no other people visible in the background or foreground of this image.
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 1 | 🟢 |
-| Woman | 0 | 1 | 🟥 |
+| Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -524,7 +524,7 @@ In the background, trees and buildings can be seen, suggesting that the photo wa
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 1 | 🟢 |
-| Woman | 0 | 1 | 🟥 |
+| Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```

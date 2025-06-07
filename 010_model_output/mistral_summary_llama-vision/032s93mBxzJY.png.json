@@ -1,0 +1,8 @@
+{
+    "woman": false,
+    "woman_reasoning": "There is no explicit mention of a woman in the description.",
+    "man": true,
+    "man_reasoning": "An elderly man is explicitly mentioned in the foreground.",
+    "person": true,
+    "person_reasoning": "The description mentions 'several individuals present', 'a group of people', and 'additional people', indicating multiple persons in the scene."
+}

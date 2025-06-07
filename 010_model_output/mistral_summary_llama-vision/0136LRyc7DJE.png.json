@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "The text mentions 'eight women present in the photo'",
+  "man": true,
+  "man_reasoning": "The text mentions '12 men'",
+  "person": true,
+  "person_reasoning": "The text mentions 'a group of 20 people'"
+}

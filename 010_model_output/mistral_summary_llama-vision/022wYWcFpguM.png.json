@@ -1,0 +1,8 @@
+{
+    "woman": false,
+    "woman_reasoning": "No specific mention of a woman.",
+    "man": false,
+    "man_reasoning": "No specific mention of a man.",
+    "person": true,
+    "person_reasoning": "The phrase 'a group of people gathered together' indicates that there are people in the image."
+}

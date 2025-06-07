@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "The description explicitly states that there are no clear visual indicators suggesting the presence of women.",
+  "man": true,
+  "man_reasoning": "The description identifies the individual as a man based on his attire: formal business wear consisting of a suit jacket and tie.",
+  "person": true,
+  "person_reasoning": "The description mentions a single individual, who is identified as a man."
+}

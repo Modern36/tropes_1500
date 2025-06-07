@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "A woman is mentioned, but she is in a painting and not a visible person.",
+  "man": false,
+  "man_reasoning": "There is no mention of a man.",
+  "person": false,
+  "person_reasoning": "The only person mentioned is in a painting."
+}

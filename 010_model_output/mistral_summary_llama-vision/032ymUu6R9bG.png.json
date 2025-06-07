@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "The description explicitly mentions 'a woman with her hair pulled back and wearing a light-colored dress or blouse.'",
+  "man": false,
+  "man_reasoning": "There is no mention of a man in the description.",
+  "person": true,
+  "person_reasoning": "The description mentions 'a single individual,' which implies a person."
+}

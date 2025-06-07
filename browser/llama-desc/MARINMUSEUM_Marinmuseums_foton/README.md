@@ -7,33 +7,17 @@ This file contains 25 images processed by the model: llama-desc
 
 
 
-## Label: w
-
-```
-              precision    recall  f1-score   support
-
-           0       1.00      0.88      0.94        25
-           1       0.00      0.00      0.00         0
-
-    accuracy                           0.88        25
-   macro avg       0.50      0.44      0.47        25
-weighted avg       1.00      0.88      0.94        25
-
-```
-
-
-
 ## Label: m
 
 ```
               precision    recall  f1-score   support
 
-           0       0.83      0.88      0.86        17
-           1       0.71      0.62      0.67         8
+           0       0.85      1.00      0.92        17
+           1       1.00      0.62      0.77         8
 
-    accuracy                           0.80        25
-   macro avg       0.77      0.75      0.76        25
-weighted avg       0.80      0.80      0.80        25
+    accuracy                           0.88        25
+   macro avg       0.93      0.81      0.84        25
+weighted avg       0.90      0.88      0.87        25
 
 ```
 
@@ -44,12 +28,12 @@ weighted avg       0.80      0.80      0.80        25
 ```
               precision    recall  f1-score   support
 
-           0       1.00      0.65      0.79        17
-           1       0.57      1.00      0.73         8
+           0       0.89      1.00      0.94        17
+           1       1.00      0.75      0.86         8
 
-    accuracy                           0.76        25
-   macro avg       0.79      0.82      0.76        25
-weighted avg       0.86      0.76      0.77        25
+    accuracy                           0.92        25
+   macro avg       0.95      0.88      0.90        25
+weighted avg       0.93      0.92      0.92        25
 
 ```
 
@@ -85,9 +69,9 @@ Upon closer inspection, no other people are visible in the background or out of 
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 0 | 1 | 🟥 |
-| Woman | 0 | 1 | 🟥 |
-| Person | 0 | 1 | 🟥 |
+| Man | 0 | 0 | 🟢 |
+| Woman | 0 | 0 | 🟢 |
+| Person | 0 | 0 | 🟢 |
 
 ```
 The photograph provided does not depict any individuals. The image appears to be a scientific illustration or diagram, featuring circular shapes with various patterns and textures inside them. There are no human figures present in the image.
@@ -185,8 +169,8 @@ The overall atmosphere of the image suggests that it was taken during a time whe
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
-| Woman | 0 | 1 | 🟥 |
-| Person | 0 | 1 | 🟥 |
+| Woman | 0 | 0 | 🟢 |
+| Person | 0 | 0 | 🟢 |
 
 ```
 There does not appear to be any people visible in this image. The image shows a black-and-white photograph of an ornate picture frame containing a portrait of a woman. The woman in the painting is wearing a large, elaborate dress and has her hair styled in an updo. She appears to be from the 18th century. The frame itself is made of wood and features intricate carvings along its edges. Above the frame, there is a decorative crown or crest that adds to the overall sense of grandeur and luxury.
@@ -205,7 +189,7 @@ There does not appear to be any people visible in this image. The image shows a 
 |:----|----|----|----|
 | Man | 1 | 0 | 🟥 |
 | Woman | 0 | 0 | 🟢 |
-| Person | 1 | 1 | 🟢 |
+| Person | 1 | 0 | 🟥 |
 
 ```
 There do not appear to be any people present in this image. The vessel appears empty and there are no visible individuals on board or in the surrounding environment.
@@ -224,7 +208,7 @@ There do not appear to be any people present in this image. The vessel appears e
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
 | Woman | 0 | 0 | 🟢 |
-| Person | 0 | 1 | 🟥 |
+| Person | 0 | 0 | 🟢 |
 
 ```
 There does not appear to be any people present in this image.
@@ -270,7 +254,7 @@ Notably, there are no children present in the image. The overall atmosphere of t
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
 | Woman | 0 | 0 | 🟢 |
-| Person | 0 | 1 | 🟥 |
+| Person | 0 | 0 | 🟢 |
 
 ```
 The image does not depict any individuals. The photograph shows a warship on the water, with no visible people in the foreground or background.
@@ -289,7 +273,7 @@ The image does not depict any individuals. The photograph shows a warship on the
 |:----|----|----|----|
 | Man | 1 | 0 | 🟥 |
 | Woman | 0 | 0 | 🟢 |
-| Person | 1 | 1 | 🟢 |
+| Person | 1 | 0 | 🟥 |
 
 ```
 There do not appear to be any people visible in this image. The image depicts a ship on water with buildings along the shoreline in the distance.
@@ -433,9 +417,9 @@ There do not appear to be any individuals present within this image.
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 0 | 1 | 🟥 |
+| Man | 0 | 0 | 🟢 |
 | Woman | 0 | 0 | 🟢 |
-| Person | 0 | 1 | 🟥 |
+| Person | 0 | 0 | 🟢 |
 
 ```
 There do not appear to be any people visible in this image. The photograph depicts a large black cannon on wheels in front of two buildings. There appears to be a man standing behind the left building but he is too far away and out of focus to make out any detail. He is wearing what looks like a long coat and hat, which suggests that it may have been taken at some point in the 19th century. It's possible that there could be other people present who are not visible due to being obscured by objects or simply because they were not captured within the frame of the photo.
@@ -515,7 +499,7 @@ There are no people visible in this photograph. The image appears to be a histor
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
 | Woman | 0 | 0 | 🟢 |
-| Person | 0 | 1 | 🟥 |
+| Person | 0 | 0 | 🟢 |
 
 ```
 The photograph you provided appears to be an old black-and-white image of a boat workshop or shipyard. The primary focus of the image is on the boats and the equipment used in their construction, rather than people.
@@ -535,7 +519,7 @@ Upon careful examination, I did not find any individuals depicted in this partic
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 1 | 🟢 |
-| Woman | 0 | 1 | 🟥 |
+| Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```

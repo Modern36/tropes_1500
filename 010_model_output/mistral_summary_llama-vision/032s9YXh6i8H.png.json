@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "The text mentions 'two women seated next to each other', 'three additional women sit together' and 'A young girl'.",
+  "man": true,
+  "man_reasoning": "The text mentions 'A man with glasses', 'Two men stand behind him', 'Another man is positioned to the right of the first row'.",
+  "person": true,
+  "person_reasoning": "The text mentions 'A group of people', '21 individuals', 'One person in the background', 'Another person situated near the back of the group'."
+}

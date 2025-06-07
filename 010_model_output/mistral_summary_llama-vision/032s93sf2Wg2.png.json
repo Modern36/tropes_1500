@@ -1,0 +1,8 @@
+{
+    "woman": true,
+    "woman_reasoning": "Three women are explicitly mentioned: two women standing side by side and another woman standing behind them.",
+    "man": false,
+    "man_reasoning": "No men are mentioned in the description.",
+    "person": true,
+    "person_reasoning": "The description mentions three women, which also counts as three people being mentioned."
+}

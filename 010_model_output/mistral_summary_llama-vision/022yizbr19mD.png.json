@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "Only one individual is explicitly mentioned as likely female (the bride). However, since the description does not confirm this individual as a woman, she is counted under 'person'.",
+  "man": false,
+  "man_reasoning": "There is speculation that the third person might be male based on historical norms, but this is not confirmed.",
+  "person": true,
+  "person_reasoning": "Four individuals are described in the photograph. One is likely female (the bride), but since it is not confirmed, she is counted as a person. The other three individuals are described with uncertain gender, so they are all counted as persons."
+}

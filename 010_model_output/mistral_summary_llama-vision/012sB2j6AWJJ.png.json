@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "The image description explicitly mentions an older man, with no mention of any woman.",
+  "man": true,
+  "man_reasoning": "The image description explicitly mentions an older man.",
+  "person": true,
+  "person_reasoning": "The image description explicitly mentions an older man, which counts as a person."
+}

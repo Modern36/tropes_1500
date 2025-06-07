@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "There are no references to women in the description.",
+  "man": true,
+  "man_reasoning": "The description explicitly mentions 'a man' and 'several other men' who appear to be sailors or crew members.",
+  "person": true,
+  "person_reasoning": "The description mentions 'a man' and 'several other men', which counts as mentioning persons."
+}

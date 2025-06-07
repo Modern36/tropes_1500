@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "The description explicitly mentions 'a group of young boys', which implies that there are no women present.",
+  "man": true,
+  "man_reasoning": "The description explicitly mentions 'a group of young boys', which implies that there are men present.",
+  "person": true,
+  "person_reasoning": "The description explicitly mentions 'a group of young boys', which implies that there are people present."
+}

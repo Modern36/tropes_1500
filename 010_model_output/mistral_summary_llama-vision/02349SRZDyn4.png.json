@@ -1,0 +1,8 @@
+{
+    "woman": false,
+    "woman_reasoning": "There is no mention of any women in the image description.",
+    "man": true,
+    "man_reasoning": "The image explicitly mentions 'a large group of men' in military uniforms, which confirms the presence of men.",
+    "person": true,
+    "person_reasoning": "Since men are mentioned, they also count as persons."
+}

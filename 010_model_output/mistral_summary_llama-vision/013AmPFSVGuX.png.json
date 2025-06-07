@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "The text explicitly mentions 'men' and does not mention any women.",
+  "man": true,
+  "man_reasoning": "The text mentions 'group of men' and 'another man', clearly indicating the presence of multiple men.",
+  "person": true,
+  "person_reasoning": "The text mentions 'men' and 'man', which fall under the category of 'person'."
+}

@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "The text mentions children but does not explicitly identify any of them as women or girls.",
+  "man": false,
+  "man_reasoning": "The text mentions children but does not explicitly identify any of them as men or boys.",
+  "person": true,
+  "person_reasoning": "The text explicitly mentions 'children' and 'group of children', which count as 'persons'."
+}

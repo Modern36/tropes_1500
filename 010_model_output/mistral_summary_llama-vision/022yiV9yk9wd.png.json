@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "The description mentions 'women are adorned in dresses and hats'.",
+  "man": true,
+  "man_reasoning": "The description mentions 'Men wear suits and ties'.",
+  "person": true,
+  "person_reasoning": "The description mentions 'several individuals', 'numerous people', 'children', 'individuals' and 'people'."
+}

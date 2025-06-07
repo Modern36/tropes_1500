@@ -12,12 +12,12 @@ This file contains 91 images processed by the model: llama-desc
 ```
               precision    recall  f1-score   support
 
-           0       0.95      0.91      0.93        85
-           1       0.20      0.33      0.25         6
+           0       0.96      1.00      0.98        85
+           1       1.00      0.33      0.50         6
 
-    accuracy                           0.87        91
-   macro avg       0.58      0.62      0.59        91
-weighted avg       0.90      0.87      0.88        91
+    accuracy                           0.96        91
+   macro avg       0.98      0.67      0.74        91
+weighted avg       0.96      0.96      0.95        91
 
 ```
 
@@ -28,12 +28,12 @@ weighted avg       0.90      0.87      0.88        91
 ```
               precision    recall  f1-score   support
 
-           0       0.90      0.92      0.91        76
-           1       0.54      0.47      0.50        15
+           0       0.89      0.99      0.94        76
+           1       0.86      0.40      0.55        15
 
-    accuracy                           0.85        91
-   macro avg       0.72      0.69      0.70        91
-weighted avg       0.84      0.85      0.84        91
+    accuracy                           0.89        91
+   macro avg       0.88      0.69      0.74        91
+weighted avg       0.89      0.89      0.87        91
 
 ```
 
@@ -44,12 +44,12 @@ weighted avg       0.84      0.85      0.84        91
 ```
               precision    recall  f1-score   support
 
-           0       0.90      0.83      0.86        69
-           1       0.57      0.73      0.64        22
+           0       0.88      0.97      0.92        69
+           1       0.87      0.59      0.70        22
 
-    accuracy                           0.80        91
-   macro avg       0.74      0.78      0.75        91
-weighted avg       0.82      0.80      0.81        91
+    accuracy                           0.88        91
+   macro avg       0.87      0.78      0.81        91
+weighted avg       0.88      0.88      0.87        91
 
 ```
 
@@ -62,9 +62,9 @@ weighted avg       0.82      0.80      0.81        91
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 0 | 1 | 🟥 |
-| Woman | 0 | 1 | 🟥 |
-| Person | 0 | 1 | 🟥 |
+| Man | 0 | 0 | 🟢 |
+| Woman | 0 | 0 | 🟢 |
+| Person | 0 | 0 | 🟢 |
 
 ```
 There are no people visible in this photograph. The image appears to be an aerial view of a landscape with trees and buildings, but it does not depict any individuals or groups of people.
@@ -167,7 +167,7 @@ There are no people visible in this photograph. The image appears to be an aeria
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
 | Woman | 0 | 0 | 🟢 |
-| Person | 0 | 1 | 🟥 |
+| Person | 0 | 0 | 🟢 |
 
 ```
 There do not appear to be any people visible within this photograph. The image appears to show a room filled with various antique or vintage items such as paintings, vases, and other decorative objects.
@@ -264,7 +264,7 @@ There are no people visible in this photograph. The image depicts a large buildi
 |:----|----|----|----|
 | Man | 1 | 0 | 🟥 |
 | Woman | 1 | 0 | 🟥 |
-| Person | 1 | 1 | 🟢 |
+| Person | 1 | 0 | 🟥 |
 
 ```
 There do not appear to be any people visible in this picture. There appears to be a horse and carriage in the center of the image, but there does not seem to be anyone riding it. The photograph was taken at an angle that would have captured people who were walking along the road or standing on the sidewalk next to the road, so if anyone was present they are likely hidden by objects or out of frame.
@@ -342,7 +342,7 @@ There are no people visible in this photograph. The image appears to be a black-
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 1 | 1 | 🟢 |
+| Man | 1 | 0 | 🟥 |
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
@@ -368,7 +368,7 @@ It's also worth noting that there may be other people present in the background 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 1 | 🟢 |
-| Woman | 0 | 1 | 🟥 |
+| Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -900,9 +900,9 @@ There are no individuals visible in this photograph. The image appears to be an 
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 0 | 1 | 🟥 |
-| Woman | 0 | 1 | 🟥 |
-| Person | 0 | 1 | 🟥 |
+| Man | 0 | 0 | 🟢 |
+| Woman | 0 | 0 | 🟢 |
+| Person | 0 | 0 | 🟢 |
 
 ```
 There are no individuals visible in this photograph, as it appears to be an aerial view of a landscape with no discernible human figures or other living beings. The image shows a vast expanse of land with some features that could be interpreted as roads, buildings, or other man-made structures, but there is no clear evidence of people present.
@@ -941,7 +941,7 @@ There are no individuals visible in this photograph. The image appears to be a l
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 0 | 1 | 🟥 |
-| Woman | 0 | 1 | 🟥 |
+| Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -1229,9 +1229,9 @@ In the background, there are several other boats visible, including what appears
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 0 | 1 | 🟥 |
-| Woman | 0 | 1 | 🟥 |
-| Person | 0 | 1 | 🟥 |
+| Man | 0 | 0 | 🟢 |
+| Woman | 0 | 0 | 🟢 |
+| Person | 0 | 0 | 🟢 |
 
 ```
 The image shows a black-and-white photograph of an old room with white walls, wood floors, several paintings on the wall and two wooden trunks. There are no people shown in this picture.
@@ -1296,7 +1296,7 @@ There are no people visible in this photograph. The image appears to be a landsc
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
 | Woman | 0 | 0 | 🟢 |
-| Person | 0 | 1 | 🟥 |
+| Person | 0 | 0 | 🟢 |
 
 ```
 There does not appear to be any people visible in this image. The focus appears to be on a stone wall with vegetation growing around it. There are no other objects or individuals in the picture, including those that may be partially hidden, out of focus, or in the background.
@@ -1445,7 +1445,7 @@ There are no people visible in this photograph, as it appears to be a collection
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
 | Woman | 0 | 0 | 🟢 |
-| Person | 0 | 1 | 🟥 |
+| Person | 0 | 0 | 🟢 |
 
 ```
 There do not appear to be any people visible in this image. The photograph appears to show a rural landscape or village from an aerial perspective, with several buildings and what looks like a body of water in the foreground. There are no discernible human figures within the frame.
@@ -1464,9 +1464,9 @@ The only indication of potential habitation is the presence of structures that r
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 0 | 1 | 🟥 |
-| Woman | 0 | 1 | 🟥 |
-| Person | 0 | 1 | 🟥 |
+| Man | 0 | 0 | 🟢 |
+| Woman | 0 | 0 | 🟢 |
+| Person | 0 | 0 | 🟢 |
 
 ```
 The photograph depicts a rocky landscape with no discernible human figures or individuals present within it.
@@ -1494,7 +1494,7 @@ Given the absence of any human figures in the image, it is not possible to ident
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
 | Woman | 0 | 0 | 🟢 |
-| Person | 1 | 1 | 🟢 |
+| Person | 1 | 0 | 🟥 |
 
 ```
 The image does not depict any people. The scene appears to be a cityscape with buildings and roads, but there are no visible individuals within the frame.
@@ -1513,7 +1513,7 @@ The image does not depict any people. The scene appears to be a cityscape with b
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
 | Woman | 0 | 0 | 🟢 |
-| Person | 0 | 0 | 🟢 |
+| Person | 0 | 1 | 🟥 |
 
 ```
 There are no individuals present in this photograph. The image features a serene landscape with a castle-like structure situated on the shore of a body of water, surrounded by lush greenery and trees. In the foreground, several boats are docked along the shoreline, while a few people can be seen walking or standing near the water's edge.
@@ -1555,7 +1555,7 @@ There are no individuals visible in this photograph. The scene appears to be a s
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
 | Woman | 0 | 0 | 🟢 |
-| Person | 0 | 1 | 🟥 |
+| Person | 0 | 0 | 🟢 |
 
 ```
 There do not appear to be any people visible in this picture. The photograph appears to show a landscape with grassy fields or meadows and trees. There are no buildings or structures that might house people, nor are there any roads, paths or other features of human activity.
@@ -1576,7 +1576,7 @@ It is important to note that the presence of people cannot always be determined 
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
 | Woman | 0 | 0 | 🟢 |
-| Person | 0 | 1 | 🟥 |
+| Person | 0 | 0 | 🟢 |
 
 ```
 There do not appear to be any people visible in this photograph.
@@ -1654,7 +1654,7 @@ The absence of people allows for a focus on the details of the setting and the o
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
 | Woman | 0 | 0 | 🟢 |
-| Person | 0 | 0 | 🟢 |
+| Person | 0 | 1 | 🟥 |
 
 ```
 There are no individuals visible in this photograph. The scene appears to depict an old watermill or similar structure, with a small waterfall and a building in the background. There is also what seems to be another person standing on the right side of the image.
@@ -1732,9 +1732,9 @@ There are no people visible in this photograph. The scene depicts a serene lands
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 0 | 1 | 🟥 |
-| Woman | 0 | 1 | 🟥 |
-| Person | 0 | 1 | 🟥 |
+| Man | 0 | 0 | 🟢 |
+| Woman | 0 | 0 | 🟢 |
+| Person | 0 | 0 | 🟢 |
 
 ```
 There are no people visible in this photograph. The image depicts a large building engulfed in flames, with smoke billowing into the air. The scene appears to be one of destruction and chaos, but there are no individuals present in the frame.
@@ -1774,7 +1774,7 @@ There are no people visible in this photograph. The scene appears to be a landsc
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
 | Woman | 1 | 0 | 🟥 |
-| Person | 1 | 1 | 🟢 |
+| Person | 1 | 0 | 🟥 |
 
 ```
 There do not appear to be any people visible in this photograph. The image appears to show a horse-drawn carriage with two horses attached to it, but there is no one driving the carriage or riding in it. There also does not appear to be anyone standing around the carriage or in the background of the image.
@@ -1832,7 +1832,7 @@ There are no individuals visible in this photograph. The image appears to be a b
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 0 | 🟥 |
-| Woman | 0 | 1 | 🟥 |
+| Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -1936,7 +1936,7 @@ The absence of any people in the picture makes it impossible to determine their 
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
 | Woman | 0 | 0 | 🟢 |
-| Person | 0 | 1 | 🟥 |
+| Person | 0 | 0 | 🟢 |
 
 ```
 There do not appear to be any people visible in this photograph. The image depicts a black-and-white scene of an overgrown backyard with trees and bushes, featuring a house in the background. A fence runs along the right side of the yard, while a tree stands on the left. The atmosphere suggests an old or abandoned property.
@@ -1955,7 +1955,7 @@ There do not appear to be any people visible in this photograph. The image depic
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
 | Woman | 0 | 0 | 🟢 |
-| Person | 0 | 1 | 🟥 |
+| Person | 0 | 0 | 🟢 |
 
 ```
 There do not appear to be any people visible in this photograph.

@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "The description mentions a 'young girl' sitting on a chair.",
+  "man": false,
+  "man_reasoning": "There is no explicit mention of a man.",
+  "person": true,
+  "person_reasoning": "The description mentions a 'young girl' and 'another person' standing behind the girl. The term 'person' covers both 'woman' and 'man', so this category is true."
+}

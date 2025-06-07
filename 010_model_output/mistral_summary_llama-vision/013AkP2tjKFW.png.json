@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "There are no mentions of a woman in the description.",
+  "man": true,
+  "man_reasoning": "There is a mention of an adult male standing at the front of the room and another person who appears to be an adult male.",
+  "person": true,
+  "person_reasoning": "There is a mention of a group of young boys (seated at desks) and two adult males (one standing at the front of the room and another near the back wall)."
+}

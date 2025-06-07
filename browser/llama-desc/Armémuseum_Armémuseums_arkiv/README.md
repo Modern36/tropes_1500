@@ -12,12 +12,12 @@ This file contains 15 images processed by the model: llama-desc
 ```
               precision    recall  f1-score   support
 
-           0       1.00      0.79      0.88        14
-           1       0.25      1.00      0.40         1
+           0       1.00      1.00      1.00        14
+           1       1.00      1.00      1.00         1
 
-    accuracy                           0.80        15
-   macro avg       0.62      0.89      0.64        15
-weighted avg       0.95      0.80      0.85        15
+    accuracy                           1.00        15
+   macro avg       1.00      1.00      1.00        15
+weighted avg       1.00      1.00      1.00        15
 
 ```
 
@@ -28,12 +28,12 @@ weighted avg       0.95      0.80      0.85        15
 ```
               precision    recall  f1-score   support
 
-           0       0.62      1.00      0.77         5
-           1       1.00      0.70      0.82        10
+           0       0.71      1.00      0.83         5
+           1       1.00      0.80      0.89        10
 
-    accuracy                           0.80        15
-   macro avg       0.81      0.85      0.80        15
-weighted avg       0.88      0.80      0.81        15
+    accuracy                           0.87        15
+   macro avg       0.86      0.90      0.86        15
+weighted avg       0.90      0.87      0.87        15
 
 ```
 
@@ -44,12 +44,12 @@ weighted avg       0.88      0.80      0.81        15
 ```
               precision    recall  f1-score   support
 
-           0       0.83      1.00      0.91         5
-           1       1.00      0.90      0.95        10
+           0       0.71      1.00      0.83         5
+           1       1.00      0.80      0.89        10
 
-    accuracy                           0.93        15
-   macro avg       0.92      0.95      0.93        15
-weighted avg       0.94      0.93      0.93        15
+    accuracy                           0.87        15
+   macro avg       0.86      0.90      0.86        15
+weighted avg       0.90      0.87      0.87        15
 
 ```
 
@@ -188,7 +188,7 @@ The man stands to the right of the woman, wearing a long-sleeved suit jacket and
 |:----|----|----|----|
 | Man | 1 | 0 | 🟥 |
 | Woman | 0 | 0 | 🟢 |
-| Person | 1 | 1 | 🟢 |
+| Person | 1 | 0 | 🟥 |
 
 ```
 There do not appear to be any people in this image. The images shown depict bridges and roads.
@@ -206,7 +206,7 @@ There do not appear to be any people in this image. The images shown depict brid
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 1 | 🟢 |
-| Woman | 0 | 1 | 🟥 |
+| Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -318,7 +318,7 @@ There are no people visible in this image. The image appears to be a collection 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 1 | 🟢 |
-| Woman | 0 | 1 | 🟥 |
+| Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -343,7 +343,7 @@ Overall, the image suggests a formal gathering or meeting among military personn
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 1 | 🟢 |
-| Woman | 0 | 1 | 🟥 |
+| Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -378,7 +378,7 @@ Given the nature of the images as construction site photos from a historical alb
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 1 | 0 | 🟥 |
+| Man | 1 | 1 | 🟢 |
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 

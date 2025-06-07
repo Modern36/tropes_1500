@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "The description explicitly states that there are no women visible in the image.",
+  "man": true,
+  "man_reasoning": "The description mentions a large group of uniformed men marching in formation.",
+  "person": true,
+  "person_reasoning": "The description includes the term 'men', which counts as people being mentioned."
+}

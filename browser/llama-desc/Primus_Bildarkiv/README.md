@@ -12,12 +12,12 @@ This file contains 54 images processed by the model: llama-desc
 ```
               precision    recall  f1-score   support
 
-           0       0.93      0.97      0.95        40
-           1       0.92      0.79      0.85        14
+           0       0.90      0.95      0.93        40
+           1       0.83      0.71      0.77        14
 
-    accuracy                           0.93        54
-   macro avg       0.92      0.88      0.90        54
-weighted avg       0.93      0.93      0.92        54
+    accuracy                           0.89        54
+   macro avg       0.87      0.83      0.85        54
+weighted avg       0.89      0.89      0.89        54
 
 ```
 
@@ -28,12 +28,12 @@ weighted avg       0.93      0.93      0.92        54
 ```
               precision    recall  f1-score   support
 
-           0       0.93      1.00      0.96        40
-           1       1.00      0.79      0.88        14
+           0       0.97      0.97      0.97        40
+           1       0.93      0.93      0.93        14
 
-    accuracy                           0.94        54
-   macro avg       0.97      0.89      0.92        54
-weighted avg       0.95      0.94      0.94        54
+    accuracy                           0.96        54
+   macro avg       0.95      0.95      0.95        54
+weighted avg       0.96      0.96      0.96        54
 
 ```
 
@@ -44,12 +44,12 @@ weighted avg       0.95      0.94      0.94        54
 ```
               precision    recall  f1-score   support
 
-           0       0.91      0.86      0.88        35
-           1       0.76      0.84      0.80        19
+           0       0.94      0.91      0.93        35
+           1       0.85      0.89      0.87        19
 
-    accuracy                           0.85        54
-   macro avg       0.84      0.85      0.84        54
-weighted avg       0.86      0.85      0.85        54
+    accuracy                           0.91        54
+   macro avg       0.90      0.90      0.90        54
+weighted avg       0.91      0.91      0.91        54
 
 ```
 
@@ -268,7 +268,7 @@ In summary, while the photograph offers valuable insights into the architectural
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
 | Woman | 1 | 0 | 🟥 |
-| Person | 1 | 0 | 🟥 |
+| Person | 1 | 1 | 🟢 |
 
 ```
 The image depicts a black-and-white photograph of two individuals riding bicycles on a road. The riders are positioned in the center of the image, with one slightly ahead of the other. They appear to be wearing dark-colored clothing and hats, but their facial features are not discernible due to the distance and quality of the image.
@@ -389,7 +389,7 @@ Since no people are visible in this photograph, it is not possible for me to ide
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
 | Woman | 0 | 0 | 🟢 |
-| Person | 0 | 1 | 🟥 |
+| Person | 0 | 0 | 🟢 |
 
 ```
 There do not appear to be any people visible in this image.
@@ -527,7 +527,7 @@ Based on their clothing and the context of the event, it appears that these indi
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
 | Woman | 0 | 0 | 🟢 |
-| Person | 0 | 1 | 🟥 |
+| Person | 0 | 0 | 🟢 |
 
 ```
 There do not appear to be any people visible in this photograph. The image depicts a serene landscape with a house or building situated near a body of water, surrounded by trees and grassy areas. However, upon careful examination, no human figures can be identified within the scene.
@@ -604,7 +604,7 @@ There are no people visible in this photograph. The image depicts a house with t
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 1 | 🟢 |
-| Woman | 1 | 1 | 🟢 |
+| Woman | 1 | 0 | 🟥 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -647,7 +647,7 @@ There are no people visible in this photograph. The image depicts a serene lands
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 1 | 0 | 🟥 |
+| Man | 1 | 1 | 🟢 |
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
@@ -794,9 +794,9 @@ There are no people visible in this photograph. The image appears to be a serene
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 1 | 0 | 🟥 |
-| Woman | 0 | 0 | 🟢 |
-| Person | 1 | 0 | 🟥 |
+| Man | 1 | 1 | 🟢 |
+| Woman | 0 | 1 | 🟥 |
+| Person | 1 | 1 | 🟢 |
 
 ```
 The photograph is a black-and-white image of a group of children posing for a class photo.
@@ -905,9 +905,9 @@ There are no other people visible in the image.
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 0 | 0 | 🟢 |
+| Man | 0 | 1 | 🟥 |
 | Woman | 0 | 0 | 🟢 |
-| Person | 0 | 0 | 🟢 |
+| Person | 0 | 1 | 🟥 |
 
 ```
 There are no individuals visible in this photograph. The image features a bridge spanning a river, with buildings and trees on either side. In the foreground, there is a large tree branch extending from the bottom-left corner towards the center of the image. On the right-hand side of the picture, partially hidden by the large tree branch, are two people. One appears to be an adult male wearing light-colored clothing, while the other seems to be a child dressed in dark attire. Both figures have their backs turned away from the camera as they face the river.
@@ -1006,7 +1006,7 @@ There are no people visible in this photograph. The image appears to be a landsc
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
 | Woman | 0 | 0 | 🟢 |
-| Person | 0 | 1 | 🟥 |
+| Person | 0 | 0 | 🟢 |
 
 ```
 There is no photograph provided, so it's impossible for me to describe any people visible within it.
@@ -1149,7 +1149,7 @@ In the background, there is another person standing near the tree, but this indi
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
 | Woman | 0 | 0 | 🟢 |
-| Person | 0 | 0 | 🟢 |
+| Person | 0 | 1 | 🟥 |
 
 ```
 There are no individuals visible in this photograph. The image depicts a black-and-white scene with stairs on the right side, leading up to what appears to be a doorway or entrance. On the left side, there is a sign that reads "PARKETT HÖGER" and another sign below it that says "CIRKUS ORIENTAL." In front of these signs, several people are gathered, but they are not clearly visible due to the low resolution of the image.
@@ -1220,7 +1220,7 @@ Given the absence of people in the photograph, it is impossible to determine the
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
 | Woman | 1 | 0 | 🟥 |
-| Person | 1 | 1 | 🟢 |
+| Person | 1 | 0 | 🟥 |
 
 ```
 I'm happy to help you with your request, but I must clarify that I'm a large language model, I don't have the capability to visually perceive or access images. Therefore, I cannot view the photograph from your historical collection and provide a description of the people in it.
@@ -1241,7 +1241,7 @@ However, if you could provide me with a detailed description of the photograph, 
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
 | Woman | 0 | 0 | 🟢 |
-| Person | 0 | 1 | 🟥 |
+| Person | 0 | 0 | 🟢 |
 
 ```
 There does not appear to be any person visible in this image. This black-and-white photograph shows a wooded area with large trees casting dappled shadows on the ground. The sun shines through the branches, illuminating the forest floor and highlighting the texture of the tree trunks. In the foreground, a small clearing is surrounded by dense underbrush, while in the background, the forest stretches out into the distance, with tall trees rising up towards the sky.

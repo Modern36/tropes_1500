@@ -12,12 +12,12 @@ This file contains 206 images processed by the model: llama-desc
 ```
               precision    recall  f1-score   support
 
-           0       0.90      0.86      0.88       154
-           1       0.64      0.71      0.67        52
+           0       0.90      0.96      0.93       154
+           1       0.85      0.67      0.75        52
 
-    accuracy                           0.83       206
-   macro avg       0.77      0.79      0.78       206
-weighted avg       0.83      0.83      0.83       206
+    accuracy                           0.89       206
+   macro avg       0.88      0.82      0.84       206
+weighted avg       0.89      0.89      0.88       206
 
 ```
 
@@ -28,12 +28,12 @@ weighted avg       0.83      0.83      0.83       206
 ```
               precision    recall  f1-score   support
 
-           0       0.86      0.93      0.89       129
-           1       0.86      0.74      0.80        77
+           0       0.83      0.98      0.90       129
+           1       0.96      0.66      0.78        77
 
     accuracy                           0.86       206
-   macro avg       0.86      0.84      0.84       206
-weighted avg       0.86      0.86      0.86       206
+   macro avg       0.90      0.82      0.84       206
+weighted avg       0.88      0.86      0.86       206
 
 ```
 
@@ -44,12 +44,12 @@ weighted avg       0.86      0.86      0.86       206
 ```
               precision    recall  f1-score   support
 
-           0       0.87      0.84      0.86       103
-           1       0.85      0.87      0.86       103
+           0       0.86      0.99      0.92       103
+           1       0.99      0.83      0.91       103
 
-    accuracy                           0.86       206
-   macro avg       0.86      0.86      0.86       206
-weighted avg       0.86      0.86      0.86       206
+    accuracy                           0.91       206
+   macro avg       0.92      0.91      0.91       206
+weighted avg       0.92      0.91      0.91       206
 
 ```
 
@@ -87,7 +87,7 @@ Overall, the photograph captures a moment of childhood innocence and curiosity, 
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
 | Woman | 0 | 0 | 🟢 |
-| Person | 0 | 1 | 🟥 |
+| Person | 0 | 0 | 🟢 |
 
 ```
 There do not appear to be any people shown in this image.
@@ -359,9 +359,9 @@ Upon closer inspection of the entire frame, including both the foreground and ba
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 0 | 1 | 🟥 |
-| Woman | 0 | 1 | 🟥 |
-| Person | 0 | 1 | 🟥 |
+| Man | 0 | 0 | 🟢 |
+| Woman | 0 | 0 | 🟢 |
+| Person | 0 | 0 | 🟢 |
 
 ```
 There is no photograph provided for me to describe the people in detail. However, I can provide a general response based on your request.
@@ -566,7 +566,7 @@ There are no individuals visible in this photograph.
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
-| Woman | 1 | 0 | 🟥 |
+| Woman | 1 | 1 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -591,7 +591,7 @@ It's worth noting that the photograph appears to have been taken at night, as ev
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 1 | 🟢 |
-| Woman | 1 | 1 | 🟢 |
+| Woman | 1 | 0 | 🟥 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -676,7 +676,7 @@ There are no people visible in this photograph.
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
 | Woman | 0 | 0 | 🟢 |
-| Person | 0 | 1 | 🟥 |
+| Person | 0 | 0 | 🟢 |
 
 ```
 There do not appear to be any people visible in this image. The image shows a black-and-white aerial photograph of a rural area with fields, trees, and buildings. There are no human figures or any signs of human activity within the frame.
@@ -693,9 +693,9 @@ There do not appear to be any people visible in this image. The image shows a bl
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 0 | 1 | 🟥 |
-| Woman | 0 | 1 | 🟥 |
-| Person | 0 | 1 | 🟥 |
+| Man | 0 | 0 | 🟢 |
+| Woman | 0 | 0 | 🟢 |
+| Person | 0 | 0 | 🟢 |
 
 ```
 There are no people visible in this photograph. The image appears to be a black-and-white landscape or cityscape with buildings and possibly roads, but it does not depict any individuals. Therefore, I cannot identify any men, women, children, or other persons within the scene.
@@ -754,7 +754,7 @@ In the background, there is a large tree on the left side of the image, which ad
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
 | Woman | 0 | 0 | 🟢 |
-| Person | 0 | 1 | 🟥 |
+| Person | 0 | 0 | 🟢 |
 
 ```
 There do not appear to be any people visible in this photograph. There appears to be a boat within an indoor setting with no other objects or individuals present. The background is relatively plain and empty, with only some stairs at the top of the image that are partially obscured from view.
@@ -771,8 +771,8 @@ There do not appear to be any people visible in this photograph. There appears t
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 0 | 1 | 🟥 |
-| Woman | 0 | 1 | 🟥 |
+| Man | 0 | 0 | 🟢 |
+| Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -880,9 +880,9 @@ There are no people visible in this photograph. The image depicts a room with ta
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 0 | 1 | 🟥 |
-| Woman | 0 | 1 | 🟥 |
-| Person | 0 | 1 | 🟥 |
+| Man | 0 | 0 | 🟢 |
+| Woman | 0 | 0 | 🟢 |
+| Person | 0 | 0 | 🟢 |
 
 ```
 There are no people visible in this photograph. The image appears to be a black-and-white picture of a stone or brick wall, with some rubble and debris scattered around it. There are no discernible human figures or faces in the image.
@@ -966,9 +966,9 @@ There are no people in this photograph. The image appears to be a black-and-whit
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 1 | 1 | 🟢 |
-| Woman | 1 | 1 | 🟢 |
-| Person | 1 | 1 | 🟢 |
+| Man | 1 | 0 | 🟥 |
+| Woman | 1 | 0 | 🟥 |
+| Person | 1 | 0 | 🟥 |
 
 ```
 The photograph features a group of individuals, with some being clearly visible and others partially hidden or out of focus.
@@ -1090,8 +1090,8 @@ Overall, based on the clothing and hairstyles depicted in the photograph, it can
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 0 | 1 | 🟥 |
-| Woman | 0 | 1 | 🟥 |
+| Man | 0 | 0 | 🟢 |
+| Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -1134,9 +1134,9 @@ The absence of individuals in the photograph makes it challenging to provide fur
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 1 | 0 | 🟥 |
-| Woman | 1 | 0 | 🟥 |
-| Person | 1 | 0 | 🟥 |
+| Man | 1 | 1 | 🟢 |
+| Woman | 1 | 1 | 🟢 |
+| Person | 1 | 1 | 🟢 |
 
 ```
 There are no people visible in this photograph.
@@ -1180,7 +1180,7 @@ If you would like me to analyze another photograph for the presence of humans, p
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
 | Woman | 0 | 0 | 🟢 |
-| Person | 0 | 1 | 🟥 |
+| Person | 0 | 0 | 🟢 |
 
 ```
 There do not appear to be any people visible in this photograph.
@@ -1378,7 +1378,7 @@ Given these observations, there are at least three people visible in the picture
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 1 | 🟢 |
-| Woman | 1 | 1 | 🟢 |
+| Woman | 1 | 0 | 🟥 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -1484,9 +1484,9 @@ This individual appears to be wearing dark clothing and has their back turned to
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 1 | 1 | 🟢 |
-| Woman | 1 | 1 | 🟢 |
-| Person | 1 | 1 | 🟢 |
+| Man | 1 | 0 | 🟥 |
+| Woman | 1 | 0 | 🟥 |
+| Person | 1 | 0 | 🟥 |
 
 ```
 The photograph does not depict any humans or other living creatures. It appears to be an interior scene with wooden tables and benches, but there are no individuals present in the image.
@@ -1597,8 +1597,8 @@ There are no people visible in this photograph. The image depicts a rocky beach 
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 1 | 1 | 🟢 |
-| Woman | 0 | 1 | 🟥 |
+| Man | 1 | 0 | 🟥 |
+| Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -1733,7 +1733,7 @@ There do not appear to be any people visible in this image. The photograph depic
 |:----|----|----|----|
 | Man | 1 | 0 | 🟥 |
 | Woman | 0 | 0 | 🟢 |
-| Person | 1 | 1 | 🟢 |
+| Person | 1 | 0 | 🟥 |
 
 ```
 There do not appear to be any people visible in this image. The scene depicts a vintage truck loaded with logs, parked in front of a building that resembles a barn or warehouse. The absence of human figures suggests that the focus is on the vehicle and its cargo rather than individuals.
@@ -1771,7 +1771,7 @@ There are no people visible in this photograph. The image appears to be a black-
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
 | Woman | 0 | 0 | 🟢 |
-| Person | 0 | 1 | 🟥 |
+| Person | 0 | 0 | 🟢 |
 
 ```
 There do not appear to be any people visible within this image. The photograph depicts a black-and-white aerial view of a rural landscape, featuring fields, trees, and buildings.
@@ -1840,7 +1840,7 @@ The overall atmosphere suggests a formal event with a mix of genders and ages pr
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
 | Woman | 0 | 0 | 🟢 |
-| Person | 0 | 1 | 🟥 |
+| Person | 0 | 0 | 🟢 |
 
 ```
 There do not appear to be any people in this photograph.
@@ -1858,8 +1858,8 @@ There do not appear to be any people in this photograph.
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
-| Woman | 1 | 1 | 🟢 |
-| Person | 1 | 1 | 🟢 |
+| Woman | 1 | 0 | 🟥 |
+| Person | 1 | 0 | 🟥 |
 
 ```
 The photograph depicts a sculpture of a woman sitting on a pedestal, with no other human subjects present in the image. The woman is depicted as a nude figure, which makes it impossible to determine her gender based on clothing alone. However, the sculpture's features and pose suggest that she is intended to be female.
@@ -1882,7 +1882,7 @@ Overall, while it is possible to infer certain characteristics about the woman i
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
 | Woman | 0 | 0 | 🟢 |
-| Person | 0 | 1 | 🟥 |
+| Person | 0 | 0 | 🟢 |
 
 ```
 There do not appear to be any people visible in this photograph. The image seems to depict a storage room or warehouse filled with rolls of fabric, likely for use in textile manufacturing or tailoring.
@@ -2030,9 +2030,9 @@ The setting of the photograph suggests a formal or professional environment, suc
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 1 | 1 | 🟢 |
-| Woman | 0 | 1 | 🟥 |
-| Person | 1 | 1 | 🟢 |
+| Man | 1 | 0 | 🟥 |
+| Woman | 0 | 0 | 🟢 |
+| Person | 1 | 0 | 🟥 |
 
 ```
 The photograph you provided does not show any people. The image appears to be a black-and-white picture of a construction site or industrial area, with various buildings, machinery, and equipment visible in the background. However, there are no individuals present in the scene.
@@ -2106,9 +2106,9 @@ Based on the provided information, there is only one person visible in the photo
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 0 | 1 | 🟥 |
-| Woman | 0 | 1 | 🟥 |
-| Person | 0 | 1 | 🟥 |
+| Man | 0 | 0 | 🟢 |
+| Woman | 0 | 0 | 🟢 |
+| Person | 0 | 0 | 🟢 |
 
 ```
 The photograph does not depict any individuals. The scene shows a landscape with buildings and fields but lacks human presence. Therefore, it is impossible to determine whether there are men, women, or children in the image as no people are visible at all.
@@ -2304,9 +2304,9 @@ There are no people visible in this photograph. The image appears to be an aeria
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 1 | 1 | 🟢 |
+| Man | 1 | 0 | 🟥 |
 | Woman | 0 | 0 | 🟢 |
-| Person | 1 | 1 | 🟢 |
+| Person | 1 | 0 | 🟥 |
 
 ```
 There do not appear to be any people visible in this photograph. The image depicts a log cabin with a man standing outside, but he is not clearly defined and appears to be more of an object or a statue rather than a real person. There are no other individuals present in the scene.
@@ -2733,8 +2733,8 @@ It's important to note that the individuals in this photograph are likely from a
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 1 | 1 | 🟢 |
-| Woman | 0 | 1 | 🟥 |
+| Man | 1 | 0 | 🟥 |
+| Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -2984,8 +2984,8 @@ The man's attire suggests that he may work on a farm or ranch, and his interacti
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 1 | 1 | 🟢 |
-| Woman | 0 | 1 | 🟥 |
+| Man | 1 | 0 | 🟥 |
+| Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -3092,7 +3092,7 @@ There are no individuals depicted in this photograph. The image appears to be an
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 1 | 🟢 |
-| Woman | 0 | 1 | 🟥 |
+| Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -3143,7 +3143,7 @@ The absence of people suggests that the focus is on the architectural features a
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
 | Woman | 1 | 0 | 🟥 |
-| Person | 1 | 0 | 🟥 |
+| Person | 1 | 1 | 🟢 |
 
 ```
 The photograph presents a series of black-and-white images arranged in six rows, each containing two identical pictures. The subject of these photographs is two children, a boy and a girl, who are likely twins or siblings close in age.
@@ -3400,7 +3400,7 @@ There are no people visible in this picture.
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 1 | 🟢 |
-| Woman | 0 | 1 | 🟥 |
+| Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -3484,7 +3484,7 @@ There are no individuals visible in this photograph. The image depicts a serene 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 1 | 🟢 |
-| Woman | 0 | 1 | 🟥 |
+| Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -3596,9 +3596,9 @@ There are no people visible in this black-and-white aerial photograph of a rural
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 0 | 1 | 🟥 |
-| Woman | 0 | 1 | 🟥 |
-| Person | 0 | 1 | 🟥 |
+| Man | 0 | 0 | 🟢 |
+| Woman | 0 | 0 | 🟢 |
+| Person | 0 | 0 | 🟢 |
 
 ```
 There are no people visible in this photograph. The image depicts a room with various objects, including chairs, tables, and artwork, but it does not show any individuals. Therefore, I am unable to provide information about the number of men, women, or children present in the picture, as there are none depicted.
@@ -3726,8 +3726,8 @@ However, given the context and attire of those in view, it is likely that most i
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 1 | 1 | 🟢 |
-| Woman | 0 | 1 | 🟥 |
+| Man | 1 | 0 | 🟥 |
+| Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -3772,8 +3772,8 @@ In the background, there are no other people visible. However, it's worth noting
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 1 | 0 | 🟥 |
-| Woman | 1 | 0 | 🟥 |
+| Man | 1 | 1 | 🟢 |
+| Woman | 1 | 1 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -3862,7 +3862,7 @@ Overall, the image suggests a sense of urban density and community living, with 
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
 | Woman | 0 | 0 | 🟢 |
-| Person | 0 | 1 | 🟥 |
+| Person | 0 | 0 | 🟢 |
 
 ```
 There do not appear to be any people visible in this image. The photograph shows a large church under construction with scaffolding surrounding it.
@@ -3902,7 +3902,7 @@ Since there are no people visible in the image, it is not possible to identify a
 |:----|----|----|----|
 | Man | 1 | 0 | 🟥 |
 | Woman | 0 | 0 | 🟢 |
-| Person | 1 | 1 | 🟢 |
+| Person | 1 | 0 | 🟥 |
 
 ```
 There does not appear to be any people visible in this image.
@@ -3986,7 +3986,7 @@ There are no people present in this photograph. The scene appears to depict a bu
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
 | Woman | 0 | 0 | 🟢 |
-| Person | 0 | 1 | 🟥 |
+| Person | 0 | 0 | 🟢 |
 
 ```
 There do not appear to be any people visible within this photograph. The image appears to show an interior view of a building or other structure with ornate details on the walls and ceiling. There are no figures in the foreground, middle ground, or background that could be identified as individuals based on their appearance or clothing.
@@ -4176,7 +4176,7 @@ There are no people visible in this photograph. The image depicts a train statio
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
 | Woman | 0 | 0 | 🟢 |
-| Person | 0 | 1 | 🟥 |
+| Person | 0 | 0 | 🟢 |
 
 ```
 There does not appear to be any people visible within this photograph.
@@ -4422,7 +4422,7 @@ There are no people visible in the photograph.
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 1 | 1 | 🟢 |
+| Man | 1 | 0 | 🟥 |
 | Woman | 1 | 0 | 🟥 |
 | Person | 1 | 1 | 🟢 |
 
@@ -4598,7 +4598,7 @@ There are no people visible in this photograph. The image depicts a table set wi
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 1 | 0 | 🟥 |
+| Man | 1 | 1 | 🟢 |
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
@@ -4648,7 +4648,7 @@ It's worth noting that the image quality is not clear enough to make definitive 
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
 | Woman | 0 | 0 | 🟢 |
-| Person | 1 | 0 | 🟥 |
+| Person | 1 | 1 | 🟢 |
 
 ```
 The photograph presents a collage of 16 black-and-white images, each featuring a young boy with blonde hair. The boy is depicted wearing different outfits in each image, including a white shirt and dark pants, as well as various hats and accessories.

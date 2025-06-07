@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "The description mentions a sculpture of a woman, but since it is a sculpture and not an actual person, it does not count as a 'Woman' in this context.",
+  "man": false,
+  "man_reasoning": "There is no mention of a man or any indication of a male figure in the description.",
+  "person": false,
+  "person_reasoning": "There are no actual human subjects present in the image, only a sculpture, which does not count as a 'Person' in this context."
+}

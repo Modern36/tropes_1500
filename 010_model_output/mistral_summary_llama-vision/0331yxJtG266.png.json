@@ -1,0 +1,8 @@
+{
+    "woman": false,
+    "woman_reasoning": "Some individuals might be wearing dresses or skirts, but it is not clear-cut.",
+    "man": false,
+    "man_reasoning": "Some figures appear to wear suits and hats typical of men's fashion, but it is not definitive.",
+    "person": true,
+    "person_reasoning": "The image features several individuals engaged in various activities, but it is not clear if they are men or women."
+}

@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "The text explicitly states that there is no clear evidence of women present in the photograph. Even though it mentions that some individuals may not be clearly visible, it does not confirm the presence of women.",
+  "man": true,
+  "man_reasoning": "The text states that the majority of the individuals visible in the image are adult males. Therefore, at least one man is present.",
+  "person": true,
+  "person_reasoning": "Since the text confirms the presence of men, it also confirms the presence of at least one person."
+}

@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "No women are mentioned in the description.",
+  "man": true,
+  "man_reasoning": "The description explicitly mentions 'three men' and refers to them individually as 'man on the left', 'man in the middle', and 'third man'.",
+  "person": true,
+  "person_reasoning": "Since the description mentions 'three men', it implies there are three people in the image."
+}

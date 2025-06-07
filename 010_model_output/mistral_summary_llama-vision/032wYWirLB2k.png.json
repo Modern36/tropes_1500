@@ -1,0 +1,10 @@
+{
+  "woman": true,
+  "woman_reasoning": "The description mentions 'a group of women dressed in white are seated on the floor'. This explicitly identifies the presence of women in the image."
+  ,
+  "man": true,
+  "man_reasoning": "The description mentions 'a man in dark attire appears to be addressing the crowd or leading an activity'. This explicitly identifies the presence of a man in the image."
+  ,
+  "person": true,
+  "person_reasoning": "The description mentions 'a large group of people gathered together for an event', 'a person wearing dark clothing stands behind the table', 'another individual sits at the far end', and 'more people can be seen standing and watching the event unfold'. These references indicate the presence of multiple people in the image."
+}

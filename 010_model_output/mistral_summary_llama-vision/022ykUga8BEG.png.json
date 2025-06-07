@@ -1,0 +1,8 @@
+{
+    "woman": false,
+    "woman_reasoning": "The description explicitly mentions that there are no women present in the photograph.",
+    "man": true,
+    "man_reasoning": "The description mentions 'men playing football' and 'a crowd of people' where it is reasonable to assume that some of the crowd members are men.",
+    "person": true,
+    "person_reasoning": "The description mentions 'a crowd of people' and 'spectators', which implies the presence of persons."
+}

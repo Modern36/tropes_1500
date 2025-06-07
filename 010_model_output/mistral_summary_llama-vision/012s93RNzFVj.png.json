@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "The text explicitly mentions that there are a few women present, distinguishable by their dresses or skirts.",
+  "man": true,
+  "man_reasoning": "The text explicitly mentions that the majority of the people in the image are men, identifiable by their attire which includes suits, hats, and ties.",
+  "person": true,
+  "person_reasoning": "The text mentions numerous individuals who are seated and engaged in various activities, which implies that there are people present."
+}

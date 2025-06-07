@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "The image description explicitly mentions only men, and there is no indication of any women present.",
+  "man": true,
+  "man_reasoning": "The image description explicitly mentions three men.",
+  "person": true,
+  "person_reasoning": "The term 'men' implies 'person'. Therefore, the three men count as three persons."
+}

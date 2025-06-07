@@ -12,12 +12,12 @@ This file contains 25 images processed by the model: llama-desc
 ```
               precision    recall  f1-score   support
 
-           0       0.86      0.90      0.88        21
-           1       0.33      0.25      0.29         4
+           0       0.87      0.95      0.91        21
+           1       0.50      0.25      0.33         4
 
-    accuracy                           0.80        25
-   macro avg       0.60      0.58      0.58        25
-weighted avg       0.78      0.80      0.79        25
+    accuracy                           0.84        25
+   macro avg       0.68      0.60      0.62        25
+weighted avg       0.81      0.84      0.82        25
 
 ```
 
@@ -28,12 +28,12 @@ weighted avg       0.78      0.80      0.79        25
 ```
               precision    recall  f1-score   support
 
-           0       0.75      0.80      0.77        15
-           1       0.67      0.60      0.63        10
+           0       0.75      1.00      0.86        15
+           1       1.00      0.50      0.67        10
 
-    accuracy                           0.72        25
-   macro avg       0.71      0.70      0.70        25
-weighted avg       0.72      0.72      0.72        25
+    accuracy                           0.80        25
+   macro avg       0.88      0.75      0.76        25
+weighted avg       0.85      0.80      0.78        25
 
 ```
 
@@ -44,12 +44,12 @@ weighted avg       0.72      0.72      0.72        25
 ```
               precision    recall  f1-score   support
 
-           0       0.90      0.75      0.82        12
-           1       0.80      0.92      0.86        13
+           0       0.75      1.00      0.86        12
+           1       1.00      0.69      0.82        13
 
     accuracy                           0.84        25
-   macro avg       0.85      0.84      0.84        25
-weighted avg       0.85      0.84      0.84        25
+   macro avg       0.88      0.85      0.84        25
+weighted avg       0.88      0.84      0.84        25
 
 ```
 
@@ -109,8 +109,8 @@ There does not appear to be any people visible in this image. The image shows an
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 1 | 1 | 🟢 |
-| Woman | 0 | 1 | 🟥 |
+| Man | 1 | 0 | 🟥 |
+| Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -157,9 +157,9 @@ Overall, based on the clothing worn by the two men in the foreground, it can be 
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 0 | 1 | 🟥 |
+| Man | 0 | 0 | 🟢 |
 | Woman | 0 | 0 | 🟢 |
-| Person | 0 | 1 | 🟥 |
+| Person | 0 | 0 | 🟢 |
 
 ```
 The photograph shows a room with glass display cases containing mannequins dressed in military uniforms. The mannequins are all wearing formal attire, including hats and medals, suggesting that they represent different branches or ranks within the military.
@@ -224,7 +224,7 @@ There are no individuals visible in this picture. The photograph appears to be a
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
 | Woman | 0 | 0 | 🟢 |
-| Person | 0 | 1 | 🟥 |
+| Person | 0 | 0 | 🟢 |
 
 ```
 There does not appear to be any people present in this image. The photograph depicts a house with no visible human presence inside or outside the building.
@@ -243,7 +243,7 @@ There does not appear to be any people present in this image. The photograph dep
 |:----|----|----|----|
 | Man | 1 | 0 | 🟥 |
 | Woman | 0 | 0 | 🟢 |
-| Person | 1 | 1 | 🟢 |
+| Person | 1 | 0 | 🟥 |
 
 ```
 There does not appear to be any person visible in this image.
@@ -283,9 +283,9 @@ The image does not depict any individuals, as it appears to be a photograph of a
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 0 | 1 | 🟥 |
-| Woman | 0 | 1 | 🟥 |
-| Person | 1 | 1 | 🟢 |
+| Man | 0 | 0 | 🟢 |
+| Woman | 0 | 0 | 🟢 |
+| Person | 1 | 0 | 🟥 |
 
 ```
 The photograph appears to show two vessels on a body of water, with no people visible in the image.
@@ -308,7 +308,7 @@ Due to the lack of clarity or visibility of any person in the photograph, it is 
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
 | Woman | 1 | 0 | 🟥 |
-| Person | 1 | 1 | 🟢 |
+| Person | 1 | 0 | 🟥 |
 
 ```
 There do not appear to be any people visible in this image.
@@ -432,7 +432,7 @@ The man standing on the platform wears a dark suit, a light-coloured shirt and t
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 0 | 1 | 🟥 |
+| Man | 0 | 0 | 🟢 |
 | Woman | 1 | 1 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
@@ -459,7 +459,7 @@ Overall, based on their clothing and hairstyles, it appears that all four indivi
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
 | Woman | 0 | 0 | 🟢 |
-| Person | 0 | 1 | 🟥 |
+| Person | 0 | 0 | 🟢 |
 
 ```
 There do not appear to be any people visible within this image.
@@ -584,7 +584,7 @@ It's worth noting that the photograph appears to be an old black-and-white image
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 1 | 🟢 |
-| Woman | 0 | 0 | 🟢 |
+| Woman | 0 | 1 | 🟥 |
 | Person | 1 | 1 | 🟢 |
 
 ```

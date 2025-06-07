@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "The description mentions 'a woman standing behind the man on the left side of the image' and 'another woman partially hidden behind the first woman'.",
+  "man": true,
+  "man_reasoning": "The description mentions 'an adult male' and 'the man'.",
+  "person": true,
+  "person_reasoning": "The description mentions 'an adult male', 'the man', 'a woman', 'another woman', and 'a third person, possibly a child or young adult'."
+}

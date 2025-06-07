@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "A woman is explicitly mentioned: 'a woman can be seen walking towards the camera.'",
+  "man": true,
+  "man_reasoning": "Two men are explicitly mentioned: 'two men stand near the tracks.'",
+  "person": true,
+  "person_reasoning": "Multiple persons are mentioned: 'several individuals present,' 'another person stands behind them,' and 'several other people visible.'"
+}

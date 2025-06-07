@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "No women are explicitly mentioned in the description.",
+  "man": false,
+  "man_reasoning": "No men are explicitly mentioned in the description.",
+  "person": false,
+  "person_reasoning": "No people are explicitly mentioned in the description, only a description of the scenery and animals."
+}

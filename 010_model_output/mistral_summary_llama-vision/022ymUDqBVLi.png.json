@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "The description explicitly mentions 'women' present in the image, wearing dresses and hats.",
+  "man": true,
+  "man_reasoning": "The description explicitly mentions 'men' present in the image, dressed in suits and hats.",
+  "person": true,
+  "person_reasoning": "The description mentions 'people' and 'individuals', which includes both men and women."
+}

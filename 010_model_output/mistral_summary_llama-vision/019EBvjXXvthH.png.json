@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "No woman is explicitly mentioned in the description.",
+  "man": true,
+  "man_reasoning": "There is a male individual mentioned on the left-hand side of the image.",
+  "person": true,
+  "person_reasoning": "Two individuals are mentioned in the description, one of whom is explicitly a man, and the other is referred to as a person."
+}

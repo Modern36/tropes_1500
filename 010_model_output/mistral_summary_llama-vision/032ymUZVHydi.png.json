@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "The description states that there may be one or two women present, but this cannot be confirmed with certainty. Therefore, it is not explicitly mentioned that there is a woman.",
+  "man": true,
+  "man_reasoning": "The description infers that at least half of the people are likely men based on their attire.",
+  "person": true,
+  "person_reasoning": "The description mentions 'approximately 30 individuals present', so it is clear that there are persons in the image."
+}

@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "There is one person on the far right who appears to be a woman, based on her clothing and hairstyle.",
+  "man": true,
+  "man_reasoning": "Most of the individuals seem to be men, as evidenced by their attire and hairstyles.",
+  "person": true,
+  "person_reasoning": "The image shows a group of 11 people standing in front of a line of trees."
+}

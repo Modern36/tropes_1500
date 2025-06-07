@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "The description explicitly mentions that all individuals in the image are male, thus no women are present.",
+  "man": true,
+  "man_reasoning": "The description specifies that the individuals in the image are all male, referring to them as 'men' and 'male soldiers'.",
+  "person": true,
+  "person_reasoning": "The description refers to a group of men, which counts as persons being mentioned."
+}

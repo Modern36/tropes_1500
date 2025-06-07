@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "The text explicitly mentions 'one man', and there is no indication of any women in the description.",
+  "man": true,
+  "man_reasoning": "The text explicitly mentions 'one man', who is the subject of the portrait.",
+  "person": true,
+  "person_reasoning": "The text mentions 'one man', which counts as a person."
+}

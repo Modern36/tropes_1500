@@ -12,12 +12,12 @@ This file contains 85 images processed by the model: llama-desc
 ```
               precision    recall  f1-score   support
 
-           0       0.87      0.92      0.89        50
-           1       0.88      0.80      0.84        35
+           0       0.90      0.94      0.92        50
+           1       0.91      0.86      0.88        35
 
-    accuracy                           0.87        85
-   macro avg       0.87      0.86      0.86        85
-weighted avg       0.87      0.87      0.87        85
+    accuracy                           0.91        85
+   macro avg       0.91      0.90      0.90        85
+weighted avg       0.91      0.91      0.91        85
 
 ```
 
@@ -28,12 +28,12 @@ weighted avg       0.87      0.87      0.87        85
 ```
               precision    recall  f1-score   support
 
-           0       0.88      0.98      0.93        52
-           1       0.96      0.79      0.87        33
+           0       0.92      0.94      0.93        52
+           1       0.91      0.88      0.89        33
 
-    accuracy                           0.91        85
-   macro avg       0.92      0.88      0.90        85
-weighted avg       0.91      0.91      0.90        85
+    accuracy                           0.92        85
+   macro avg       0.92      0.91      0.91        85
+weighted avg       0.92      0.92      0.92        85
 
 ```
 
@@ -44,12 +44,12 @@ weighted avg       0.91      0.91      0.90        85
 ```
               precision    recall  f1-score   support
 
-           0       0.69      0.83      0.75        24
-           1       0.93      0.85      0.89        61
+           0       0.83      1.00      0.91        24
+           1       1.00      0.92      0.96        61
 
-    accuracy                           0.85        85
-   macro avg       0.81      0.84      0.82        85
-weighted avg       0.86      0.85      0.85        85
+    accuracy                           0.94        85
+   macro avg       0.91      0.96      0.93        85
+weighted avg       0.95      0.94      0.94        85
 
 ```
 
@@ -83,9 +83,9 @@ As there are no individuals present in the image, I am unable to provide any det
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 0 | 0 | 🟢 |
+| Man | 0 | 1 | 🟥 |
 | Woman | 0 | 0 | 🟢 |
-| Person | 1 | 0 | 🟥 |
+| Person | 1 | 1 | 🟢 |
 
 ```
 The photograph shows a young boy dressed formally in a tuxedo with a bowtie and vest, sitting on a chair, smiling at the camera. He wears round glasses with thin frames and has short hair that's combed neatly over his forehead.
@@ -142,7 +142,7 @@ The individuals are positioned against a plain backdrop, devoid of any notable f
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 0 | 0 | 🟢 |
+| Man | 0 | 1 | 🟥 |
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
@@ -232,7 +232,7 @@ Overall, the photograph captures a moment of social interaction and community bo
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
 | Woman | 0 | 0 | 🟢 |
-| Person | 0 | 1 | 🟥 |
+| Person | 0 | 0 | 🟢 |
 
 ```
 There do not appear to be any people visible in this photograph. The image shows a church with a tower and what appears to be a graveyard or cemetery in front of it. There are no discernible human figures within the scene.
@@ -365,7 +365,7 @@ There are no individuals visible in this photograph. The image appears to be an 
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
 | Woman | 0 | 0 | 🟢 |
-| Person | 1 | 0 | 🟥 |
+| Person | 1 | 1 | 🟢 |
 
 ```
 The photograph depicts a baby girl sitting on the floor, holding an object in her hands. The baby is dressed in a white dress and has short hair. She appears to be around one year old.
@@ -624,7 +624,7 @@ Given these cultural norms surrounding dress during that era, it is reasonable t
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 1 | 0 | 🟥 |
+| Man | 1 | 1 | 🟢 |
 | Woman | 1 | 1 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
@@ -675,7 +675,7 @@ The man wears a dark suit, complete with a bow tie and a carnation pinned to his
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
-| Woman | 0 | 0 | 🟢 |
+| Woman | 0 | 1 | 🟥 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -700,7 +700,7 @@ Overall, the image presents a heartwarming portrayal of childhood, capturing the
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 1 | 🟢 |
-| Woman | 0 | 1 | 🟥 |
+| Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -918,8 +918,8 @@ Overall, based on the woman's attire and hairstyle, it can be inferred that she 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
-| Woman | 0 | 0 | 🟢 |
-| Person | 1 | 0 | 🟥 |
+| Woman | 0 | 1 | 🟥 |
+| Person | 1 | 1 | 🟢 |
 
 ```
 The photograph features a single child sitting on a set of stairs, with no other individuals visible in the image. The child is positioned centrally and appears to be the main subject of the photo.
@@ -1039,7 +1039,7 @@ There are no people visible in this photograph. The image appears to be an aeria
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
-| Woman | 0 | 0 | 🟢 |
+| Woman | 0 | 1 | 🟥 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -1184,7 +1184,7 @@ In summary, the image depicts two women from the early 20th century, likely take
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 1 | 🟢 |
-| Woman | 0 | 1 | 🟥 |
+| Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -1308,7 +1308,7 @@ Overall, based on the clothing and hairstyle, it can be inferred that the person
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 1 | 🟢 |
-| Woman | 0 | 1 | 🟥 |
+| Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -1576,7 +1576,7 @@ The photograph shows a large building with a fence and trees around it. There ap
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 0 | 0 | 🟢 |
+| Man | 0 | 1 | 🟥 |
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
@@ -1636,7 +1636,7 @@ The background of the photograph appears to be a plain wall or backdrop, likely 
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 1 | 0 | 🟥 |
+| Man | 1 | 1 | 🟢 |
 | Woman | 1 | 1 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
@@ -1686,7 +1686,7 @@ The background is out of focus but seems to show an old-fashioned room with a da
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
 | Woman | 0 | 0 | 🟢 |
-| Person | 0 | 1 | 🟥 |
+| Person | 0 | 0 | 🟢 |
 
 ```
 The photograph does not depict any individuals. The image appears to be an aerial view of a large house or building surrounded by trees and water, with no visible signs of people.
@@ -1755,8 +1755,8 @@ Based on the analysis, it can be concluded that there are no people depicted in 
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 1 | 0 | 🟥 |
-| Woman | 1 | 0 | 🟥 |
+| Man | 1 | 1 | 🟢 |
+| Woman | 1 | 1 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -1866,9 +1866,9 @@ In the background, there are no other individuals visible. The focus is solely o
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 0 | 1 | 🟥 |
-| Woman | 0 | 1 | 🟥 |
-| Person | 0 | 1 | 🟥 |
+| Man | 0 | 0 | 🟢 |
+| Woman | 0 | 0 | 🟢 |
+| Person | 0 | 0 | 🟢 |
 
 ```
 There do not appear to be any people visible in this image. The photograph shows a landscape with fields and roads, but no individuals can be seen. Therefore, it is impossible to determine if there are men, women or children present based on the provided information.
@@ -1937,8 +1937,8 @@ There is no one in this photograph. The image depicts a house with a large tree 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
-| Woman | 1 | 0 | 🟥 |
-| Person | 1 | 0 | 🟥 |
+| Woman | 1 | 1 | 🟢 |
+| Person | 1 | 1 | 🟢 |
 
 ```
 The image shows a group of five young girls standing in front of a tent. They are all wearing long-sleeved shirts and shorts or skirts, with one girl wearing a hat.
@@ -2039,7 +2039,7 @@ Overall, the image presents a clear and well-defined depiction of a single indiv
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
 | Woman | 0 | 0 | 🟢 |
-| Person | 0 | 1 | 🟥 |
+| Person | 0 | 0 | 🟢 |
 
 ```
 There do not appear to be any people in this photograph. The image presents a serene landscape with rolling hills and trees, but no human figures are visible within the frame.

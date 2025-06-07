@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "The text mentions 'women and children' in the background, indicating the presence of women.",
+  "man": true,
+  "man_reasoning": "The text mentions 'several men' in the foreground, and 'a man' on the left side, indicating the presence of men.",
+  "person": true,
+  "person_reasoning": "The text mentions 'people', 'individuals', 'additional people', 'another person', indicating the presence of people. Also, since both men and women are mentioned, this also counts as people being mentioned."
+}

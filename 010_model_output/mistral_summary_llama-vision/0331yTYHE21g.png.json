@@ -1,0 +1,8 @@
+{
+    "woman": false,
+    "woman_reasoning": "No woman is explicitly mentioned. The person's gender is not clearly identifiable.",
+    "man": false,
+    "man_reasoning": "No man is explicitly mentioned. The person's gender is not clearly identifiable.",
+    "person": true,
+    "person_reasoning": "There is one person mentioned."
+}

@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "The description explicitly states that no women can be seen in the photograph.",
+  "man": true,
+  "man_reasoning": "The description mentions 'a man' and provides reasoning that the individual is an adult male based on attire and setting.",
+  "person": true,
+  "person_reasoning": "The description explicitly mentions 'a man', which counts as a person being mentioned."
+}

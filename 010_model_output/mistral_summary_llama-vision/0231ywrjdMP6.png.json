@@ -1,0 +1,10 @@
+{
+  "woman": true,
+  "woman_reasoning": "There is one woman mentioned explicitly in the description: 'A woman stands behind the three men, partially obscured by one of them.'",
+
+  "man": true,
+  "man_reasoning": "There are multiple men mentioned in the description: 'three men standing', 'man on the left', 'middle-aged gentleman in the center', 'another individual' (implicitly a man because he is referred to as 'another' in the context of the three men).",
+
+  "person": true,
+  "person_reasoning": "In addition to the specific mentions of men and a woman, there are several people mentioned: 'several people are visible', 'children playing', 'someone standing inside the train station's doorway or window'."
+}

@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "The description mentions only men, with no indication of any women being present.",
+  "man": true,
+  "man_reasoning": "The description explicitly mentions 'a group of men' and 'another man,' indicating the presence of multiple men.",
+  "person": true,
+  "person_reasoning": "Since 'man' is a subcategory of 'person,' the presence of men also qualifies as the presence of persons."
+}

@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "The text mentions that the individual is likely an adult male, which implies that it is not a woman.",
+  "man": true,
+  "man_reasoning": "The text explicitly states that the individual is likely an adult male.",
+  "person": true,
+  "person_reasoning": "The text mentions a single person standing next to a large cannon."
+}

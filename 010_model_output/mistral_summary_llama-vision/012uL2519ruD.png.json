@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "No woman is explicitly mentioned in the description.",
+  "man": true,
+  "man_reasoning": "The description mentions 'a man standing beside an object resembling a boat hull'.",
+  "person": true,
+  "person_reasoning": "The description mentions 'another person visible in the background' and 'at least two other people'."
+}

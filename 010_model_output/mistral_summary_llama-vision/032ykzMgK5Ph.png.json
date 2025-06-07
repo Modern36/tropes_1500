@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "One woman is explicitly mentioned as standing beside the man.",
+  "man": true,
+  "man_reasoning": "One man is explicitly mentioned as standing beside the woman.",
+  "person": true,
+  "person_reasoning": "Three additional individuals are mentioned as 'people' in the background, as well as the man and woman already mentioned."
+}

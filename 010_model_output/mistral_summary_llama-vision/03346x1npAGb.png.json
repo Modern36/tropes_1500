@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "The image explicitly mentions 'two women sitting at a table'.",
+  "man": false,
+  "man_reasoning": "There is no mention of any men in the image description.",
+  "person": true,
+  "person_reasoning": "Since 'two women' are mentioned, this counts as people being mentioned."
+}

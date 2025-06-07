@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "The text explicitly mentions two individuals who appear to be men due to their attire and activities, and there is no mention of any women.",
+  "man": true,
+  "man_reasoning": "The text explicitly mentions two individuals who appear to be men due to their attire and activities.",
+  "person": true,
+  "person_reasoning": "The text explicitly mentions two individuals, which counts as two persons."
+}

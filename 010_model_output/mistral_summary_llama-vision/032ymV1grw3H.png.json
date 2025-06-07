@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "The description does not explicitly mention any women, nor does it provide enough information to definitively identify any of the individuals as women.",
+  "man": false,
+  "man_reasoning": "The description does not explicitly mention any men, nor does it provide enough information to definitively identify any of the individuals as men.",
+  "person": true,
+  "person_reasoning": "The description mentions 'approximately 20 individuals' and 'a person standing further back from the main group,' indicating the presence of people."
+}

@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "The description explicitly mentions a single person who appears to be male based on his attire and hairstyle. There is no mention of any woman.",
+  "man": true,
+  "man_reasoning": "The description explicitly mentions a single person who appears to be male based on his attire and hairstyle. Therefore, this counts as a man being mentioned.",
+  "person": true,
+  "person_reasoning": "The description mentions a single person. Even though the person is explicitly described as male, it still counts as a person being mentioned."
+}

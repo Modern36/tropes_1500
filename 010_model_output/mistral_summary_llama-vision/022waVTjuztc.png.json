@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "The description explicitly mentions 'a single person, identified as a woman' and provides details about her attire and hairstyle that confirm her gender.",
+  "man": false,
+  "man_reasoning": "There is no mention of a man in the description.",
+  "person": true,
+  "person_reasoning": "The description mentions 'a single person,' which confirms the presence of a person."
+}

@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "No women are mentioned in the description.",
+  "man": true,
+  "man_reasoning": "The description explicitly states 'a group of men sitting on steps outside a brick building.' Approximately 20 men are visible.",
+  "person": true,
+  "person_reasoning": "Since 'man' is a subset of 'person', and men are mentioned, this counts as persons being mentioned."
+}

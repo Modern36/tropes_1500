@@ -1,0 +1,8 @@
+{
+    "woman": true,
+    "woman_reasoning": "The photograph describes a 'young girl', which implies a female.",
+    "man": false,
+    "man_reasoning": "No mention of a man in the description.",
+    "person": true,
+    "person_reasoning": "The photograph describes a 'young girl', which counts as a person."
+}

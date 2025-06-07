@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "No women are mentioned or depicted in the image.",
+  "man": false,
+  "man_reasoning": "No men are mentioned or depicted in the image. The mannequins, though representing military personnel, are inanimate objects and do not count as people.",
+  "person": false,
+  "person_reasoning": "No people are mentioned or depicted in the image. The mannequins do not count as people."
+}

@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "The description mentions a 'bride' and a 'woman' dressed in a wedding gown, which clearly indicates a woman.",
+  "man": true,
+  "man_reasoning": "The description mentions a 'groom' and a 'man' wearing a formal suit, which clearly indicates a man.",
+  "person": true,
+  "person_reasoning": "Both a 'woman' and a 'man' are mentioned, so it is clear that persons are mentioned."
+}

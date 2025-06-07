@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "The description explicitly states that all individuals in the photograph are men, and no women are mentioned.",
+  "man": true,
+  "man_reasoning": "The description explicitly states that all 18 individuals in the photograph are men.",
+  "person": true,
+  "person_reasoning": "Since the description explicitly mentions 18 men, it implies that 18 persons are present."
+}

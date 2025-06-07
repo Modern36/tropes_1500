@@ -12,12 +12,12 @@ This file contains 19 images processed by the model: llama-desc
 ```
               precision    recall  f1-score   support
 
-           0       0.86      0.75      0.80        16
-           1       0.20      0.33      0.25         3
+           0       0.88      0.88      0.88        16
+           1       0.33      0.33      0.33         3
 
-    accuracy                           0.68        19
-   macro avg       0.53      0.54      0.53        19
-weighted avg       0.75      0.68      0.71        19
+    accuracy                           0.79        19
+   macro avg       0.60      0.60      0.60        19
+weighted avg       0.79      0.79      0.79        19
 
 ```
 
@@ -28,12 +28,12 @@ weighted avg       0.75      0.68      0.71        19
 ```
               precision    recall  f1-score   support
 
-           0       0.33      0.67      0.44         3
-           1       0.92      0.75      0.83        16
+           0       0.40      0.67      0.50         3
+           1       0.93      0.81      0.87        16
 
-    accuracy                           0.74        19
-   macro avg       0.63      0.71      0.64        19
-weighted avg       0.83      0.74      0.77        19
+    accuracy                           0.79        19
+   macro avg       0.66      0.74      0.68        19
+weighted avg       0.85      0.79      0.81        19
 
 ```
 
@@ -44,12 +44,12 @@ weighted avg       0.83      0.74      0.77        19
 ```
               precision    recall  f1-score   support
 
-           0       1.00      0.50      0.67         2
-           1       0.94      1.00      0.97        17
+           0       1.00      1.00      1.00         2
+           1       1.00      1.00      1.00        17
 
-    accuracy                           0.95        19
-   macro avg       0.97      0.75      0.82        19
-weighted avg       0.95      0.95      0.94        19
+    accuracy                           1.00        19
+   macro avg       1.00      1.00      1.00        19
+weighted avg       1.00      1.00      1.00        19
 
 ```
 
@@ -86,7 +86,7 @@ Overall, the photograph suggests that these individuals are soldiers who are par
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 1 | 🟢 |
-| Woman | 0 | 1 | 🟥 |
+| Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -234,7 +234,7 @@ Overall, while the majority of the people depicted in this photograph are men, t
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 1 | 0 | 🟥 |
+| Man | 1 | 1 | 🟢 |
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
@@ -333,7 +333,7 @@ Based on their clothing and organization, it is reasonable to infer that these i
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
 | Woman | 0 | 0 | 🟢 |
-| Person | 0 | 1 | 🟥 |
+| Person | 0 | 0 | 🟢 |
 
 ```
 There do not appear to be any people visible in this image. There appears to be a town with buildings in the distance, cars parked on a street, and some trees scattered throughout the scene. The overall atmosphere suggests a quiet, peaceful day in a small town or village during the winter season.
@@ -378,7 +378,7 @@ Given these details, it is reasonable to conclude that the people depicted in th
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 1 | 🟢 |
-| Woman | 0 | 1 | 🟥 |
+| Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```

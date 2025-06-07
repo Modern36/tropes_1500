@@ -1,0 +1,10 @@
+{
+  "woman": true,
+  "woman_reasoning": "The description explicitly mentions 'females present as well' and 'women are dressed in dresses and blouses'."
+
+  , "man": true,
+  "man_reasoning": "The description explicitly mentions 'the majority of the individuals appear to be male' and 'most of the men wear suits, ties, and hats'."
+
+  , "person": true,
+  "person_reasoning": "The description mentions 'approximately 60 individuals', 'both children and adults', 'some individuals', 'a few people', 'some individuals' and 'a diverse group of people', indicating multiple persons."
+}

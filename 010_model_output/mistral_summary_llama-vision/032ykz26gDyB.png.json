@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "A woman is explicitly mentioned: 'A woman wears a long dress with an apron over it.'",
+  "man": true,
+  "man_reasoning": "Men are explicitly mentioned: 'Men wear suits or vests.'",
+  "person": true,
+  "person_reasoning": "Multiple individuals are mentioned: 'a group of individuals', 'children', 'adults', and 'elderly individuals'."
+}

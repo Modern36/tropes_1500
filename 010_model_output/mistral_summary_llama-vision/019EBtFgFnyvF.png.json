@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "The text explicitly mentions a woman wearing a long dress and apron.",
+  "man": true,
+  "man_reasoning": "The text explicitly mentions an older man attired in dark clothing.",
+  "person": true,
+  "person_reasoning": "The text mentions five people in total, including the woman and the man."
+}

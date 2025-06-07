@@ -12,12 +12,12 @@ This file contains 76 images processed by the model: llama-desc
 ```
               precision    recall  f1-score   support
 
-           0       0.87      0.93      0.90        56
-           1       0.75      0.60      0.67        20
+           0       0.92      0.98      0.95        56
+           1       0.94      0.75      0.83        20
 
-    accuracy                           0.84        76
-   macro avg       0.81      0.76      0.78        76
-weighted avg       0.84      0.84      0.84        76
+    accuracy                           0.92        76
+   macro avg       0.93      0.87      0.89        76
+weighted avg       0.92      0.92      0.92        76
 
 ```
 
@@ -28,12 +28,12 @@ weighted avg       0.84      0.84      0.84        76
 ```
               precision    recall  f1-score   support
 
-           0       0.87      0.98      0.92        48
-           1       0.95      0.75      0.84        28
+           0       0.89      1.00      0.94        48
+           1       1.00      0.79      0.88        28
 
-    accuracy                           0.89        76
-   macro avg       0.91      0.86      0.88        76
-weighted avg       0.90      0.89      0.89        76
+    accuracy                           0.92        76
+   macro avg       0.94      0.89      0.91        76
+weighted avg       0.93      0.92      0.92        76
 
 ```
 
@@ -44,12 +44,12 @@ weighted avg       0.90      0.89      0.89        76
 ```
               precision    recall  f1-score   support
 
-           0       0.74      0.86      0.80        37
-           1       0.85      0.72      0.78        39
+           0       0.82      0.97      0.89        37
+           1       0.97      0.79      0.87        39
 
-    accuracy                           0.79        76
-   macro avg       0.80      0.79      0.79        76
-weighted avg       0.80      0.79      0.79        76
+    accuracy                           0.88        76
+   macro avg       0.89      0.88      0.88        76
+weighted avg       0.90      0.88      0.88        76
 
 ```
 
@@ -309,7 +309,7 @@ The image does not depict any individuals. It appears to be an aerial view of a 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 1 | 🟢 |
-| Woman | 0 | 1 | 🟥 |
+| Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -355,7 +355,7 @@ There are no people visible in the background of this photograph.
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
-| Woman | 1 | 0 | 🟥 |
+| Woman | 1 | 1 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -377,9 +377,9 @@ There are no other people visible in the photograph beyond the girls and their t
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 0 | 1 | 🟥 |
-| Woman | 0 | 1 | 🟥 |
-| Person | 0 | 1 | 🟥 |
+| Man | 0 | 0 | 🟢 |
+| Woman | 0 | 0 | 🟢 |
+| Person | 0 | 0 | 🟢 |
 
 ```
 The image does not depict any individuals; it appears to be a black-and-white photograph of a landscape or townscape, possibly taken from an elevated vantage point. The scene shows buildings and trees but no people are visible within the frame.
@@ -728,7 +728,7 @@ There are no people visible in this photograph. The image depicts a large house 
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
 | Woman | 0 | 0 | 🟢 |
-| Person | 0 | 1 | 🟥 |
+| Person | 0 | 0 | 🟢 |
 
 ```
 There does not appear to be any people visible in this image. The photograph depicts a large industrial scene with various structures and equipment, but there are no discernible human figures present.
@@ -835,7 +835,7 @@ The photograph provided appears to be an aerial view of a landscape with buildin
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
 | Woman | 0 | 0 | 🟢 |
-| Person | 0 | 1 | 🟥 |
+| Person | 0 | 0 | 🟢 |
 
 ```
 There does not appear to be any people visible in this image.
@@ -923,7 +923,7 @@ The image presents a collection of portraits primarily featuring men, interspers
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 1 | 🟢 |
-| Woman | 0 | 1 | 🟥 |
+| Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -1111,8 +1111,8 @@ Overall, based on their clothing and body language, it can be inferred that the 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 0 | 🟥 |
-| Woman | 1 | 0 | 🟥 |
-| Person | 1 | 0 | 🟥 |
+| Woman | 1 | 1 | 🟢 |
+| Person | 1 | 1 | 🟢 |
 
 ```
 The photograph shows a large group of young girls standing outside a building with brick walls and arched windows. The girls are all wearing similar white dresses and hats, suggesting they may be part of a school or religious group.
@@ -1265,7 +1265,7 @@ In the background, there are no other people visible, suggesting that this photo
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 1 | 0 | 🟥 |
+| Man | 1 | 1 | 🟢 |
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
@@ -1295,7 +1295,7 @@ Based on the available information, it can be concluded that the person in the p
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
 | Woman | 0 | 0 | 🟢 |
-| Person | 0 | 1 | 🟥 |
+| Person | 0 | 0 | 🟢 |
 
 ```
 The image does not contain any individuals. It appears to be a black-and-white aerial photograph of a house and its surrounding area, with no visible people in sight. The focus seems to be on the architecture and landscape rather than human subjects.
@@ -1395,8 +1395,8 @@ In terms of gender identification based on clothing, since there are no people p
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
-| Woman | 1 | 0 | 🟥 |
-| Person | 1 | 0 | 🟥 |
+| Woman | 1 | 1 | 🟢 |
+| Person | 1 | 1 | 🟢 |
 
 ```
 The photograph appears to be a black-and-white portrait of Queen Mary, the wife of King George V.
@@ -1718,7 +1718,7 @@ There are no individuals present in this photograph. The image features a collec
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
 | Woman | 0 | 0 | 🟢 |
-| Person | 1 | 0 | 🟥 |
+| Person | 1 | 1 | 🟢 |
 
 ```
 The photograph features three young girls posing together for a photo.

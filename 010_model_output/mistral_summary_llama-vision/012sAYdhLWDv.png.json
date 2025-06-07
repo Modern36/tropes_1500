@@ -1,0 +1,8 @@
+{
+    "woman": true,
+    "woman_reasoning": "The text explicitly mentions '25 women'",
+    "man": false,
+    "man_reasoning": "There is no mention of men in the text",
+    "person": true,
+    "person_reasoning": "Since women are mentioned, this counts as a person being mentioned"
+}

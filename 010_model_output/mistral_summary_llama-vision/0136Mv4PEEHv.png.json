@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "There is no mention of any woman in the description.",
+  "man": true,
+  "man_reasoning": "The description explicitly mentions a 'man' standing alongside a child.",
+  "person": true,
+  "person_reasoning": "The description mentions a child, an older boy, and two additional individuals visible through the window. Additionally, the man is also a person."
+}

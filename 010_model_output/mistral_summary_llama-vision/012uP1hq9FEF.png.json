@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "No women are mentioned or depicted in the image description.",
+  "man": true,
+  "man_reasoning": "The description explicitly mentions 'an older man' who is seated in a chair.",
+  "person": true,
+  "person_reasoning": "Since a 'man' is mentioned, this counts as a person being mentioned."
+}

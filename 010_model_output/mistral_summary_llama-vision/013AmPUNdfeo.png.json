@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "The description explicitly mentions only men, so there are no women present.",
+  "man": true,
+  "man_reasoning": "The description mentions 'eight men' standing side-by-side.",
+  "person": true,
+  "person_reasoning": "Since 'man' is a subtype of 'person', and the description mentions 'eight men', it counts as 'person' being mentioned."
+}

@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "No woman is mentioned in the description.",
+  "man": true,
+  "man_reasoning": "The description mentions 'a group of men' and 'a man standing on the right side of the tracks'.",
+  "person": true,
+  "person_reasoning": "Since 'man' is a subcategory of 'person', and 'men' are mentioned, this counts as a person being mentioned."
+}

@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "The description mentions two people, but it is impossible to determine if they are male or female.",
+  "man": false,
+  "man_reasoning": "The description mentions two people, but it is impossible to determine if they are male or female.",
+  "person": true,
+  "person_reasoning": "The description explicitly mentions 'two people' and 'one person' and 'the second person' so they count as persons."
+}

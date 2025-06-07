@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "The description mentions 'a bride' and 'a woman' wearing a long, white wedding dress.",
+  "man": true,
+  "man_reasoning": "The description mentions 'a groom' and 'a man' dressed in a dark suit with a tie and hat.",
+  "person": true,
+  "person_reasoning": "Both 'woman' and 'man' are mentioned, so it counts as two persons."
+}

@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "The text explicitly states that there are no women present in the image.",
+  "man": true,
+  "man_reasoning": "The text mentions 'a group of men' and describes the attire and expressions of these men.",
+  "person": true,
+  "person_reasoning": "Since the text mentions 'men', it implies the presence of persons."
+}

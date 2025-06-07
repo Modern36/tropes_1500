@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "There is no mention of a woman in the description.",
+  "man": true,
+  "man_reasoning": "The description explicitly mentions 'a man' and 'the individual is dressed formally, wearing a suit and tie'.",
+  "person": true,
+  "person_reasoning": "The description refers to 'the person in the photograph', confirming the presence of a person."
+}

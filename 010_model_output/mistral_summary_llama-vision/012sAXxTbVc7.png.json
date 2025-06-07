@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "No woman is explicitly mentioned or depicted in the image.",
+  "man": false,
+  "man_reasoning": "No man is explicitly mentioned or depicted in the image.",
+  "person": false,
+  "person_reasoning": "No person is explicitly mentioned or depicted in the image."
+}

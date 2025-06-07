@@ -1,0 +1,8 @@
+{
+    "woman": false,
+    "woman_reasoning": "The text explicitly states that all the people visible within the image are male.",
+    "man": true,
+    "man_reasoning": "The text explicitly states that all the people visible within the image are male.",
+    "person": true,
+    "person_reasoning": "The text mentions six individuals reclining on the grassy terrain and several people seated behind the trees."
+}

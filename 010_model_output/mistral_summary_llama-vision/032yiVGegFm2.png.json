@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "The description mentions that it is challenging to discern the gender of individuals due to the low resolution and poor lighting, but it does hint that there are more men than women. This implies that there are some women present.",
+  "man": true,
+  "man_reasoning": "The description explicitly mentions that there seem to be more men than women present, indicating that men are definitely part of the group.",
+  "person": true,
+  "person_reasoning": "The description clearly mentions 'a group of people' gathered on a street, indicating that multiple persons are present."
+}

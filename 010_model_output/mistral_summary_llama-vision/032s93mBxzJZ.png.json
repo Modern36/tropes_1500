@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "The text explicitly mentions 'women are also present' which indicates that at least one woman is present.",
+  "man": true,
+  "man_reasoning": "The text explicitly mentions 'a significant portion of the crowd appears to be men' which indicates that at least one man is present.",
+  "person": true,
+  "person_reasoning": "The text explicitly mentions 'a large gathering of people' and 'the total number of people present' which indicates that at least one person is present."
+}

@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "The image explicitly states that the person is a man. There is no mention of any woman.",
+  "man": true,
+  "man_reasoning": "The image explicitly describes the individual as a man.",
+  "person": true,
+  "person_reasoning": "The image describes a single individual, a man, who is the central figure in the photograph."
+}

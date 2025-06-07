@@ -1,0 +1,8 @@
+{
+    "woman": true,
+    "woman_reasoning": "The image explicitly mentions a single person who is a woman. She is described in detail, including her actions and appearance.",
+    "man": false,
+    "man_reasoning": "There is no explicit mention of a man in the image description.",
+    "person": true,
+    "person_reasoning": "The woman is explicitly mentioned as a person. Additionally, there is a mention of another person's leg, indicating the presence of at least one more person."
+}

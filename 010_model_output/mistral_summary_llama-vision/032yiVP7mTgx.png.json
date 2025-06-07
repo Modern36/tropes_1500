@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "The description explicitly states 'There do not appear to be any women in this photograph.'",
+  "man": true,
+  "man_reasoning": "The description mentions 'one man in the foreground' and 'another man' in the background.",
+  "person": true,
+  "person_reasoning": "Since both a 'man' and another 'man' are mentioned, they count as 'persons'."
+}

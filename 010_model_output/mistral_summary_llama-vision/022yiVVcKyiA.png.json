@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "The text mentions 'women wear long dresses and headscarves', explicitly mentioning women.",
+  "man": true,
+  "man_reasoning": "The text mentions 'men wearing hats and jackets', explicitly mentioning men.",
+  "person": true,
+  "person_reasoning": "The text mentions 'group of people', 'individuals', and 'children', explicitly mentioning people."
+}

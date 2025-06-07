@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "The description explicitly mentions 'five people in this photograph who appear to be men', indicating that there are no women present.",
+  "man": true,
+  "man_reasoning": "The description mentions 'five people in this photograph who appear to be men'.",
+  "person": true,
+  "person_reasoning": "The description explicitly mentions 'five people', indicating the presence of persons."
+}

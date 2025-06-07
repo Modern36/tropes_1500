@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "The description mentions 'women likely wore dresses or skirts,' and 'Women wear dresses or skirts that reach below the knee,' indicating the presence of women.",
+  "man": true,
+  "man_reasoning": "The description mentions 'Men are dressed in suits and ties,' indicating the presence of men.",
+  "person": true,
+  "person_reasoning": "The description mentions 'a group of people gathered,' and 'The gender distribution among the individuals,' indicating the presence of persons."
+}

@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "The description mentions 'women are attired in dresses and hats', indicating that there are women in the photograph.",
+  "man": true,
+  "man_reasoning": "The description mentions 'the men wear suits and ties', indicating that there are men in the photograph.",
+  "person": true,
+  "person_reasoning": "The description mentions 'a group of people' and 'individuals', indicating that there are people in the photograph."
+}

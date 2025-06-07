@@ -1,0 +1,8 @@
+{
+    "woman": false,
+    "woman_reasoning": "There are no women mentioned in the description.",
+    "man": true,
+    "man_reasoning": "The description mentions 'a group of men' and 'an officer', both of which are explicitly men.",
+    "person": true,
+    "person_reasoning": "The description mentions 'a group of men' and 'one person' which counts as a person being mentioned."
+}

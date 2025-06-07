@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "A woman is explicitly mentioned in the description: 'Behind him, partially obscured by other figures but visible due to her distinctive hat and coat, is a woman.'",
+  "man": true,
+  "man_reasoning": "A man is explicitly mentioned in the description: 'A man stands centrally, facing leftward.'",
+  "person": true,
+  "person_reasoning": "Both a man and a woman are mentioned, so 'person' is also true."
+}

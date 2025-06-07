@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "The description explicitly states that all individuals depicted are men.",
+  "man": true,
+  "man_reasoning": "The description states there are five men in the photograph.",
+  "person": true,
+  "person_reasoning": "Since all five men are individuals, they are counted as persons."
+}

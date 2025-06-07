@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "The description mentions that the person in the back of the boat might be male based on their clothing and posture. It does not explicitly identify anyone as a woman.",
+  "man": true,
+  "man_reasoning": "The person at the front of the boat is identified as male based on his attire and hairstyle. The person in the back of the boat is possibly male based on their clothing and posture.",
+  "person": true,
+  "person_reasoning": "The description mentions two individuals, one identified as male and the other possibly male, which counts as two persons."
+}

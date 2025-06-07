@@ -1,0 +1,8 @@
+{
+    "woman": true,
+    "woman_reasoning": "The description mentions 'a bride' and 'a woman'.",
+    "man": true,
+    "man_reasoning": "The description mentions 'a groom' and 'a man'.",
+    "person": true,
+    "person_reasoning": "The description mentions 'a bride', 'a groom', 'a woman', 'a man' and 'several people'."
+}

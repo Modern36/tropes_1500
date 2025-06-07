@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "There is no mention of any women in the description.",
+  "man": true,
+  "man_reasoning": "The description explicitly mentions 'a man with a mustache' and 'another man' on the far right side of the photo.",
+  "person": true,
+  "person_reasoning": "The description mentions 'a group of boys' which are considered 'person' and the two men."
+}

@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "The description mentions a person with long hair that could suggest they are female, but it is not definitive.",
+  "man": false,
+  "man_reasoning": "The description mentions a person wearing a hat and coat that may indicate they are male, but it is not definitive.",
+  "person": true,
+  "person_reasoning": "The description mentions several individuals, including a person in dark attire, two people walking away, and a group of three people. These references count as people being mentioned."
+}

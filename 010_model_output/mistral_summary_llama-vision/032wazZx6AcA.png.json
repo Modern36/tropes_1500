@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "The description does not mention any women, and the individuals depicted are described as men based on their attire and hairstyles.",
+  "man": true,
+  "man_reasoning": "The description explicitly mentions that the individuals are men based on their attire and hairstyles.",
+  "person": true,
+  "person_reasoning": "Since the description mentions men, it implicitly counts as mentioning persons."
+}

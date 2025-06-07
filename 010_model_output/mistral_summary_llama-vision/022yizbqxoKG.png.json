@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "The description mentions 'three individuals who may be women' and 'one person stands out as possibly being a woman'. However, these are not definite identifications and include uncertainties.",
+  "man": false,
+  "man_reasoning": "The description mentions 'six individuals are likely men', but this is not a definite identification and includes uncertainties.",
+  "person": true,
+  "person_reasoning": "The description mentions 'a group of 11 individuals'."
+}

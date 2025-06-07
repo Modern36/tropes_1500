@@ -7,33 +7,17 @@ This file contains 16 images processed by the model: llama-desc
 
 
 
-## Label: w
-
-```
-              precision    recall  f1-score   support
-
-           0       1.00      0.88      0.93        16
-           1       0.00      0.00      0.00         0
-
-    accuracy                           0.88        16
-   macro avg       0.50      0.44      0.47        16
-weighted avg       1.00      0.88      0.93        16
-
-```
-
-
-
 ## Label: m
 
 ```
               precision    recall  f1-score   support
 
-           0       1.00      0.92      0.96        13
-           1       0.75      1.00      0.86         3
+           0       1.00      1.00      1.00        13
+           1       1.00      1.00      1.00         3
 
-    accuracy                           0.94        16
-   macro avg       0.88      0.96      0.91        16
-weighted avg       0.95      0.94      0.94        16
+    accuracy                           1.00        16
+   macro avg       1.00      1.00      1.00        16
+weighted avg       1.00      1.00      1.00        16
 
 ```
 
@@ -44,12 +28,12 @@ weighted avg       0.95      0.94      0.94        16
 ```
               precision    recall  f1-score   support
 
-           0       1.00      0.83      0.91        12
-           1       0.67      1.00      0.80         4
+           0       0.92      1.00      0.96        12
+           1       1.00      0.75      0.86         4
 
-    accuracy                           0.88        16
-   macro avg       0.83      0.92      0.85        16
-weighted avg       0.92      0.88      0.88        16
+    accuracy                           0.94        16
+   macro avg       0.96      0.88      0.91        16
+weighted avg       0.94      0.94      0.93        16
 
 ```
 
@@ -62,9 +46,9 @@ weighted avg       0.92      0.88      0.88        16
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 0 | 1 | 🟥 |
-| Woman | 0 | 1 | 🟥 |
-| Person | 0 | 1 | 🟥 |
+| Man | 0 | 0 | 🟢 |
+| Woman | 0 | 0 | 🟢 |
+| Person | 0 | 0 | 🟢 |
 
 ```
 There are no people visible in this photograph. The scene appears to be an industrial or commercial setting, with a large building and some machinery or equipment present. However, there are no individuals depicted in the image.
@@ -111,7 +95,7 @@ There do not appear to be any people visible in this image. The photo shows a bl
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
 | Woman | 0 | 0 | 🟢 |
-| Person | 0 | 1 | 🟥 |
+| Person | 0 | 0 | 🟢 |
 
 ```
 There are no visible people in this photograph. The image appears to be a landscape or scenic view, possibly of a river or waterfall, with no human figures present.
@@ -232,7 +216,7 @@ Since there are no people in the image, it is not possible to determine their ge
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 1 | 🟢 |
-| Woman | 0 | 1 | 🟥 |
+| Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -351,7 +335,7 @@ There are no individuals visible in this photograph. The image appears to be a b
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
 | Woman | 0 | 0 | 🟢 |
-| Person | 1 | 1 | 🟢 |
+| Person | 1 | 0 | 🟥 |
 
 ```
 There do not appear to be any people in this photograph. The image depicts a bridge over a river or stream with trees on either side. In the background, there appears to be a building surrounded by trees and hills. There are no visible individuals within the scene.

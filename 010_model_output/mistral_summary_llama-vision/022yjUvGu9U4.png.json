@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "The description explicitly mentions seven men and provides detailed descriptions of each man's attire and appearance. There is no mention of any women in the photograph.",
+  "man": true,
+  "man_reasoning": "The description explicitly mentions seven men and provides detailed descriptions of each man's attire and appearance.",
+  "person": true,
+  "person_reasoning": "The description explicitly mentions seven men and provides detailed descriptions of each man's attire and appearance. Since men are people, this counts as people being mentioned."
+}

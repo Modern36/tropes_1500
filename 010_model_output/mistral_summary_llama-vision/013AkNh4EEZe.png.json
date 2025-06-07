@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "A woman is explicitly mentioned as standing on one side of a tree.",
+  "man": true,
+  "man_reasoning": "A man is explicitly mentioned as standing on the other side of the tree.",
+  "person": true,
+  "person_reasoning": "A person is mentioned in the background, whose features are too indistinct to determine any characteristics such as gender or age."
+}

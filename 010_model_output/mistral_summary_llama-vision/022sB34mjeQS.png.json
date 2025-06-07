@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "No women are mentioned in the description.",
+  "man": true,
+  "man_reasoning": "A young child, likely a boy, is described. Since it is likely a boy, it counts as a man.",
+  "person": true,
+  "person_reasoning": "A young child, likely a boy, is described. This counts as a person."
+}

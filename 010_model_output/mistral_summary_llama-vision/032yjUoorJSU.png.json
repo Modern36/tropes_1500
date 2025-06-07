@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "No women are explicitly mentioned.",
+  "man": true,
+  "man_reasoning": "The description mentions 'three men wearing coats and hats'. Additionally, it refers to 'the man on the left', 'the man in the centre', and mentions a 'person on the right' who is not clearly defined as male or female. However, since the majority of the description focuses on men and there are three men mentioned, it is reasonable to count 'man' as true.",
+  "person": true,
+  "person_reasoning": "The description mentions 'three men' and 'a person on the right'. Since 'person' is a general term that includes both men and women, and 'man' is a subset of 'person', it is reasonable to count 'person' as true."
+}

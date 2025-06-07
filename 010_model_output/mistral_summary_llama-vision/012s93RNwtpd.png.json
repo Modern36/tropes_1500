@@ -1,0 +1,8 @@
+{
+    "woman": true,
+    "woman_reasoning": "The description states that the individual is likely a woman based on the feminine attire typical of the time period depicted in the play.",
+    "man": false,
+    "man_reasoning": "There is no mention of a man in the description.",
+    "person": true,
+    "person_reasoning": "The description mentions an individual dressed as Ophelia from Hamlet, Act 3 Scene 1, which counts as a person."
+}

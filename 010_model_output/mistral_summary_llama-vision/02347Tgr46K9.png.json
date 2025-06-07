@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "Two women are mentioned explicitly.",
+  "man": false,
+  "man_reasoning": "There is no mention of a man.",
+  "person": true,
+  "person_reasoning": "Since both a woman and a man count as a person, and two women are mentioned, this counts as two persons."
+}

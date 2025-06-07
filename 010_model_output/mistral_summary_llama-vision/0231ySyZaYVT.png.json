@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "There is an explicit mention that no people are present.",
+  "man": false,
+  "man_reasoning": "There is an explicit mention that no people are present.",
+  "person": false,
+  "person_reasoning": "There is an explicit mention that no people are present."
+}

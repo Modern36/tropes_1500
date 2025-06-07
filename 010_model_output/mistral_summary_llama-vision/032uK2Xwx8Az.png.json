@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "The text mentions 'young women' and 'older woman' explicitly, so we count women.",
+  "man": true,
+  "man_reasoning": "The text mentions 'two men' explicitly, so we count men.",
+  "person": true,
+  "person_reasoning": "The text mentions 'young women' and 'older woman' and 'two men', so we count persons."
+}

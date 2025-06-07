@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "The text mentions 'people of various ages and genders', which indicates that there are women present.",
+  "man": true,
+  "man_reasoning": "The text mentions 'people of various ages and genders', which indicates that there are men present.",
+  "person": true,
+  "person_reasoning": "The text explicitly mentions 'people' and 'individuals', 'attendees', 'congregation', 'members'."
+}

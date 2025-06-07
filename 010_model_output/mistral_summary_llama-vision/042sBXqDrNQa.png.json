@@ -1,0 +1,8 @@
+{
+    "woman": false,
+    "woman_reasoning": "No women are mentioned or depicted in the image description.",
+    "man": true,
+    "man_reasoning": "There are multiple men mentioned in the description: one man jumping over a long jump pit, five men standing together, and another man sitting down in front of an official's table.",
+    "person": true,
+    "person_reasoning": "All men mentioned in the description are also considered persons."
+}

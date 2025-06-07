@@ -1,0 +1,8 @@
+{
+    "woman": false,
+    "woman_reasoning": "No specific mention of a woman.",
+    "man": false,
+    "man_reasoning": "No specific mention of a man.",
+    "person": true,
+    "person_reasoning": "The text mentions 'two figures', 'the person closest to the camera', 'the second individual' and 'either figure' which all count as persons."
+}

@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "There is a mention of a girl, but it is not clear whether she is a woman.",
+  "man": false,
+  "man_reasoning": "There is a mention of a boy, but it is not clear whether he is a man.",
+  "person": true,
+  "person_reasoning": "There is a mention of 'two children' and 'another person', which counts as a person being mentioned."
+}

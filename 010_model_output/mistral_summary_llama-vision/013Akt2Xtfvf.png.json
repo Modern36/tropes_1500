@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "The image explicitly describes a 'woman' with short hair, wearing a dark-colored jacket over a white collared shirt.",
+  "man": false,
+  "man_reasoning": "There is no mention of a 'man' in the image description.",
+  "person": true,
+  "person_reasoning": "The description of the 'woman' also counts as a 'person' being mentioned."
+}

@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "No woman is explicitly mentioned, and the gender of the individuals is indeterminable.",
+  "man": false,
+  "man_reasoning": "No man is explicitly mentioned, and the gender of the individuals is indeterminable.",
+  "person": true,
+  "person_reasoning": "The text mentions 'four individuals' and 'four figures,' which count as people being mentioned."
+}

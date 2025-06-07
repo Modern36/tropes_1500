@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "The description explicitly mentions that all visible people are male.",
+  "man": true,
+  "man_reasoning": "The description mentions 'a group of men standing on the platform' and 'another person' who is also male.",
+  "person": true,
+  "person_reasoning": "The description mentions 'a group of men' and 'another person', which are both classified as people."
+}

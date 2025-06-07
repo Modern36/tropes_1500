@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "The description explicitly mentions that there do not appear to be any women present in the image.",
+  "man": true,
+  "man_reasoning": "The description mentions 'men', 'a man' and 'individuals who can be seen in the background' that seem to be soldiers.",
+  "person": true,
+  "person_reasoning": "The description mentions 'men', 'a man', 'individuals' and 'people' who are described as soldiers, so they all count as persons."
+}

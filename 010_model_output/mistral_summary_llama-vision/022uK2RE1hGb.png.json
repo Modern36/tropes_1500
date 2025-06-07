@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "No women are explicitly mentioned in the description.",
+  "man": false,
+  "man_reasoning": "No men are explicitly mentioned in the description.",
+  "person": true,
+  "person_reasoning": "The description mentions 'two individuals' and 'another person', indicating the presence of at least three people. Additionally, there are 'indistinct shapes that could potentially represent people' in the background, further suggesting the presence of people."
+}

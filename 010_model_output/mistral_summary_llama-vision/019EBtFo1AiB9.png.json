@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "The description explicitly mentions 'a woman sits between the two seated men.'",
+  "man": true,
+  "man_reasoning": "The description explicitly mentions 'two men on the left and right sides of the image' and 'the man in the middle stands behind them.'",
+  "person": true,
+  "person_reasoning": "The description mentions 'four people posing for a group portrait.'"
+}

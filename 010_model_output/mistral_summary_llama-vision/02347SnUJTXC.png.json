@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "One woman is explicitly mentioned based on her clothing and hairstyle.",
+  "man": true,
+  "man_reasoning": "Two men are explicitly mentioned in the foreground.",
+  "person": true,
+  "person_reasoning": "In total, 10 people are mentioned (2 men, 1 woman and 7 people whose gender is unspecified)."
+}

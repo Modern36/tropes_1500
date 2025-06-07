@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "The description mentions a woman walking along the shore with her back to the camera.",
+  "man": true,
+  "man_reasoning": "The description mentions a man standing behind a telescope and two men standing near the water's edge.",
+  "person": true,
+  "person_reasoning": "The description mentions a man standing behind a telescope, two men standing near the water's edge, a woman walking along the shore, and several other individuals in the background."
+}

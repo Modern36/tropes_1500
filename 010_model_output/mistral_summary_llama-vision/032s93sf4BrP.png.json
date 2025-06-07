@@ -1,0 +1,8 @@
+{
+    "woman": true,
+    "woman_reasoning": "The description explicitly mentions 'numerous women' who are dressed in white lab coats and are actively engaged in activities. These women are described as middle-aged and wearing their hair styled back, possibly in buns.",
+    "man": false,
+    "man_reasoning": "There is no mention of men in the description.",
+    "person": true,
+    "person_reasoning": "The description mentions 'additional people' who are assisting with tasks in the background. Although these individuals are not clearly visible, their presence is noted, which counts as 'Person'."
+}

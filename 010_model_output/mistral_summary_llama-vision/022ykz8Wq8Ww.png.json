@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "The text mentions 'a woman stands at the front of the group'.",
+  "man": true,
+  "man_reasoning": "The text mentions 'a man who appears to be slightly taller than the others' and 'Three men stand together behind the central couple'.",
+  "person": true,
+  "person_reasoning": "The text mentions 'six people visible' and 'a fifth person can be seen partially obscured by foliage'."
+}

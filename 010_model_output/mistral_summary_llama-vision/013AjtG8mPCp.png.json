@@ -1,0 +1,10 @@
+{
+  "woman": true,
+  "woman_reasoning": "The description explicitly mentions 'a woman posing for a formal portrait' and 'one female'",
+
+  "man": true,
+  "man_reasoning": "The description explicitly mentions 'a man and woman posing for a formal portrait' and 'one male'",
+
+  "person": true,
+  "person_reasoning": "The description explicitly mentions 'two people in this photo', one male and one female."
+}

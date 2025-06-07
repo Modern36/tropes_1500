@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "No woman is mentioned or depicted in the image description.",
+  "man": true,
+  "man_reasoning": "The description explicitly mentions 'a man sitting on a motorcycle' and there is another person in the background whose gender is suggested to be male based on posture and clothing, but it is not definitive.",
+  "person": true,
+  "person_reasoning": "The description mentions 'a man' and 'another person', both of which count as a person being mentioned."
+}

@@ -1,0 +1,8 @@
+{
+    "woman": true,
+    "woman_reasoning": "The description mentions five girls seated in the middle row.",
+    "man": true,
+    "man_reasoning": "The description mentions seven boys standing in the back row and two boys sitting in the front row, as well as an adult male figure standing to the left of the children.",
+    "person": true,
+    "person_reasoning": "The description mentions 18 children (both boys and girls) and an adult male figure."
+}

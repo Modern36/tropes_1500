@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "The description mentions 'a group of approximately forty-five individuals' that includes 'men and women'.",
+  "man": true,
+  "man_reasoning": "The description mentions 'a group of approximately forty-five individuals' that includes 'men and women'.",
+  "person": true,
+  "person_reasoning": "The description mentions 'a group of approximately forty-five individuals'."
+}

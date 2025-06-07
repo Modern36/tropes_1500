@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "Two women are mentioned explicitly. One is seated at the table, the others are standing and possibly serving. ",
+  "man": false,
+  "man_reasoning": "There are at least 6 men mentioned explicitly, who are seated at the table.",
+  "person": false,
+  "person_reasoning": "14 persons are mentioned explicitly, the 12 adults seated around the table, the woman standing behind the table, and the person partially visible through an open doorway."
+}

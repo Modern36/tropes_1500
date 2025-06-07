@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "The description does not mention any women.",
+  "man": true,
+  "man_reasoning": "The description mentions 'men' and 'soldiers,' which are terms typically used to refer to adult males.",
+  "person": true,
+  "person_reasoning": "The terms 'men' and 'soldiers' are used to describe the individuals in the image, which qualifies them as persons."
+}

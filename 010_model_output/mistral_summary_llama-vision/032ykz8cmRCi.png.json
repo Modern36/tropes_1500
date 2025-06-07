@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "The photograph explicitly mentions a woman, referred to as the bride, positioned on the left side of the image.",
+  "man": true,
+  "man_reasoning": "The photograph explicitly mentions a man, referred to as the groom, positioned on the right side of the image.",
+  "person": true,
+  "person_reasoning": "Since both a woman and a man are mentioned, it implies that persons are mentioned."
+}

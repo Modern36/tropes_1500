@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "The photograph explicitly mentions a bride, who is a woman, and describes her attire and actions.",
+  "man": true,
+  "man_reasoning": "The photograph explicitly mentions a groom, who is a man, and describes his attire and actions.",
+  "person": true,
+  "person_reasoning": "The photograph mentions both a bride and a groom, who are both people."
+}

@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "The gender of the individuals is not specified, so they cannot be classified as women.",
+  "man": false,
+  "man_reasoning": "The gender of the individuals is not specified, so they cannot be classified as men.",
+  "person": true,
+  "person_reasoning": "The image description mentions four individuals, making it clear that people are present."
+}

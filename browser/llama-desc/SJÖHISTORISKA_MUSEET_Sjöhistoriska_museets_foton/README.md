@@ -12,12 +12,12 @@ This file contains 30 images processed by the model: llama-desc
 ```
               precision    recall  f1-score   support
 
-           0       0.96      0.88      0.92        25
-           1       0.57      0.80      0.67         5
+           0       0.96      0.92      0.94        25
+           1       0.67      0.80      0.73         5
 
-    accuracy                           0.87        30
-   macro avg       0.76      0.84      0.79        30
-weighted avg       0.89      0.87      0.87        30
+    accuracy                           0.90        30
+   macro avg       0.81      0.86      0.83        30
+weighted avg       0.91      0.90      0.90        30
 
 ```
 
@@ -28,12 +28,12 @@ weighted avg       0.89      0.87      0.87        30
 ```
               precision    recall  f1-score   support
 
-           0       0.88      0.94      0.91        16
-           1       0.92      0.86      0.89        14
+           0       0.80      1.00      0.89        16
+           1       1.00      0.71      0.83        14
 
-    accuracy                           0.90        30
-   macro avg       0.90      0.90      0.90        30
-weighted avg       0.90      0.90      0.90        30
+    accuracy                           0.87        30
+   macro avg       0.90      0.86      0.86        30
+weighted avg       0.89      0.87      0.86        30
 
 ```
 
@@ -44,12 +44,12 @@ weighted avg       0.90      0.90      0.90        30
 ```
               precision    recall  f1-score   support
 
-           0       0.75      0.69      0.72        13
-           1       0.78      0.82      0.80        17
+           0       0.80      0.92      0.86        13
+           1       0.93      0.82      0.88        17
 
-    accuracy                           0.77        30
-   macro avg       0.76      0.76      0.76        30
-weighted avg       0.77      0.77      0.77        30
+    accuracy                           0.87        30
+   macro avg       0.87      0.87      0.87        30
+weighted avg       0.88      0.87      0.87        30
 
 ```
 
@@ -177,7 +177,7 @@ Overall, the image captures a lively scene filled with excitement and energy, sh
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
 | Woman | 0 | 0 | 🟢 |
-| Person | 0 | 1 | 🟥 |
+| Person | 0 | 0 | 🟢 |
 
 ```
 There do not appear to be any people visible in this image. The photograph depicts what appears to be a ship under construction or repair on a slipway, with scaffolding surrounding it. Various workmen, some wearing hats and jackets, are engaged in different activities such as hammering and carrying wooden planks. In the background, there is a body of water with several boats and ships moored along the shore, including a large cargo ship being loaded or unloaded by cranes and pulleys. The overall atmosphere suggests a busy industrial scene during the day.
@@ -219,7 +219,7 @@ Overall, based solely on the clothing worn by each individual depicted in the im
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
 | Woman | 0 | 0 | 🟢 |
-| Person | 0 | 1 | 🟥 |
+| Person | 0 | 0 | 🟢 |
 
 ```
 The photograph provided does not depict any individuals. The scene appears to be a collection of sailboats or yachts on land, with no visible signs of people in the foreground or background.
@@ -275,7 +275,7 @@ Given the absence of people in the photograph, it is not possible to describe th
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 1 | 1 | 🟢 |
+| Man | 1 | 0 | 🟥 |
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
@@ -423,9 +423,9 @@ In the background, there are no other people visible in this black-and-white pho
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 0 | 1 | 🟥 |
-| Woman | 0 | 1 | 🟥 |
-| Person | 0 | 1 | 🟥 |
+| Man | 0 | 0 | 🟢 |
+| Woman | 0 | 0 | 🟢 |
+| Person | 0 | 0 | 🟢 |
 
 ```
 There do not appear to be any people visible in this photograph. The image shows a body of water with several boats or ships in the distance, but no individuals can be seen on land or on the vessels. Therefore, it is impossible to determine whether there are men, women, children, or other types of people present in the scene.
@@ -688,7 +688,7 @@ There are no people visible in the provided photograph. The image appears to be 
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 1 | 1 | 🟢 |
+| Man | 1 | 0 | 🟥 |
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 

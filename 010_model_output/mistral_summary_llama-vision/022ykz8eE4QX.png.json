@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "The description mentions 'a single person who appears to be a woman'.",
+  "man": false,
+  "man_reasoning": "There is no mention of a man.",
+  "person": true,
+  "person_reasoning": "The description mentions 'a single person'."
+}

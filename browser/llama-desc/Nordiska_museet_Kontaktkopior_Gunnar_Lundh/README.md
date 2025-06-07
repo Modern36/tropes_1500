@@ -7,22 +7,6 @@ This file contains 2 images processed by the model: llama-desc
 
 
 
-## Label: p
-
-```
-              precision    recall  f1-score   support
-
-           0       1.00      0.50      0.67         2
-           1       0.00      0.00      0.00         0
-
-    accuracy                           0.50         2
-   macro avg       0.50      0.25      0.33         2
-weighted avg       1.00      0.50      0.67         2
-
-```
-
-
-
 ## 022yjz2b1xLg
 
 ![000_raw/022yjz2b1xLg.png](/000_raw/022yjz2b1xLg.png)
@@ -32,7 +16,7 @@ weighted avg       1.00      0.50      0.67         2
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
 | Woman | 0 | 0 | 🟢 |
-| Person | 0 | 1 | 🟥 |
+| Person | 0 | 0 | 🟢 |
 
 ```
 The photograph appears to contain a calendar page with photographs of boats on water. I do not see any people visible in this image.

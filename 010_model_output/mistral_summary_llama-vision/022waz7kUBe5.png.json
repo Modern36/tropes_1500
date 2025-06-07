@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "The description explicitly mentions a 'woman' referring to the bride.",
+  "man": true,
+  "man_reasoning": "The description explicitly mentions a 'man' referring to the groom.",
+  "person": true,
+  "person_reasoning": "The description mentions 'several people' who are guests at the wedding."
+}

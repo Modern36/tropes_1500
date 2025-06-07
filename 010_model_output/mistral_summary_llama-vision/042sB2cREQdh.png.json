@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "The description mentions a woman sitting with a man and holding an infant.",
+  "man": true,
+  "man_reasoning": "The description mentions a man sitting with a woman.",
+  "person": true,
+  "person_reasoning": "The description mentions a person (likely a man) partially visible in the background."
+}

@@ -1,0 +1,8 @@
+{
+    "woman": true,
+    "woman_reasoning": "The description mentions 'long dresses and skirts on women', indicating the presence of women.",
+    "man": true,
+    "man_reasoning": "The description mentions 'suits and hats on men', indicating the presence of men.",
+    "person": true,
+    "person_reasoning": "The description mentions 'a crowd of people', 'children', and 'adults', indicating the presence of people in general."
+}

@@ -1,0 +1,8 @@
+{
+    "woman": false,
+    "woman_reasoning": "The description explicitly states that there are no women visible in the image.",
+    "man": true,
+    "man_reasoning": "The description mentions 'a group of men', 'some standing behind them', 'one man', 'another man', and 'several others'.",
+    "person": true,
+    "person_reasoning": "Since the description mentions 'men', it implies that there are persons in the image."
+}

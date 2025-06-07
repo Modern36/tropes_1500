@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "A woman is mentioned, but it is not clear whether this counts as a woman being mentioned or not. The only information is that she is wearing formal attire suitable for a funeral service during that time period. Since she is described as a woman, she is also counted as a person. ",
+  "man": true,
+  "man_reasoning": "A man is mentioned and described as a man. Since he is described as a man, he is also counted as a person. ",
+  "person": true,
+  "person_reasoning": "People are mentioned. It is not clear whether they are women or men, so they are counted as persons."
+}

@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "The description mentions 'The women wear dresses and hats as well.' and 'One woman is wearing a dark-colored coat over her dress.' and 'One woman has her arm around another person's shoulder,' indicating the presence of at least one woman.",
+  "man": true,
+  "man_reasoning": "The description mentions 'All the men wear suits and hats.' and 'The men stand with their hands behind their backs or in their pockets,' indicating the presence of at least one man.",
+  "person": true,
+  "person_reasoning": "The description mentions 'a group of nine individuals' and 'one person missing from the original count,' indicating the presence of at least one person."
+}

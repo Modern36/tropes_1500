@@ -12,12 +12,12 @@ This file contains 36 images processed by the model: llama-desc
 ```
               precision    recall  f1-score   support
 
-           0       0.74      0.89      0.81        19
-           1       0.85      0.65      0.73        17
+           0       0.68      0.89      0.77        19
+           1       0.82      0.53      0.64        17
 
-    accuracy                           0.78        36
-   macro avg       0.79      0.77      0.77        36
-weighted avg       0.79      0.78      0.77        36
+    accuracy                           0.72        36
+   macro avg       0.75      0.71      0.71        36
+weighted avg       0.75      0.72      0.71        36
 
 ```
 
@@ -28,12 +28,12 @@ weighted avg       0.79      0.78      0.77        36
 ```
               precision    recall  f1-score   support
 
-           0       0.73      0.90      0.81        21
-           1       0.80      0.53      0.64        15
+           0       0.74      0.95      0.83        21
+           1       0.89      0.53      0.67        15
 
-    accuracy                           0.75        36
-   macro avg       0.77      0.72      0.72        36
-weighted avg       0.76      0.75      0.74        36
+    accuracy                           0.78        36
+   macro avg       0.81      0.74      0.75        36
+weighted avg       0.80      0.78      0.76        36
 
 ```
 
@@ -44,12 +44,12 @@ weighted avg       0.76      0.75      0.74        36
 ```
               precision    recall  f1-score   support
 
-           0       0.58      0.88      0.70         8
-           1       0.96      0.82      0.88        28
+           0       0.53      1.00      0.70         8
+           1       1.00      0.75      0.86        28
 
-    accuracy                           0.83        36
-   macro avg       0.77      0.85      0.79        36
-weighted avg       0.88      0.83      0.84        36
+    accuracy                           0.81        36
+   macro avg       0.77      0.88      0.78        36
+weighted avg       0.90      0.81      0.82        36
 
 ```
 
@@ -164,7 +164,7 @@ All the individuals in the image appear to be adults or older children, with no 
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
 | Woman | 0 | 0 | 🟢 |
-| Person | 1 | 1 | 🟢 |
+| Person | 1 | 0 | 🟥 |
 
 ```
 There does not appear to be any people visible in this image. The photograph depicts a serene scene featuring a wooden building situated on the edge of a body of water, with trees lining the opposite shore and a bridge connecting two points. In the foreground, a large rock formation protrudes into the water, while a small boat is moored to the left side of the frame. The sky above is clear and blue, adding to the tranquil atmosphere of the image.
@@ -521,7 +521,7 @@ There are no people visible in this photograph. The image depicts a building wit
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 1 | 0 | 🟥 |
+| Man | 1 | 1 | 🟢 |
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
@@ -603,8 +603,8 @@ Overall, the photograph presents a portrait of an elegantly dressed woman from a
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 1 | 1 | 🟢 |
-| Woman | 1 | 1 | 🟢 |
+| Man | 1 | 0 | 🟥 |
+| Woman | 1 | 0 | 🟥 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -703,9 +703,9 @@ If you have any further questions or requests, please let me know and I'll do my
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 0 | 1 | 🟥 |
-| Woman | 1 | 1 | 🟢 |
-| Person | 1 | 1 | 🟢 |
+| Man | 0 | 0 | 🟢 |
+| Woman | 1 | 0 | 🟥 |
+| Person | 1 | 0 | 🟥 |
 
 ```
 There does not appear to be any people visible in this photograph. The image depicts a landscape with no individuals present, making it impossible to identify or describe anyone based on gender or other characteristics.
@@ -749,7 +749,7 @@ The overall atmosphere suggests that it may be an overcast day, but the presence
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
 | Woman | 0 | 0 | 🟢 |
-| Person | 0 | 1 | 🟥 |
+| Person | 0 | 0 | 🟢 |
 
 ```
 There do not appear to be any people visible in this image. The photograph appears to show a close-up view of rebar that has been laid across a concrete foundation or slab, likely as part of construction work for a building.

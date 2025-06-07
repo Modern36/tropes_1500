@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "A woman's face is mentioned, but it is an illustration, not a human subject.",
+  "man": false,
+  "man_reasoning": "No man is mentioned.",
+  "person": false,
+  "person_reasoning": "No person is mentioned. The image does not contain any human subjects."
+}

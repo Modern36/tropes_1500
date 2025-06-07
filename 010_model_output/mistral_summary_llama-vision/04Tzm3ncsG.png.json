@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "The text explicitly mentions 'men' and does not refer to any women.",
+  "man": true,
+  "man_reasoning": "The text explicitly mentions 'men' and describes a group of men dressed in military uniforms.",
+  "person": true,
+  "person_reasoning": "Since 'men' are mentioned, it implies that there are people in the photograph."
+}

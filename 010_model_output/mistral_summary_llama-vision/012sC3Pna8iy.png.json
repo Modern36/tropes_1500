@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "The description explicitly mentions that all individuals in the photograph are men. Therefore, there are no women present.",
+  "man": true,
+  "man_reasoning": "The description explicitly states that all the people in the photograph are men.",
+  "person": true,
+  "person_reasoning": "Since all individuals are described as men, this counts as multiple persons being mentioned."
+}

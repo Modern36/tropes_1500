@@ -10,14 +10,13 @@ model_output = output_dir / "010_model_output"
 
 ollama_desc_dir = model_output / "ollama_description_output"
 
+mistral_summary_dir = model_output / "mistral_summary_llama-vision"
+
 ollam_tmp_dir = output_dir / "ollama_confidence_output"
-ollam_tmp_dir.mkdir(parents=True, exist_ok=True)
 
 moon_tmp_dir = output_dir / "moon_point_output"
-moon_tmp_dir.mkdir(parents=True, exist_ok=True)
 
 moon_tmp_qa = model_output / "moon_QA_output"
-moon_tmp_qa.mkdir(parents=True, exist_ok=True)
 
 
 detections = output_dir / "999_detect_data"
@@ -26,6 +25,7 @@ data_file = output_dir / "data.csv"
 browser_root = output_dir / "browser"
 moondream_model = output_dir / "moondreammodel" / "moondream-2b-int8.mf"
 scatter_file = browser_root / "scatter.md"
+scatter_data_file = output_dir / "scatter_data.csv"
 
 
 def read_data():
@@ -39,6 +39,8 @@ browser_gathering = browser_root / "gathering"
 model_to_subdir = {
     "DinoManWoman": model_output / "DinoManWoman_th25",
     "DinoWomanMan": model_output / "DinoWomanMan_th25",
+    "DinoManWoman2": model_output / "DinoManWoman_th25",
+    "DinoWomanMan2": model_output / "DinoWomanMan_th25",
     "YOLO_50": model_output / "yolos-pretrained_th50",
     "YOLO_75": model_output / "yolos-pretrained_th75",
     "YOLO_90": model_output / "yolos-pretrained_th90",
@@ -60,3 +62,8 @@ def resolve_image_path(image, model):
         return resolve_image_path(image, "YOLO_90")
     else:
         return raw_dir / (image + ".png")
+
+
+ollama_correction_file = (
+    output_dir / "statistics" / "Llama-binary_correction.csv"
+)

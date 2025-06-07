@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "The description mentions 'a woman' and 'the bride' who is explicitly described as a woman.",
+  "man": true,
+  "man_reasoning": "The description mentions 'a man' and 'the groom' who is explicitly described as a man.",
+  "person": true,
+  "person_reasoning": "Both a woman and a man are mentioned, so it counts as mentioning persons."
+}

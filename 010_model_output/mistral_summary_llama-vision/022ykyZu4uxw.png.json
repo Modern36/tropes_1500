@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "No women are mentioned in the description.",
+  "man": true,
+  "man_reasoning": "The description mentions 'three men' and 'another individual...dressed in business attire' which can be a man.",
+  "person": true,
+  "person_reasoning": "The description mentions 'several other individuals' and 'One person', which qualifies as 'Person' being mentioned."
+}

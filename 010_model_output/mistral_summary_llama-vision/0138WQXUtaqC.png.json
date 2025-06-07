@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "The text mentions 'the women wear dresses and hats', indicating that there is at least one woman in the photograph.",
+  "man": true,
+  "man_reasoning": "The text mentions 'Some of the men are dressed in suits and ties', indicating that there is at least one man in the photograph.",
+  "person": true,
+  "person_reasoning": "The text mentions 'a group of people', 'several others visible in the background', 'a young boy', and 'those at the table', indicating that there are multiple people in the photograph."
+}

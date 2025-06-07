@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "There is no explicit mention of a woman. The children are described as possibly girls based on their clothing, but this is not definitive.",
+  "man": false,
+  "man_reasoning": "There is no explicit mention of a man.",
+  "person": true,
+  "person_reasoning": "The photograph depicts two children, which counts as two persons being mentioned."
+}

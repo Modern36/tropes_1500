@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "The description mentions five women in the second row.",
+  "man": true,
+  "man_reasoning": "The description mentions three men in the first row and a statue of a man.",
+  "person": true,
+  "person_reasoning": "The description mentions several people in total."
+}

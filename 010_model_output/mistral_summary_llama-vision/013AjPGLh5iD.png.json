@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "The description explicitly mentions 'a man' and does not refer to any woman.",
+  "man": true,
+  "man_reasoning": "The description explicitly mentions 'a man' and describes the individual as an adult male.",
+  "person": true,
+  "person_reasoning": "Since 'a man' is mentioned, it counts as a person being mentioned."
+}

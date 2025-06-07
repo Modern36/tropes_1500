@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "The text explicitly states that there do not appear to be any women in this photograph.",
+  "man": true,
+  "man_reasoning": "The text mentions 'eight men' and describes the actions and attire of these men.",
+  "person": true,
+  "person_reasoning": "Since 'man' is a subset of 'person', and the text mentions 'eight men' and 'one person', it counts as a person being mentioned."
+}

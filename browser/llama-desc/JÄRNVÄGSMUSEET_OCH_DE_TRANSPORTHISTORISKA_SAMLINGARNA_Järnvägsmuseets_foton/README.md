@@ -12,12 +12,12 @@ This file contains 265 images processed by the model: llama-desc
 ```
               precision    recall  f1-score   support
 
-           0       0.95      0.93      0.94       245
-           1       0.36      0.45      0.40        20
+           0       0.95      0.99      0.97       245
+           1       0.70      0.35      0.47        20
 
-    accuracy                           0.90       265
-   macro avg       0.66      0.69      0.67       265
-weighted avg       0.91      0.90      0.90       265
+    accuracy                           0.94       265
+   macro avg       0.82      0.67      0.72       265
+weighted avg       0.93      0.94      0.93       265
 
 ```
 
@@ -28,12 +28,12 @@ weighted avg       0.91      0.90      0.90       265
 ```
               precision    recall  f1-score   support
 
-           0       0.85      0.97      0.90       190
-           1       0.88      0.56      0.68        75
+           0       0.85      0.99      0.92       190
+           1       0.98      0.55      0.70        75
 
-    accuracy                           0.85       265
-   macro avg       0.86      0.76      0.79       265
-weighted avg       0.86      0.85      0.84       265
+    accuracy                           0.87       265
+   macro avg       0.91      0.77      0.81       265
+weighted avg       0.88      0.87      0.85       265
 
 ```
 
@@ -44,12 +44,12 @@ weighted avg       0.86      0.85      0.84       265
 ```
               precision    recall  f1-score   support
 
-           0       0.81      0.87      0.84       163
-           1       0.76      0.68      0.72       102
+           0       0.81      0.99      0.89       163
+           1       0.98      0.62      0.76       102
 
-    accuracy                           0.79       265
-   macro avg       0.78      0.77      0.78       265
-weighted avg       0.79      0.79      0.79       265
+    accuracy                           0.85       265
+   macro avg       0.90      0.81      0.82       265
+weighted avg       0.87      0.85      0.84       265
 
 ```
 
@@ -223,8 +223,8 @@ It's worth noting that the photograph may have been taken at a time when people 
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 0 | 1 | 🟥 |
-| Woman | 1 | 1 | 🟢 |
+| Man | 0 | 0 | 🟢 |
+| Woman | 1 | 0 | 🟥 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -291,7 +291,7 @@ There are no people visible in this photograph. The image depicts a black-and-wh
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 1 | 🟢 |
-| Woman | 0 | 1 | 🟥 |
+| Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -922,7 +922,7 @@ On the platform behind them are three additional figures: one standing near the 
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
 | Woman | 0 | 0 | 🟢 |
-| Person | 0 | 1 | 🟥 |
+| Person | 0 | 0 | 🟢 |
 
 ```
 There do not appear to be any people visible in this photograph.
@@ -1191,7 +1191,7 @@ In the background, there are no other people visible within the photograph. The 
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 1 | 0 | 🟥 |
+| Man | 1 | 1 | 🟢 |
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
@@ -1256,7 +1256,7 @@ The two men are located on the left-hand side of the photo, standing near the fr
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
 | Woman | 0 | 0 | 🟢 |
-| Person | 1 | 1 | 🟢 |
+| Person | 1 | 0 | 🟥 |
 
 ```
 The photograph does not depict any individuals at all. The image appears to show a large industrial site with various machinery and structures, but there are no visible people or signs of human activity.
@@ -1305,7 +1305,7 @@ In the background, there appears to be a window on the left side of the image, a
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
 | Woman | 0 | 0 | 🟢 |
-| Person | 0 | 1 | 🟥 |
+| Person | 0 | 0 | 🟢 |
 
 ```
 There do not appear to be any people visible in this image. The photograph depicts a black-and-white scene of what appears to be an old railroad yard or train station area, with several small buildings and structures scattered throughout the area. In the foreground, there are railroad tracks that run horizontally across the image, with a few trains parked along the tracks.
@@ -1360,8 +1360,8 @@ There are no people visible in this photograph. The image appears to be a vintag
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 1 | 1 | 🟢 |
-| Woman | 0 | 1 | 🟥 |
+| Man | 1 | 0 | 🟥 |
+| Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -1392,7 +1392,7 @@ Given the limitations in discerning gender from the photograph alone and without
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
 | Woman | 0 | 0 | 🟢 |
-| Person | 0 | 0 | 🟢 |
+| Person | 0 | 1 | 🟥 |
 
 ```
 There are no individuals visible in this photograph. The image appears to be a vintage black-and-white picture of train tracks, with trees lining one side and buildings on the other. In the foreground, there is a sign that reads "Horndal" in bold letters, while in the background, several people can be seen standing near the tracks or walking along the platform. However, due to the distance and quality of the image, it is difficult to discern any specific details about these individuals, such as their gender, age, or clothing.
@@ -1411,7 +1411,7 @@ There are no individuals visible in this photograph. The image appears to be a v
 |:----|----|----|----|
 | Man | 1 | 0 | 🟥 |
 | Woman | 0 | 0 | 🟢 |
-| Person | 1 | 1 | 🟢 |
+| Person | 1 | 0 | 🟥 |
 
 ```
 There does not appear to be any individuals present in this photograph. The image depicts a large workshop or factory setting with various bus bodies under construction, but there are no visible people within the scene.
@@ -1449,7 +1449,7 @@ There are no people visible in this image. The photograph appears to be an aeria
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
 | Woman | 0 | 0 | 🟢 |
-| Person | 0 | 1 | 🟥 |
+| Person | 0 | 0 | 🟢 |
 
 ```
 There do not appear to be any people visible in this photograph. The image depicts a landscape featuring railroad tracks, bridges, and buildings without showing any individuals.
@@ -1872,7 +1872,7 @@ There are no people visible in this photograph. The image depicts a building wit
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 1 | 🟢 |
-| Woman | 0 | 1 | 🟥 |
+| Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -2028,9 +2028,9 @@ There are no people visible in this photograph. The image appears to be a landsc
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 0 | 1 | 🟥 |
-| Woman | 0 | 1 | 🟥 |
-| Person | 0 | 1 | 🟥 |
+| Man | 0 | 0 | 🟢 |
+| Woman | 0 | 0 | 🟢 |
+| Person | 0 | 0 | 🟢 |
 
 ```
 There are no people in this photograph. The image depicts a bridge with arches and trees surrounding it, but there are no individuals visible. Therefore, I cannot provide any descriptions of people based on gender or other characteristics.
@@ -2104,9 +2104,9 @@ There are no people visible in this photograph. The scene appears to be an empty
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 0 | 1 | 🟥 |
-| Woman | 0 | 1 | 🟥 |
-| Person | 0 | 1 | 🟥 |
+| Man | 0 | 0 | 🟢 |
+| Woman | 0 | 0 | 🟢 |
+| Person | 0 | 0 | 🟢 |
 
 ```
 There do not appear to be any people visible in this photograph. The image appears to show a landscape or town scene with buildings and roads, but no individuals are present. Therefore, it is not possible to identify any men, women, children, or other persons in the image.
@@ -2506,7 +2506,7 @@ If you would like me to describe other aspects of the image, such as the archite
 |:----|----|----|----|
 | Man | 1 | 0 | 🟥 |
 | Woman | 0 | 0 | 🟢 |
-| Person | 1 | 0 | 🟥 |
+| Person | 1 | 1 | 🟢 |
 
 ```
 The photograph depicts a train station scene, with no individuals visible at first glance. However, upon closer inspection, two figures can be seen standing near the building on the right side of the image. The person closest to the camera appears to be wearing dark-colored attire and a hat, which makes it difficult to determine their gender or other distinguishing features due to the lack of clarity in this area of the photo.
@@ -2586,7 +2586,7 @@ There are no humans visible in this photograph. The image appears to be a wareho
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
 | Woman | 1 | 0 | 🟥 |
-| Person | 1 | 0 | 🟥 |
+| Person | 1 | 1 | 🟢 |
 
 ```
 The image depicts a black-and-white photograph of an old city square, with several buildings and streets visible. In the foreground, there are no people present. However, upon closer inspection, it appears that some individuals may be standing in front of one of the buildings or walking down the street.
@@ -2651,7 +2651,7 @@ In the background, there are no other people visible in the image. The focus app
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
 | Woman | 0 | 0 | 🟢 |
-| Person | 0 | 1 | 🟥 |
+| Person | 0 | 0 | 🟢 |
 
 ```
 There does not appear to be any people visible in this picture. If there were any they would have been very small as it appears to be an aerial shot of a countryside town or village.
@@ -2782,7 +2782,7 @@ There are no individuals visible in this photograph. The image depicts a railroa
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
 | Woman | 0 | 0 | 🟢 |
-| Person | 1 | 1 | 🟢 |
+| Person | 1 | 0 | 🟥 |
 
 ```
 There do not appear to be any people visible in this photograph.
@@ -2860,7 +2860,7 @@ This conclusion is based on a careful examination of the photograph, which depic
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
 | Woman | 0 | 0 | 🟢 |
-| Person | 1 | 1 | 🟢 |
+| Person | 1 | 0 | 🟥 |
 
 ```
 There do not appear to be any visible people shown in this photograph. There are some objects in the image including a boat and a tower which could potentially hide people, but it cannot be determined whether they contain anyone or not.
@@ -2968,7 +2968,7 @@ There are no people visible in this photograph. The image shows a train engine w
 |:----|----|----|----|
 | Man | 1 | 0 | 🟥 |
 | Woman | 0 | 0 | 🟢 |
-| Person | 1 | 1 | 🟢 |
+| Person | 1 | 0 | 🟥 |
 
 ```
 There does not appear to be any people present in this photograph. The image depicts a train on tracks, with no visible individuals or figures in the scene.
@@ -3039,7 +3039,7 @@ Overall, the image presents a serene and peaceful scene, with the two women stan
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
 | Woman | 0 | 0 | 🟢 |
-| Person | 0 | 1 | 🟥 |
+| Person | 0 | 0 | 🟢 |
 
 ```
 There do not appear to be any people in this photograph. The image shows a house with a tiled roof, surrounded by trees and bushes. In front of the house is a gravel path leading to a gate, which appears to be made of wood or metal. To the left of the house is a small garden or yard, with what looks like a few flowers or plants growing in it.
@@ -3160,7 +3160,7 @@ The photograph provided does not depict any individuals. The scene shows a train
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 1 | 🟢 |
-| Woman | 0 | 1 | 🟥 |
+| Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -3247,7 +3247,7 @@ The image quality makes it hard to see him clearly. There are no other people vi
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
 | Woman | 0 | 0 | 🟢 |
-| Person | 0 | 1 | 🟥 |
+| Person | 0 | 0 | 🟢 |
 
 ```
 There do not appear to be any people visible within this image. The image shows a black-and-white photograph of an outdoor scene with industrial machinery or equipment scattered around. In the foreground, there are several large metal objects that resemble parts of machines or tools. They have rough textures and appear to be made of steel or iron. Some of these objects have visible bolts, screws, or other fasteners holding them together.
@@ -3291,7 +3291,7 @@ The absence of people in the photo suggests that it may have been taken at an ea
 |:----|----|----|----|
 | Man | 1 | 0 | 🟥 |
 | Woman | 0 | 0 | 🟢 |
-| Person | 1 | 1 | 🟢 |
+| Person | 1 | 0 | 🟥 |
 
 ```
 There are no visible individuals in this photograph. The image depicts a train station with tracks, buildings, and signs, but it does not show any people.
@@ -3328,7 +3328,7 @@ There are no people visible in this photograph. The image appears to be a landsc
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 1 | 🟢 |
-| Woman | 0 | 1 | 🟥 |
+| Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -3394,8 +3394,8 @@ It's worth noting that these individuals are quite small compared to the main fo
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 1 | 1 | 🟢 |
-| Woman | 0 | 1 | 🟥 |
+| Man | 1 | 0 | 🟥 |
+| Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -3493,7 +3493,7 @@ Overall, based on the clothing and activities observed, it can be inferred that 
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
 | Woman | 0 | 0 | 🟢 |
-| Person | 0 | 1 | 🟥 |
+| Person | 0 | 0 | 🟢 |
 
 ```
 There do not appear to be any people visible in this image. The photograph depicts a landscape with no discernible human figures present within it.
@@ -3512,7 +3512,7 @@ There do not appear to be any people visible in this image. The photograph depic
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
 | Woman | 0 | 0 | 🟢 |
-| Person | 0 | 1 | 🟥 |
+| Person | 0 | 0 | 🟢 |
 
 ```
 There do not appear to be any people visible in this photograph. The image appears to show an aerial view of a harbor or port area, with several large structures and boats in the foreground. In the background, there are trees and what looks like a road or highway running along the coast. There is no sign of human figures anywhere in the image.
@@ -3536,7 +3536,7 @@ There do not appear to be any people visible in this photograph. The image appea
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 1 | 0 | 🟥 |
+| Man | 1 | 1 | 🟢 |
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
@@ -3726,7 +3726,7 @@ Overall, based on their clothing and the context in which they are depicted, it 
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
 | Woman | 0 | 0 | 🟢 |
-| Person | 1 | 1 | 🟢 |
+| Person | 1 | 0 | 🟥 |
 
 ```
 The photograph does not depict any individuals. It appears to be a black-and-white image of an empty train station or railroad tracks with buildings in the background. There are no visible people in the foreground, middle ground, or background areas of the photo. The focus seems to be on capturing the scene of the train station rather than including human subjects.
@@ -3895,7 +3895,7 @@ There are no individuals visible in this photograph. The image appears to be a b
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
 | Woman | 0 | 0 | 🟢 |
-| Person | 0 | 1 | 🟥 |
+| Person | 0 | 0 | 🟢 |
 
 ```
 There do not appear to be any people visible in this image. The photograph shows a sofa or bed with no one present on it.
@@ -4025,7 +4025,7 @@ Overall, this photograph presents a serene and peaceful depiction of a rural lan
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
 | Woman | 0 | 0 | 🟢 |
-| Person | 1 | 0 | 🟥 |
+| Person | 1 | 1 | 🟢 |
 
 ```
 The photograph appears to show a railway construction site with no people visible. There may be one person standing on the bridge at the top of the image, however they cannot be seen clearly enough to be certain and so it is impossible to say whether this figure is male or female.
@@ -4250,7 +4250,7 @@ There are no people visible in this photograph. The image appears to be a landsc
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
 | Woman | 0 | 0 | 🟢 |
-| Person | 0 | 1 | 🟥 |
+| Person | 0 | 0 | 🟢 |
 
 ```
 The photograph does not depict any individuals. It appears to be an aerial view of a village or town, showcasing buildings and roads without any visible people.
@@ -4461,7 +4461,7 @@ There are no individuals visible in this photograph. The scene appears to be a t
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 1 | 0 | 🟥 |
+| Man | 1 | 1 | 🟢 |
 | Woman | 1 | 0 | 🟥 |
 | Person | 1 | 1 | 🟢 |
 
@@ -4526,7 +4526,7 @@ Given the absence of any visible human figures, it is not possible to determine 
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
 | Woman | 0 | 0 | 🟢 |
-| Person | 1 | 0 | 🟥 |
+| Person | 1 | 1 | 🟢 |
 
 ```
 There do not appear to be any people visible in this image. The photograph appears to show a black-and-white railway station scene with no individuals present.
@@ -4698,7 +4698,7 @@ Therefore, it is not possible to determine the gender of any people in this phot
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
 | Woman | 0 | 0 | 🟢 |
-| Person | 0 | 1 | 🟥 |
+| Person | 0 | 0 | 🟢 |
 
 ```
 There do not appear to be any people visible in this image. The photograph appears to show a bridge over a body of water.
@@ -4716,7 +4716,7 @@ There do not appear to be any people visible in this image. The photograph appea
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 1 | 🟢 |
-| Woman | 0 | 1 | 🟥 |
+| Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -4809,9 +4809,9 @@ The photograph appears to be an old image of a train station, with no visible pe
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 1 | 1 | 🟢 |
-| Woman | 0 | 1 | 🟥 |
-| Person | 1 | 1 | 🟢 |
+| Man | 1 | 0 | 🟥 |
+| Woman | 0 | 0 | 🟢 |
+| Person | 1 | 0 | 🟥 |
 
 ```
 The photograph does not depict any individuals. The scene appears to be a train yard or station, with a locomotive and railroad tracks visible in the foreground. In the background, there are several buildings and trees, but no people can be seen.
@@ -4872,7 +4872,7 @@ There are no individuals visible in this photograph. The image appears to be an 
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
 | Woman | 0 | 0 | 🟢 |
-| Person | 0 | 1 | 🟥 |
+| Person | 0 | 0 | 🟢 |
 
 ```
 There do not appear to be any people visible in this photograph.
@@ -4891,7 +4891,7 @@ There do not appear to be any people visible in this photograph.
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
 | Woman | 0 | 0 | 🟢 |
-| Person | 0 | 1 | 🟥 |
+| Person | 0 | 0 | 🟢 |
 
 ```
 There do not appear to be any people visible in this image.
@@ -4929,7 +4929,7 @@ There are no people visible anywhere in this photograph. The image shows a train
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
 | Woman | 0 | 0 | 🟢 |
-| Person | 0 | 1 | 🟥 |
+| Person | 0 | 0 | 🟢 |
 
 ```
 There do not appear to be any people visible in this photograph. The image depicts a steam locomotive on train tracks with a single carriage attached. There appears to be no one operating the train or standing next to it.
@@ -5015,8 +5015,8 @@ Based on the clothing and hairstyles visible in the image, it appears that this 
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 1 | 1 | 🟢 |
-| Woman | 0 | 1 | 🟥 |
+| Man | 1 | 0 | 🟥 |
+| Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -5040,7 +5040,7 @@ There are no children visible in the photograph. The majority of the people depi
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
 | Woman | 0 | 0 | 🟢 |
-| Person | 0 | 1 | 🟥 |
+| Person | 0 | 0 | 🟢 |
 
 ```
 There do not appear to be any people visible within this photograph.
@@ -5057,8 +5057,8 @@ There do not appear to be any people visible within this photograph.
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 1 | 1 | 🟢 |
-| Woman | 1 | 1 | 🟢 |
+| Man | 1 | 0 | 🟥 |
+| Woman | 1 | 0 | 🟥 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -5170,7 +5170,7 @@ There are no people visible in this photograph. The scene appears to be a snowy 
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
 | Woman | 0 | 0 | 🟢 |
-| Person | 0 | 1 | 🟥 |
+| Person | 0 | 0 | 🟢 |
 
 ```
 There do not appear to be any people visible in this photograph. It appears to show a cottage or house with some garden furniture on its porch, as well as two trees and part of another building further back in the image. There are also two small dogs sitting on the grass near the front steps of the cottage.
@@ -5208,7 +5208,7 @@ There are no people visible in this photograph. The image appears to be a black-
 |:----|----|----|----|
 | Man | 1 | 0 | 🟥 |
 | Woman | 0 | 0 | 🟢 |
-| Person | 1 | 1 | 🟢 |
+| Person | 1 | 0 | 🟥 |
 
 ```
 The photograph appears to depict a vintage black-and-white scene featuring railroad tracks and an old-fashioned car driving along them. The image does not display any individuals. It showcases a railway setting with train tracks in the foreground, accompanied by a car on the adjacent road or platform, although its features are indistinct due to the low resolution of the image.
@@ -5309,7 +5309,7 @@ Overall, while there are two people present in the image, they are not the main 
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
 | Woman | 0 | 0 | 🟢 |
-| Person | 0 | 1 | 🟥 |
+| Person | 0 | 0 | 🟢 |
 
 ```
 There do not appear to be any people visible in this photograph. The image depicts a black-and-white photo of an electric locomotive on tracks with no human figures present either in the foreground or background.
@@ -5326,9 +5326,9 @@ There do not appear to be any people visible in this photograph. The image depic
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 0 | 1 | 🟥 |
-| Woman | 0 | 1 | 🟥 |
-| Person | 0 | 1 | 🟥 |
+| Man | 0 | 0 | 🟢 |
+| Woman | 0 | 0 | 🟢 |
+| Person | 0 | 0 | 🟢 |
 
 ```
 There do not appear to be any people visible in this image. The photograph shows a train station with tracks running through it and buildings on either side. There are no individuals or groups present in the scene, and there is no indication of human activity beyond the presence of the trains and infrastructure.
@@ -5446,9 +5446,9 @@ I hope this information helps you in your research on historical photographs.
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 0 | 1 | 🟥 |
-| Woman | 0 | 1 | 🟥 |
-| Person | 0 | 1 | 🟥 |
+| Man | 0 | 0 | 🟢 |
+| Woman | 0 | 0 | 🟢 |
+| Person | 0 | 0 | 🟢 |
 
 ```
 There are no people present in the photograph. The image features a vintage bus parked on a gravel surface, with a brick building visible in the background. The bus is positioned centrally within the frame, and its presence dominates the scene. Notably, there are no individuals depicted anywhere in the image, whether they be men, women, or children.
@@ -5572,7 +5572,7 @@ There do not appear to be any people visible in this image. The photograph depic
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
 | Woman | 0 | 0 | 🟢 |
-| Person | 0 | 1 | 🟥 |
+| Person | 0 | 0 | 🟢 |
 
 ```
 There do not appear to be any people visible in this image.
@@ -5591,7 +5591,7 @@ The image depicts a black-and-white photograph of an old-fashioned bus parked on
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 1 | 0 | 🟥 |
+| Man | 1 | 1 | 🟢 |
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
@@ -5672,7 +5672,7 @@ There are no individuals visible in this photograph. The image depicts an empty 
 |:----|----|----|----|
 | Man | 1 | 0 | 🟥 |
 | Woman | 1 | 0 | 🟥 |
-| Person | 1 | 1 | 🟢 |
+| Person | 1 | 0 | 🟥 |
 
 ```
 The photograph does not depict any individuals. The scene appears to be a railway track with trees and buildings in the background, but there are no visible people present in the image.

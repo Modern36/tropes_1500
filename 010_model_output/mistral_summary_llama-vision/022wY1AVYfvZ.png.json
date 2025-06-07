@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "The description does not provide clear information that one of the individuals is a woman.",
+  "man": true,
+  "man_reasoning": "The description mentions a person on the left who is dressed in dark attire and appears to be male.",
+  "person": true,
+  "person_reasoning": "The description mentions 'two individuals' standing nearby, which counts as 'Person' being mentioned."
+}

@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "The description mentions 'several women' and 'including both men and women' in the image.",
+  "man": true,
+  "man_reasoning": "The description mentions 'several men' and 'including both men and women' in the image.",
+  "person": true,
+  "person_reasoning": "The description mentions 'a group of people', 'individuals', 'the crowd' and 'many individuals'."
+}

@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "Several women are explicitly mentioned in the description.",
+  "man": true,
+  "man_reasoning": "Men are explicitly mentioned in the description.",
+  "person": true,
+  "person_reasoning": "The description mentions a 'large group of people', 'several individuals', 'a few people', and 'dozens of individuals'."
+}

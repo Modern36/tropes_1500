@@ -1,0 +1,8 @@
+{
+    "woman": false,
+    "woman_reasoning": "The description does not mention a woman, so it is counted as false.",
+    "man": false,
+    "man_reasoning": "The description mentions the possibility of a man but is not certain, so it is counted as false.",
+    "person": true,
+    "person_reasoning": "The description explicitly mentions 'a single individual' and 'a person', so it is counted as true."
+}

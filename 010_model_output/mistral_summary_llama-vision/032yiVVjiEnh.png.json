@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "The text explicitly mentions that all individuals in the photograph are men, based on their attire and the context of their activities. No women are mentioned.",
+  "man": true,
+  "man_reasoning": "The text explicitly states that all individuals in the photograph are men. ",
+  "person": true,
+  "person_reasoning": "The text mentions 'group of men' and 'individuals', which counts as 'person'."
+}

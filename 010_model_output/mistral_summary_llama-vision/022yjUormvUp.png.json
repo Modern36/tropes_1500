@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "The description explicitly mentions 'a single man', indicating that there are no women in the image.",
+  "man": true,
+  "man_reasoning": "The description explicitly mentions 'a single man'.",
+  "person": true,
+  "person_reasoning": "The description explicitly mentions 'a single man', indicating that there is at least one person in the image."
+}

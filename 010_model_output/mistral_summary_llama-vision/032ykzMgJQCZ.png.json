@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "There is no mention of a woman in the description.",
+  "man": true,
+  "man_reasoning": "The description infers that the person depicted is likely male based on the attire (dark-colored suit, light-colored shirt, tie, and hat).",
+  "person": true,
+  "person_reasoning": "The description explicitly mentions 'a single person standing on a wooden platform or bridge'."
+}

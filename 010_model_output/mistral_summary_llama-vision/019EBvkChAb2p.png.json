@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "The description does not mention any woman.",
+  "man": false,
+  "man_reasoning": "The description does not mention any man.",
+  "person": false,
+  "person_reasoning": "The description does not mention any person, as it specifically discusses a large language model's inability to view a photograph."
+}

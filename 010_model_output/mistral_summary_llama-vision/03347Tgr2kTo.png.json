@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "The child nearest to the viewer is described as a girl, which implies that there is at least one woman mentioned. Additionally, the description mentions that 'both male and female subjects exist,' implying there is at least one woman in the background.",
+  "man": true,
+  "man_reasoning": "The description mentions that 'both male and female subjects exist,' implying there is at least one man in the background.",
+  "person": true,
+  "person_reasoning": "The description mentions 'two small children,' 'several adults,' and 'individuals,' which all count as people."
+}

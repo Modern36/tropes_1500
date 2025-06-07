@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "The description mentions two women: 'A woman with dark hair sits at left' and 'A woman with blonde hair sits at right'",
+  "man": false,
+  "man_reasoning": "The description does not mention any men.",
+  "person": true,
+  "person_reasoning": "The description mentions 'three individuals', 'a woman with dark hair', 'a woman with blonde hair', and 'the third person, who is likely a child'"
+}

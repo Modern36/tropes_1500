@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "No woman is mentioned in the description.",
+  "man": false,
+  "man_reasoning": "No man is explicitly mentioned. However, a young boy is described, which could be considered a man in a broad sense, but since it is specified as a boy, it does not count as a man.",
+  "person": true,
+  "person_reasoning": "A young boy is described, which counts as a person being mentioned."
+}

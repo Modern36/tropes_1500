@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "The description explicitly mentions two men and does not mention any women.",
+  "man": true,
+  "man_reasoning": "The description explicitly mentions two men.",
+  "person": true,
+  "person_reasoning": "Since both a man and a woman count as a person, and the description mentions two men, it implies there are two persons."
+}

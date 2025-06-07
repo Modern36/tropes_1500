@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "The description mentions 'young girls' and 'women' explicitly, indicating the presence of women.",
+  "man": true,
+  "man_reasoning": "The description mentions 'men' explicitly, indicating the presence of men.",
+  "person": true,
+  "person_reasoning": "The description mentions 'people', 'adults', 'children', 'boys', and 'child', indicating the presence of persons."
+}

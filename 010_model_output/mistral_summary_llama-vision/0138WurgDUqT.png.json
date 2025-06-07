@@ -1,0 +1,8 @@
+{
+  "woman": true,
+  "woman_reasoning": "The bride is mentioned as a woman. Additionally, there is another person described as wearing a light-colored dress, which typically indicates a woman.",
+  "man": true,
+  "man_reasoning": "The groom is mentioned as a man. Additionally, there is another person described as wearing a dark suit similar to that worn by the groom, which typically indicates a man.",
+  "person": true,
+  "person_reasoning": "The bride and groom are mentioned as a person. Additionally, there are two other people described as part of the wedding party, which counts as persons."
+}

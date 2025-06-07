@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "While it is inferred that the older couple consists of a man and woman and there is a girl, it is not explicitly stated that there is a woman.",
+  "man": false,
+  "man_reasoning": "While it is inferred that the older couple consists of a man and the elderly man with the cane is most likely male, it is not explicitly stated that there is a man.",
+  "person": true,
+  "person_reasoning": "The image describes a group of five individuals, including an elderly man, two children (a boy and a girl), and an older couple. Thus, it is explicitly stated that there are persons."
+}

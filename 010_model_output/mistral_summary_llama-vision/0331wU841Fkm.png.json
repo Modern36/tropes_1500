@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "The description does not specify any women.",
+  "man": false,
+  "man_reasoning": "The description does not specify any men.",
+  "person": true,
+  "person_reasoning": "The description mentions individuals, children, teenagers, and adults, which all count as persons."
+}

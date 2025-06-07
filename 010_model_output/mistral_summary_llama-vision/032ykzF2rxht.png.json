@@ -1,0 +1,8 @@
+{
+  "woman": false,
+  "woman_reasoning": "No women are explicitly mentioned in the description.",
+  "man": true,
+  "man_reasoning": "There is a mention of an 'adult male' sitting at the head of the table.",
+  "person": true,
+  "person_reasoning": "There are five individuals present, including the 'adult male' and 'children or young adults'."
+}
