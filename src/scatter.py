@@ -75,6 +75,7 @@ quadrantChart
 
 
 def get_classification_reports(*, cursor, Collection, m_gt, w_gt):
+    assert len(m_gt) == len(w_gt)
     for model, *_ in cursor.execute(
         """
         SELECT model
@@ -85,16 +86,14 @@ def get_classification_reports(*, cursor, Collection, m_gt, w_gt):
         ORDER BY model desc
         """
     ).fetchall():
-        model_predictions = image_level_output_for_model(
-            cursor, collection=Collection, model=model
-        )
         if "2" in model:
             continue
+        m_pred, w_pred = image_level_output_for_model(
+            cursor, collection=Collection, model=model
+        )
 
-        assert len(model_predictions) == len(m_gt)
-        assert len(model_predictions) == len(w_gt)
-
-        m_pred, w_pred = model_predictions
+        assert len(m_pred) == len(w_pred)
+        assert len(m_gt) == len(w_gt)
 
         m_c_r = classification_report(
             y_true=m_gt,
