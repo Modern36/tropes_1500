@@ -25,6 +25,7 @@ data_file = output_dir / "data.csv"
 browser_root = output_dir / "browser"
 moondream_model = output_dir / "moondreammodel" / "moondream-2b-int8.mf"
 scatter_file = browser_root / "scatter.md"
+scatter_data_file = output_dir / "scatter_data.csv"
 
 
 def read_data():
