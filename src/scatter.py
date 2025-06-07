@@ -100,6 +100,7 @@ def get_classification_reports(*, cursor, Collection):
         m_c_r = classification_report(
             y_true=m_gt,
             y_pred=m_pred,
+            output_dict=True,
         )
         w_c_r = classification_report(
             y_true=w_gt,
@@ -230,7 +231,7 @@ def scatter_data_for_file():
 
 
 if __name__ == "__main__":
-    data = scatter_data_for_file()
-    df = pd.DataFrame(sorted(data))
+    data = sorted(scatter_data_for_file())
+    df = pd.DataFrame(data)
     df.columns = ["metric", "model", "men", "women"]
     df.to_csv(scatter_data_file, index=False)

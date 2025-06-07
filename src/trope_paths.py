@@ -62,3 +62,8 @@ def resolve_image_path(image, model):
         return resolve_image_path(image, "YOLO_90")
     else:
         return raw_dir / (image + ".png")
+
+
+ollama_correction_file = (
+    output_dir / "statistics" / "Llama-binary_correction.csv"
+)

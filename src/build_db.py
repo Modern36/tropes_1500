@@ -10,9 +10,18 @@ from trope_paths import (
     detections,
     metadata_dir,
     mistral_summary_dir,
+    ollama_correction_file,
     ollama_desc_dir,
     read_data,
 )
+
+
+def ollama_corrections():
+    df = pd.read_csv(ollama_correction_file)
+    return {row["image_id"]: (row["m"], row["w"], row["p"]) for _, row in df}
+
+
+ollama_correction = ollama_corrections()
 
 
 def add_metadata(db: sqlite3.Connection):
