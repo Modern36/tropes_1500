@@ -208,8 +208,6 @@ def scatter_to_markdown():
 
 
 def scatter_data_for_file():
-    data = []
-
     with sqlite3.connect(db_path, uri=True) as conn:
         Collection = "ALL"
         for model, m, f, c in get_label_counts(
@@ -217,8 +215,8 @@ def scatter_data_for_file():
             collection=None,
         ):
             assert c == 1500
-            data.append(("count", model, m, f))
-            data.append(("share", model, m / c, f / c))
+            yield ("count", model, m, f)
+            yield ("share", model, m / c, f / c)
 
     for model, m_c_r, w_c_r in get_classification_reports(
         cursor=conn.cursor(),
@@ -228,8 +226,7 @@ def scatter_data_for_file():
             x = m_c_r["1"][metric]
             y = w_c_r["1"][metric]
 
-            data.append((metric, model, x, y))
-    return data
+            yield (metric, model, x, y)
 
 
 if __name__ == "__main__":
