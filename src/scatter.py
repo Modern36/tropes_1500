@@ -44,12 +44,8 @@ quadrantChart
 
     # Calculate and add metrics.
 
-    GT = image_level_output_for_model(cursor, collection=Collection)
-
-    m_gt, w_gt = GT
-
     for model, m_c_r, w_c_r in get_classification_reports(
-        cursor=cursor, Collection=Collection, m_gt=m_gt, w_gt=w_gt
+        cursor=cursor, Collection=Collection
     ):
         for metric in ["f1-score", "precision", "recall"]:
             x = m_c_r["1"][metric]
@@ -74,8 +70,11 @@ quadrantChart
     return md
 
 
-def get_classification_reports(*, cursor, Collection, m_gt, w_gt):
-    assert len(m_gt) == len(w_gt)
+def get_classification_reports(*, cursor, Collection):
+    GT = image_level_output_for_model(cursor, collection=Collection)
+
+    m_gt, w_gt = GT
+
     for model, *_ in cursor.execute(
         """
         SELECT model
