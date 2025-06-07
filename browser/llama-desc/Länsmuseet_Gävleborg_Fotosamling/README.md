@@ -12,12 +12,12 @@ This file contains 175 images processed by the model: llama-desc
 ```
               precision    recall  f1-score   support
 
-           0       0.81      0.94      0.87       117
-           1       0.82      0.57      0.67        58
+           0       0.81      0.93      0.87       117
+           1       0.80      0.57      0.67        58
 
-    accuracy                           0.82       175
-   macro avg       0.82      0.75      0.77       175
-weighted avg       0.82      0.82      0.81       175
+    accuracy                           0.81       175
+   macro avg       0.81      0.75      0.77       175
+weighted avg       0.81      0.81      0.80       175
 
 ```
 
@@ -44,12 +44,12 @@ weighted avg       0.85      0.85      0.84       175
 ```
               precision    recall  f1-score   support
 
-           0       0.82      0.97      0.89        66
-           1       0.98      0.87      0.92       109
+           0       0.84      0.97      0.90        66
+           1       0.98      0.89      0.93       109
 
-    accuracy                           0.91       175
-   macro avg       0.90      0.92      0.91       175
-weighted avg       0.92      0.91      0.91       175
+    accuracy                           0.92       175
+   macro avg       0.91      0.93      0.92       175
+weighted avg       0.93      0.92      0.92       175
 
 ```
 
@@ -2379,7 +2379,7 @@ In the background, there are several objects visible, but no other people can be
 |:----|----|----|----|
 | Man | 1 | 0 | 🟥 |
 | Woman | 1 | 0 | 🟥 |
-| Person | 1 | 0 | 🟥 |
+| Person | 1 | 1 | 🟢 |
 
 ```
 There do not appear to be any people visible within this photograph. The image shows two young children standing near an elephant, with a house and trees in the background.
@@ -3690,7 +3690,7 @@ Given the absence of human figures in the photograph, there is no basis for disc
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 1 | 1 | 🟢 |
+| Man | 1 | 0 | 🟥 |
 | Woman | 1 | 0 | 🟥 |
 | Person | 1 | 1 | 🟢 |
 
@@ -4001,9 +4001,9 @@ Overall, the photograph appears to depict a peaceful scene of everyday life near
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 1 | 0 | 🟥 |
-| Woman | 0 | 0 | 🟢 |
-| Person | 1 | 0 | 🟥 |
+| Man | 1 | 1 | 🟢 |
+| Woman | 0 | 1 | 🟥 |
+| Person | 1 | 1 | 🟢 |
 
 ```
 The photograph depicts a black-and-white scene of an old ship docked at a harbor or pier, with several people visible on board and along the shore. The individuals present can be categorized as follows:

@@ -28,12 +28,12 @@ weighted avg       0.90      0.88      0.87        25
 ```
               precision    recall  f1-score   support
 
-           0       0.89      0.94      0.91        17
-           1       0.86      0.75      0.80         8
+           0       0.89      1.00      0.94        17
+           1       1.00      0.75      0.86         8
 
-    accuracy                           0.88        25
-   macro avg       0.87      0.85      0.86        25
-weighted avg       0.88      0.88      0.88        25
+    accuracy                           0.92        25
+   macro avg       0.95      0.88      0.90        25
+weighted avg       0.93      0.92      0.92        25
 
 ```
 
@@ -419,7 +419,7 @@ There do not appear to be any individuals present within this image.
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
 | Woman | 0 | 0 | 🟢 |
-| Person | 0 | 1 | 🟥 |
+| Person | 0 | 0 | 🟢 |
 
 ```
 There do not appear to be any people visible in this image. The photograph depicts a large black cannon on wheels in front of two buildings. There appears to be a man standing behind the left building but he is too far away and out of focus to make out any detail. He is wearing what looks like a long coat and hat, which suggests that it may have been taken at some point in the 19th century. It's possible that there could be other people present who are not visible due to being obscured by objects or simply because they were not captured within the frame of the photo.

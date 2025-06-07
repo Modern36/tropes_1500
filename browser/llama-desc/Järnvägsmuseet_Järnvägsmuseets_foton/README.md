@@ -28,12 +28,12 @@ weighted avg       0.93      0.94      0.93       265
 ```
               precision    recall  f1-score   support
 
-           0       0.84      0.99      0.91       190
-           1       0.97      0.52      0.68        75
+           0       0.85      0.99      0.92       190
+           1       0.98      0.55      0.70        75
 
-    accuracy                           0.86       265
-   macro avg       0.91      0.76      0.79       265
-weighted avg       0.88      0.86      0.85       265
+    accuracy                           0.87       265
+   macro avg       0.91      0.77      0.81       265
+weighted avg       0.88      0.87      0.85       265
 
 ```
 
@@ -3371,7 +3371,7 @@ In summary, there are no individuals present in this historical photograph for a
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 1 | 0 | 🟥 |
+| Man | 1 | 1 | 🟢 |
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
@@ -5591,7 +5591,7 @@ The image depicts a black-and-white photograph of an old-fashioned bus parked on
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 1 | 0 | 🟥 |
+| Man | 1 | 1 | 🟢 |
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 

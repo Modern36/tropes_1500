@@ -18,7 +18,10 @@ from trope_paths import (
 
 def ollama_corrections():
     df = pd.read_csv(ollama_correction_file)
-    return {row["image_id"]: (row["m"], row["w"], row["p"]) for _, row in df}
+    return {
+        imageid.strip(): (bool(m), bool(w), bool(p))
+        for _, imageid, w, m, p in df.itertuples()
+    }
 
 
 ollama_correction = ollama_corrections()
@@ -273,7 +276,7 @@ def load_llama_desc():
     for desc_file in ollama_desc_dir.iterdir():
         image_id = desc_file.name.split(".")[0]
         try:
-            m, w, p = ollama_correction[ollama_correction]
+            m, w, p = ollama_correction[image_id]
         except KeyError:
             desc_summary_file = (
                 mistral_summary_dir / desc_file.with_suffix(".json").name

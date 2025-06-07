@@ -12,12 +12,12 @@ This file contains 4 images processed by the model: llama-desc
 ```
               precision    recall  f1-score   support
 
-           0       0.50      0.50      0.50         2
-           1       0.50      0.50      0.50         2
+           0       1.00      0.50      0.67         2
+           1       0.67      1.00      0.80         2
 
-    accuracy                           0.50         4
-   macro avg       0.50      0.50      0.50         4
-weighted avg       0.50      0.50      0.50         4
+    accuracy                           0.75         4
+   macro avg       0.83      0.75      0.73         4
+weighted avg       0.83      0.75      0.73         4
 
 ```
 
@@ -28,12 +28,12 @@ weighted avg       0.50      0.50      0.50         4
 ```
               precision    recall  f1-score   support
 
-           0       0.50      0.50      0.50         2
-           1       0.50      0.50      0.50         2
+           0       1.00      0.50      0.67         2
+           1       0.67      1.00      0.80         2
 
-    accuracy                           0.50         4
-   macro avg       0.50      0.50      0.50         4
-weighted avg       0.50      0.50      0.50         4
+    accuracy                           0.75         4
+   macro avg       0.83      0.75      0.73         4
+weighted avg       0.83      0.75      0.73         4
 
 ```
 
@@ -46,8 +46,8 @@ weighted avg       0.50      0.50      0.50         4
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 1 | 0 | 🟥 |
-| Woman | 1 | 0 | 🟥 |
+| Man | 1 | 1 | 🟢 |
+| Woman | 1 | 1 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```

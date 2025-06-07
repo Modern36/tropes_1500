@@ -12,12 +12,12 @@ This file contains 141 images processed by the model: llama-desc
 ```
               precision    recall  f1-score   support
 
-           0       0.82      0.90      0.86        87
-           1       0.80      0.69      0.74        54
+           0       0.85      0.90      0.87        87
+           1       0.82      0.74      0.78        54
 
-    accuracy                           0.82       141
-   macro avg       0.81      0.79      0.80       141
-weighted avg       0.81      0.82      0.81       141
+    accuracy                           0.84       141
+   macro avg       0.83      0.82      0.82       141
+weighted avg       0.84      0.84      0.84       141
 
 ```
 
@@ -28,12 +28,12 @@ weighted avg       0.81      0.82      0.81       141
 ```
               precision    recall  f1-score   support
 
-           0       0.92      0.89      0.90        98
-           1       0.76      0.81      0.79        43
+           0       0.93      0.89      0.91        98
+           1       0.77      0.84      0.80        43
 
     accuracy                           0.87       141
-   macro avg       0.84      0.85      0.84       141
-weighted avg       0.87      0.87      0.87       141
+   macro avg       0.85      0.86      0.85       141
+weighted avg       0.88      0.87      0.87       141
 
 ```
 
@@ -44,12 +44,12 @@ weighted avg       0.87      0.87      0.87       141
 ```
               precision    recall  f1-score   support
 
-           0       0.79      0.96      0.86        46
-           1       0.98      0.87      0.92        95
+           0       0.80      0.96      0.87        46
+           1       0.98      0.88      0.93        95
 
-    accuracy                           0.90       141
-   macro avg       0.88      0.92      0.89       141
-weighted avg       0.91      0.90      0.90       141
+    accuracy                           0.91       141
+   macro avg       0.89      0.92      0.90       141
+weighted avg       0.92      0.91      0.91       141
 
 ```
 
@@ -1170,7 +1170,7 @@ The absence of people suggests that the photographer may have intentionally capt
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 1 | 🟢 |
-| Woman | 1 | 0 | 🟥 |
+| Woman | 1 | 1 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -1261,9 +1261,9 @@ Both girls are looking directly at the camera with neutral expressions. In their
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 1 | 0 | 🟥 |
-| Woman | 1 | 0 | 🟥 |
-| Person | 1 | 0 | 🟥 |
+| Man | 1 | 1 | 🟢 |
+| Woman | 1 | 1 | 🟢 |
+| Person | 1 | 1 | 🟢 |
 
 ```
 The photograph depicts a formal dinner party with 12 adults seated around a long table, dressed in attire typical of the early 20th century. The men wear suits and bow ties, while the women wear dresses. There are no children present in the image.
@@ -2669,7 +2669,7 @@ Given the absence of individuals in the photograph, it is not possible to determ
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 1 | 🟢 |
-| Woman | 1 | 0 | 🟥 |
+| Woman | 1 | 1 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```

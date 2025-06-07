@@ -12,12 +12,12 @@ This file contains 206 images processed by the model: llama-desc
 ```
               precision    recall  f1-score   support
 
-           0       0.90      0.97      0.93       154
-           1       0.88      0.67      0.76        52
+           0       0.90      0.96      0.93       154
+           1       0.85      0.67      0.75        52
 
     accuracy                           0.89       206
-   macro avg       0.89      0.82      0.85       206
-weighted avg       0.89      0.89      0.89       206
+   macro avg       0.88      0.82      0.84       206
+weighted avg       0.89      0.89      0.88       206
 
 ```
 
@@ -28,12 +28,12 @@ weighted avg       0.89      0.89      0.89       206
 ```
               precision    recall  f1-score   support
 
-           0       0.82      0.98      0.90       129
-           1       0.96      0.65      0.78        77
+           0       0.83      0.98      0.90       129
+           1       0.96      0.66      0.78        77
 
     accuracy                           0.86       206
-   macro avg       0.89      0.82      0.84       206
-weighted avg       0.88      0.86      0.85       206
+   macro avg       0.90      0.82      0.84       206
+weighted avg       0.88      0.86      0.86       206
 
 ```
 
@@ -4619,8 +4619,8 @@ In the background, there are no other people visible. The focus of the image is 
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 1 | 0 | 🟥 |
-| Woman | 0 | 0 | 🟢 |
+| Man | 1 | 1 | 🟢 |
+| Woman | 0 | 1 | 🟥 |
 | Person | 1 | 1 | 🟢 |
 
 ```

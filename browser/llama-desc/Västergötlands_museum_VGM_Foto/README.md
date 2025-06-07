@@ -12,12 +12,12 @@ This file contains 173 images processed by the model: llama-desc
 ```
               precision    recall  f1-score   support
 
-           0       0.85      0.96      0.90       116
-           1       0.88      0.67      0.76        57
+           0       0.87      0.97      0.91       116
+           1       0.91      0.70      0.79        57
 
-    accuracy                           0.86       173
-   macro avg       0.87      0.81      0.83       173
-weighted avg       0.86      0.86      0.86       173
+    accuracy                           0.88       173
+   macro avg       0.89      0.83      0.85       173
+weighted avg       0.88      0.88      0.87       173
 
 ```
 
@@ -28,11 +28,11 @@ weighted avg       0.86      0.86      0.86       173
 ```
               precision    recall  f1-score   support
 
-           0       0.86      0.94      0.90       112
-           1       0.86      0.72      0.79        61
+           0       0.85      0.95      0.90       112
+           1       0.88      0.70      0.78        61
 
     accuracy                           0.86       173
-   macro avg       0.86      0.83      0.84       173
+   macro avg       0.87      0.83      0.84       173
 weighted avg       0.86      0.86      0.86       173
 
 ```
@@ -44,12 +44,12 @@ weighted avg       0.86      0.86      0.86       173
 ```
               precision    recall  f1-score   support
 
-           0       0.70      0.98      0.82        64
-           1       0.99      0.75      0.85       109
+           0       0.72      1.00      0.84        64
+           1       1.00      0.77      0.87       109
 
-    accuracy                           0.84       173
-   macro avg       0.84      0.87      0.84       173
-weighted avg       0.88      0.84      0.84       173
+    accuracy                           0.86       173
+   macro avg       0.86      0.89      0.85       173
+weighted avg       0.90      0.86      0.86       173
 
 ```
 
@@ -325,8 +325,8 @@ Overall, the image presents a formal portrait of two individuals from an earlier
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
-| Woman | 1 | 0 | 🟥 |
-| Person | 1 | 0 | 🟥 |
+| Woman | 1 | 1 | 🟢 |
+| Person | 1 | 1 | 🟢 |
 
 ```
 The photograph depicts two women standing side-by-side in a wooded area. The woman on the left wears a dark dress with a light-colored apron and has her hair styled in an updo, while the woman on the right sports a lighter-colored dress with a darker apron and also wears her hair in an updo.
@@ -1953,7 +1953,7 @@ Overall, while it is difficult to discern specific details about the people in t
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
 | Woman | 0 | 0 | 🟢 |
-| Person | 0 | 1 | 🟥 |
+| Person | 0 | 0 | 🟢 |
 
 ```
 The image depicts a painting of a nude woman sitting on a chair, with her back turned towards the viewer. The subject's face is not visible, making it impossible to determine their gender based on facial features.
@@ -2357,8 +2357,8 @@ Overall, based on their clothing, hairstyles, and the setting depicted in the ph
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 0 | 1 | 🟥 |
-| Woman | 0 | 1 | 🟥 |
+| Man | 0 | 0 | 🟢 |
+| Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -2403,8 +2403,8 @@ There are no people visible in this photograph. The image depicts a house surrou
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 1 | 1 | 🟢 |
-| Woman | 1 | 1 | 🟢 |
+| Man | 1 | 0 | 🟥 |
+| Woman | 1 | 0 | 🟥 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -3130,8 +3130,8 @@ There are no people visible in the photograph. The image appears to be a landsca
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 0 | 🟥 |
-| Woman | 1 | 0 | 🟥 |
-| Person | 1 | 0 | 🟥 |
+| Woman | 1 | 1 | 🟢 |
+| Person | 1 | 1 | 🟢 |
 
 ```
 The photograph depicts a group of individuals engaged in various activities with cattle. The primary subjects appear to be women or children, as evidenced by their attire and hairstyles. One woman is kneeling beside a cow, while another stands behind her, possibly holding an object that is not clearly visible due to the image's low resolution.
@@ -3364,7 +3364,7 @@ Based on the visible content of the photograph, it does not depict any people.
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 1 | 🟢 |
-| Woman | 1 | 0 | 🟥 |
+| Woman | 1 | 1 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```
