@@ -206,9 +206,7 @@ def scatter_to_markdown():
         f.write("\n".join(document))
 
 
-if __name__ == "__main__":
-    scatter_to_markdown()
-
+def scatter_data_for_file():
     data = []
 
     with sqlite3.connect(db_path, uri=True) as conn:
@@ -230,5 +228,12 @@ if __name__ == "__main__":
             y = w_c_r["1"][metric]
 
             data.append((metric, model, x, y))
+    return data
+
+
+if __name__ == "__main__":
+    scatter_to_markdown()
+
+    data = scatter_data_for_file()
     df = pd.DataFrame(sorted(data))
     pass
