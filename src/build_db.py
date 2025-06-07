@@ -10,9 +10,21 @@ from trope_paths import (
     detections,
     metadata_dir,
     mistral_summary_dir,
+    ollama_correction_file,
     ollama_desc_dir,
     read_data,
 )
+
+
+def ollama_corrections():
+    df = pd.read_csv(ollama_correction_file)
+    return {
+        imageid.strip(): (bool(m), bool(w), bool(p))
+        for _, imageid, w, m, p in df.itertuples()
+    }
+
+
+ollama_correction = ollama_corrections()
 
 
 def add_metadata(db: sqlite3.Connection):
@@ -263,14 +275,17 @@ def load_vqa():
 def load_llama_desc():
     for desc_file in ollama_desc_dir.iterdir():
         image_id = desc_file.name.split(".")[0]
-        desc_summary_file = (
-            mistral_summary_dir / desc_file.with_suffix(".json").name
-        )
-        with open(desc_summary_file, "r", encoding="utf8") as f:
-            summary = json.load(f)
-        m = summary["man"]
-        w = summary["woman"]
-        p = summary["person"]
+        try:
+            m, w, p = ollama_correction[image_id]
+        except KeyError:
+            desc_summary_file = (
+                mistral_summary_dir / desc_file.with_suffix(".json").name
+            )
+            with open(desc_summary_file, "r", encoding="utf8") as f:
+                summary = json.load(f)
+            m = summary["man"]
+            w = summary["woman"]
+            p = summary["person"]
 
         assert p >= max(m, w), desc_summary_file
 

@@ -925,9 +925,9 @@ Overall, based on their clothing and accessories, it seems likely that these ind
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 0 | 0 | 🟢 |
-| Woman | 1 | 0 | 🟥 |
-| Person | 1 | 0 | 🟥 |
+| Man | 0 | 1 | 🟥 |
+| Woman | 1 | 1 | 🟢 |
+| Person | 1 | 1 | 🟢 |
 
 ```
 The photograph depicts a young boy sitting on the ground, accompanied by an older woman standing behind him. The boy is dressed in a light-colored shirt and shorts, while the woman wears a dark dress with white polka dots.
@@ -1303,8 +1303,8 @@ The photograph captures a moment of formality and possibly celebration, given th
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 1 | 0 | 🟥 |
-| Woman | 1 | 0 | 🟥 |
+| Man | 1 | 1 | 🟢 |
+| Woman | 1 | 1 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -2208,8 +2208,8 @@ Upon closer inspection of the entire frame, including both the foreground and ba
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
-| Woman | 1 | 0 | 🟥 |
-| Person | 1 | 0 | 🟥 |
+| Woman | 1 | 1 | 🟢 |
+| Person | 1 | 1 | 🟢 |
 
 ```
 The photograph depicts two women standing side-by-side in a wooded area. The woman on the left wears a dark dress with a light-colored apron and has her hair styled in an updo, while the woman on the right sports a lighter-colored dress with a darker apron and also wears her hair in an updo.
@@ -10873,7 +10873,7 @@ It's worth noting that all the people in this photograph appear to be wearing wi
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
-| Woman | 1 | 0 | 🟥 |
+| Woman | 1 | 1 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -11822,7 +11822,7 @@ There are no individuals visible in this photograph. The scene appears to be an 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 1 | 🟢 |
-| Woman | 1 | 0 | 🟥 |
+| Woman | 1 | 1 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -12540,9 +12540,9 @@ In the background, there are no other people visible as it appears that the coup
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 1 | 0 | 🟥 |
-| Woman | 1 | 0 | 🟥 |
-| Person | 1 | 0 | 🟥 |
+| Man | 1 | 1 | 🟢 |
+| Woman | 1 | 1 | 🟢 |
+| Person | 1 | 1 | 🟢 |
 
 ```
 The photograph depicts a formal dinner party with 12 adults seated around a long table, dressed in attire typical of the early 20th century. The men wear suits and bow ties, while the women wear dresses. There are no children present in the image.
@@ -15607,7 +15607,7 @@ In conclusion, while there may be people present in this historical photograph, 
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
 | Woman | 0 | 0 | 🟢 |
-| Person | 0 | 1 | 🟥 |
+| Person | 0 | 0 | 🟢 |
 
 ```
 The image depicts a painting of a nude woman sitting on a chair, with her back turned towards the viewer. The subject's face is not visible, making it impossible to determine their gender based on facial features.
@@ -18651,8 +18651,8 @@ In summary, there are zero persons depicted in this photograph; the focus is on 
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 0 | 1 | 🟥 |
-| Woman | 0 | 1 | 🟥 |
+| Man | 0 | 0 | 🟢 |
+| Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -18878,7 +18878,7 @@ Therefore, I cannot identify any individuals based on gender, age, or other char
 |:----|----|----|----|
 | Man | 1 | 0 | 🟥 |
 | Woman | 1 | 0 | 🟥 |
-| Person | 1 | 0 | 🟥 |
+| Person | 1 | 1 | 🟢 |
 
 ```
 There do not appear to be any people visible within this photograph. The image shows two young children standing near an elephant, with a house and trees in the background.
@@ -18960,8 +18960,8 @@ Based on the visual evidence, it can be concluded that there are no people visib
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 1 | 1 | 🟢 |
-| Woman | 1 | 1 | 🟢 |
+| Man | 1 | 0 | 🟥 |
+| Woman | 1 | 0 | 🟥 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -20612,7 +20612,7 @@ Based on their attire and the context provided by the photograph's setting and a
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 1 | 0 | 🟥 |
+| Man | 1 | 1 | 🟢 |
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
@@ -23706,7 +23706,7 @@ There are no individuals visible in this photo.
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 1 | 🟢 |
-| Woman | 1 | 0 | 🟥 |
+| Woman | 1 | 1 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -23906,9 +23906,9 @@ If you have any further questions about the image, please let me know and I will
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 1 | 0 | 🟥 |
-| Woman | 1 | 0 | 🟥 |
-| Person | 1 | 0 | 🟥 |
+| Man | 1 | 1 | 🟢 |
+| Woman | 1 | 1 | 🟢 |
+| Person | 1 | 1 | 🟢 |
 
 ```
 The photograph depicts a group of eight individuals, comprising four men and four women, arranged in two rows. The front row features three women seated on chairs, while the back row consists of five standing individuals - three men and two women.
@@ -25778,8 +25778,8 @@ In the background, there is another man wearing a similar uniform, although he i
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 0 | 🟥 |
-| Woman | 1 | 0 | 🟥 |
-| Person | 1 | 0 | 🟥 |
+| Woman | 1 | 1 | 🟢 |
+| Person | 1 | 1 | 🟢 |
 
 ```
 The photograph depicts a group of individuals engaged in various activities with cattle. The primary subjects appear to be women or children, as evidenced by their attire and hairstyles. One woman is kneeling beside a cow, while another stands behind her, possibly holding an object that is not clearly visible due to the image's low resolution.
@@ -26144,7 +26144,7 @@ The background of the photograph appears to be a plain wall or backdrop, likely 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 1 | 🟢 |
-| Woman | 1 | 0 | 🟥 |
+| Woman | 1 | 1 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -26524,7 +26524,7 @@ Since there are no people in the photograph, I cannot provide any information ab
 |:----|----|----|----|
 | Man | 0 | 0 | 🟢 |
 | Woman | 0 | 0 | 🟢 |
-| Person | 0 | 1 | 🟥 |
+| Person | 0 | 0 | 🟢 |
 
 ```
 There do not appear to be any people visible in this image. The photograph depicts a large black cannon on wheels in front of two buildings. There appears to be a man standing behind the left building but he is too far away and out of focus to make out any detail. He is wearing what looks like a long coat and hat, which suggests that it may have been taken at some point in the 19th century. It's possible that there could be other people present who are not visible due to being obscured by objects or simply because they were not captured within the frame of the photo.
@@ -27800,7 +27800,7 @@ The second person appears at the far end of the railway tracks in the middle dis
 | label | GT | Pred | accurate |
 |:----|----|----|----|
 | Man | 1 | 1 | 🟢 |
-| Woman | 1 | 0 | 🟥 |
+| Woman | 1 | 1 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -30583,7 +30583,7 @@ There are no people visible in this photograph. The scene appears to be a landsc
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 1 | 1 | 🟢 |
+| Man | 1 | 0 | 🟥 |
 | Woman | 1 | 0 | 🟥 |
 | Person | 1 | 1 | 🟢 |
 
@@ -32404,9 +32404,9 @@ Overall, the photograph appears to depict a peaceful scene of everyday life near
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 1 | 0 | 🟥 |
-| Woman | 0 | 0 | 🟢 |
-| Person | 1 | 0 | 🟥 |
+| Man | 1 | 1 | 🟢 |
+| Woman | 0 | 1 | 🟥 |
+| Person | 1 | 1 | 🟢 |
 
 ```
 The photograph depicts a black-and-white scene of an old ship docked at a harbor or pier, with several people visible on board and along the shore. The individuals present can be categorized as follows:
@@ -32782,8 +32782,8 @@ The image has a serene and peaceful atmosphere, evoking a sense of tranquility a
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 1 | 0 | 🟥 |
-| Woman | 0 | 0 | 🟢 |
+| Man | 1 | 1 | 🟢 |
+| Woman | 0 | 1 | 🟥 |
 | Person | 1 | 1 | 🟢 |
 
 ```
@@ -33373,7 +33373,7 @@ There do not appear to be any people visible in this photograph.
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 1 | 0 | 🟥 |
+| Man | 1 | 1 | 🟢 |
 | Woman | 0 | 0 | 🟢 |
 | Person | 1 | 1 | 🟢 |
 
@@ -33741,8 +33741,8 @@ Overall, the photograph captures a moment in time when people came together to w
 
 | label | GT | Pred | accurate |
 |:----|----|----|----|
-| Man | 1 | 0 | 🟥 |
-| Woman | 0 | 0 | 🟢 |
+| Man | 1 | 1 | 🟢 |
+| Woman | 0 | 1 | 🟥 |
 | Person | 1 | 1 | 🟢 |
 
 ```
