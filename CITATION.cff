@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+title: "Visual Tropes 1500"
+message: "If you use this software or data, please cite it as below."
+type: dataset
+authors:
+  - family-names: Johansson
+    given-names: Mathias
+    email: MathiasJoha@gmail.com
+  - family-names: Norén
+    given-names: Fredrik
+    email: fredrik.noren@mau.se
+  - family-names: Aspenskog
+    given-names: Robert
+  - family-names: Eriksson
+    given-names: Maria
+version: "2026-02-17"
+date-released: 2026-02-17
+doi: 10.5281/zenodo.18672094
+url: https://github.com/Modern36/tropes_1500
+license: CC-BY-NC-4.0
