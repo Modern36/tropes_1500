@@ -5,6 +5,33 @@
 
 Gender bias in object detection models applied to 1,500 annotated 1930s Swedish photographs from [Digitalt Museum](https://digitaltmuseum.se/). The project compares how different models detect men versus women, generating classification metrics and a markdown-based browsing interface for the results.
 
+## Directory structure
+
+```
+tropes_1500/
+├── 000_raw/                  # Source photographs (not in repo, from Digitalt Museum)
+├── 010_model_output/         # Model output images with bounding boxes
+│   ├── DinoManWoman_th25/    #   Grounding DINO v1, Man-Woman order
+│   ├── DinoWomanMan_th25/    #   Grounding DINO v1, Woman-Man order
+│   ├── yolos-pretrained_th50/  # YOLOS at 50% confidence
+│   ├── yolos-pretrained_th75/  # YOLOS at 75% confidence
+│   ├── yolos-pretrained_th90/  # YOLOS at 90% confidence
+│   ├── ollama_description_output/    # Llama Vision text descriptions
+│   └── mistral_summary_llama-vision/ # Mistral binary summaries of above
+├── 999_detect_data/          # Per-image detection TSVs (boxes + scores)
+├── browser/                  # Generated markdown browsing interface
+│   ├── <Model>/              #   Per-model classification reports
+│   ├── gathering/            #   Cross-model accuracy groupings
+│   └── scatter.md            #   Mermaid quadrant charts
+├── metadata_jsons/           # One JSON per image with museum metadata
+├── statistics/               # Classification reports and correction files
+├── src/                      # Source code
+├── tests/                    # Test suite
+├── data.csv                  # Ground truth + model predictions
+├── scatter_data.csv          # Pre-computed metrics for scatter plots
+└── references.bib            # Full bibliography for all models and tools
+```
+
 ## Models
 
 | Model | Type | Labels | Notes |
