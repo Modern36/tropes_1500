@@ -125,6 +125,10 @@ SETTINGS_PANEL_HTML = """\
         <option value="inside">inside</option>
       </select>
     </label>
+    <label>
+      <input type="checkbox" id="fix_overlap">
+      Fix overlapping labels
+    </label>
   </div>
 </div>"""
 

@@ -14,6 +14,7 @@
     text_v: "top",
     text_h: "left",
     text_place: "outside",
+    fix_overlap: "0",
   };
 
   // ---- State ----
@@ -59,7 +60,11 @@
     Object.keys(settings).forEach(function (key) {
       var el = document.getElementById(key);
       if (!el) return;
-      el.value = settings[key];
+      if (el.type === "checkbox") {
+        el.checked = settings[key] === "1";
+      } else {
+        el.value = settings[key];
+      }
       // Update range slider labels
       var valSpan = document.getElementById(key + "-val");
       if (valSpan) valSpan.textContent = settings[key];
@@ -69,7 +74,12 @@
   function readControls() {
     Object.keys(DEFAULTS).forEach(function (key) {
       var el = document.getElementById(key);
-      if (el) settings[key] = el.value;
+      if (!el) return;
+      if (el.type === "checkbox") {
+        settings[key] = el.checked ? "1" : "0";
+      } else {
+        settings[key] = el.value;
+      }
     });
   }
 
@@ -110,6 +120,56 @@
     return settings.man_color;
   }
 
+  // Approximate bounding rect for a monospace SVG text element.
+  // ty is the baseline y; the visual top is roughly ty - fontSize.
+  function textBBox(tx, ty, anchor, labelStr, fontSize) {
+    var charW = fontSize * 0.6;
+    var textW = labelStr.length * charW;
+    var left;
+    if (anchor === "start") left = tx;
+    else if (anchor === "middle") left = tx - textW / 2;
+    else left = tx - textW;
+    return {
+      left: left,
+      top: ty - fontSize,
+      right: left + textW,
+      bottom: ty + fontSize * 0.25,
+    };
+  }
+
+  function bboxOverlaps(a, b) {
+    return a.left < b.right && a.right > b.left
+        && a.top < b.bottom && a.bottom > b.top;
+  }
+
+  function resolveOverlaps(labels, fontSize) {
+    // Greedy: for each label, if it overlaps a previous one,
+    // nudge it down by fontSize increments until clear.
+    for (var i = 1; i < labels.length; i++) {
+      var tries = 0;
+      while (tries < 20) {
+        var dominated = false;
+        var bb = textBBox(
+          labels[i].tx, labels[i].ty,
+          labels[i].anchor, labels[i].str, fontSize
+        );
+        for (var j = 0; j < i; j++) {
+          var prev = textBBox(
+            labels[j].tx, labels[j].ty,
+            labels[j].anchor, labels[j].str, fontSize
+          );
+          if (bboxOverlaps(bb, prev)) {
+            dominated = true;
+            break;
+          }
+        }
+        if (!dominated) break;
+        labels[i].ty += fontSize + 2;
+        tries++;
+      }
+    }
+  }
+
   function renderBoxes(svg, data) {
     // Clear existing boxes
     while (svg.firstChild) svg.removeChild(svg.firstChild);
@@ -121,7 +181,10 @@
     var textV = settings.text_v;
     var textH = settings.text_h;
     var textPlace = settings.text_place;
+    var fixOverlap = settings.fix_overlap === "1";
 
+    // First pass: draw rectangles, compute label positions
+    var labels = [];
     data.boxes.forEach(function (box) {
       if (box.score < threshold) return;
 
@@ -143,11 +206,6 @@
       rect.setAttribute("stroke-width", thickness);
       svg.appendChild(rect);
 
-      // Label text
-      var text = document.createElementNS(
-        "http://www.w3.org/2000/svg",
-        "text"
-      );
       var labelStr = box.label + " " + box.score.toFixed(2);
       var pad = 4;
 
@@ -178,17 +236,28 @@
           : box.y1 - pad;
       }
 
-      text.setAttribute("x", tx);
-      text.setAttribute("y", ty);
-      text.setAttribute("fill", color);
+      labels.push({ tx: tx, ty: ty, anchor: anchor, str: labelStr, color: color });
+    });
+
+    // Resolve overlaps if enabled
+    if (fixOverlap) resolveOverlaps(labels, fontSize);
+
+    // Second pass: create text elements
+    labels.forEach(function (lbl) {
+      var text = document.createElementNS(
+        "http://www.w3.org/2000/svg",
+        "text"
+      );
+      text.setAttribute("x", lbl.tx);
+      text.setAttribute("y", lbl.ty);
+      text.setAttribute("fill", lbl.color);
       text.setAttribute("font-size", fontSize);
       text.setAttribute("font-family", "monospace");
-      text.setAttribute("text-anchor", anchor);
-      // Background for readability
+      text.setAttribute("text-anchor", lbl.anchor);
       text.setAttribute("stroke", "#000");
       text.setAttribute("stroke-width", "3");
       text.setAttribute("paint-order", "stroke");
-      text.textContent = labelStr;
+      text.textContent = lbl.str;
       svg.appendChild(text);
     });
   }
@@ -262,7 +331,7 @@
     Object.keys(DEFAULTS).forEach(function (key) {
       var el = document.getElementById(key);
       if (!el) return;
-      var event = el.tagName === "SELECT" ? "change" : "input";
+      var event = (el.tagName === "SELECT" || el.type === "checkbox") ? "change" : "input";
       el.addEventListener(event, function () {
         // Update label for range sliders
         var valSpan = document.getElementById(key + "-val");
