@@ -11,7 +11,9 @@
     woman_color: "#ff0000",
     thickness: "2",
     font_size: "14",
-    text_pos: "top-left",
+    text_v: "top",
+    text_h: "left",
+    text_place: "outside",
   };
 
   // ---- State ----
@@ -116,7 +118,9 @@
     var threshold = parseFloat(settings.threshold);
     var thickness = parseInt(settings.thickness, 10);
     var fontSize = parseInt(settings.font_size, 10);
-    var textPos = settings.text_pos;
+    var textV = settings.text_v;
+    var textH = settings.text_h;
+    var textPlace = settings.text_place;
 
     data.boxes.forEach(function (box) {
       if (box.score < threshold) return;
@@ -145,25 +149,33 @@
         "text"
       );
       var labelStr = box.label + " " + box.score.toFixed(2);
+      var pad = 4;
 
-      // Position based on text_pos setting
-      var tx, ty, anchor;
-      if (textPos === "top-left") {
-        tx = box.x0 + 2;
-        ty = box.y0 - 4;
+      // Horizontal position + anchor
+      var tx, anchor;
+      if (textH === "left") {
+        tx = box.x0 + pad;
         anchor = "start";
-      } else if (textPos === "top-right") {
-        tx = box.x1 - 2;
-        ty = box.y0 - 4;
-        anchor = "end";
-      } else if (textPos === "bottom-left") {
-        tx = box.x0 + 2;
-        ty = box.y1 + fontSize + 2;
-        anchor = "start";
+      } else if (textH === "center") {
+        tx = box.x0 + w / 2;
+        anchor = "middle";
       } else {
-        tx = box.x1 - 2;
-        ty = box.y1 + fontSize + 2;
+        tx = box.x1 - pad;
         anchor = "end";
+      }
+
+      // Vertical position (inside/outside flips direction)
+      var ty;
+      if (textV === "top") {
+        ty = textPlace === "outside"
+          ? box.y0 - pad
+          : box.y0 + fontSize + pad;
+      } else if (textV === "center") {
+        ty = box.y0 + h / 2 + fontSize / 3;
+      } else {
+        ty = textPlace === "outside"
+          ? box.y1 + fontSize + pad
+          : box.y1 - pad;
       }
 
       text.setAttribute("x", tx);
