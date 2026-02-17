@@ -6,6 +6,13 @@ __pycache__/
 *.woff
 *.html
 
+# Allow docs/ site and source assets
+!docs/**/*.js
+!docs/**/*.css
+!docs/**/*.html
+!src/docs_assets/**/*.js
+!src/docs_assets/**/*.css
+
 .DS_Store
 moondreammodel/
 
