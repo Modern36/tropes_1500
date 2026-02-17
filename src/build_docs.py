@@ -248,6 +248,7 @@ def build_docs():
             out_path = DOCS / "data" / f"{model}_{img['id']}.json"
             with open(out_path, "w") as f:
                 json.dump(data, f)
+                f.write("\n")
             json_count += 1
     print(f"Generated {json_count} detection JSON files")
 

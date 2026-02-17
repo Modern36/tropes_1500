@@ -1,0 +1,1 @@
+{"image_id": "032sB2qaj2UK", "model": "DinoManWoman2", "width": 396, "height": 550, "boxes": [{"score": 0.7526, "label": "man", "x0": 33.36, "y0": 31.4, "x1": 244.18, "y1": 512.83}, {"score": 0.6307, "label": "woman", "x0": 159.89, "y0": 159.22, "x1": 343.8, "y1": 533.71}]}

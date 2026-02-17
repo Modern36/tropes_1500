@@ -1,0 +1,1 @@
+{"image_id": "032ykyltssy4", "model": "DinoWomanMan", "width": 600, "height": 405, "boxes": [{"score": 0.3786, "label": "woman", "x0": 335.65, "y0": 226.19, "x1": 457.81, "y1": 338.07}, {"score": 0.3364, "label": "man", "x0": 244.28, "y0": 167.05, "x1": 321.69, "y1": 312.62}, {"score": 0.2598, "label": "woman", "x0": 106.26, "y0": 143.08, "x1": 179.36, "y1": 268.34}]}

@@ -1,0 +1,1 @@
+{"image_id": "022wY1AVY1GL", "model": "DinoWomanMan", "width": 600, "height": 438, "boxes": [{"score": 0.3709, "label": "woman", "x0": 393.19, "y0": 214.97, "x1": 506.78, "y1": 436.67}, {"score": 0.39, "label": "man", "x0": 486.87, "y0": 206.01, "x1": 599.8, "y1": 436.67}, {"score": 0.2674, "label": "woman", "x0": 168.71, "y0": 227.01, "x1": 265.69, "y1": 436.63}]}
