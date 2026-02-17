@@ -1,91 +1,57 @@
-# Tropes 1500 is an updated version of the previous Tropes 20
+# Tropes 1500
 
-The purpose behind Tropes 20 was to write a shorter method chapter to an edited volume. The purpose behind Tropes 1500 is to expand on that work and write a longer article on the same topic. That is, different biases in models for object detection in 1930s photographs, with a specific focus on men and women. The README of Tropes 1500 will be expanded further on.
+Gender bias in object detection models applied to 1,500 annotated 1930s Swedish photographs from [Digitalt Museum](https://digitaltmuseum.se/). The project compares how different models detect men versus women, generating classification metrics and a markdown-based browsing interface for the results.
 
+## Models
 
-# Below is the README of the previous tropes_20 concerning the 20 annotated images and statistics for more
+| Model | Type | Labels | Notes |
+|-------|------|--------|-------|
+| DinoManWoman | Grounding DINO v1 | man, woman, person | Label order: Man first |
+| DinoWomanMan | Grounding DINO v1 | woman, man, person | Label order: Woman first |
+| DinoManWoman2 | Grounding DINO v2 | man, woman, person | Label order: Man first |
+| DinoWomanMan2 | Grounding DINO v2 | woman, man, person | Label order: Woman first |
+| YOLO_50 | YOLO | person | Confidence threshold 50% |
+| YOLO_75 | YOLO | person | Confidence threshold 75% |
+| YOLO_90 | YOLO | person | Confidence threshold 90% |
+| VQA | ViLT-VQA | man, woman, person | Visual question answering with 7 questions per gender |
+| llama-desc | Llama Vision + Mistral | man, woman, person | Two-stage: Llama describes the image, Mistral extracts binary labels |
 
-![](/DinoManWoman_th25/012s93m62hr5.png)
-![](/DinoWomanMan_th25/012s93m62hr5.png)
-![](/yolos-pretrained_th75/012s93m62hr5.png)
+Label order matters for Grounding DINO -- the model produces different results depending on whether "Man" or "Woman" appears first in the prompt.
 
+## Browsing the results
 
-## 20 Images
+The `browser/` directory contains a markdown-based interface for exploring model outputs:
 
-Each of the [selected images](/20_images.txt) are included four times:
-
-- In their original [raw form](/000_raw/)
-- With boxes from GroundingDino with different orders of the labels:
-    - [Man - Woman](/DinoManWoman_th25/)
-    - [Woman - Man](/DinoWomanMan_th25/)
-- An out-of-the-box [Yolo](/yolos-pretrained_th75/) -- not trained on this
-data and does therefore not support gender detection.
-
-The drawn boxes include the label and `score`/`confidence` that the
-respective model predicted for the image.
-
-## Performance statistics
-
-The subdirectory [statistics](/statistics/) contains performance statistics
-for both DinoModels as well as the ViLT-VQA model. The calculations are split
-into two parts:
-
-1. Using only the [20 handpicked images](/statistics/20_picked/)
-
-    - [ViLT-VQA](/statistics/20_picked/vilt-vqa/)
-
-    - Dino[Man-Woman](/statistics/20_picked/DinoManWoman_th25/)
-
-    - Dino[Woman-Man](/statistics/20_picked/DinoWomanMan_th25/)
-
-2. Using all [1500 annotated images](/statistics/overall/)
-
-    - [ViLT-VQA](/statistics/overall/vilt-vqa/)
-
-    - Dino[Man-Woman](/statistics/overall/DinoManWoman_th25/)
-
-    - Dino[Woman-Man](/statistics/overall/DinoWomanMan_th25/)
-
-
-### VQA-questions
-
-The VQA (ViLT-VQA) classifier is wrapper around a [public ViLT-VQA](https://huggingface.co/dandelin/vilt-b32-finetuned-vqa) model. The "Visual Question Answering" model is trained to answer questions about images -- it takes a image-question pair as its input and then spits out a short-list of answers (each with a confidence score). [The classifier](https://github.com/Modern36/VQA_classifier) asks the model a few questions about each image, converts the top answer to a binary response (it finding 5 women in the image is concerted to "yes") and then uses the arithmetic average of these answers as the final answer.
-
-As of [`2024-08-28`](https://github.com/Modern36/VQA_classifier/blob/edac6a599727c3efd6ed584a40efba93d2ce6758/src/gender_classifiers.py)
-this classifier uses seven questions each for determining if the model is able to detect a woman or a man in the image:
-
-#### Male
-
- - How many adult males are depicted in the image?
- - Is there at least one adult male in the image?
- - Is there an adult male in the image?
- - How many adult males are depicted in the photograph?
- - Is there at least one adult male in the photograph?
- - Is there an adult male in the photograph?
- - A man somewhere?
-
-#### Female
-
- - How many adult females are depicted in the image?
- - Is there at least one adult female in the image?
- - Is there an adult female in the image?
- - How many adult females are depicted in the photograph?
- - Is there at least one adult female in the photograph?
- - Is there an adult female in the photograph?
- - A woman somewhere?
-
+- **Per-model pages** (`browser/<Model>/`) -- classification reports and per-collection breakdowns
+- **Scatter plots** (`browser/scatter.md`) -- Mermaid quadrant charts comparing F1, precision, and recall across models and genders
+- **Gathering** (`browser/gathering/`) -- images grouped by cross-model accuracy (AllGood, AllBad, Good_X, Bad_X)
 
 ## Data
 
-The raw data underlying the above calculation [are included in](/data.csv).
+| File | Description |
+|------|-------------|
+| `data.csv` | Ground truth and model predictions for all 1,500 images |
+| `scatter_data.csv` | Pre-computed metrics used by the scatter plots |
+| `metadata_jsons/` | One JSON per image with museum metadata |
+| `statistics/` | Classification reports and manual correction files |
 
-The objects, with boxes and scores, found by each model for the 20
-hannepicked images can be found in the [999_detect_data](/999_detect_data/)
-subdirectory.
+## Source images
 
+The 1,500 photographs originate from [Digitalt Museum](https://digitaltmuseum.se/) and are not included in this repository. The `000_raw/` directory is expected to contain the images locally; model output images with bounding boxes are in `010_model_output/`.
 
-## Thresholds
+## Related repositories
 
-The thresholds used are 75% (for yolo) and 25% (for GroundingDino), which
-are arbitrarily chosen from default suggested values and previous
-experiments -- they seem to be neither too restrictive or permissive.
+- [m36_utils](https://github.com/Modern36/m36_utils) -- model wrappers for Grounding DINO, YOLO, and VQA
+- [m36_tropes](https://github.com/Modern36/visual_tropes) -- shared tropes utilities
+
+## Development
+
+See [DEVELOPMENT.md](DEVELOPMENT.md) for setup instructions, commands, code style, and architecture details.
+
+## Citation
+
+> Citation information will be added here once a DOI has been assigned.
+
+## License
+
+> License information will be added here.
