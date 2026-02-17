@@ -37,13 +37,13 @@ h2 {
 
 .settings-row {
   display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-  align-items: center;
+  flex-direction: column;
+  gap: 0.4rem;
+  align-items: flex-start;
 }
 
 .settings-row + .settings-row {
-  margin-top: 0.5rem;
+  margin-top: 0.4rem;
 }
 
 #settings-panel label {
@@ -78,7 +78,7 @@ h2 {
 }
 
 #settings-panel input[type="range"] {
-  width: 100px;
+  width: 300px;
 }
 
 /* Gallery grid */

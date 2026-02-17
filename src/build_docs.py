@@ -87,7 +87,7 @@ SETTINGS_PANEL_HTML = """\
     </label>
     <label>Threshold: <span id="threshold-val">0.25</span>
       <input type="range" id="threshold" min="0" max="1"
-             step="0.01" value="0.25">
+             step="0.05" value="0.25">
     </label>
   </div>
   <div class="settings-row">
