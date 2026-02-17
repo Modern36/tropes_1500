@@ -328,11 +328,6 @@
       pad(d.getMinutes()) + "." + pad(d.getSeconds());
   }
 
-  function imagesBasePath() {
-    if (location.pathname.indexOf("/image/") !== -1) return "../images/";
-    return "images/";
-  }
-
   function triggerDownload(blob, filename) {
     var url = URL.createObjectURL(blob);
     var a = document.createElement("a");
@@ -344,6 +339,43 @@
     URL.revokeObjectURL(url);
   }
 
+  // Composite an <img> and its sibling SVG overlay into a PNG blob.
+  function compositeImage(imgEl, svgEl, width, height) {
+    return new Promise(function (resolve, reject) {
+      var canvas = document.createElement("canvas");
+      canvas.width = width;
+      canvas.height = height;
+      var ctx = canvas.getContext("2d");
+
+      // Draw the photograph
+      ctx.drawImage(imgEl, 0, 0, width, height);
+
+      // Clone SVG, set explicit dimensions so it rasterises correctly
+      var clone = svgEl.cloneNode(true);
+      clone.setAttribute("xmlns", "http://www.w3.org/2000/svg");
+      clone.setAttribute("width", width);
+      clone.setAttribute("height", height);
+
+      var svgData = new XMLSerializer().serializeToString(clone);
+      var svgBlob = new Blob([svgData], { type: "image/svg+xml;charset=utf-8" });
+      var svgUrl = URL.createObjectURL(svgBlob);
+
+      var svgImg = new Image();
+      svgImg.onload = function () {
+        ctx.drawImage(svgImg, 0, 0, width, height);
+        URL.revokeObjectURL(svgUrl);
+        canvas.toBlob(function (blob) {
+          resolve(blob);
+        }, "image/png");
+      };
+      svgImg.onerror = function () {
+        URL.revokeObjectURL(svgUrl);
+        reject(new Error("SVG rasterisation failed"));
+      };
+      svgImg.src = svgUrl;
+    });
+  }
+
   function downloadSingleImage(imageId, btn) {
     readControls();
     updateHash();
@@ -351,9 +383,16 @@
     btn.textContent = "Zipping\u2026";
     var model = settings.model;
     var pageUrl = location.href;
-    var imgUrl = imagesBasePath() + imageId + ".png";
 
-    fetch(imgUrl).then(function (r) { return r.blob(); }).then(function (blob) {
+    var wrap = document.querySelector(
+      ".single-image-wrap[data-image-id=\"" + imageId + "\"]"
+    );
+    var imgEl = wrap.querySelector("img");
+    var svgEl = wrap.querySelector("svg.overlay");
+    var w = parseInt(wrap.getAttribute("data-width"), 10);
+    var h = parseInt(wrap.getAttribute("data-height"), 10);
+
+    compositeImage(imgEl, svgEl, w, h).then(function (blob) {
       var zip = new JSZip();
       zip.file(imageId + ".png", blob);
       zip.file("url.txt", pageUrl + "\n");
@@ -376,23 +415,26 @@
     btn.textContent = "Zipping\u2026";
     var model = settings.model;
     var pageUrl = location.href;
-    var base = imagesBasePath();
 
-    // Collect all image IDs from gallery cards
     var cards = document.querySelectorAll(".card[data-image-id]");
-    var ids = [];
-    cards.forEach(function (c) { ids.push(c.getAttribute("data-image-id")); });
-
     var zip = new JSZip();
     zip.file("url.txt", pageUrl + "\n");
 
-    var fetches = ids.map(function (id) {
-      return fetch(base + id + ".png")
-        .then(function (r) { return r.blob(); })
-        .then(function (blob) { zip.file(id + ".png", blob); });
+    var composites = [];
+    cards.forEach(function (card) {
+      var id = card.getAttribute("data-image-id");
+      var imgEl = card.querySelector("img");
+      var svgEl = card.querySelector("svg.overlay");
+      var w = parseInt(card.getAttribute("data-width"), 10);
+      var h = parseInt(card.getAttribute("data-height"), 10);
+      composites.push(
+        compositeImage(imgEl, svgEl, w, h).then(function (blob) {
+          zip.file(id + ".png", blob);
+        })
+      );
     });
 
-    Promise.all(fetches).then(function () {
+    Promise.all(composites).then(function () {
       var zipName = isoDatetime() + "_" + model + "_Tropes1500.zip";
       return zip.generateAsync({ type: "blob" }).then(function (content) {
         triggerDownload(content, zipName);
