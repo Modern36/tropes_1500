@@ -81,6 +81,32 @@ h2 {
   width: 300px;
 }
 
+/* Download buttons */
+
+.btn-download {
+  background: #0f3460;
+  color: #e0e0e0;
+  border: 1px solid #e94560;
+  border-radius: 4px;
+  padding: 0.35rem 0.75rem;
+  cursor: pointer;
+  font-size: 0.85rem;
+}
+
+.btn-download:hover {
+  background: #e94560;
+  color: #fff;
+}
+
+.btn-download:disabled {
+  opacity: 0.5;
+  cursor: wait;
+}
+
+.download-bar {
+  margin-bottom: 1rem;
+}
+
 /* Gallery grid */
 
 #gallery {

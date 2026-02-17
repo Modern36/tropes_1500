@@ -165,10 +165,14 @@ def gallery_html(image_data):
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>DINO Bounding Box Viewer</title>
   <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
 </head>
 <body>
   <h1>DINO Bounding Box Viewer</h1>
 {SETTINGS_PANEL_HTML}
+  <div class="download-bar">
+    <button id="download-all" class="btn-download">Download all images (.zip)</button>
+  </div>
   <div id="gallery">
 {cards_html}
   </div>
@@ -188,11 +192,14 @@ def image_page_html(img):
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{img['id']} — DINO Bounding Box Viewer</title>
   <link rel="stylesheet" href="../style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
 </head>
 <body>
   <div class="image-page-nav">
     <a id="back-link" href="../index.html">&#8592; Back to gallery</a>
     <button id="use-for-all">Use these settings for all images</button>
+    <button id="download-image" class="btn-download"
+            data-image-id="{img['id']}">Download image (.zip)</button>
   </div>
   <h1>{img['id']}</h1>
 {SETTINGS_PANEL_HTML}

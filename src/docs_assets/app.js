@@ -318,6 +318,93 @@
     });
   }
 
+  // ---- Zip download ----
+
+  function isoDatetime() {
+    var d = new Date();
+    var pad = function (n) { return n < 10 ? "0" + n : "" + n; };
+    return d.getFullYear() + "-" + pad(d.getMonth() + 1) + "-" +
+      pad(d.getDate()) + "T" + pad(d.getHours()) + "." +
+      pad(d.getMinutes()) + "." + pad(d.getSeconds());
+  }
+
+  function imagesBasePath() {
+    if (location.pathname.indexOf("/image/") !== -1) return "../images/";
+    return "images/";
+  }
+
+  function triggerDownload(blob, filename) {
+    var url = URL.createObjectURL(blob);
+    var a = document.createElement("a");
+    a.href = url;
+    a.download = filename;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+  }
+
+  function downloadSingleImage(imageId, btn) {
+    readControls();
+    updateHash();
+    btn.disabled = true;
+    btn.textContent = "Zipping\u2026";
+    var model = settings.model;
+    var pageUrl = location.href;
+    var imgUrl = imagesBasePath() + imageId + ".png";
+
+    fetch(imgUrl).then(function (r) { return r.blob(); }).then(function (blob) {
+      var zip = new JSZip();
+      zip.file(imageId + ".png", blob);
+      zip.file("url.txt", pageUrl + "\n");
+      var zipName = isoDatetime() + "_" + model + "_" + imageId + ".zip";
+      return zip.generateAsync({ type: "blob" }).then(function (content) {
+        triggerDownload(content, zipName);
+        btn.disabled = false;
+        btn.textContent = "Download image (.zip)";
+      });
+    }).catch(function () {
+      btn.disabled = false;
+      btn.textContent = "Download image (.zip)";
+    });
+  }
+
+  function downloadAllImages(btn) {
+    readControls();
+    updateHash();
+    btn.disabled = true;
+    btn.textContent = "Zipping\u2026";
+    var model = settings.model;
+    var pageUrl = location.href;
+    var base = imagesBasePath();
+
+    // Collect all image IDs from gallery cards
+    var cards = document.querySelectorAll(".card[data-image-id]");
+    var ids = [];
+    cards.forEach(function (c) { ids.push(c.getAttribute("data-image-id")); });
+
+    var zip = new JSZip();
+    zip.file("url.txt", pageUrl + "\n");
+
+    var fetches = ids.map(function (id) {
+      return fetch(base + id + ".png")
+        .then(function (r) { return r.blob(); })
+        .then(function (blob) { zip.file(id + ".png", blob); });
+    });
+
+    Promise.all(fetches).then(function () {
+      var zipName = isoDatetime() + "_" + model + "_Tropes1500.zip";
+      return zip.generateAsync({ type: "blob" }).then(function (content) {
+        triggerDownload(content, zipName);
+        btn.disabled = false;
+        btn.textContent = "Download all images (.zip)";
+      });
+    }).catch(function () {
+      btn.disabled = false;
+      btn.textContent = "Download all images (.zip)";
+    });
+  }
+
   // ---- Settings change handlers ----
 
   function onSettingsChange() {
@@ -367,6 +454,22 @@
         e.preventDefault();
         readControls();
         location.href = "../index.html#" + buildHash(settings);
+      });
+    }
+
+    // Download single image
+    var dlImage = document.getElementById("download-image");
+    if (dlImage) {
+      dlImage.addEventListener("click", function () {
+        downloadSingleImage(dlImage.getAttribute("data-image-id"), dlImage);
+      });
+    }
+
+    // Download all images
+    var dlAll = document.getElementById("download-all");
+    if (dlAll) {
+      dlAll.addEventListener("click", function () {
+        downloadAllImages(dlAll);
       });
     }
   }
