@@ -8,6 +8,9 @@ __pycache__/
 
 .DS_Store
 moondreammodel/
+moon_point_output/
+ollama_confidence_output/
+ollama_tmp/
 
 .venv/
 *.sqlite3

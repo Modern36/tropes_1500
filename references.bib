@@ -1,0 +1,154 @@
+% Models
+
+@inproceedings{liu2024groundingdino,
+  title     = {Grounding {DINO}: Marrying {DINO} with Grounded Pre-Training
+               for Open-Set Object Detection},
+  author    = {Liu, Shilong and Zeng, Zhaoyang and Ren, Tianhe and Li, Feng
+               and Zhang, Hao and Yang, Jie and Li, Chunyuan and Yang, Jianwei
+               and Su, Hang and Zhu, Jun and Zhang, Lei},
+  booktitle = {European Conference on Computer Vision (ECCV)},
+  year      = {2024},
+  note      = {Swin-T checkpoint},
+}
+
+@article{ren2024groundingdino15,
+  title   = {Grounding {DINO} 1.5: Advance the ``Edge'' of Open-Set Object
+             Detection},
+  author  = {Ren, Tianhe and Jiang, Qing and Liu, Shilong and Zeng, Zhaoyang
+             and Liu, Wenlong and Gao, Han and Huang, Hongjie and Ma, Zhengyu
+             and Jiang, Xiaoke and Chen, Yihao and Xiong, Yuda and Zhang, Hao
+             and Li, Feng and Tang, Peijun and Yu, Kent and Zhang, Lei},
+  journal = {arXiv preprint arXiv:2405.10300},
+  year    = {2024},
+  note    = {Swin-T checkpoint},
+}
+
+@article{fang2023yolos,
+  title   = {You Only Look at One Sequence: Rethinking Transformer in Vision
+             through Object Detection},
+  author  = {Fang, Yuxin and Liao, Bencheng and Wang, Xinggang and Fang,
+             Jiemin and Qi, Jiyang and Wu, Rui and Niu, Jianwei and Liu,
+             Wenyu},
+  journal = {Advances in Neural Information Processing Systems (NeurIPS)},
+  volume  = {34},
+  pages   = {26183--26197},
+  year    = {2021},
+  note    = {Model: hustvl/yolos-base},
+}
+
+@inproceedings{kim2021vilt,
+  title     = {{ViLT}: Vision-and-Language Transformer Without Convolution or
+               Region Supervision},
+  author    = {Kim, Wonjae and Son, Bokyung and Kim, Ildoo},
+  booktitle = {International Conference on Machine Learning (ICML)},
+  pages     = {5583--5594},
+  year      = {2021},
+  note      = {Model: dandelin/vilt-b32-finetuned-vqa},
+}
+
+@article{llama2024herd,
+  title   = {The {Llama} 3 Herd of Models},
+  author  = {Dubey, Abhimanyu and Jauhri, Abhinav and Pandey, Abhinav and
+             Kadian, Abhishek and Al-Dahle, Ahmad and Letman, Aiesha and
+             Mathur, Akhil and Schelten, Alan and Yang, Amy and Fan, Angela
+             and others},
+  journal = {arXiv preprint arXiv:2407.21783},
+  year    = {2024},
+  note    = {Model: llama3.2-vision:90b, served via ollama},
+}
+
+@article{mistral2025small,
+  title   = {Mistral Small 3.1},
+  author  = {{Mistral AI}},
+  year    = {2025},
+  url     = {https://mistral.ai/news/mistral-small-3-1},
+  note    = {Model: mistral-small3.1:24b, served via ollama},
+}
+
+% Datasets
+
+@inproceedings{lin2014coco,
+  title     = {Microsoft {COCO}: Common Objects in Context},
+  author    = {Lin, Tsung-Yi and Maire, Michael and Belongie, Serge and Hays,
+               James and Perona, Pietro and Ramanan, Deva and Doll{\'a}r, Piotr
+               and Zitnick, C. Lawrence},
+  booktitle = {European Conference on Computer Vision (ECCV)},
+  pages     = {740--755},
+  year      = {2014},
+}
+
+@inproceedings{deng2009imagenet,
+  title     = {{ImageNet}: A Large-Scale Hierarchical Image Database},
+  author    = {Deng, Jia and Dong, Wei and Socher, Richard and Li, Li-Jia
+               and Li, Kai and Fei-Fei, Li},
+  booktitle = {IEEE Conference on Computer Vision and Pattern Recognition
+               (CVPR)},
+  pages     = {248--255},
+  year      = {2009},
+}
+
+% Data source
+
+@misc{digitaltmuseum,
+  title        = {Digitalt Museum},
+  author       = {{KulturIT}},
+  url          = {https://digitaltmuseum.se/},
+  note         = {Source of the 1,500 1930s Swedish photographs},
+}
+
+% Architectures and frameworks
+
+@inproceedings{liu2021swin,
+  title     = {Swin Transformer: Hierarchical Vision Transformer using Shifted
+               Windows},
+  author    = {Liu, Ze and Lin, Yutong and Cao, Yue and Hu, Han and Wei,
+               Yixuan and Zhang, Zheng and Lin, Stephen and Guo, Baining},
+  booktitle = {IEEE/CVF International Conference on Computer Vision (ICCV)},
+  pages     = {9992--10002},
+  year      = {2021},
+  note      = {Swin-T backbone used by Grounding DINO},
+}
+
+@inproceedings{wolf2020transformers,
+  title     = {Transformers: State-of-the-Art Natural Language Processing},
+  author    = {Wolf, Thomas and Debut, Lysandre and Sanh, Victor and Chaumond,
+               Julien and Delangue, Clement and Moi, Anthony and Cistac,
+               Pierric and Rault, Tim and Louf, R{\'e}mi and Funtowicz, Morgan
+               and Davison, Joe and Shleifer, Sam and von Platen, Patrick and
+               Ma, Clara and Jernite, Yacine and Plu, Julien and Xu, Canwen
+               and Le Scao, Teven and Gugger, Sylvain and Drame, Mariama
+               and Lhoest, Quentin and Rush, Alexander M.},
+  booktitle = {Conference on Empirical Methods in Natural Language Processing:
+               System Demonstrations (EMNLP)},
+  pages     = {38--45},
+  year      = {2020},
+}
+
+% Tools
+
+@misc{doccano,
+  title   = {doccano: Text Annotation Tool for Human},
+  author  = {Nakayama, Hiroki and Kubo, Takahiro and Kamura, Junya
+             and Taniguchi, Yasufumi and Liang, Xu},
+  year    = {2018},
+  url     = {https://github.com/doccano/doccano},
+}
+
+@software{ollama,
+  title   = {Ollama},
+  author  = {{Ollama}},
+  url     = {https://ollama.com/},
+  note    = {Local LLM inference server},
+}
+
+@article{pedregosa2011sklearn,
+  title   = {Scikit-learn: Machine Learning in {Python}},
+  author  = {Pedregosa, Fabian and Varoquaux, Ga{\"e}l and Gramfort,
+             Alexandre and Michel, Vincent and Thirion, Bertrand and Grisel,
+             Olivier and Blondel, Mathieu and Prettenhofer, Peter and Weiss,
+             Ron and Dubourg, Vincent and others},
+  journal = {Journal of Machine Learning Research},
+  volume  = {12},
+  pages   = {2825--2830},
+  year    = {2011},
+}

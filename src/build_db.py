@@ -225,9 +225,6 @@ def build_db():
         calculate_groups(conn)
 
 
-# TODO: Add Moondream output
-
-
 def load_metadata():
     for filename in metadata_dir.glob("*.json"):
         with open(filename, "r", encoding="utf-8") as f:

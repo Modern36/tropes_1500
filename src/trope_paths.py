@@ -12,18 +12,10 @@ ollama_desc_dir = model_output / "ollama_description_output"
 
 mistral_summary_dir = model_output / "mistral_summary_llama-vision"
 
-ollam_tmp_dir = output_dir / "ollama_confidence_output"
-
-moon_tmp_dir = output_dir / "moon_point_output"
-
-moon_tmp_qa = model_output / "moon_QA_output"
-
-
 detections = output_dir / "999_detect_data"
 data_file = output_dir / "data.csv"
 
 browser_root = output_dir / "browser"
-moondream_model = output_dir / "moondreammodel" / "moondream-2b-int8.mf"
 scatter_file = browser_root / "scatter.md"
 scatter_data_file = output_dir / "scatter_data.csv"
 
