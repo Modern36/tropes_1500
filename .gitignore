@@ -19,3 +19,6 @@ moondreammodel/
 .venv/
 *.sqlite3
 .env
+
+# Hires image cache (downloaded by src/build_docs.py from mm.dimu.org)
+005_hires/

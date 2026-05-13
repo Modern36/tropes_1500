@@ -2,15 +2,19 @@
 
 import csv
 import html
+import io
 import json
 import shutil
+import urllib.request
 from pathlib import Path
 
 from PIL import Image
 
-from trope_paths import detections, raw_dir
+from trope_paths import detections, metadata_dir, raw_dir
 
 DOCS = Path(__file__).parents[1] / "docs"
+HIRES_CACHE = Path(__file__).parents[1] / "005_hires"
+HIRES_URL = "https://mm.dimu.org/image/{id}?dimension=2400x2400"
 
 IMAGE_IDS = [
     "032ykyltssy4",
@@ -98,6 +102,60 @@ def load_tsv_boxes(model, image_id):
                 }
             )
     return boxes
+
+
+def canonical_image_id(image_id):
+    """Return the case-sensitive museum-side image_id from metadata.
+    Local filenames are lowercased; the museum API is case-sensitive."""
+    meta_path = metadata_dir / f"{image_id}.json"
+    with open(meta_path) as f:
+        meta = json.load(f)
+    return meta["image_id"]
+
+
+def ensure_hires_image(image_id):
+    """Download a higher-resolution version of the image from mm.dimu.org
+    into 005_hires/<id>.png. Returns the cached file path. Subsequent
+    calls reuse the cache. The local filename uses the lowercased id;
+    the URL uses the canonical id from metadata."""
+    HIRES_CACHE.mkdir(parents=True, exist_ok=True)
+    dst = HIRES_CACHE / f"{image_id}.png"
+    if dst.exists():
+        return dst
+    url = HIRES_URL.format(id=canonical_image_id(image_id))
+    req = urllib.request.Request(
+        url, headers={"User-Agent": "tropes-1500-build-docs/1.0"}
+    )
+    try:
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            data = resp.read()
+    except Exception as e:
+        raise RuntimeError(
+            f"Failed to download hires image for {image_id} from {url}: {e}"
+        ) from e
+    img = Image.open(io.BytesIO(data))
+    if img.mode != "RGB":
+        img = img.convert("RGB")
+    img.save(dst, format="PNG")
+    return dst
+
+
+def scale_boxes(boxes, scale_x, scale_y):
+    """Return a new list of boxes with coordinates rescaled by the given
+    per-axis factors. Score and label are passed through unchanged."""
+    out = []
+    for b in boxes:
+        out.append(
+            {
+                "score": b["score"],
+                "label": b["label"],
+                "x0": round(b["x0"] * scale_x, 2),
+                "y0": round(b["y0"] * scale_y, 2),
+                "x1": round(b["x1"] * scale_x, 2),
+                "y1": round(b["y1"] * scale_y, 2),
+            }
+        )
+    return out
 
 
 # ------------------------------------------------------------------
@@ -338,7 +396,7 @@ def objects_gallery_html(image_data):
        data-height="{img['height']}"
        data-label-colors="{colors_attr}">
       <div class="image-wrap">
-        <img src="images/{img['id']}.png"
+        <img src="images_hires/{img['id']}.png"
              alt="{img['id']}"
              width="{img['width']}"
              height="{img['height']}">
@@ -406,7 +464,7 @@ def yolo_image_page_html(img):
        data-width="{img['width']}"
        data-height="{img['height']}"
        data-label-colors="{colors_attr}">
-    <img src="../images/{img['id']}.png"
+    <img src="../images_hires/{img['id']}.png"
          alt="{img['id']}"
          width="{img['width']}"
          height="{img['height']}">
@@ -445,6 +503,7 @@ def build_docs():
         DOCS / "images",
         DOCS / "data",
         DOCS / "objects",
+        DOCS / "images_hires",
     ]:
         d.mkdir(parents=True, exist_ok=True)
 
@@ -488,29 +547,45 @@ def build_docs():
         (DOCS / "image" / f"{img['id']}.html").write_text(image_page_html(img))
     print(f"Generated DINO gallery + {len(image_data)} image pages")
 
-    # ---- Page 2: YOLO objects gallery ----
+    # ---- Page 2: YOLO objects gallery (higher-res images) ----
 
     page2_data = []
     for entry in PAGE2_IMAGES:
-        w, h = get_image_dimensions(entry["id"])
+        raw_w, raw_h = get_image_dimensions(entry["id"])
+        hires_path = ensure_hires_image(entry["id"])
+        with Image.open(hires_path) as hires_img:
+            hires_w, hires_h = hires_img.size
+        sx = hires_w / raw_w
+        sy = hires_h / raw_h
+        if abs(sx - sy) > 0.005:
+            raise RuntimeError(
+                f"Aspect-ratio mismatch for {entry['id']}: "
+                f"raw {raw_w}x{raw_h} vs hires {hires_w}x{hires_h} "
+                f"(sx={sx:.4f}, sy={sy:.4f})"
+            )
+        print(
+            f"  {entry['id']}: {raw_w}x{raw_h} -> {hires_w}x{hires_h} "
+            f"(x{sx:.2f})"
+        )
         page2_data.append(
             {
                 "id": entry["id"],
-                "width": w,
-                "height": h,
+                "width": hires_w,
+                "height": hires_h,
                 "label_colors": entry["label_colors"],
+                "scale_x": sx,
+                "scale_y": sy,
             }
         )
+        shutil.copy2(hires_path, DOCS / "images_hires" / f"{entry['id']}.png")
 
-    # Copy raw images (idempotent if already copied for page 1)
+    # YOLO detection JSONs with rescaled box coordinates
     for img in page2_data:
-        src = raw_dir / f"{img['id']}.png"
-        dst = DOCS / "images" / f"{img['id']}.png"
-        shutil.copy2(src, dst)
-
-    # YOLO detection JSONs
-    for img in page2_data:
-        boxes = load_tsv_boxes(YOLO_MODEL, img["id"])
+        boxes = scale_boxes(
+            load_tsv_boxes(YOLO_MODEL, img["id"]),
+            img["scale_x"],
+            img["scale_y"],
+        )
         data = {
             "image_id": img["id"],
             "model": YOLO_MODEL,
