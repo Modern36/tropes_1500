@@ -20,6 +20,11 @@
   // ---- State ----
   var settings = {};
   var detectionCache = {};
+  // Per-label color overrides keyed by raw label string (e.g. "dining table").
+  // Populated from URL hash (`color_<label>` keys) and the label-color pickers
+  // in the YOLO settings panel. Takes precedence over `data-label-colors` on
+  // each element.
+  var labelColorOverrides = {};
 
   // ---- Hash ↔ Settings ----
 
@@ -45,14 +50,32 @@
     return parts.join("&");
   }
 
+  function combinedHashState() {
+    var combined = Object.assign({}, settings);
+    Object.keys(labelColorOverrides).forEach(function (label) {
+      combined["color_" + label] = labelColorOverrides[label];
+    });
+    return combined;
+  }
+
   function updateHash() {
-    history.replaceState(null, "", "#" + buildHash(settings));
+    history.replaceState(null, "", "#" + buildHash(combinedHashState()));
   }
 
   function loadSettings() {
     var params = parseHash();
+    var pageDefaults = Object.assign({}, DEFAULTS);
+    if (document.body && document.body.dataset.page === "objects") {
+      pageDefaults.model = "yolos-pretrained";
+    }
     Object.keys(DEFAULTS).forEach(function (key) {
-      settings[key] = params[key] !== undefined ? params[key] : DEFAULTS[key];
+      settings[key] = params[key] !== undefined ? params[key] : pageDefaults[key];
+    });
+    // Pick up any color_<label> overrides from the hash
+    Object.keys(params).forEach(function (key) {
+      if (key.indexOf("color_") === 0) {
+        labelColorOverrides[key.substring(6)] = params[key];
+      }
     });
   }
 
@@ -83,11 +106,55 @@
     });
   }
 
+  // Populate the YOLO settings panel with one color picker per unique label
+  // found on the page. Wires change handlers so edits update the overrides,
+  // refresh the URL hash, and re-render boxes live.
+  function populateLabelColorControls() {
+    var row = document.getElementById("label-colors-row");
+    if (!row) return;
+    var containers = document.querySelectorAll("[data-label-colors]");
+    if (!containers.length) return;
+
+    var seen = {};
+    var ordered = [];
+    containers.forEach(function (c) {
+      var colors = getLabelColors(c);
+      if (!colors) return;
+      Object.keys(colors).forEach(function (label) {
+        if (!(label in seen)) {
+          seen[label] = colors[label];
+          ordered.push(label);
+        }
+      });
+    });
+
+    row.innerHTML = "";
+    ordered.forEach(function (label, idx) {
+      var initial = labelColorOverrides[label] || seen[label];
+      var inputId = "labelcolor_" + idx;
+      var wrap = document.createElement("label");
+      wrap.innerHTML =
+        label +
+        ":<input type=\"color\" id=\"" + inputId +
+        "\" value=\"" + initial + "\">";
+      row.appendChild(wrap);
+      var input = wrap.querySelector("input");
+      input.addEventListener("input", function () {
+        labelColorOverrides[label] = input.value;
+        updateHash();
+        renderAll();
+      });
+    });
+  }
+
   // ---- Detection data loading ----
 
   function dataBasePath() {
-    // Detect if we're on an image page (path contains /image/)
-    if (location.pathname.indexOf("/image/") !== -1) {
+    // Image pages live in /image/ or /objects/ subdirectories
+    if (
+      location.pathname.indexOf("/image/") !== -1 ||
+      location.pathname.indexOf("/objects/") !== -1
+    ) {
       return "../data/";
     }
     return "data/";
@@ -115,7 +182,32 @@
 
   // ---- SVG rendering ----
 
-  function colorForLabel(label) {
+  function getLabelColors(container) {
+    if (!container) return null;
+    var raw = container.getAttribute("data-label-colors");
+    if (!raw) return null;
+    try {
+      return JSON.parse(raw);
+    } catch (e) {
+      return null;
+    }
+  }
+
+  // Merge per-element label colors with any user-driven overrides.
+  function effectiveLabelColors(container) {
+    var base = getLabelColors(container);
+    if (!base) return null;
+    var merged = {};
+    Object.keys(base).forEach(function (k) {
+      merged[k] = labelColorOverrides[k] || base[k];
+    });
+    return merged;
+  }
+
+  function colorForLabel(label, labelColors) {
+    if (labelColors) {
+      return labelColors[label] || null;
+    }
     if (label.indexOf("woman") !== -1) return settings.woman_color;
     return settings.man_color;
   }
@@ -170,7 +262,7 @@
     }
   }
 
-  function renderBoxes(svg, data) {
+  function renderBoxes(svg, data, labelColors) {
     // Clear existing boxes
     while (svg.firstChild) svg.removeChild(svg.firstChild);
     if (!data || !data.boxes) return;
@@ -188,7 +280,8 @@
     data.boxes.forEach(function (box) {
       if (box.score < threshold) return;
 
-      var color = colorForLabel(box.label);
+      var color = colorForLabel(box.label, labelColors);
+      if (labelColors && !color) return;  // label not in spec — skip
       var w = box.x1 - box.x0;
       var h = box.y1 - box.y0;
 
@@ -273,8 +366,9 @@
       var imageId = card.getAttribute("data-image-id");
       var svg = card.querySelector("svg.overlay");
       if (!svg) return;
+      var labelColors = effectiveLabelColors(card);
       fetchDetections(model, imageId, function (data) {
-        renderBoxes(svg, data);
+        renderBoxes(svg, data, labelColors);
       });
     });
 
@@ -286,9 +380,10 @@
       var imageId = wrap.getAttribute("data-image-id");
       var svg = wrap.querySelector("svg.overlay");
       if (svg) {
+        var labelColors = effectiveLabelColors(wrap);
         fetchDetections(model, imageId, function (data) {
-          renderBoxes(svg, data);
-          updateDetectionsTable(data);
+          renderBoxes(svg, data, labelColors);
+          updateDetectionsTable(data, labelColors);
         });
       }
     }
@@ -296,7 +391,7 @@
 
   // ---- Detections table (image page only) ----
 
-  function updateDetectionsTable(data) {
+  function updateDetectionsTable(data, labelColors) {
     var tbody = document.querySelector("#detections-table tbody");
     if (!tbody) return;
     tbody.innerHTML = "";
@@ -304,6 +399,7 @@
 
     var threshold = parseFloat(settings.threshold);
     data.boxes.forEach(function (box) {
+      if (labelColors && !labelColors[box.label]) return;
       var tr = document.createElement("tr");
       if (box.score < threshold) tr.className = "hidden-box";
       tr.innerHTML =
@@ -469,23 +565,30 @@
       });
     });
 
-    // Gallery card links — preserve settings in hash
+    // Gallery card links — preserve settings in hash. Use the card's
+    // own href so DINO cards go to image/<id>.html and YOLO cards go
+    // to objects/<id>.html.
     var cards = document.querySelectorAll("a.card[data-image-id]");
     cards.forEach(function (card) {
       card.addEventListener("click", function (e) {
         e.preventDefault();
         readControls();
-        var imageId = card.getAttribute("data-image-id");
-        location.href = "image/" + imageId + ".html#" + buildHash(settings);
+        var target = card.getAttribute("href");
+        location.href = target + "#" + buildHash(settings);
       });
     });
+
+    // Gallery URL for the current page (used by back-link and use-for-all)
+    var galleryUrl = document.body.dataset.page === "objects"
+      ? "../objects.html"
+      : "../index.html";
 
     // "Use these settings for all images" button
     var useForAll = document.getElementById("use-for-all");
     if (useForAll) {
       useForAll.addEventListener("click", function () {
         readControls();
-        location.href = "../index.html#" + buildHash(settings);
+        location.href = galleryUrl + "#" + buildHash(settings);
       });
     }
 
@@ -495,7 +598,7 @@
       backLink.addEventListener("click", function (e) {
         e.preventDefault();
         readControls();
-        location.href = "../index.html#" + buildHash(settings);
+        location.href = galleryUrl + "#" + buildHash(settings);
       });
     }
 
@@ -521,6 +624,7 @@
   function init() {
     loadSettings();
     populateControls();
+    populateLabelColorControls();
     updateHash();
     attachHandlers();
     renderAll();

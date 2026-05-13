@@ -3,40 +3,24 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>022wazENVLNx — DINO Bounding Box Viewer</title>
+  <title>032ymyDgEmA7 — YOLO Object Detection Viewer</title>
   <link rel="stylesheet" href="../style.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
 </head>
-<body data-page="dino">
-  <nav class="page-nav"><a href="../index.html" class="active">DINO (Man/Woman)</a><a href="../objects.html">YOLO (Objects)</a></nav>
+<body data-page="objects">
+  <nav class="page-nav"><a href="../index.html">DINO (Man/Woman)</a><a href="../objects.html" class="active">YOLO (Objects)</a></nav>
   <div class="image-page-nav">
-    <a id="back-link" href="../index.html">&#8592; Back to gallery</a>
+    <a id="back-link" href="../objects.html">&#8592; Back to gallery</a>
     <button id="use-for-all">Use these settings for all images</button>
     <button id="download-image" class="btn-download"
-            data-image-id="022wazENVLNx">Download image (.zip)</button>
+            data-image-id="032ymyDgEmA7">Download image (.zip)</button>
   </div>
-  <h1>022wazENVLNx</h1>
+  <h1>032ymyDgEmA7</h1>
 <div id="settings-panel">
   <div class="settings-row">
-    <label>Model:
-      <select id="model">
-        <option value="DinoManWoman">DinoManWoman</option>
-        <option value="DinoManWoman2">DinoManWoman2</option>
-        <option value="DinoWomanMan">DinoWomanMan</option>
-        <option value="DinoWomanMan2">DinoWomanMan2</option>
-      </select>
-    </label>
     <label>Threshold: <span id="threshold-val">0.25</span>
       <input type="range" id="threshold" min="0" max="1"
              step="0.05" value="0.25">
-    </label>
-  </div>
-  <div class="settings-row">
-    <label>Man color:
-      <input type="color" id="man_color" value="#0000ff">
-    </label>
-    <label>Woman color:
-      <input type="color" id="woman_color" value="#ff0000">
     </label>
     <label>Thickness: <span id="thickness-val">2</span>
       <input type="range" id="thickness" min="1" max="10"
@@ -46,6 +30,8 @@
       <input type="range" id="font_size" min="8" max="32"
              step="1" value="14">
     </label>
+  </div>
+  <div class="settings-row">
     <label>Vertical:
       <select id="text_v">
         <option value="top">top</option>
@@ -71,17 +57,19 @@
       Fix overlapping labels
     </label>
   </div>
+  <div class="settings-row" id="label-colors-row"></div>
 </div>
   <div class="single-image-wrap"
-       data-image-id="022wazENVLNx"
-       data-width="385"
-       data-height="600">
-    <img src="../images/022wazENVLNx.png"
-         alt="022wazENVLNx"
-         width="385"
-         height="600">
+       data-image-id="032ymyDgEmA7"
+       data-width="600"
+       data-height="405"
+       data-label-colors="{&quot;person&quot;: &quot;#FF0000&quot;, &quot;chair&quot;: &quot;#00FF00&quot;, &quot;dining table&quot;: &quot;#FF66B2&quot;, &quot;tie&quot;: &quot;#FF9933&quot;, &quot;laptop&quot;: &quot;#00FFFF&quot;}">
+    <img src="../images/032ymyDgEmA7.png"
+         alt="032ymyDgEmA7"
+         width="600"
+         height="405">
     <svg class="overlay"
-         viewBox="0 0 385 600"
+         viewBox="0 0 600 405"
          preserveAspectRatio="xMidYMid meet"></svg>
   </div>
   <h2>Detections</h2>
