@@ -238,6 +238,46 @@ h2 {
   height: 100%;
 }
 
+/* Citation page */
+
+.citation-content {
+  background: #16213e;
+  border: 1px solid #0f3460;
+  border-radius: 6px;
+  padding: 1rem 1.25rem;
+  max-width: 900px;
+}
+
+.citation-content p {
+  margin-bottom: 0.75rem;
+  line-height: 1.5;
+}
+
+.citation-content h2 {
+  margin: 1.25rem 0 0.5rem;
+  font-size: 1rem;
+}
+
+.citation-content pre {
+  background: #1a1a2e;
+  border: 1px solid #0f3460;
+  border-radius: 4px;
+  padding: 0.75rem 1rem;
+  overflow-x: auto;
+  font-size: 0.85rem;
+  white-space: pre;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+.citation-content a {
+  color: #e94560;
+  text-decoration: none;
+}
+
+.citation-content a:hover {
+  text-decoration: underline;
+}
+
 /* Detections table */
 
 #detections-table {

@@ -1,6 +1,7 @@
 """Build static DINO bounding-box viewer site into docs/."""
 
 import csv
+import datetime
 import html
 import io
 import json
@@ -8,6 +9,7 @@ import shutil
 import urllib.request
 from pathlib import Path
 
+import yaml
 from PIL import Image
 
 from trope_paths import detections, metadata_dir, raw_dir
@@ -15,6 +17,7 @@ from trope_paths import detections, metadata_dir, raw_dir
 DOCS = Path(__file__).parents[1] / "docs"
 HIRES_CACHE = Path(__file__).parents[1] / "005_hires"
 HIRES_URL = "https://mm.dimu.org/image/{id}?dimension=2400x2400"
+CITATION_FILE = Path(__file__).parents[1] / "CITATION.cff"
 
 IMAGE_IDS = [
     "032ykyltssy4",
@@ -267,15 +270,17 @@ YOLO_SETTINGS_PANEL_HTML = """\
 
 
 def header_nav_html(active, depth):
-    """Return the two-tab header nav. depth=0 for root pages, 1 for
+    """Return the three-tab header nav. depth=0 for root pages, 1 for
     image pages (in subdirectories)."""
     prefix = "../" if depth == 1 else ""
     dino_class = ' class="active"' if active == "dino" else ""
     yolo_class = ' class="active"' if active == "yolo" else ""
+    cite_class = ' class="active"' if active == "citation" else ""
     return (
         '<nav class="page-nav">'
         f'<a href="{prefix}index.html"{dino_class}>DINO (Man/Woman)</a>'
         f'<a href="{prefix}objects.html"{yolo_class}>YOLO (Objects)</a>'
+        f'<a href="{prefix}citation.html"{cite_class}>Citation</a>'
         "</nav>"
     )
 
@@ -488,6 +493,104 @@ def yolo_image_page_html(img):
 
 
 # ------------------------------------------------------------------
+# Citation
+# ------------------------------------------------------------------
+
+
+def load_citation():
+    """Read CITATION.cff into a dict (single source of truth for the
+    citation page)."""
+    with open(CITATION_FILE) as f:
+        return yaml.safe_load(f)
+
+
+def citation_date(citation):
+    """Return the date-released field as a datetime.date, regardless of
+    whether PyYAML parsed it as a date or as a string."""
+    d = citation["date-released"]
+    if isinstance(d, datetime.date):
+        return d
+    return datetime.datetime.strptime(d, "%Y-%m-%d").date()
+
+
+def format_authors_apa(authors):
+    """Render authors as 'Last, F., Last, F., & Last, F.' (APA-ish)."""
+    parts = []
+    for a in authors:
+        initial = a["given-names"][:1] + "."
+        parts.append(f"{a['family-names']}, {initial}")
+    if len(parts) <= 1:
+        return parts[0] if parts else ""
+    return ", ".join(parts[:-1]) + ", & " + parts[-1]
+
+
+def make_bibtex(citation):
+    """Generate a BibTeX entry from the CFF data."""
+    date = citation_date(citation)
+    month_abbrev = date.strftime("%b").lower()
+    last = citation["authors"][0]["family-names"].lower()
+    doi_suffix = str(citation["doi"]).rsplit(".", 1)[-1]
+    key = f"{last}_{date.year}_{doi_suffix}"
+    indent = " " * 18
+    authors_block = (" and\n" + indent).join(
+        f"{a['family-names']}, {a['given-names']}" for a in citation["authors"]
+    )
+    publisher = citation.get("publisher", {}).get("name", "Zenodo")
+    return (
+        f"@dataset{{{key},\n"
+        f"  author       = {{{authors_block}}},\n"
+        f"  title        = {{{citation['title']}}},\n"
+        f"  month        = {month_abbrev},\n"
+        f"  year         = {date.year},\n"
+        f"  publisher    = {{{publisher}}},\n"
+        f"  version      = {{{citation['version']}}},\n"
+        f"  doi          = {{{citation['doi']}}},\n"
+        f"  url          = {{{citation['url']}}},\n"
+        f"}}"
+    )
+
+
+def citation_html(citation):
+    """Render docs/citation.html from the CFF data."""
+    date = citation_date(citation)
+    authors_apa = format_authors_apa(citation["authors"])
+    publisher = citation.get("publisher", {}).get("name", "Zenodo")
+    doi = citation["doi"]
+    bibtex = make_bibtex(citation)
+    cite_line = (
+        f"{authors_apa} ({date.year}). "
+        f"<em>{html.escape(citation['title'])}</em> "
+        f"(Version {html.escape(citation['version'])}) [Dataset]. "
+        f"{html.escape(publisher)}. "
+        f'<a href="{html.escape(citation["url"], quote=True)}">'
+        f"{html.escape(citation['url'])}</a>"
+    )
+    return f"""\
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Citation — {html.escape(citation['title'])}</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-page="citation">
+  {header_nav_html("citation", 0)}
+  <h1>Cite this dataset</h1>
+  <div class="citation-content">
+    <p>{html.escape(citation['message'])}</p>
+    <p class="cite-line">{cite_line}</p>
+    <h2>BibTeX</h2>
+    <pre><code>{html.escape(bibtex)}</code></pre>
+    <h2>DOI</h2>
+    <p><a href="https://doi.org/{html.escape(str(doi), quote=True)}">{html.escape(str(doi))}</a></p>
+  </div>
+</body>
+</html>
+"""
+
+
+# ------------------------------------------------------------------
 # Build
 # ------------------------------------------------------------------
 
@@ -605,6 +708,12 @@ def build_docs():
             yolo_image_page_html(img)
         )
     print(f"Generated YOLO gallery + {len(page2_data)} image pages")
+
+    # ---- Citation page ----
+
+    citation = load_citation()
+    (DOCS / "citation.html").write_text(citation_html(citation))
+    print("Generated citation page")
 
     # Copy static assets
     for asset in ["app.js", "style.css"]:
