@@ -1,0 +1,1 @@
+{"image_id": "022wazENVLNx", "model": "yolos-pretrained", "width": 769, "height": 1200, "boxes": [{"score": 0.9926, "label": "person", "x0": 83.59, "y0": 247.62, "x1": 727.39, "y1": 1192.16}, {"score": 0.9745, "label": "cell phone", "x0": 516.13, "y0": 1069.24, "x1": 587.6, "y1": 1099.96}]}

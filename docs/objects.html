@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>YOLO Object Detection Viewer</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+</head>
+<body data-page="objects">
+  <nav class="page-nav"><a href="index.html">DINO (Man/Woman)</a><a href="objects.html" class="active">YOLO (Objects)</a></nav>
+  <h1>YOLO Object Detection Viewer</h1>
+<div id="settings-panel">
+  <div class="settings-row">
+    <label>Threshold: <span id="threshold-val">0.25</span>
+      <input type="range" id="threshold" min="0" max="1"
+             step="0.05" value="0.25">
+    </label>
+    <label>Thickness: <span id="thickness-val">2</span>
+      <input type="range" id="thickness" min="1" max="10"
+             step="1" value="2">
+    </label>
+    <label>Font size: <span id="font_size-val">14</span>
+      <input type="range" id="font_size" min="8" max="32"
+             step="1" value="14">
+    </label>
+  </div>
+  <div class="settings-row">
+    <label>Vertical:
+      <select id="text_v">
+        <option value="top">top</option>
+        <option value="center">center</option>
+        <option value="bottom">bottom</option>
+      </select>
+    </label>
+    <label>Horizontal:
+      <select id="text_h">
+        <option value="left">left</option>
+        <option value="center">center</option>
+        <option value="right">right</option>
+      </select>
+    </label>
+    <label>Placement:
+      <select id="text_place">
+        <option value="outside">outside</option>
+        <option value="inside">inside</option>
+      </select>
+    </label>
+    <label>
+      <input type="checkbox" id="fix_overlap">
+      Fix overlapping labels
+    </label>
+  </div>
+  <div class="settings-row" id="label-colors-row"></div>
+</div>
+  <div class="download-bar">
+    <button id="download-all" class="btn-download">Download all images (.zip)</button>
+  </div>
+  <div id="gallery">
+    <a class="card" href="objects/032ymyDgEmA7.html"
+       data-image-id="032ymyDgEmA7"
+       data-width="1200"
+       data-height="809"
+       data-label-colors="{&quot;person&quot;: &quot;#FF0000&quot;, &quot;chair&quot;: &quot;#00FF00&quot;, &quot;dining table&quot;: &quot;#FF66B2&quot;, &quot;tie&quot;: &quot;#FF9933&quot;, &quot;laptop&quot;: &quot;#00FFFF&quot;}">
+      <div class="image-wrap">
+        <img src="images_hires/032ymyDgEmA7.png"
+             alt="032ymyDgEmA7"
+             width="1200"
+             height="809">
+        <svg class="overlay"
+             viewBox="0 0 1200 809"
+             preserveAspectRatio="xMidYMid meet"></svg>
+      </div>
+      <span class="card-label">032ymyDgEmA7</span>
+    </a>
+    <a class="card" href="objects/022wazENVLNx.html"
+       data-image-id="022wazENVLNx"
+       data-width="769"
+       data-height="1200"
+       data-label-colors="{&quot;person&quot;: &quot;#FF0000&quot;, &quot;cell phone&quot;: &quot;#FFFFFF&quot;}">
+      <div class="image-wrap">
+        <img src="images_hires/022wazENVLNx.png"
+             alt="022wazENVLNx"
+             width="769"
+             height="1200">
+        <svg class="overlay"
+             viewBox="0 0 769 1200"
+             preserveAspectRatio="xMidYMid meet"></svg>
+      </div>
+      <span class="card-label">022wazENVLNx</span>
+    </a>
+    <a class="card" href="objects/032ykyltssy4.html"
+       data-image-id="032ykyltssy4"
+       data-width="1200"
+       data-height="811"
+       data-label-colors="{&quot;person&quot;: &quot;#FF0000&quot;, &quot;elephant&quot;: &quot;#FFFF00&quot;}">
+      <div class="image-wrap">
+        <img src="images_hires/032ykyltssy4.png"
+             alt="032ykyltssy4"
+             width="1200"
+             height="811">
+        <svg class="overlay"
+             viewBox="0 0 1200 811"
+             preserveAspectRatio="xMidYMid meet"></svg>
+      </div>
+      <span class="card-label">032ykyltssy4</span>
+    </a>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
