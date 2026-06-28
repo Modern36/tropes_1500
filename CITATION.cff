@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+type: dataset
+title: "Visual Tropes 1500"
+version: "2026-02-17"
+date-released: "2026-02-17"
+doi: "10.5281/zenodo.18672094"
+url: "https://doi.org/10.5281/zenodo.18672094"
+publisher:
+  name: "Zenodo"
+authors:
+  - family-names: "Johansson"
+    given-names: "Mathias"
+  - family-names: "Norén"
+    given-names: "Fredrik"
+  - family-names: "Aspenskog"
+    given-names: "Robert"
+  - family-names: "Eriksson"
+    given-names: "Maria"
